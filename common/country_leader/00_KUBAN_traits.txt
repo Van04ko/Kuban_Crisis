@@ -1,0 +1,105 @@
+leader_traits = {
+	
+	no_survivors = {
+	
+		random = no
+		political_power_gain = 0.15
+		stability_factor = 0.1
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	mr_birobidzhan = {
+	
+		random = no
+		
+		war_support_weekly = 0.005
+		max_command_power = 25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	sarmat = {
+		random = no
+		
+		communism_drift = 0.1
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	greate_schiz = {
+		random = no
+		
+		research_speed_factor = 0.1
+		neutrality_drift = 0.01
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	schizophrenia_fighter = {
+		random = no
+		
+		research_speed_factor = 0.05
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	kukech = {
+		random = no
+		
+		war_support_weekly = 0.001
+		max_command_power = 25
+		fascism_drift = 0.01
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	Rna_cist = {
+		random = no
+		
+		consumer_goods_factor = -0.05
+		production_speed_industrial_complex_factor = 0.1
+		fascism_drift = 0.01
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	mr_traheya = {
+		random = no
+		
+		conscription_factor = 0.06
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	itpedia = {
+		random = no
+		
+		democratic_drift = 0.1
+		
+		targeted_modifier = {
+			tag = SOV
+			attack_bonus_against = 0.05
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	arthas = {
+		random = no
+		
+		army_attack_factor = 0.2
+		army_speed_factor = 0.08
+		army_morale = 6
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

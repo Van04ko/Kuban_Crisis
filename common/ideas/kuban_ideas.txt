@@ -1,0 +1,622 @@
+ideas = {
+	
+	mobilization_laws = {
+		law = yes
+		use_list_view = yes
+		
+		KUB_conscription_1 = {
+		
+			allowed = {
+				original_tag = KUB
+			}
+
+			picture = KUB_conscription_1
+
+			modifier = {
+				conscription = 0.02
+				war_support_factor = -0.15
+			}
+			
+			cost = 150
+			removal_cost = -1
+			level = 1
+		}
+		KUB_conscription_2 = {
+		
+			allowed = {
+				original_tag = KUB
+			}
+
+			picture = KUB_conscription_2
+
+			modifier = {
+				conscription = 0.1
+				conscription_factor = 0.2
+			}
+			
+			cost = 150
+			removal_cost = -1
+			level = 2
+		}
+		KUB_conscription_3 = {
+		
+			allowed = {
+				original_tag = KUB
+			}
+
+			picture = KUB_conscription_3
+
+			modifier = {
+				conscription = 0.2
+				conscription_factor = 0.3
+			}
+			
+			cost = 150
+			removal_cost = -1
+			level = 2
+		}
+	}
+	
+	country = {
+		
+		KUB_kuban_revanchism = {
+			
+			picture = chi_war_of_resistance3
+			
+			modifier = {
+				surrender_limit = 0.1
+			}
+		}
+		KUB_kuban_secret_police_idea = {
+			
+			picture = air_war_plans_division_focus
+			
+			modifier = {
+				resistance_damage_to_garrison_on_our_occupied_states = 0.05
+				operative_slot = 1
+			}
+		}
+		KUB_political_crisis = {
+			
+			picture = generic_disjointed_gov
+			
+			modifier = {
+				political_power_factor = -0.1
+			}
+		}
+		KUB_strengthening_policy_Rybnikov = {
+			
+			picture = generic_monarchist_uprising
+			
+			modifier = {
+				neutrality_drift = 0.05
+			}
+		}
+		KUB_strengthening_policy_Vatop = {
+			
+			picture =ger_bulwark_against_bolshevism
+			
+			modifier = {
+				democratic_drift = 0.05
+			}
+		}
+		KUB_Pale_Settlement_canseled = {
+			
+			picture = generic_local_self_management
+			
+			modifier = {
+				stability_factor = -0.05
+				political_power_factor = -0.05
+				production_speed_buildings_factor = 0.2
+			}
+		}
+		KUB_old_orders = {
+			
+			picture = generic_king_handled
+			
+			modifier = {
+				production_speed_buildings_factor = -0.05
+			}
+		}
+		KUB_cosacks_struggle = {
+			
+			picture = chi_wargaming_division
+			
+			modifier = {
+				war_support_factor = 0.05
+			}
+			targeted_modifier = {
+				tag = SOV
+				attack_bonus_against = 0.05
+			}
+		}
+		KUB_our_way_idea = {
+			
+			picture = ast_volunteer_defence_corps
+			
+			targeted_modifier = {
+				tag = SOV
+				defense_bonus_against  = 0.05
+			}
+		}
+		KUB_Andrei_I = {
+			
+			picture = Andrei_I
+			
+			modifier = {
+				stability_weekly = 0.005
+				weekly_manpower = 1250
+				trade_opinion_factor = 0.2
+			}
+		}
+		KUB_black_sea = {
+			
+			picture = generic_navy_bonus
+			
+			research_bonus = {
+				naval_equipment = 0.15
+			}
+			
+			equipment_bonus = {
+				ship_hull_light = {
+					lg_attack = 0.1
+					naval_range = -0.5
+					build_cost_ic = -0.20
+				}
+				ship_hull_cruiser = {
+					lg_attack = 0.1
+					naval_range = -0.5
+					build_cost_ic = -0.20
+				}
+			}
+		}
+		KUB_sloboda_conscription_1 = {
+			
+			picture = generic_manpower_bonus
+			
+			modifier = {
+				conscription = 0.025
+			}
+		}
+		KUB_sloboda_conscription_2 = {
+			
+			picture = FRA_national_mobilization_focus
+			
+			modifier = {
+				war_support_factor = -0.05
+				conscription = 0.05
+			}
+		}
+	}
+
+	political_advisor = {
+		
+		KUB_Boris_Boyarshinov = {
+
+			picture = KUB_Boris_Boyarshinov
+
+			allowed = {
+				original_tag = KUB
+			}
+			
+			traits = { schizophrenia_fighter }
+		}
+		KUB_Ubermarginal = {
+
+			picture = KUB_Ubermarginal
+
+			allowed = {
+				original_tag = KUB
+			}
+			
+			traits = { kukech }
+		}
+		KUB_Grigory_Bazhenov = {
+
+			picture = KUB_Grigory_Bazhenov
+
+			allowed = {
+				original_tag = KUB
+			}
+			
+			traits = { Rna_cist }
+		}
+		KUB_Mikhail_Svetov = {
+
+			picture = KUB_Mikhail_Svetov
+
+			allowed = {
+				original_tag = KUB
+			}
+			
+			traits = { mr_traheya }
+		}
+		KUB_Yuri_Rybnikov = {
+
+			picture = KUB_Yuri_Rybnikov
+
+			allowed = {
+				original_tag = KUB
+			}
+			
+			cost = 250
+			
+			traits = { greate_schiz }
+		}
+		KUB_Cover = {
+
+			picture = KUB_Cover
+
+			allowed = {
+				original_tag = KUB
+			}
+			
+			traits = { mr_birobidzhan }
+		}
+		KUB_Sarmat = {
+
+			picture = KUB_Sarmat
+
+			allowed = {
+				original_tag = KUB
+			}
+			
+			cost = 200
+			
+			traits = { sarmat }
+		}
+		KUB_Iron_Dimon = {
+
+			picture = KUB_Iron_Dimon
+
+			allowed = {
+				original_tag = KUB
+			}
+			
+			cost = 250
+			
+			traits = { no_survivors }
+		}
+	}
+	
+	industrial_concern = {
+		
+		itpedia_idea = {
+			
+			picture = KUB_Shevtsov
+
+			allowed = {
+				original_tag = KUB
+			}
+			
+			cost = 150
+			
+			research_bonus = {
+				electronics = 0.2
+			}
+			
+			traits = { itpedia }
+		}
+	}
+	
+	naval_manufacturer = { 
+	
+		designer = yes
+	
+		KUB_naval_WT = {
+			
+			picture = WT
+
+			allowed = {
+				original_tag = KUB
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				naval_equipment = 0.15
+			}
+			
+			traits = { naval_manufacturer }
+		}
+		KUB_naval_WoS = {
+			
+			picture = WoS
+
+			allowed = {
+				original_tag = KUB
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				naval_equipment = 0.15
+			}
+			
+			traits = { naval_manufacturer }
+		}
+	}
+	
+	aircraft_manufacturer = { 
+	
+		designer = yes
+	
+		generic_aircraft_WT = {
+			
+			picture = WT
+
+			allowed = {
+				original_tag = KUB
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { light_aircraft_manufacturer }
+		}
+		generic_aircraft_WoP = {
+			
+			picture = WoP
+
+			allowed = {
+				original_tag = KUB
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { light_aircraft_manufacturer }
+		}
+	}
+	
+	tank_manufacturer = { 
+	
+		designer = yes
+		
+		tank_WT = {
+
+			picture = WT
+			
+			allowed = {
+				original_tag = KUB
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				armor = 0.15
+			}
+			
+			traits = { tank_manufacturer }
+		}
+		tank_WoT = {
+
+			picture = WoT
+			
+			allowed = {
+				original_tag = KUB
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				armor = 0.15
+			}
+			
+			traits = { tank_manufacturer }
+		}
+	}
+	
+	army_chief = {
+		
+		KUB_ebbe_gortz = {
+			
+			picture = generic_army_europe_1
+			
+			allowed = {
+				original_tag = KUB
+			}
+			
+			traits = { army_chief_offensive_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		KUB_Papich = {
+
+			picture = KUB_Papich
+
+			allowed = {
+				original_tag = KUB
+			}
+			
+			visible = {
+				
+			}
+			
+			cost = 50
+			
+			traits = { arthas }
+		}
+	}
+
+	navy_chief = {
+		
+
+		KUB_carl_hammerich = {
+			
+			picture = generic_navy_europe_1
+			
+			allowed = {
+				original_tag = KUB
+			}
+			
+
+			
+			traits = { navy_chief_decisive_battle_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	
+	air_chief = {
+		
+		KUB_paul_sommer = {
+			
+			picture = generic_air_europe_2
+			
+			allowed = {
+				original_tag = KUB
+			}
+			
+
+			
+			traits = { air_close_air_support_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+
+	high_command = {
+
+		KUB_hans_a_rolsted = {
+			ledger = army
+			
+			picture = generic_army_europe_4
+
+			allowed = {
+				original_tag = KUB
+			}
+			
+			traits = { army_artillery_3 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	theorist = {
+		KUB_william_wain_prior = {
+			ledger = army
+			
+			picture = generic_army_europe_3
+
+			allowed = {
+				original_tag = KUB
+			}
+			
+			research_bonus = {
+				land_doctrine = 0.10
+			}
+			
+			traits = { military_theorist }
+		}
+		KUB_hans_lunding = {
+			ledger = navy
+
+			picture = generic_navy_europe_1
+			
+			allowed = {
+				original_tag = KUB
+			}
+			
+			research_bonus = {
+				naval_doctrine = 0.10
+			}
+			
+			traits = { naval_theorist }
+		}
+	}
+
+	
+	aircraft_manufacturer = { 
+	
+		designer = yes
+		
+		htk_orlogsvaerftet = {
+			
+			picture = generic_air_manufacturer_3
+
+			
+			allowed = {
+				original_tag = KUB
+			}
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { light_aircraft_manufacturer }
+			
+			# recon and fighter aircraft
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	
+	naval_manufacturer = { 
+		
+		designer = yes
+		
+		burmeister_wain = {
+			
+			picture = generic_naval_manufacturer_1
+
+			
+			allowed = {
+				original_tag = KUB
+			}
+			
+			research_bonus = {
+				naval_equipment = 0.15
+			}
+			
+			traits = { naval_manufacturer }
+		}
+	}
+
+	materiel_manufacturer = {
+			
+		designer = yes
+		
+		disa = {
+			
+			picture = generic_infantry_equipment_manufacturer_2
+
+			
+			allowed = {
+				original_tag = KUB
+			}
+			
+			research_bonus = {
+				infantry_weapons = 0.15
+			}
+			
+			# rifles
+			
+			traits = { infantry_equipment_manufacturer }
+
+		}
+	}
+}

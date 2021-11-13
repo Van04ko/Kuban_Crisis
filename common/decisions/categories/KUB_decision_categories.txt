@@ -1,0 +1,10 @@
+KUB_black_sea_raid_cat = {
+
+	icon = border_conflicts
+
+	priority = 10
+
+	allowed = {
+		original_tag = KUB
+	}
+}

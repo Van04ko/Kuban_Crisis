@@ -1,0 +1,2 @@
+KUB	= "countries/Kuban.txt"
+CAU	= "countries/Caucasus.txt"

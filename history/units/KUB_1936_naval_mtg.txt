@@ -1,0 +1,18 @@
+﻿units = {
+
+	##### NAVAL UNITS #####
+	fleet = {
+		name = "Великий Кубанский флот"
+		naval_base = 719
+		task_force = {
+			name = "Черноморский флот"
+			location = 719
+			ship = { name = "Штандарт" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SOV version_name = "Aleksandr Nevskiy"} } }
+			ship = { name = "Ястреб" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Fidonisi Class" } } }
+			ship = { name = "Ватоп" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Fidonisi Class" } } }
+			ship = { name = "Рыбников" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Fidonisi Class" } } }
+			ship = { name = "Славянка" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Fidonisi Class" } } }
+			ship = { name = "Кубаноид" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Fidonisi Class" } } }
+		}
+	}
+}

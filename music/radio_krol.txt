@@ -1,0 +1,74 @@
+music_station = "radio_krol"
+
+music = {
+    song = "drozdovskiy_polk"
+    chance = {
+    	factor = 1
+    	modifier = {
+			
+    	}
+    }
+}
+music = {
+    song = "ilovepenis"
+    chance = {
+    	factor = 1
+    	modifier = {
+			
+    	}
+    }
+}
+music = {
+    song = "mars_sibirskih_strelkov"
+    chance = {
+    	factor = 1
+    	modifier = {
+			
+    	}
+    }
+}
+music = {
+    song = "oysa_tu_oysa"
+    chance = {
+    	factor = 1
+    	modifier = {
+			
+    	}
+    }
+}
+music = {
+    song = "proshanie_s_ropinoy"
+    chance = {
+    	factor = 1
+    	modifier = {
+			
+    	}
+    }
+}
+music = {
+    song = "reki_tekut"
+    chance = {
+    	factor = 1
+    	modifier = {
+			
+    	}
+    }
+}
+music = {
+    song = "RUSSKIR_VPERED"
+    chance = {
+    	factor = 100
+    	modifier = {
+			
+    	}
+    }
+}
+music = {
+    song = "soldatskaya_pesnya_marshiruyut_polki"
+    chance = {
+    	factor = 1
+    	modifier = {
+			
+    	}
+    }
+}

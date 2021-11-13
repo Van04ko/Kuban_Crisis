@@ -1,0 +1,13 @@
+opinion_modifiers = {
+	
+	KUB_dont_fight = {
+		value = 70
+	}
+	
+	KUB_like_piza = {
+		value = 200
+	}
+	KUB_dislike_piza = {
+		value = -50
+	}
+}

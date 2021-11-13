@@ -1,0 +1,40 @@
+music = {
+	name = "drozdovskiy_polk"
+	file = "radio_krol/drozdovskiy_polk.ogg"
+	volume = 0.70
+}
+music = {
+	name = "ilovepenis"
+	file = "radio_krol/ilovepenis.ogg"
+	volume = 0.70
+}
+music = {
+	name = "mars_sibirskih_strelkov"
+	file = "radio_krol/mars_sibirskih_strelkov.ogg"
+	volume = 0.70
+}
+music = {
+	name = "oysa_tu_oysa"
+	file = "radio_krol/oysa_tu_oysa.ogg"
+	volume = 0.70
+}
+music = {
+	name = "proshanie_s_ropinoy"
+	file = "radio_krol/proshanie_s_ropinoy.ogg"
+	volume = 0.70
+}
+music = {
+	name = "reki_tekut"
+	file = "radio_krol/reki_tekut.ogg"
+	volume = 0.70
+}
+music = {
+	name = "RUSSKIR_VPERED"
+	file = "radio_krol/RUSSKIR_VPERED.ogg"
+	volume = 0.70
+}
+music = {
+	name = "soldatskaya_pesnya_marshiruyut_polki"
+	file = "radio_krol/soldatskaya_pesnya_marshiruyut_polki.ogg"
+	volume = 0.70
+}

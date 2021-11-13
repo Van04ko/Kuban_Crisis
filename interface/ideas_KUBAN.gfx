@@ -1,0 +1,90 @@
+spriteTypes = {	
+	
+	SpriteType = {
+		name = "GFX_idea_KUB_Boris_Boyarshinov"
+		texturefile = "gfx/interface/ideas/KUB/idea_KUB_Boris_Boyarshinov.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_KUB_Grigory_Bazhenov"
+		texturefile = "gfx/interface/ideas/KUB/idea_KUB_Grigory_Bazhenov.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_KUB_Mikhail_Svetov"
+		texturefile = "gfx/interface/ideas/KUB/idea_KUB_Mikhail_Svetov.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_KUB_Ubermarginal"
+		texturefile = "gfx/interface/ideas/KUB/idea_KUB_Ubermarginal.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_KUB_Yuri_Rybnikov"
+		texturefile = "gfx/interface/ideas/KUB/idea_KUB_Yuri_Rybnikov.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_KUB_Cover"
+		texturefile = "gfx/interface/ideas/KUB/idea_KUB_Cover.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_KUB_Sarmat"
+		texturefile = "gfx/interface/ideas/KUB/idea_KUB_Sarmat.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_KUB_Iron_Dimon"
+		texturefile = "gfx/interface/ideas/KUB/idea_KUB_Iron_Dimon.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_KUB_Shevtsov"
+		texturefile = "gfx/interface/ideas/KUB/idea_KUB_Shevtsov.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_KUB_Papich"
+		texturefile = "gfx/interface/ideas/KUB/idea_KUB_Papich.dds"	
+	}
+	
+	
+	
+	SpriteType = {
+		name = "GFX_idea_WT"
+		texturefile = "gfx/interface/ideas/KUB/cons/WT.png"	
+	}
+	SpriteType = {
+		name = "GFX_idea_WoT"
+		texturefile = "gfx/interface/ideas/KUB/cons/WoT.png"	
+	}
+	SpriteType = {
+		name = "GFX_idea_WoS"
+		texturefile = "gfx/interface/ideas/KUB/cons/WoS.png"	
+	}
+	SpriteType = {
+		name = "GFX_idea_WoP"
+		texturefile = "gfx/interface/ideas/KUB/cons/WoP.png"	
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_Andrei_I"
+		texturefile = "gfx/interface/ideas/KUB/Andrei_I.png"	
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_KUB_conscription_1"
+		texturefile = "gfx/interface/ideas/KUB/conscription/idea_KUB_conscription_1.png"	
+	}
+	SpriteType = {
+		name = "GFX_idea_KUB_conscription_2"
+		texturefile = "gfx/interface/ideas/KUB/conscription/idea_KUB_conscription_2.png"	
+	}
+	SpriteType = {
+		name = "GFX_idea_KUB_conscription_3"
+		texturefile = "gfx/interface/ideas/KUB/conscription/idea_KUB_conscription_3.png"	
+	}
+	
+	
+	SpriteType = {
+		name = "GFX_kyrylenko_logo"
+		texturefile = "gfx/interface/kyrylenko_logo.png"	
+	}
+	SpriteType = {
+		name = "GFX_vata_logo"
+		texturefile = "gfx/interface/vata_logo.png"	
+	}
+}
