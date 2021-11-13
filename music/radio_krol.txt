@@ -57,7 +57,7 @@ music = {
 music = {
     song = "RUSSKIR_VPERED"
     chance = {
-    	factor = 100
+    	factor = 1
     	modifier = {
 			
     	}

@@ -212,7 +212,8 @@
  KUB_democratic_party:0 "Кубанское Правительство"
  KUB_neutrality_party:0 "Казачье Собрание"
  
- 
+ KUB_black_sea_raid_cat:0 "Не нюхай член"
+ KUB_black_sea_raid_cat_desc:0 "Пахнет так се"
  
  
  ### Ивенты ###
