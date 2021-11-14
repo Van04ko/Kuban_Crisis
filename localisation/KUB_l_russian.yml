@@ -192,6 +192,16 @@
  
  KUB_Andrei_I:0 "§WКонституционный монарх§! - Андрей I"
  
+ 
+ tank_WT:0 "War Thunder"
+ KUB_naval_WT:0 "War Thunder"
+ generic_aircraft_WT:0 "War Thunder"
+ 
+ 
+ KUB_naval_WoS:0 "WarGAYming"
+ generic_aircraft_WoP:0 "WarGAYming"
+ tank_WoT:0 "WarGAYming"
+ 
  #Трейты
  schizophrenia_fighter:0 "Борец с §RШизами§!"
  kukech:0 "§YК§! §Rу§! §Cк§! §Oе§! §Gч§!"

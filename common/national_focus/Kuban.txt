@@ -470,6 +470,11 @@ focus_tree = {
 		relative_position_id = KUB_Home_harbor
 		prerequisite = { focus = KUB_strike_back }
 		
+		available = {
+			NOT = { country_exists = SOV }
+			controls_state = 195
+		}
+		
 		x = 0
 		y = 5
 		cost = 10
@@ -573,6 +578,11 @@ focus_tree = {
 		relative_position_id = KUB_Democratic_friends
 		prerequisite = { focus = KUB_War_Bolshevism }
 		
+		available = {
+			NOT = { country_exists = SOV }
+			controls_state = 195
+		}
+		
 		x = 0
 		y = 3
 		cost = 10
@@ -589,6 +599,13 @@ focus_tree = {
 				remove_core_of = CAU
 			}
 			set_cosmetic_tag = KUB_russia_rep_united
+			217 = { set_state_name = "Царицын" }
+			195 = { set_state_name = "Петроград" }
+			228 = { set_state_name = "Луганск" }
+			set_province_name = { id = 3529 name = "Царицын" }
+			set_province_name = { id = 3151 name = "Петроград" }
+			set_province_name = { id = 9461 name = "Луганск" }
+			set_capital = 195
 		}
 	}
 	focus = {
@@ -644,6 +661,11 @@ focus_tree = {
 		relative_position_id = KUB_Our_way
 		prerequisite = { focus = KUB_Revenge_for_dekazaking }
 		
+		available = {
+			NOT = { country_exists = SOV }
+			controls_state = 195
+		}
+		
 		x = 0
 		y = 3
 		cost = 10
@@ -660,6 +682,12 @@ focus_tree = {
 				remove_core_of = CAU
 			}
 			set_cosmetic_tag = KUB_russia_cos_united
+			217 = { set_state_name = "Царицын" }
+			195 = { set_state_name = "Петроград" }
+			228 = { set_state_name = "Луганск" }
+			set_province_name = { id = 3529 name = "Царицын" }
+			set_province_name = { id = 3151 name = "Петроград" }
+			set_province_name = { id = 9461 name = "Луганск" }
 		}
 	}
 	

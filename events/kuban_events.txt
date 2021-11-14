@@ -630,5 +630,13 @@ country_event = {
 		name = kuban.26.a
 		set_cosmetic_tag = KUB_russia_united
 		add_ideas = KUB_Andrei_I
+		217 = { set_state_name = "Царицын" }
+		195 = { set_state_name = "Петроград" }
+		228 = { set_state_name = "Луганск" }
+		set_province_name = { id = 3529 name = "Царицын" }
+		set_province_name = { id = 3151 name = "Петроград" }
+		set_province_name = { id = 3134 name = "Романов-на-Муроме" }
+		set_province_name = { id = 9461 name = "Луганск" }
+		set_capital = 195
 	}
 }
