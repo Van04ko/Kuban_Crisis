@@ -289,6 +289,10 @@ ideas = {
 				original_tag = KUB
 			}
 			
+			visible = {
+				has_country_flag = KUB_plus_shevtsov
+			}
+			
 			cost = 150
 			
 			research_bonus = {
@@ -444,10 +448,10 @@ ideas = {
 			}
 			
 			visible = {
-				
+				has_country_flag = KUB_plus_papicheski
 			}
 			
-			cost = 50
+			cost = 300
 			
 			traits = { arthas }
 		}
@@ -507,6 +511,38 @@ ideas = {
 			}
 			
 			traits = { army_artillery_3 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		KUB_valakas = {
+		
+			ledger = army
+			
+			picture = valakas
+
+			allowed = {
+				original_tag = KUB
+			}
+			
+			traits = { army_armored_3 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		KUB_Ivan_Kyrylenko = {
+		
+			ledger = army
+			
+			picture = Ivan_Kyrylenko
+
+			allowed = {
+				original_tag = KUB
+			}
+			
+			traits = { kyrylenko }
 			
 			ai_will_do = {
 				factor = 1

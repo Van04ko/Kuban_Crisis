@@ -64,6 +64,16 @@ spriteTypes = {
 		name = "GFX_idea_Andrei_I"
 		texturefile = "gfx/interface/ideas/KUB/Andrei_I.png"	
 	}
+	SpriteType = {
+		name = "GFX_idea_Ivan_Kyrylenko"
+		texturefile = "gfx/interface/ideas/KUB/Ivan_Kyrylenko.png"	
+	}
+	SpriteType = {
+		name = "GFX_idea_valakas"
+		texturefile = "gfx/interface/ideas/KUB/valakas.png"	
+	}
+	
+	
 	
 	SpriteType = {
 		name = "GFX_idea_KUB_conscription_1"

@@ -255,7 +255,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/KUB/Ukreplenie_Demokratii.png"	
 	}
 	SpriteType = {
-		name = "GFX_KUB_PKh"
+		name = "GFX_focus_KUB_PKh"
 		texturefile = "gfx/interface/goals/KUB/KUB_PKh.png"	
 	}
 	SpriteType = {
@@ -282,6 +282,23 @@ spriteTypes = {
 		name = "GFX_ussr_war"
 		texturefile = "gfx/event_pictures/ussr_war.png"	
 	}
+	
+	
+	SpriteType = {
+		name = "GFX_papicheski"
+		texturefile = "gfx/event_pictures/papicheski.png"	
+	}
+	SpriteType = {
+		name = "GFX_shevtsov"
+		texturefile = "gfx/event_pictures/shevtsov.png"	
+	}
+	SpriteType = {
+		name = "GFX_koronacia"
+		texturefile = "gfx/event_pictures/koronacia.png"	
+	}
+	
+	
+	
 	
 	SpriteType = {
 		name = "GFX_radio_krol"

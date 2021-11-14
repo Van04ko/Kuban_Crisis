@@ -420,8 +420,6 @@ country_event = {
 	
 	fire_only_once = yes
 	
-	is_triggered_only = yes
-	
 	trigger = {
 		date > 1937.6.20
 		country_exists = KUB
@@ -516,8 +514,6 @@ country_event = {
 	
 	fire_only_once = yes
 	
-	is_triggered_only = yes
-	
 	trigger = {
 		date > 1938.11.20
 		country_exists = KUB
@@ -567,4 +563,72 @@ country_event = {
 		hidden_effect = { play_song = "ilovepenis" }
 	}
 	
+}
+
+country_event = {
+	id = kuban.24
+	title = kuban.24.t
+	desc = kuban.24.d
+	picture = GFX_shevtsov
+	
+	trigger = {
+		tag = KUB
+		192 = { is_controlled_by = KUB }
+		192 = { is_owned_by = SOV }
+		SOV = { has_war_with = KUB }
+	}
+	
+	fire_only_once = yes
+	
+	option = {
+		name = kuban.24.a
+	}
+	option = {
+		name = kuban.24.b
+		custom_effect_tooltip = KUB_plus_shevtsov_tt
+		set_country_flag = KUB_plus_shevtsov
+	}
+}
+
+country_event = {
+	id = kuban.25
+	title = kuban.25.t
+	desc = kuban.25.d
+	picture = GFX_papicheski
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = KUB
+		198 = { is_controlled_by = KUB }
+		198 = { is_owned_by = SOV }
+		SOV = { has_war_with = KUB }
+	}
+	
+	option = {
+		name = kuban.25.a
+		custom_effect_tooltip = KUB_plus_papicheski_tt
+		set_country_flag = KUB_plus_papicheski
+	}
+}
+
+country_event = {
+	id = kuban.26
+	title = kuban.26.t
+	desc = kuban.26.d
+	picture = GFX_koronacia
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = KUB
+	}
+	
+	option = {
+		name = kuban.26.a
+		set_cosmetic_tag = KUB_russia_united
+		add_ideas = KUB_Andrei_I
+	}
 }

@@ -485,8 +485,7 @@ focus_tree = {
 				remove_core_of = SOV
 				remove_core_of = CAU
 			}
-			set_cosmetic_tag = KUB_russia_united
-			add_ideas = KUB_Andrei_I
+			country_event = { id = kuban.26 }
 		}
 	}
 	focus = {
