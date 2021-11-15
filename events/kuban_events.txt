@@ -560,7 +560,10 @@ country_event = {
 	
 	option = {
 		name = kuban.23.a
-		hidden_effect = { play_song = "ilovepenis" }
+		hidden_effect = { 
+			play_song = "ilovepenis"
+			country_event = { id = kuban.1 }
+		}
 	}
 	
 }
