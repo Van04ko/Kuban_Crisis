@@ -803,6 +803,7 @@ focus_tree = {
 		y = 3
 		cost = 10
 		completion_reward = {
+			remove_ideas = KUB_bad_q_micro
 			if = {
 				limit = {
 					NOT = { has_dlc = "La Resistance" }

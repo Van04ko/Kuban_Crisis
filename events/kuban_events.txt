@@ -12,6 +12,10 @@ country_event = {
 		name = kuban.1.a
 		country_event = { id = kuban.6 }
 	}
+	option = {
+		name = kuban.1.b
+		country_event = { id = kuban.6 }
+	}
 }
 
 country_event = { 
@@ -24,6 +28,9 @@ country_event = {
 	
 	option = {
 		name = kuban.2.a
+	}
+	option = {
+		name = kuban.2.b
 	}
 }
 
@@ -124,6 +131,11 @@ country_event = {
 	
 	option = {
 		name = kuban.6.a
+		country_event = { id = kuban.2 }
+	}
+	option = {
+		name = kuban.6.b
+		country_event = { id = kuban.2 }
 	}
 }
 
@@ -643,5 +655,33 @@ country_event = {
 		set_province_name = { id = 3134 name = "Романов-на-Муроме" }
 		set_province_name = { id = 9461 name = "Луганск" }
 		set_capital = 195
+	}
+}
+
+country_event = {
+	id = kuban.27
+	title = kuban.27.t
+	desc = kuban.27.d
+	picture = GFX_event_KUB_dog
+	
+	fire_only_once = yes
+	
+	trigger = {
+		date > 1938.7.4
+		country_exists = KUB
+		tag = KUB
+	}
+	
+	option = {
+		name = kuban.27.a
+		add_political_power = -50
+		add_offsite_building = { type = industrial_complex level = -1 }
+	}
+	option = {
+		name = kuban.27.b
+		add_popularity = {
+			ideology = communism
+			popularity = 0.05
+		}
 	}
 }

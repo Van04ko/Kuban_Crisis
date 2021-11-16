@@ -187,6 +187,17 @@ ideas = {
 				conscription = 0.05
 			}
 		}
+		KUB_bad_q_micro = {
+			
+			picture = Kubanskoe_Mikrofonostroenie
+			
+			modifier = {
+				
+			}
+			research_bonus = {
+				electronics = -0.3
+			}
+		}
 	}
 
 	political_advisor = {

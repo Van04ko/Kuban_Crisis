@@ -97,4 +97,10 @@ spriteTypes = {
 		name = "GFX_vata_logo"
 		texturefile = "gfx/interface/vata_logo.png"	
 	}
+	SpriteType = {
+		name = "GFX_idea_Kubanskoe_Mikrofonostroenie"
+		texturefile = "gfx/interface/ideas/KUB/idea_Kubanskoe_Mikrofonostroenie.png"	
+	}
+	
+	
 }

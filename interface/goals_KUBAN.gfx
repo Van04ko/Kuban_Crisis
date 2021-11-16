@@ -297,6 +297,11 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/koronacia.png"	
 	}
 	
+	SpriteType = {
+		name = "GFX_event_KUB_dog"
+		texturefile = "gfx/event_pictures/dog.png"	
+	}
+	
 	
 	
 	
