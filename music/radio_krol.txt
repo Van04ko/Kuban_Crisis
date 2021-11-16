@@ -72,3 +72,13 @@ music = {
     	}
     }
 }
+music = {
+    song = "VI_KA"
+    chance = {
+    	factor = 0
+    	modifier = {
+			
+    	}
+    }
+}
+

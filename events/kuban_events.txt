@@ -608,6 +608,8 @@ country_event = {
 		SOV = { has_war_with = KUB }
 	}
 	
+	immediate = { play_song = "VI_KA" }
+	
 	option = {
 		name = kuban.25.a
 		custom_effect_tooltip = KUB_plus_papicheski_tt
