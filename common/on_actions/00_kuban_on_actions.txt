@@ -2,7 +2,7 @@ on_actions = {
 
 	on_startup = {
 		effect = {
-			KUB = { country_event = { id = kuban.23 } }
+			KBN = { country_event = { id = kuban.23 } }
 		}
 	}
 }

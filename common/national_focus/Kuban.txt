@@ -8,7 +8,7 @@ focus_tree = {
 		
 		modifier = {
 			add = 10
-			tag = KUB
+			tag = KBN
 		}
 	}
 	
@@ -17,7 +17,7 @@ focus_tree = {
 	continuous_focus_position = { x = 50 y = 10000 }
 	
 	focus = {
-		id = KUB_incentive_package
+		id = KBN_incentive_package
 		icon = GFX_focus_paket_stimlov
 		x = 5
 		y = 0
@@ -34,50 +34,50 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = KUB_expand_secret_police
+		id = KBN_expand_secret_police
 		icon = GFX_focus_rasshritit_okhranku
-		relative_position_id = KUB_incentive_package
-		prerequisite = { focus = KUB_incentive_package }
+		relative_position_id = KBN_incentive_package
+		prerequisite = { focus = KBN_incentive_package }
 		x = -1
 		y = 1
 		cost = 10
 		completion_reward = {
-			add_ideas = KUB_kuban_secret_police_idea
+			add_ideas = KBN_kuban_secret_police_idea
 		}
 	}
 	focus = {
-		id = KUB_track_down_bolsheviks
+		id = KBN_track_down_bolsheviks
 		icon = GFX_focus_vysledi_bolshevika
-		relative_position_id = KUB_incentive_package
-		prerequisite = { focus = KUB_incentive_package }
+		relative_position_id = KBN_incentive_package
+		prerequisite = { focus = KBN_incentive_package }
 		x = 1
 		y = 1
 		cost = 10
 		completion_reward = {
 			army_experience = 10
 			add_stability = 0.05
-			add_ideas = KUB_kuban_revanchism
+			add_ideas = KBN_kuban_revanchism
 		}
 	}
 	
 	focus = {
-		id = KUB_this_doesnt_worked
+		id = KBN_this_doesnt_worked
 		icon = GFX_focus_Eto_ne_rabotaet
-		relative_position_id = KUB_incentive_package
-		prerequisite = { focus = KUB_expand_secret_police }
-		prerequisite = { focus = KUB_track_down_bolsheviks }
+		relative_position_id = KBN_incentive_package
+		prerequisite = { focus = KBN_expand_secret_police }
+		prerequisite = { focus = KBN_track_down_bolsheviks }
 		x = 0
 		y = 2
 		cost = 10
 		completion_reward = {
-			add_timed_idea = { idea = KUB_political_crisis days = 120 }
+			add_timed_idea = { idea = KBN_political_crisis days = 120 }
 		}
 	}
 	focus = {
-		id = KUB_elections_of_ataman
+		id = KBN_elections_of_ataman
 		icon = GFX_focus_Vybor_Atamana
-		relative_position_id = KUB_incentive_package
-		prerequisite = { focus = KUB_this_doesnt_worked }
+		relative_position_id = KBN_incentive_package
+		prerequisite = { focus = KBN_this_doesnt_worked }
 		x = 0
 		y = 3
 		cost = 10
@@ -86,24 +86,24 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = KUB_Rubnyakov
+		id = KBN_Rubnyakov
 		icon = GFX_focus_Rybnikov
-		mutually_exclusive = { focus = KUB_Vatop }
-		relative_position_id = KUB_incentive_package
-		prerequisite = { focus = KUB_elections_of_ataman }
+		mutually_exclusive = { focus = KBN_Vatop }
+		relative_position_id = KBN_incentive_package
+		prerequisite = { focus = KBN_elections_of_ataman }
 		x = -2
 		y = 4
 		cost = 10
 		completion_reward = {
-			add_timed_idea = { idea = KUB_strengthening_policy_Rybnikov days = 100 }
+			add_timed_idea = { idea = KBN_strengthening_policy_Rybnikov days = 100 }
 		}
 	}
 
 	focus = {
-		id = KUB_bolshevik_uprising
+		id = KBN_bolshevik_uprising
 		icon = GFX_focus_bolshevik_uprising
-		relative_position_id = KUB_Rubnyakov
-		prerequisite = { focus = KUB_Rubnyakov }
+		relative_position_id = KBN_Rubnyakov
+		prerequisite = { focus = KBN_Rubnyakov }
 		x = 0
 		y = 1
 		cost = 10
@@ -112,10 +112,10 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = KUB_preparing_for_betrayal
+		id = KBN_preparing_for_betrayal
 		icon = GFX_focus_preparing_for_betrayal
-		relative_position_id = KUB_Rubnyakov
-		prerequisite = { focus = KUB_bolshevik_uprising }
+		relative_position_id = KBN_Rubnyakov
+		prerequisite = { focus = KBN_bolshevik_uprising }
 		x = 0
 		y = 2
 		cost = 10
@@ -124,10 +124,10 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = KUB_war_with_Beria
+		id = KBN_war_with_Beria
 		icon = GFX_focus_Voyna_s_Beriey
-		relative_position_id = KUB_Rubnyakov
-		prerequisite = { focus = KUB_preparing_for_betrayal }
+		relative_position_id = KBN_Rubnyakov
+		prerequisite = { focus = KBN_preparing_for_betrayal }
 		x = 0
 		y = 3
 		cost = 10
@@ -139,10 +139,10 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = KUB_return_white_emigration
+		id = KBN_return_white_emigration
 		icon = GFX_focus_return_white_emigration
-		relative_position_id = KUB_Rubnyakov
-		prerequisite = { focus = KUB_war_with_Beria }
+		relative_position_id = KBN_Rubnyakov
+		prerequisite = { focus = KBN_war_with_Beria }
 		x = 0
 		y = 4
 		cost = 10
@@ -151,10 +151,10 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = KUB_return_white_generals
+		id = KBN_return_white_generals
 		icon = GFX_focus_Vozvraschenie_belykh_generalov
-		relative_position_id = KUB_Rubnyakov
-		prerequisite = { focus = KUB_return_white_emigration }
+		relative_position_id = KBN_Rubnyakov
+		prerequisite = { focus = KBN_return_white_emigration }
 		x = 0
 		y = 5
 		cost = 10
@@ -164,26 +164,26 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = KUB_Revival_Terek_Cossacks
+		id = KBN_Revival_Terek_Cossacks
 		icon = GFX_focus_Revival_Terek_Cossacks
-		relative_position_id = KUB_Rubnyakov
-		prerequisite = { focus = KUB_return_white_generals }
+		relative_position_id = KBN_Rubnyakov
+		prerequisite = { focus = KBN_return_white_generals }
 		x = 0
 		y = 6
 		cost = 10
 		completion_reward = {
 			add_manpower = 60000
-			233 = { add_core_of = KUB }
-			231 = { add_core_of = KUB }
-			230 = { add_core_of = KUB }
-			229 = { add_core_of = KUB }
+			233 = { add_core_of = KBN }
+			231 = { add_core_of = KBN }
+			230 = { add_core_of = KBN }
+			229 = { add_core_of = KBN }
 		}
 	}
 	focus = {
-		id = KUB_Industrialization_Caucasus
+		id = KBN_Industrialization_Caucasus
 		icon = GFX_focus_Industrialization_Caucasus
-		relative_position_id = KUB_Rubnyakov
-		prerequisite = { focus = KUB_Revival_Terek_Cossacks focus = KUB_Rights_minorities }
+		relative_position_id = KBN_Rubnyakov
+		prerequisite = { focus = KBN_Revival_Terek_Cossacks focus = KBN_Rights_minorities }
 		x = 1
 		y = 7
 		cost = 10
@@ -215,10 +215,10 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = KUB_Realization_resources_Caucasus
+		id = KBN_Realization_resources_Caucasus
 		icon = GFX_focus_Realization_resources_Caucasus
-		relative_position_id = KUB_Rubnyakov
-		prerequisite = { focus = KUB_Revival_Terek_Cossacks focus = KUB_Rights_minorities }
+		relative_position_id = KBN_Rubnyakov
+		prerequisite = { focus = KBN_Revival_Terek_Cossacks focus = KBN_Rights_minorities }
 		x = 3
 		y = 7
 		cost = 10
@@ -246,11 +246,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = KUB_Our_land
+		id = KBN_Our_land
 		icon = GFX_focus_Our_land
-		relative_position_id = KUB_Rubnyakov
-		prerequisite = { focus = KUB_Realization_resources_Caucasus }
-		prerequisite = { focus = KUB_Industrialization_Caucasus }
+		relative_position_id = KBN_Rubnyakov
+		prerequisite = { focus = KBN_Realization_resources_Caucasus }
+		prerequisite = { focus = KBN_Industrialization_Caucasus }
 		x = 2
 		y = 8
 		cost = 10
@@ -259,42 +259,42 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = KUB_Vatop
+		id = KBN_Vatop
 		icon = GFX_focus_Vatop
-		mutually_exclusive = { focus = KUB_Rubnyakov }
-		relative_position_id = KUB_incentive_package
-		prerequisite = { focus = KUB_elections_of_ataman }
+		mutually_exclusive = { focus = KBN_Rubnyakov }
+		relative_position_id = KBN_incentive_package
+		prerequisite = { focus = KBN_elections_of_ataman }
 		x = 2
 		y = 4
 		cost = 10
 		completion_reward = {
-			add_timed_idea = { idea = KUB_strengthening_policy_Vatop days = 100 }
+			add_timed_idea = { idea = KBN_strengthening_policy_Vatop days = 100 }
 		}
 	}
 	focus = {
-		id = KUB_Liberal_democracies_dont_fight
+		id = KBN_Liberal_democracies_dont_fight
 		icon = GFX_focus_Liberal_democracies_dont_fight
-		relative_position_id = KUB_Vatop
-		prerequisite = { focus = KUB_Vatop }
+		relative_position_id = KBN_Vatop
+		prerequisite = { focus = KBN_Vatop }
 		x = 0
 		y = 1
 		cost = 10
 		completion_reward = {
 			add_opinion_modifier = {
 				target = FRA
-				modifier = KUB_dont_fight
+				modifier = KBN_dont_fight
 			}
 			add_opinion_modifier = {
 				target = ENG
-				modifier = KUB_dont_fight
+				modifier = KBN_dont_fight
 			}
 		}
 	}
 	focus = {
-		id = KUB_tsardom_storage
+		id = KBN_tsardom_storage
 		icon = GFX_focus_tsardom_storage
-		relative_position_id = KUB_Vatop
-		prerequisite = { focus = KUB_Liberal_democracies_dont_fight }
+		relative_position_id = KBN_Vatop
+		prerequisite = { focus = KBN_Liberal_democracies_dont_fight }
 		x = 0
 		y = 2
 		cost = 10
@@ -303,10 +303,10 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = KUB_preparing_revolution
+		id = KBN_preparing_revolution
 		icon = GFX_focus_preparing_revolution
-		relative_position_id = KUB_Vatop
-		prerequisite = { focus = KUB_tsardom_storage }
+		relative_position_id = KBN_Vatop
+		prerequisite = { focus = KBN_tsardom_storage }
 		x = 0
 		y = 3
 		cost = 10
@@ -334,10 +334,10 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = KUB_Strengthening_our_democracy
+		id = KBN_Strengthening_our_democracy
 		icon = GFX_focus_Ukreplenie_Demokratii
-		relative_position_id = KUB_Vatop
-		prerequisite = { focus = KUB_preparing_revolution }
+		relative_position_id = KBN_Vatop
+		prerequisite = { focus = KBN_preparing_revolution }
 		x = 2
 		y = 4
 		cost = 5
@@ -350,10 +350,10 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = KUB_referendum_with_CAU
+		id = KBN_referendum_with_CAU
 		icon = GFX_focus_Referendum_po_Kavkazu
-		relative_position_id = KUB_Vatop
-		prerequisite = { focus = KUB_preparing_revolution }
+		relative_position_id = KBN_Vatop
+		prerequisite = { focus = KBN_preparing_revolution }
 		x = 0
 		y = 4
 		cost = 10
@@ -362,31 +362,31 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = KUB_Peaceful_assimilation
+		id = KBN_Peaceful_assimilation
 		icon = GFX_focus_Peaceful_assimilation
-		relative_position_id = KUB_Vatop
-		prerequisite = { focus = KUB_referendum_with_CAU }
+		relative_position_id = KBN_Vatop
+		prerequisite = { focus = KBN_referendum_with_CAU }
 		x = 0
 		y = 5
 		cost = 10
 		bypass = {
-			233 = { is_core_of = KUB }
-			231 = { is_core_of = KUB }
-			230 = { is_core_of = KUB }
-			229 = { is_core_of = KUB }
+			233 = { is_core_of = KBN }
+			231 = { is_core_of = KBN }
+			230 = { is_core_of = KBN }
+			229 = { is_core_of = KBN }
 		}
 		completion_reward = {
-			233 = { add_core_of = KUB }
-			231 = { add_core_of = KUB }
-			230 = { add_core_of = KUB }
-			229 = { add_core_of = KUB }
+			233 = { add_core_of = KBN }
+			231 = { add_core_of = KBN }
+			230 = { add_core_of = KBN }
+			229 = { add_core_of = KBN }
 		}
 	}
 	focus = {
-		id = KUB_Rights_minorities
+		id = KBN_Rights_minorities
 		icon = GFX_focus_Rights_minorities
-		relative_position_id = KUB_Vatop
-		prerequisite = { focus = KUB_Peaceful_assimilation }
+		relative_position_id = KBN_Vatop
+		prerequisite = { focus = KBN_Peaceful_assimilation }
 		x = 0
 		y = 6
 		cost = 10
@@ -397,23 +397,23 @@ focus_tree = {
 	}
 
 	focus = {
-		id = KUB_Home_harbor
+		id = KBN_Home_harbor
 		icon = GFX_focus_Home_harbor
-		relative_position_id = KUB_Our_land
-		prerequisite = { focus = KUB_Our_land }
-		prerequisite = { focus = KUB_Revival_Terek_Cossacks }
+		relative_position_id = KBN_Our_land
+		prerequisite = { focus = KBN_Our_land }
+		prerequisite = { focus = KBN_Revival_Terek_Cossacks }
 		x = -2
 		y = 1
 		cost = 10
 		completion_reward = {
-			add_ideas = KUB_cosacks_struggle
+			add_ideas = KBN_cosacks_struggle
 		}
 	}
 	focus = {
-		id = KUB_Cossacks_and_Pannwitz
+		id = KBN_Cossacks_and_Pannwitz
 		icon = GFX_focus_Cossacks_and_Pannwitz
-		relative_position_id = KUB_Home_harbor
-		prerequisite = { focus = KUB_Home_harbor }
+		relative_position_id = KBN_Home_harbor
+		prerequisite = { focus = KBN_Home_harbor }
 		
 		x = 0
 		y = 1
@@ -423,23 +423,23 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = KUB_Temporary_ally
+		id = KBN_Temporary_ally
 		icon = GFX_focus_Temporary_ally
-		relative_position_id = KUB_Home_harbor
-		prerequisite = { focus = KUB_Cossacks_and_Pannwitz }
+		relative_position_id = KBN_Home_harbor
+		prerequisite = { focus = KBN_Cossacks_and_Pannwitz }
 		
 		x = 0
 		y = 2
 		cost = 10
 		completion_reward = {
-			GER = { give_guarantee = KUB }
+			GER = { give_guarantee = KBN }
 		}
 	}
 	focus = {
-		id = KUB_holy_war
+		id = KBN_holy_war
 		icon = GFX_focus_holy_war
-		relative_position_id = KUB_Home_harbor
-		prerequisite = { focus = KUB_Temporary_ally }
+		relative_position_id = KBN_Home_harbor
+		prerequisite = { focus = KBN_Temporary_ally }
 		
 		x = 0
 		y = 3
@@ -449,10 +449,10 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = KUB_strike_back
+		id = KBN_strike_back
 		icon = GFX_focus_strike_back
-		relative_position_id = KUB_Home_harbor
-		prerequisite = { focus = KUB_holy_war }
+		relative_position_id = KBN_Home_harbor
+		prerequisite = { focus = KBN_holy_war }
 		
 		x = 0
 		y = 4
@@ -465,10 +465,10 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = KUB_The_rebirth_power_of_Russia
+		id = KBN_The_rebirth_power_of_Russia
 		icon = GFX_focus_Vozrazhdenie_Byloy_slavy_rossiii
-		relative_position_id = KUB_Home_harbor
-		prerequisite = { focus = KUB_strike_back }
+		relative_position_id = KBN_Home_harbor
+		prerequisite = { focus = KBN_strike_back }
 		
 		available = {
 			NOT = { country_exists = SOV }
@@ -486,7 +486,7 @@ focus_tree = {
 						is_core_of = CAU
 					}
 				}
-				add_core_of  = KUB
+				add_core_of  = KBN
 				remove_core_of = SOV
 				remove_core_of = CAU
 			}
@@ -494,11 +494,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = KUB_Great_Kuban_democracy
+		id = KBN_Great_Kuban_democracy
 		icon = GFX_focus_Velikaya_Kubanskaya_Demokratia
-		relative_position_id = KUB_Our_land
-		prerequisite = { focus = KUB_Our_land }
-		prerequisite = { focus = KUB_Rights_minorities }
+		relative_position_id = KBN_Our_land
+		prerequisite = { focus = KBN_Our_land }
+		prerequisite = { focus = KBN_Rights_minorities }
 		
 		x = 2
 		y = 1
@@ -512,24 +512,24 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = KUB_Eternal_struggle
+		id = KBN_Eternal_struggle
 		icon = GFX_focus_Eternal_struggle
-		relative_position_id = KUB_Great_Kuban_democracy
-		prerequisite = { focus = KUB_Great_Kuban_democracy }
+		relative_position_id = KBN_Great_Kuban_democracy
+		prerequisite = { focus = KBN_Great_Kuban_democracy }
 		
 		x = 0
 		y = 1
 		cost = 10
 		completion_reward = {
-			add_ideas = KUB_cosacks_struggle
+			add_ideas = KBN_cosacks_struggle
 		}
 	}
 	focus = {
-		id = KUB_Democratic_friends
+		id = KBN_Democratic_friends
 		icon = GFX_focus_Democratic_friends
-		relative_position_id = KUB_Eternal_struggle
-		prerequisite = { focus = KUB_Eternal_struggle }
-		mutually_exclusive = { focus = KUB_Our_way }
+		relative_position_id = KBN_Eternal_struggle
+		prerequisite = { focus = KBN_Eternal_struggle }
+		mutually_exclusive = { focus = KBN_Our_way }
 		
 		x = -1
 		y = 1
@@ -539,10 +539,10 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = KUB_support_uk
+		id = KBN_support_uk
 		icon = GFX_focus_support_uk
-		relative_position_id = KUB_Democratic_friends
-		prerequisite = { focus = KUB_Democratic_friends }
+		relative_position_id = KBN_Democratic_friends
+		prerequisite = { focus = KBN_Democratic_friends }
 		
 		x = 0
 		y = 1
@@ -557,10 +557,10 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = KUB_War_Bolshevism
+		id = KBN_War_Bolshevism
 		icon = GFX_focus_War_Bolshevism
-		relative_position_id = KUB_Democratic_friends
-		prerequisite = { focus = KUB_support_uk }
+		relative_position_id = KBN_Democratic_friends
+		prerequisite = { focus = KBN_support_uk }
 		
 		x = 0
 		y = 2
@@ -573,10 +573,10 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = KUB_The_rebirth_republic_of_Russia
+		id = KBN_The_rebirth_republic_of_Russia
 		icon = GFX_focus_The_rebirth_republic_of_Russia
-		relative_position_id = KUB_Democratic_friends
-		prerequisite = { focus = KUB_War_Bolshevism }
+		relative_position_id = KBN_Democratic_friends
+		prerequisite = { focus = KBN_War_Bolshevism }
 		
 		available = {
 			NOT = { country_exists = SOV }
@@ -594,39 +594,39 @@ focus_tree = {
 						is_core_of = CAU
 					}
 				}
-				add_core_of  = KUB
+				add_core_of  = KBN
 				remove_core_of = SOV
 				remove_core_of = CAU
 			}
-			set_cosmetic_tag = KUB_russia_rep_united
+			set_cosmetic_tag = KBN_russia_rep_united
 			217 = { set_state_name = "Царицын" }
 			195 = { set_state_name = "Петроград" }
 			228 = { set_state_name = "Луганск" }
 			set_province_name = { id = 3529 name = "Царицын" }
 			set_province_name = { id = 3151 name = "Петроград" }
 			set_province_name = { id = 9461 name = "Луганск" }
-			set_capital = 195
+			set_capital  = { state = 195 }
 		}
 	}
 	focus = {
-		id = KUB_Our_way
+		id = KBN_Our_way
 		icon = GFX_focus_Our_way
-		relative_position_id = KUB_Eternal_struggle
-		prerequisite = { focus = KUB_Eternal_struggle }
-		mutually_exclusive = { focus = KUB_Democratic_friends }
+		relative_position_id = KBN_Eternal_struggle
+		prerequisite = { focus = KBN_Eternal_struggle }
+		mutually_exclusive = { focus = KBN_Democratic_friends }
 		
 		x = 1
 		y = 1
 		cost = 10
 		completion_reward = {
-			add_ideas = KUB_our_way_idea
+			add_ideas = KBN_our_way_idea
 		}
 	}
 	focus = {
-		id = KUB_By_themselves
+		id = KBN_By_themselves
 		icon = GFX_focus_By_themselves
-		relative_position_id = KUB_Our_way
-		prerequisite = { focus = KUB_Our_way }
+		relative_position_id = KBN_Our_way
+		prerequisite = { focus = KBN_Our_way }
 		
 		x = 0
 		y = 1
@@ -640,10 +640,10 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = KUB_Revenge_for_dekazaking
+		id = KBN_Revenge_for_dekazaking
 		icon = GFX_focus_Revenge_for_dekazaking
-		relative_position_id = KUB_Our_way
-		prerequisite = { focus = KUB_By_themselves }
+		relative_position_id = KBN_Our_way
+		prerequisite = { focus = KBN_By_themselves }
 		
 		x = 0
 		y = 2
@@ -656,10 +656,10 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = KUB_Kazaks_of_all_Rus
+		id = KBN_Kazaks_of_all_Rus
 		icon = GFX_focus_Kazaks_of_all_Rus
-		relative_position_id = KUB_Our_way
-		prerequisite = { focus = KUB_Revenge_for_dekazaking }
+		relative_position_id = KBN_Our_way
+		prerequisite = { focus = KBN_Revenge_for_dekazaking }
 		
 		available = {
 			NOT = { country_exists = SOV }
@@ -677,11 +677,11 @@ focus_tree = {
 						is_core_of = CAU
 					}
 				}
-				add_core_of  = KUB
+				add_core_of  = KBN
 				remove_core_of = SOV
 				remove_core_of = CAU
 			}
-			set_cosmetic_tag = KUB_russia_cos_united
+			set_cosmetic_tag = KBN_russia_cos_united
 			217 = { set_state_name = "Царицын" }
 			195 = { set_state_name = "Петроград" }
 			228 = { set_state_name = "Луганск" }
@@ -697,8 +697,8 @@ focus_tree = {
 	
 	
 	focus = {
-		id = KUB_kuban_industrialization
-		icon = GFX_focus_KUB_Prom
+		id = KBN_kuban_industrialization
+		icon = GFX_focus_KBN_Prom
 		x = 20
 		y = 0
 		cost = 10
@@ -712,10 +712,10 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = KUB_infrastructure_modernization
-		icon = GFX_focus_KUB_Modern_Infrastrkt
-		relative_position_id = KUB_kuban_industrialization
-		prerequisite = { focus = KUB_kuban_industrialization }
+		id = KBN_infrastructure_modernization
+		icon = GFX_focus_KBN_Modern_Infrastrkt
+		relative_position_id = KBN_kuban_industrialization
+		prerequisite = { focus = KBN_kuban_industrialization }
 		x = -1
 		y = 1
 		cost = 10
@@ -738,10 +738,10 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = KUB_tsardom_factories
-		icon = GFX_focus_KUB_Tsarskaya_Prom
-		relative_position_id = KUB_kuban_industrialization
-		prerequisite = { focus = KUB_kuban_industrialization }
+		id = KBN_tsardom_factories
+		icon = GFX_focus_KBN_Tsarskaya_Prom
+		relative_position_id = KBN_kuban_industrialization
+		prerequisite = { focus = KBN_kuban_industrialization }
 		x = 1
 		y = 1
 		cost = 10
@@ -770,11 +770,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = KUB_internal_struggle
-		icon = GFX_focus_KUB_Vnutren_Vrzhd
-		relative_position_id = KUB_kuban_industrialization
-		prerequisite = { focus = KUB_infrastructure_modernization }
-		prerequisite = { focus = KUB_tsardom_factories }
+		id = KBN_internal_struggle
+		icon = GFX_focus_KBN_Vnutren_Vrzhd
+		relative_position_id = KBN_kuban_industrialization
+		prerequisite = { focus = KBN_infrastructure_modernization }
+		prerequisite = { focus = KBN_tsardom_factories }
 		x = 0
 		y = 2
 		cost = 10
@@ -795,15 +795,15 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = KUB_radio_silence
-		icon = GFX_focus_KUB_Kubanskoe_Mikrofonostroenie
-		relative_position_id = KUB_kuban_industrialization
-		prerequisite = { focus = KUB_internal_struggle }
+		id = KBN_radio_silence
+		icon = GFX_focus_KBN_Kubanskoe_Mikrofonostroenie
+		relative_position_id = KBN_kuban_industrialization
+		prerequisite = { focus = KBN_internal_struggle }
 		x = 0
 		y = 3
 		cost = 10
 		completion_reward = {
-			remove_ideas = KUB_bad_q_micro
+			remove_ideas = KBN_bad_q_micro
 			if = {
 				limit = {
 					NOT = { has_dlc = "La Resistance" }
@@ -825,10 +825,10 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = KUB_veni_vidi_vici
-		icon = GFX_focus_KUB_tempale
-		relative_position_id = KUB_kuban_industrialization
-		prerequisite = { focus = KUB_radio_silence }
+		id = KBN_veni_vidi_vici
+		icon = GFX_focus_KBN_tempale
+		relative_position_id = KBN_kuban_industrialization
+		prerequisite = { focus = KBN_radio_silence }
 		x = 0
 		y = 4
 		cost = 10
@@ -843,10 +843,10 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = KUB_russian_research_dream
+		id = KBN_russian_research_dream
 		icon = GFX_focus_Kubanskaya_Nauchnaya_Mysl
-		relative_position_id = KUB_kuban_industrialization
-		prerequisite = { focus = KUB_infrastructure_modernization }
+		relative_position_id = KBN_kuban_industrialization
+		prerequisite = { focus = KBN_infrastructure_modernization }
 		x = 0
 		y = 5
 		cost = 10
@@ -855,10 +855,10 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = KUB_last_frontier
+		id = KBN_last_frontier
 		icon = GFX_focus_Posledniy_Rubezh
-		relative_position_id = KUB_kuban_industrialization
-		prerequisite = { focus = KUB_russian_research_dream }
+		relative_position_id = KBN_kuban_industrialization
+		prerequisite = { focus = KBN_russian_research_dream }
 		x = 0
 		y = 6
 		cost = 10
@@ -897,10 +897,10 @@ focus_tree = {
 	}
 
 	focus = {
-		id = KUB_kubanian_dockyard
+		id = KBN_kubanian_dockyard
 		icon = GFX_focus_kubanian_dockyard
-		#relative_position_id = KUB_kubanian_dockyard
-		#prerequisite = { focus = KUB_infrastructure_modernization }
+		#relative_position_id = KBN_kubanian_dockyard
+		#prerequisite = { focus = KBN_infrastructure_modernization }
 		x = 17
 		y = 2
 		cost = 10
@@ -925,10 +925,10 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = KUB_kubanian_fleet
+		id = KBN_kubanian_fleet
 		icon = GFX_focus_kubanian_fleet
-		relative_position_id = KUB_kubanian_dockyard
-		prerequisite = { focus = KUB_kubanian_dockyard }
+		relative_position_id = KBN_kubanian_dockyard
+		prerequisite = { focus = KBN_kubanian_dockyard }
 		x = 1
 		y = 1
 		cost = 10
@@ -943,10 +943,10 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = KUB_kubanian_u_boat_effort
+		id = KBN_kubanian_u_boat_effort
 		icon = GFX_focus_kubanian_u_boat_effort
-		relative_position_id = KUB_kubanian_dockyard
-		prerequisite = { focus = KUB_kubanian_dockyard }
+		relative_position_id = KBN_kubanian_dockyard
+		prerequisite = { focus = KBN_kubanian_dockyard }
 		x = -1
 		y = 1
 		cost = 10
@@ -961,10 +961,10 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = KUB_destroyes
+		id = KBN_destroyes
 		icon = GFX_focus_kub_destroyes
-		relative_position_id = KUB_kubanian_dockyard
-		prerequisite = { focus = KUB_kubanian_u_boat_effort }
+		relative_position_id = KBN_kubanian_dockyard
+		prerequisite = { focus = KBN_kubanian_u_boat_effort }
 		x = -1
 		y = 2
 		cost = 10
@@ -979,10 +979,10 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = KUB_big_ships
+		id = KBN_big_ships
 		icon = GFX_focus_big_ships
-		relative_position_id = KUB_kubanian_dockyard
-		prerequisite = { focus = KUB_kubanian_fleet }
+		relative_position_id = KBN_kubanian_dockyard
+		prerequisite = { focus = KBN_kubanian_fleet }
 		x = 1
 		y = 2
 		cost = 10
@@ -997,22 +997,22 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = KUB_black_sea_guard
+		id = KBN_black_sea_guard
 		icon = GFX_focus_black_sea_guard
-		relative_position_id = KUB_kubanian_dockyard
-		prerequisite = { focus = KUB_destroyes focus = KUB_big_ships }
+		relative_position_id = KBN_kubanian_dockyard
+		prerequisite = { focus = KBN_destroyes focus = KBN_big_ships }
 		x = 0
 		y = 3
 		cost = 10
 		completion_reward = {
 			navy_experience = 10
-			add_ideas = KUB_black_sea
+			add_ideas = KBN_black_sea
 		}
 	}
 	
 	
 	focus = {
-		id = KUB_Kuban_army
+		id = KBN_Kuban_army
 		icon = GFX_focus_doctrine_1
 		x = 11
 		y = 0
@@ -1028,10 +1028,10 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = KUB_Doctrine_Kuban_troops_I
+		id = KBN_Doctrine_Kuban_troops_I
 		icon = GFX_focus_doctrine_2
-		relative_position_id = KUB_Kuban_army
-		prerequisite = { focus = KUB_Kuban_army }
+		relative_position_id = KBN_Kuban_army
+		prerequisite = { focus = KBN_Kuban_army }
 		x = -2
 		y = 1
 		cost = 10
@@ -1046,11 +1046,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = KUB_Doctrine_Kuban_troops_II
+		id = KBN_Doctrine_Kuban_troops_II
 		icon = GFX_focus_doctrine_3
-		relative_position_id = KUB_Kuban_army
-		prerequisite = { focus = KUB_Doctrine_Kuban_troops_I }
-		prerequisite = { focus = KUB_Weapon_development }
+		relative_position_id = KBN_Kuban_army
+		prerequisite = { focus = KBN_Doctrine_Kuban_troops_I }
+		prerequisite = { focus = KBN_Weapon_development }
 		x = -2
 		y = 2
 		cost = 10
@@ -1065,11 +1065,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = KUB_Doctrine_Kuban_troops_III
+		id = KBN_Doctrine_Kuban_troops_III
 		icon = GFX_focus_doctrine_4
-		relative_position_id = KUB_Kuban_army
-		prerequisite = { focus = KUB_Doctrine_Kuban_troops_II }
-		prerequisite = { focus = KUB_Weapon_troops_development }
+		relative_position_id = KBN_Kuban_army
+		prerequisite = { focus = KBN_Doctrine_Kuban_troops_II }
+		prerequisite = { focus = KBN_Weapon_troops_development }
 		x = -2
 		y = 3
 		cost = 10
@@ -1084,10 +1084,10 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = KUB_Weapon_development
+		id = KBN_Weapon_development
 		icon = GFX_focus_weapon_development
-		relative_position_id = KUB_Kuban_army
-		prerequisite = { focus = KUB_Kuban_army }
+		relative_position_id = KBN_Kuban_army
+		prerequisite = { focus = KBN_Kuban_army }
 		x = 1
 		y = 1
 		cost = 10
@@ -1101,10 +1101,10 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = KUB_Weapon_troops_development
-		icon = GFX_focus_KUB_PKh
-		relative_position_id = KUB_Kuban_army
-		prerequisite = { focus = KUB_Weapon_development }
+		id = KBN_Weapon_troops_development
+		icon = GFX_focus_KBN_PKh
+		relative_position_id = KBN_Kuban_army
+		prerequisite = { focus = KBN_Weapon_development }
 		x = 0
 		y = 2
 		cost = 10
@@ -1118,10 +1118,10 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = KUB_Artillery_development
-		icon = GFX_focus_KUB_tempale
-		relative_position_id = KUB_Kuban_army
-		prerequisite = { focus = KUB_Kuban_army }
+		id = KBN_Artillery_development
+		icon = GFX_focus_KBN_tempale
+		relative_position_id = KBN_Kuban_army
+		prerequisite = { focus = KBN_Kuban_army }
 		x = 3
 		y = 1
 		cost = 10
@@ -1135,10 +1135,10 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = KUB_Armor_development
+		id = KBN_Armor_development
 		icon = GFX_focus_motorized
-		relative_position_id = KUB_Kuban_army
-		prerequisite = { focus = KUB_Artillery_development }
+		relative_position_id = KBN_Kuban_army
+		prerequisite = { focus = KBN_Artillery_development }
 		x = 4
 		y = 2
 		cost = 10
@@ -1157,11 +1157,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = KUB_Military_conscription
+		id = KBN_Military_conscription
 		icon = GFX_focus_conscription_1
-		relative_position_id = KUB_Kuban_army
-		prerequisite = { focus = KUB_Artillery_development }
-		prerequisite = { focus = KUB_Weapon_development }
+		relative_position_id = KBN_Kuban_army
+		prerequisite = { focus = KBN_Artillery_development }
+		prerequisite = { focus = KBN_Weapon_development }
 		x = 2
 		y = 2
 		cost = 10
@@ -1169,18 +1169,18 @@ focus_tree = {
 			has_army_manpower = { size > 179999 }
 		}
 		completion_reward = {
-			add_ideas = KUB_sloboda_conscription_1
+			add_ideas = KBN_sloboda_conscription_1
 		}
 	}
 	
 	
 	focus = {
-		id = KUB_Military_conscription_2
+		id = KBN_Military_conscription_2
 		icon = GFX_focus_conscription_2
-		relative_position_id = KUB_Kuban_army
-		prerequisite = { focus = KUB_Military_conscription }
-		prerequisite = { focus = KUB_Weapon_troops_development }
-		prerequisite = { focus = KUB_Armor_development }
+		relative_position_id = KBN_Kuban_army
+		prerequisite = { focus = KBN_Military_conscription }
+		prerequisite = { focus = KBN_Weapon_troops_development }
+		prerequisite = { focus = KBN_Armor_development }
 		x = 2
 		y = 3
 		cost = 10
@@ -1190,8 +1190,8 @@ focus_tree = {
 		completion_reward = {
 			add_stability = -0.05
 			swap_ideas = {
-				remove_idea = KUB_sloboda_conscription_1
-				add_idea = KUB_sloboda_conscription_2
+				remove_idea = KBN_sloboda_conscription_1
+				add_idea = KBN_sloboda_conscription_2
 			}
 		}
 	}

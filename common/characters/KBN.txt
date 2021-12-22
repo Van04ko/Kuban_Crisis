@@ -1,0 +1,358 @@
+characters = {
+	
+	KBN_Vatoadmin = {
+		name = KBN_Vatoadmin
+		portraits = {
+			civilian = {
+				large="gfx/leaders/KBN/Vatoadmin.png"
+			}
+			army = {
+				large = "gfx/leaders/KBN/Vatoadmin.png"
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			expire = "1965.1.1.1"
+			id = -1
+		}
+		field_marshal = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = 0
+		}
+	}
+	KBN_Alexei_Kaledin = {
+		name = KBN_Alexei_Kaledin
+		portraits = {
+			army = {
+				#small = "Kaledin.png"
+				large = "gfx/leaders/KBN/Kaledin.png"
+			}
+		}
+		field_marshal = {
+			traits = { }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+	KBN_Pyotr_Popov = {
+		name = KBN_Pyotr_Popov
+		portraits = {
+			army = {
+				large = "gfx/leaders/KBN/Popov.png"
+				#small = "GFX_portrait_SOV_vasily_primakov_small"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+	KBN_Vladimir_Mai_Maevsky = {
+		name = KBN_Vladimir_Mai_Maevsky
+		portraits = {
+			army = {
+				large = "gfx/leaders/KBN/May-Maevski.png"
+				#small = "GFX_portrait_SOV_vasily_primakov_small"
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+	KBN_African_Bogaevsky = {
+		name = KBN_African_Bogaevsky
+		portraits = {
+			army = {
+				large = "gfx/leaders/KBN/Bogaevsky.png"
+				#small = "GFX_portrait_SOV_vasily_primakov_small"
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+	
+	### С ивента
+	
+	KBN_Nikolay_Nikolaevich_Yudenich = {
+		name = KBN_Nikolay_Nikolaevich_Yudenich
+		portraits = {
+			army = {
+				large = "gfx/leaders/KBN/Юденич.png"
+				#small = "GFX_portrait_SOV_vasily_primakov_small"
+			}
+		}
+		field_marshal = {
+			traits = {  }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+	KBN_Anton_Ivanovich_Denikin = {
+		name = KBN_Anton_Ivanovich_Denikin
+		portraits = {
+			army = {
+				large = "gfx/leaders/KBN/Деникин.png"
+				#small = "GFX_portrait_SOV_vasily_primakov_small"
+			}
+		}
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	KBN_Vladimir_Oskarovich_Kappel = {
+		name = KBN_Vladimir_Oskarovich_Kappel
+		portraits = {
+			army = {
+				large = "gfx/leaders/KBN/Каппель.png"
+				#small = "GFX_portrait_SOV_vasily_primakov_small"
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+	KBN_Sergey_Leonidovich_Markov = {
+		name = KBN_Sergey_Leonidovich_Markov
+		portraits = {
+			army = {
+				large = "gfx/leaders/KBN/Марков.png"
+				#small = "GFX_portrait_SOV_vasily_primakov_small"
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+	KBN_Mikhail_Konstantinovich_Dieterichs = {
+		name = KBN_Mikhail_Konstantinovich_Dieterichs
+		portraits = {
+			army = {
+				large = "gfx/leaders/KBN/Дитерихс.png"
+				#small = "GFX_portrait_SOV_vasily_primakov_small"
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 4
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 2
+		}
+	}
+	KBN_Alexander_Vasilievich_Kolchak = {
+		name = KBN_Alexander_Vasilievich_Kolchak
+		portraits = {
+			army = {
+				large = "gfx/leaders/KBN/КАМчак.png"
+				#small = "GFX_portrait_SOV_vasily_primakov_small"
+			}
+		}
+		navy_leader = {
+			traits = { seawolf }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			maneuvering_skill = 2
+			coordination_skill = 4
+		}
+	}
+	
+	
+	
+	
+	KBN_Boris_Boyarshinov = {
+		name = KBN_Boris_Boyarshinov
+		portraits={
+			army = {
+				small="GFX_idea_KBN_Boris_Boyarshinov"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = Boris_Boyarshinov
+			allowed = {
+				original_tag = KBN
+			}
+			traits = { schizophrenia_fighter }
+		}
+	}
+	KBN_Ubermarginal = {
+		name = KBN_Ubermarginal
+		portraits={
+			army = {
+				small="GFX_idea_KBN_Ubermarginal"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = Ubermarginal
+			allowed = {
+				original_tag = KBN
+			}
+			traits = { kukech }
+		}
+	}
+	KBN_Grigory_Bazhenov = {
+		name = KBN_Grigory_Bazhenov
+		portraits={
+			army = {
+				small="GFX_idea_KBN_Grigory_Bazhenov"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = Grigory_Bazhenov
+			allowed = {
+				original_tag = KBN
+			}
+			traits = { Rna_cist }
+		}
+	}
+	KBN_Mikhail_Svetov = {
+		name = KBN_Mikhail_Svetov
+		portraits={
+			army = {
+				small="GFX_idea_KBN_Mikhail_Svetov"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = Mikhail_Svetov
+			allowed = {
+				original_tag = KBN
+			}
+			traits = { mr_traheya }
+		}
+	}
+	KBN_Yuri_Rybnikov = {
+		name = KBN_Yuri_Rybnikov
+		portraits={
+			army = {
+				small="GFX_idea_KBN_Yuri_Rybnikov"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = Yuri_Rybnikov
+			cost = 250
+			allowed = {
+				original_tag = KBN
+			}
+			traits = { greate_schiz }
+		}
+	}
+	KBN_Cover = {
+		name = KBN_Cover
+		portraits={
+			army = {
+				small="GFX_idea_KBN_Cover"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = Cover
+			allowed = {
+				original_tag = KBN
+			}
+			traits = { mr_birobidzhan }
+		}
+	}
+	KBN_Sarmat = {
+		name = KBN_Sarmat
+		portraits={
+			army = {
+				small="GFX_idea_KBN_Sarmat"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = Sarmat
+			cost = 200
+			allowed = {
+				original_tag = KBN
+			}
+			traits = { sarmat }
+		}
+	}
+	KBN_Iron_Dimon = {
+		name = KBN_Iron_Dimon
+		portraits = {
+			army = {
+				small="GFX_idea_KBN_Iron_Dimon"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = Sarmat
+			cost = 250
+			allowed = {
+				original_tag = KBN
+			}
+			traits = { no_survivors }
+		}
+	}
+	
+	itpedia_idea = {
+		name = itpedia_idea
+		portraits = {
+			army = {
+				small="GFX_idea_KBN_Shevtsov"
+			}
+		}
+		advisor = {
+			slot = industrial_concern
+			idea_token = Shevtsov
+			cost = 250
+			allowed = {
+				original_tag = KBN
+			}
+			traits = { itpedia }
+		}
+	}
+}

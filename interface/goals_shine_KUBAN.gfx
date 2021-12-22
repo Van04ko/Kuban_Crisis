@@ -2,11 +2,11 @@ spriteTypes = {
 	
 	
 	SpriteType = {
-		name = "GFX_focus_KUB_tempale_shine"
-		texturefile = "gfx/interface/goals/KUB/focus_KUB_tempale.png"
+		name = "GFX_focus_KBN_tempale_shine"
+		texturefile = "gfx/interface/goals/KBN/focus_KBN_tempale.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/focus_KUB_tempale.png"
+			animationmaskfile = "gfx/interface/goals/KBN/focus_KBN_tempale.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -19,8 +19,8 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/focus_KUB_tempale.png"
-			animationtexturefile = "gfx/interface/goals/KUB/focus_KUB_tempale.png" 	# <- the animated file
+			animationmaskfile = "gfx/interface/goals/KBN/focus_KBN_tempale.png"
+			animationtexturefile = "gfx/interface/goals/KBN/focus_KBN_tempale.png" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
 			animationtime = 0.75				# in seconds
@@ -33,11 +33,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_focus_KUB_Kubanskoe_Mikrofonostroenie_shine"
-		texturefile = "gfx/interface/goals/KUB/focus_KUB_Kubanskoe_Mikrofonostroenie.png"
+		name = "GFX_focus_KBN_Kubanskoe_Mikrofonostroenie_shine"
+		texturefile = "gfx/interface/goals/KBN/focus_KBN_Kubanskoe_Mikrofonostroenie.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/focus_KUB_Kubanskoe_Mikrofonostroenie.png"
+			animationmaskfile = "gfx/interface/goals/KBN/focus_KBN_Kubanskoe_Mikrofonostroenie.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -50,8 +50,8 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/focus_KUB_Kubanskoe_Mikrofonostroenie.png"
-			animationtexturefile = "gfx/interface/goals/KUB/focus_KUB_Kubanskoe_Mikrofonostroenie.png" 	# <- the animated file
+			animationmaskfile = "gfx/interface/goals/KBN/focus_KBN_Kubanskoe_Mikrofonostroenie.png"
+			animationtexturefile = "gfx/interface/goals/KBN/focus_KBN_Kubanskoe_Mikrofonostroenie.png" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
 			animationtime = 0.75				# in seconds
@@ -64,11 +64,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_focus_KUB_Modern_Infrastrkt_shine"
-		texturefile = "gfx/interface/goals/KUB/focus_KUB_Modern_Infrastrkt.png"
+		name = "GFX_focus_KBN_Modern_Infrastrkt_shine"
+		texturefile = "gfx/interface/goals/KBN/focus_KBN_Modern_Infrastrkt.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/focus_KUB_Modern_Infrastrkt.png"
+			animationmaskfile = "gfx/interface/goals/KBN/focus_KBN_Modern_Infrastrkt.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -81,8 +81,8 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/focus_KUB_Modern_Infrastrkt.png"
-			animationtexturefile = "gfx/interface/goals/KUB/focus_KUB_Modern_Infrastrkt.png" 	# <- the animated file
+			animationmaskfile = "gfx/interface/goals/KBN/focus_KBN_Modern_Infrastrkt.png"
+			animationtexturefile = "gfx/interface/goals/KBN/focus_KBN_Modern_Infrastrkt.png" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
 			animationtime = 0.75				# in seconds
@@ -95,11 +95,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_focus_KUB_Prom_shine"
-		texturefile = "gfx/interface/goals/KUB/focus_KUB_Prom.png"
+		name = "GFX_focus_KBN_Prom_shine"
+		texturefile = "gfx/interface/goals/KBN/focus_KBN_Prom.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/focus_KUB_Prom.png"
+			animationmaskfile = "gfx/interface/goals/KBN/focus_KBN_Prom.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -112,8 +112,8 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/focus_KUB_Prom.png"
-			animationtexturefile = "gfx/interface/goals/KUB/focus_KUB_Prom.png" 	# <- the animated file
+			animationmaskfile = "gfx/interface/goals/KBN/focus_KBN_Prom.png"
+			animationtexturefile = "gfx/interface/goals/KBN/focus_KBN_Prom.png" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
 			animationtime = 0.75				# in seconds
@@ -126,11 +126,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_focus_KUB_Tsarskaya_Prom_shine"
-		texturefile = "gfx/interface/goals/KUB/focus_KUB_Tsarskaya_Prom.png"
+		name = "GFX_focus_KBN_Tsarskaya_Prom_shine"
+		texturefile = "gfx/interface/goals/KBN/focus_KBN_Tsarskaya_Prom.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/focus_KUB_Tsarskaya_Prom.png"
+			animationmaskfile = "gfx/interface/goals/KBN/focus_KBN_Tsarskaya_Prom.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -143,8 +143,8 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/focus_KUB_Tsarskaya_Prom.png"
-			animationtexturefile = "gfx/interface/goals/KUB/focus_KUB_Tsarskaya_Prom.png" 	# <- the animated file
+			animationmaskfile = "gfx/interface/goals/KBN/focus_KBN_Tsarskaya_Prom.png"
+			animationtexturefile = "gfx/interface/goals/KBN/focus_KBN_Tsarskaya_Prom.png" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
 			animationtime = 0.75				# in seconds
@@ -157,11 +157,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_focus_KUB_Vnutren_Vrzhd_shine"
-		texturefile = "gfx/interface/goals/KUB/focus_KUB_Vnutren_Vrzhd.png"
+		name = "GFX_focus_KBN_Vnutren_Vrzhd_shine"
+		texturefile = "gfx/interface/goals/KBN/focus_KBN_Vnutren_Vrzhd.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/focus_KUB_Vnutren_Vrzhd.png"
+			animationmaskfile = "gfx/interface/goals/KBN/focus_KBN_Vnutren_Vrzhd.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -174,8 +174,8 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/focus_KUB_Vnutren_Vrzhd.png"
-			animationtexturefile = "gfx/interface/goals/KUB/focus_KUB_Vnutren_Vrzhd.png" 	# <- the animated file
+			animationmaskfile = "gfx/interface/goals/KBN/focus_KBN_Vnutren_Vrzhd.png"
+			animationtexturefile = "gfx/interface/goals/KBN/focus_KBN_Vnutren_Vrzhd.png" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
 			animationtime = 0.75				# in seconds
@@ -190,10 +190,10 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_focus_Eto_ne_rabotaet_shine"
-		texturefile = "gfx/interface/goals/KUB/Eto_ne_rabotaet.png"
+		texturefile = "gfx/interface/goals/KBN/Eto_ne_rabotaet.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/Eto_ne_rabotaet.png"
+			animationmaskfile = "gfx/interface/goals/KBN/Eto_ne_rabotaet.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -206,8 +206,8 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/Eto_ne_rabotaet.png"
-			animationtexturefile = "gfx/interface/goals/KUB/Eto_ne_rabotaet.png" 	# <- the animated file
+			animationmaskfile = "gfx/interface/goals/KBN/Eto_ne_rabotaet.png"
+			animationtexturefile = "gfx/interface/goals/KBN/Eto_ne_rabotaet.png" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
 			animationtime = 0.75				# in seconds
@@ -221,10 +221,10 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_focus_paket_stimlov_shine"
-		texturefile = "gfx/interface/goals/KUB/paket_stimlov.png"
+		texturefile = "gfx/interface/goals/KBN/paket_stimlov.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/paket_stimlov.png"
+			animationmaskfile = "gfx/interface/goals/KBN/paket_stimlov.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -237,8 +237,8 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/paket_stimlov.png"
-			animationtexturefile = "gfx/interface/goals/KUB/paket_stimlov.png" 	# <- the animated file
+			animationmaskfile = "gfx/interface/goals/KBN/paket_stimlov.png"
+			animationtexturefile = "gfx/interface/goals/KBN/paket_stimlov.png" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
 			animationtime = 0.75				# in seconds
@@ -252,10 +252,10 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_focus_Kubanskaya_Nauchnaya_Mysl_shine"
-		texturefile = "gfx/interface/goals/KUB/Kubanskaya_Nauchnaya_Mysl.png"
+		texturefile = "gfx/interface/goals/KBN/Kubanskaya_Nauchnaya_Mysl.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/Kubanskaya_Nauchnaya_Mysl.png"
+			animationmaskfile = "gfx/interface/goals/KBN/Kubanskaya_Nauchnaya_Mysl.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -268,8 +268,8 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/Kubanskaya_Nauchnaya_Mysl.png"
-			animationtexturefile = "gfx/interface/goals/KUB/Kubanskaya_Nauchnaya_Mysl.png" 	# <- the animated file
+			animationmaskfile = "gfx/interface/goals/KBN/Kubanskaya_Nauchnaya_Mysl.png"
+			animationtexturefile = "gfx/interface/goals/KBN/Kubanskaya_Nauchnaya_Mysl.png" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
 			animationtime = 0.75				# in seconds
@@ -283,10 +283,10 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_focus_Posledniy_Rubezh_shine"
-		texturefile = "gfx/interface/goals/KUB/Posledniy_Rubezh.png"
+		texturefile = "gfx/interface/goals/KBN/Posledniy_Rubezh.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/Posledniy_Rubezh.png"
+			animationmaskfile = "gfx/interface/goals/KBN/Posledniy_Rubezh.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -299,8 +299,8 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/Posledniy_Rubezh.png"
-			animationtexturefile = "gfx/interface/goals/KUB/Posledniy_Rubezh.png" 	# <- the animated file
+			animationmaskfile = "gfx/interface/goals/KBN/Posledniy_Rubezh.png"
+			animationtexturefile = "gfx/interface/goals/KBN/Posledniy_Rubezh.png" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
 			animationtime = 0.75				# in seconds
@@ -314,10 +314,10 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_focus_rasshritit_okhranku_shine"
-		texturefile = "gfx/interface/goals/KUB/rasshritit_okhranku.png"
+		texturefile = "gfx/interface/goals/KBN/rasshritit_okhranku.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/rasshritit_okhranku.png"
+			animationmaskfile = "gfx/interface/goals/KBN/rasshritit_okhranku.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -330,8 +330,8 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/rasshritit_okhranku.png"
-			animationtexturefile = "gfx/interface/goals/KUB/rasshritit_okhranku.png" 	# <- the animated file
+			animationmaskfile = "gfx/interface/goals/KBN/rasshritit_okhranku.png"
+			animationtexturefile = "gfx/interface/goals/KBN/rasshritit_okhranku.png" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
 			animationtime = 0.75				# in seconds
@@ -345,10 +345,10 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_focus_Referendum_po_Kavkazu_shine"
-		texturefile = "gfx/interface/goals/KUB/Referendum_po_Kavkazu.png"
+		texturefile = "gfx/interface/goals/KBN/Referendum_po_Kavkazu.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/Referendum_po_Kavkazu.png"
+			animationmaskfile = "gfx/interface/goals/KBN/Referendum_po_Kavkazu.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -361,8 +361,8 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/Referendum_po_Kavkazu.png"
-			animationtexturefile = "gfx/interface/goals/KUB/Referendum_po_Kavkazu.png" 	# <- the animated file
+			animationmaskfile = "gfx/interface/goals/KBN/Referendum_po_Kavkazu.png"
+			animationtexturefile = "gfx/interface/goals/KBN/Referendum_po_Kavkazu.png" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
 			animationtime = 0.75				# in seconds
@@ -376,10 +376,10 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_focus_Rybnikov_shine"
-		texturefile = "gfx/interface/goals/KUB/Rybnikov.png"
+		texturefile = "gfx/interface/goals/KBN/Rybnikov.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/Rybnikov.png"
+			animationmaskfile = "gfx/interface/goals/KBN/Rybnikov.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -392,8 +392,8 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/Rybnikov.png"
-			animationtexturefile = "gfx/interface/goals/KUB/Rybnikov.png" 	# <- the animated file
+			animationmaskfile = "gfx/interface/goals/KBN/Rybnikov.png"
+			animationtexturefile = "gfx/interface/goals/KBN/Rybnikov.png" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
 			animationtime = 0.75				# in seconds
@@ -407,10 +407,10 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_focus_Vatop_shine"
-		texturefile = "gfx/interface/goals/KUB/Vatop.png"
+		texturefile = "gfx/interface/goals/KBN/Vatop.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/Vatop.png"
+			animationmaskfile = "gfx/interface/goals/KBN/Vatop.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -423,8 +423,8 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/Vatop.png"
-			animationtexturefile = "gfx/interface/goals/KUB/Vatop.png" 	# <- the animated file
+			animationmaskfile = "gfx/interface/goals/KBN/Vatop.png"
+			animationtexturefile = "gfx/interface/goals/KBN/Vatop.png" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
 			animationtime = 0.75				# in seconds
@@ -438,10 +438,10 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_focus_Velikaya_Kubanskaya_Demokratia_shine"
-		texturefile = "gfx/interface/goals/KUB/Velikaya_Kubanskaya_Demokratia.png"
+		texturefile = "gfx/interface/goals/KBN/Velikaya_Kubanskaya_Demokratia.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/Velikaya_Kubanskaya_Demokratia.png"
+			animationmaskfile = "gfx/interface/goals/KBN/Velikaya_Kubanskaya_Demokratia.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -454,8 +454,8 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/Velikaya_Kubanskaya_Demokratia.png"
-			animationtexturefile = "gfx/interface/goals/KUB/Velikaya_Kubanskaya_Demokratia.png" 	# <- the animated file
+			animationmaskfile = "gfx/interface/goals/KBN/Velikaya_Kubanskaya_Demokratia.png"
+			animationtexturefile = "gfx/interface/goals/KBN/Velikaya_Kubanskaya_Demokratia.png" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
 			animationtime = 0.75				# in seconds
@@ -469,10 +469,10 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_focus_Voyna_s_Beriey_shine"
-		texturefile = "gfx/interface/goals/KUB/Voyna_s_Beriey.png"
+		texturefile = "gfx/interface/goals/KBN/Voyna_s_Beriey.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/Voyna_s_Beriey.png"
+			animationmaskfile = "gfx/interface/goals/KBN/Voyna_s_Beriey.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -485,8 +485,8 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/Voyna_s_Beriey.png"
-			animationtexturefile = "gfx/interface/goals/KUB/Voyna_s_Beriey.png" 	# <- the animated file
+			animationmaskfile = "gfx/interface/goals/KBN/Voyna_s_Beriey.png"
+			animationtexturefile = "gfx/interface/goals/KBN/Voyna_s_Beriey.png" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
 			animationtime = 0.75				# in seconds
@@ -500,10 +500,10 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_focus_Vozrazhdenie_Byloy_slavy_rossiii_shine"
-		texturefile = "gfx/interface/goals/KUB/Vozrazhdenie_Byloy_slavy_rossiii.png"
+		texturefile = "gfx/interface/goals/KBN/Vozrazhdenie_Byloy_slavy_rossiii.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/Vozrazhdenie_Byloy_slavy_rossiii.png"
+			animationmaskfile = "gfx/interface/goals/KBN/Vozrazhdenie_Byloy_slavy_rossiii.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -516,8 +516,8 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/Vozrazhdenie_Byloy_slavy_rossiii.png"
-			animationtexturefile = "gfx/interface/goals/KUB/Vozrazhdenie_Byloy_slavy_rossiii.png" 	# <- the animated file
+			animationmaskfile = "gfx/interface/goals/KBN/Vozrazhdenie_Byloy_slavy_rossiii.png"
+			animationtexturefile = "gfx/interface/goals/KBN/Vozrazhdenie_Byloy_slavy_rossiii.png" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
 			animationtime = 0.75				# in seconds
@@ -531,10 +531,10 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_focus_Vozvraschenie_belykh_generalov_shine"
-		texturefile = "gfx/interface/goals/KUB/Vozvraschenie_belykh_generalov.png"
+		texturefile = "gfx/interface/goals/KBN/Vozvraschenie_belykh_generalov.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/Vozvraschenie_belykh_generalov.png"
+			animationmaskfile = "gfx/interface/goals/KBN/Vozvraschenie_belykh_generalov.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -547,8 +547,8 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/Vozvraschenie_belykh_generalov.png"
-			animationtexturefile = "gfx/interface/goals/KUB/Vozvraschenie_belykh_generalov.png" 	# <- the animated file
+			animationmaskfile = "gfx/interface/goals/KBN/Vozvraschenie_belykh_generalov.png"
+			animationtexturefile = "gfx/interface/goals/KBN/Vozvraschenie_belykh_generalov.png" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
 			animationtime = 0.75				# in seconds
@@ -562,10 +562,10 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_focus_Vybor_Atamana_shine"
-		texturefile = "gfx/interface/goals/KUB/Vybor_Atamana.png"
+		texturefile = "gfx/interface/goals/KBN/Vybor_Atamana.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/Vybor_Atamana.png"
+			animationmaskfile = "gfx/interface/goals/KBN/Vybor_Atamana.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -578,8 +578,8 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/Vybor_Atamana.png"
-			animationtexturefile = "gfx/interface/goals/KUB/Vybor_Atamana.png" 	# <- the animated file
+			animationmaskfile = "gfx/interface/goals/KBN/Vybor_Atamana.png"
+			animationtexturefile = "gfx/interface/goals/KBN/Vybor_Atamana.png" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
 			animationtime = 0.75				# in seconds
@@ -595,10 +595,10 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_focus_vysledi_bolshevika_shine"
-		texturefile = "gfx/interface/goals/KUB/vysledi_bolshevika.png"
+		texturefile = "gfx/interface/goals/KBN/vysledi_bolshevika.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/vysledi_bolshevika.png"
+			animationmaskfile = "gfx/interface/goals/KBN/vysledi_bolshevika.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -611,8 +611,8 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/vysledi_bolshevika.png"
-			animationtexturefile = "gfx/interface/goals/KUB/vysledi_bolshevika.png" 	# <- the animated file
+			animationmaskfile = "gfx/interface/goals/KBN/vysledi_bolshevika.png"
+			animationtexturefile = "gfx/interface/goals/KBN/vysledi_bolshevika.png" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
 			animationtime = 0.75				# in seconds
@@ -627,10 +627,10 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_focus_conscription_1_shine"
-		texturefile = "gfx/interface/goals/KUB/conscription_1.png"
+		texturefile = "gfx/interface/goals/KBN/conscription_1.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/conscription_1.png"
+			animationmaskfile = "gfx/interface/goals/KBN/conscription_1.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -643,8 +643,8 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/conscription_1.png"
-			animationtexturefile = "gfx/interface/goals/KUB/conscription_1.png" 	# <- the animated file
+			animationmaskfile = "gfx/interface/goals/KBN/conscription_1.png"
+			animationtexturefile = "gfx/interface/goals/KBN/conscription_1.png" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
 			animationtime = 0.75				# in seconds
@@ -658,10 +658,10 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_focus_conscription_2_shine"
-		texturefile = "gfx/interface/goals/KUB/conscription_2.png"
+		texturefile = "gfx/interface/goals/KBN/conscription_2.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/conscription_2.png"
+			animationmaskfile = "gfx/interface/goals/KBN/conscription_2.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -674,8 +674,8 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/conscription_2.png"
-			animationtexturefile = "gfx/interface/goals/KUB/conscription_2.png" 	# <- the animated file
+			animationmaskfile = "gfx/interface/goals/KBN/conscription_2.png"
+			animationtexturefile = "gfx/interface/goals/KBN/conscription_2.png" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
 			animationtime = 0.75				# in seconds
@@ -689,10 +689,10 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_focus_doctrine_1_shine"
-		texturefile = "gfx/interface/goals/KUB/doctrine_1.png"
+		texturefile = "gfx/interface/goals/KBN/doctrine_1.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/doctrine_1.png"
+			animationmaskfile = "gfx/interface/goals/KBN/doctrine_1.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -705,8 +705,8 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/doctrine_1.png"
-			animationtexturefile = "gfx/interface/goals/KUB/doctrine_1.png" 	# <- the animated file
+			animationmaskfile = "gfx/interface/goals/KBN/doctrine_1.png"
+			animationtexturefile = "gfx/interface/goals/KBN/doctrine_1.png" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
 			animationtime = 0.75				# in seconds
@@ -720,10 +720,10 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_focus_doctrine_2_shine"
-		texturefile = "gfx/interface/goals/KUB/doctrine_2.png"
+		texturefile = "gfx/interface/goals/KBN/doctrine_2.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/doctrine_2.png"
+			animationmaskfile = "gfx/interface/goals/KBN/doctrine_2.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -736,8 +736,8 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/doctrine_2.png"
-			animationtexturefile = "gfx/interface/goals/KUB/doctrine_2.png" 	# <- the animated file
+			animationmaskfile = "gfx/interface/goals/KBN/doctrine_2.png"
+			animationtexturefile = "gfx/interface/goals/KBN/doctrine_2.png" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
 			animationtime = 0.75				# in seconds
@@ -751,10 +751,10 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_focus_doctrine_3_shine"
-		texturefile = "gfx/interface/goals/KUB/doctrine_3.png"
+		texturefile = "gfx/interface/goals/KBN/doctrine_3.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/doctrine_3.png"
+			animationmaskfile = "gfx/interface/goals/KBN/doctrine_3.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -767,8 +767,8 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/doctrine_3.png"
-			animationtexturefile = "gfx/interface/goals/KUB/doctrine_3.png" 	# <- the animated file
+			animationmaskfile = "gfx/interface/goals/KBN/doctrine_3.png"
+			animationtexturefile = "gfx/interface/goals/KBN/doctrine_3.png" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
 			animationtime = 0.75				# in seconds
@@ -782,10 +782,10 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_focus_doctrine_4_shine"
-		texturefile = "gfx/interface/goals/KUB/doctrine_4.png"
+		texturefile = "gfx/interface/goals/KBN/doctrine_4.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/doctrine_4.png"
+			animationmaskfile = "gfx/interface/goals/KBN/doctrine_4.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -798,8 +798,8 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/doctrine_4.png"
-			animationtexturefile = "gfx/interface/goals/KUB/doctrine_4.png" 	# <- the animated file
+			animationmaskfile = "gfx/interface/goals/KBN/doctrine_4.png"
+			animationtexturefile = "gfx/interface/goals/KBN/doctrine_4.png" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
 			animationtime = 0.75				# in seconds
@@ -813,10 +813,10 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_focus_motorized_shine"
-		texturefile = "gfx/interface/goals/KUB/motorized.png"
+		texturefile = "gfx/interface/goals/KBN/motorized.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/motorized.png"
+			animationmaskfile = "gfx/interface/goals/KBN/motorized.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -829,8 +829,8 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/motorized.png"
-			animationtexturefile = "gfx/interface/goals/KUB/motorized.png" 	# <- the animated file
+			animationmaskfile = "gfx/interface/goals/KBN/motorized.png"
+			animationtexturefile = "gfx/interface/goals/KBN/motorized.png" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
 			animationtime = 0.75				# in seconds
@@ -844,10 +844,10 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_focus_weapon_development_shine"
-		texturefile = "gfx/interface/goals/KUB/weapon_development.png"
+		texturefile = "gfx/interface/goals/KBN/weapon_development.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/weapon_development.png"
+			animationmaskfile = "gfx/interface/goals/KBN/weapon_development.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -860,8 +860,8 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/weapon_development.png"
-			animationtexturefile = "gfx/interface/goals/KUB/weapon_development.png" 	# <- the animated file
+			animationmaskfile = "gfx/interface/goals/KBN/weapon_development.png"
+			animationtexturefile = "gfx/interface/goals/KBN/weapon_development.png" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
 			animationtime = 0.75				# in seconds
@@ -878,10 +878,10 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_focus_big_ships_shine"
-		texturefile = "gfx/interface/goals/KUB/big_ships.png"
+		texturefile = "gfx/interface/goals/KBN/big_ships.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/big_ships.png"
+			animationmaskfile = "gfx/interface/goals/KBN/big_ships.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -894,8 +894,8 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/big_ships.png"
-			animationtexturefile = "gfx/interface/goals/KUB/big_ships.png" 	# <- the animated file
+			animationmaskfile = "gfx/interface/goals/KBN/big_ships.png"
+			animationtexturefile = "gfx/interface/goals/KBN/big_ships.png" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
 			animationtime = 0.75				# in seconds
@@ -909,10 +909,10 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_focus_black_sea_guard_shine"
-		texturefile = "gfx/interface/goals/KUB/black_sea_guard.png"
+		texturefile = "gfx/interface/goals/KBN/black_sea_guard.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/black_sea_guard.png"
+			animationmaskfile = "gfx/interface/goals/KBN/black_sea_guard.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -925,8 +925,8 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/black_sea_guard.png"
-			animationtexturefile = "gfx/interface/goals/KUB/black_sea_guard.png" 	# <- the animated file
+			animationmaskfile = "gfx/interface/goals/KBN/black_sea_guard.png"
+			animationtexturefile = "gfx/interface/goals/KBN/black_sea_guard.png" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
 			animationtime = 0.75				# in seconds
@@ -940,10 +940,10 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_focus_kub_destroyes_shine"
-		texturefile = "gfx/interface/goals/KUB/kub_destroyes.png"
+		texturefile = "gfx/interface/goals/KBN/kub_destroyes.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/kub_destroyes.png"
+			animationmaskfile = "gfx/interface/goals/KBN/kub_destroyes.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -956,8 +956,8 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/kub_destroyes.png"
-			animationtexturefile = "gfx/interface/goals/KUB/kub_destroyes.png" 	# <- the animated file
+			animationmaskfile = "gfx/interface/goals/KBN/kub_destroyes.png"
+			animationtexturefile = "gfx/interface/goals/KBN/kub_destroyes.png" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
 			animationtime = 0.75				# in seconds
@@ -971,10 +971,10 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_focus_kubanian_dockyard_shine"
-		texturefile = "gfx/interface/goals/KUB/kubanian_dockyard.png"
+		texturefile = "gfx/interface/goals/KBN/kubanian_dockyard.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/kubanian_dockyard.png"
+			animationmaskfile = "gfx/interface/goals/KBN/kubanian_dockyard.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -987,8 +987,8 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/kubanian_dockyard.png"
-			animationtexturefile = "gfx/interface/goals/KUB/kubanian_dockyard.png" 	# <- the animated file
+			animationmaskfile = "gfx/interface/goals/KBN/kubanian_dockyard.png"
+			animationtexturefile = "gfx/interface/goals/KBN/kubanian_dockyard.png" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
 			animationtime = 0.75				# in seconds
@@ -1002,10 +1002,10 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_focus_kubanian_fleet_shine"
-		texturefile = "gfx/interface/goals/KUB/kubanian_fleet.png"
+		texturefile = "gfx/interface/goals/KBN/kubanian_fleet.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/kubanian_fleet.png"
+			animationmaskfile = "gfx/interface/goals/KBN/kubanian_fleet.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1018,8 +1018,8 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/kubanian_fleet.png"
-			animationtexturefile = "gfx/interface/goals/KUB/kubanian_fleet.png" 	# <- the animated file
+			animationmaskfile = "gfx/interface/goals/KBN/kubanian_fleet.png"
+			animationtexturefile = "gfx/interface/goals/KBN/kubanian_fleet.png" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
 			animationtime = 0.75				# in seconds
@@ -1033,10 +1033,10 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_focus_kubanian_u_boat_effort_shine"
-		texturefile = "gfx/interface/goals/KUB/kubanian_u_boat_effort.png"
+		texturefile = "gfx/interface/goals/KBN/kubanian_u_boat_effort.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/kubanian_u_boat_effort.png"
+			animationmaskfile = "gfx/interface/goals/KBN/kubanian_u_boat_effort.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1049,8 +1049,8 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/kubanian_u_boat_effort.png"
-			animationtexturefile = "gfx/interface/goals/KUB/kubanian_u_boat_effort.png" 	# <- the animated file
+			animationmaskfile = "gfx/interface/goals/KBN/kubanian_u_boat_effort.png"
+			animationtexturefile = "gfx/interface/goals/KBN/kubanian_u_boat_effort.png" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
 			animationtime = 0.75				# in seconds
@@ -1066,10 +1066,10 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_focus_Cossacks_and_Pannwitz_shine"
-		texturefile = "gfx/interface/goals/KUB/Cossacks_and_Pannwitz.png"
+		texturefile = "gfx/interface/goals/KBN/Cossacks_and_Pannwitz.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/Cossacks_and_Pannwitz.png"
+			animationmaskfile = "gfx/interface/goals/KBN/Cossacks_and_Pannwitz.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1082,8 +1082,8 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/Cossacks_and_Pannwitz.png"
-			animationtexturefile = "gfx/interface/goals/KUB/Cossacks_and_Pannwitz.png" 	# <- the animated file
+			animationmaskfile = "gfx/interface/goals/KBN/Cossacks_and_Pannwitz.png"
+			animationtexturefile = "gfx/interface/goals/KBN/Cossacks_and_Pannwitz.png" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
 			animationtime = 0.75				# in seconds
@@ -1097,10 +1097,10 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_focus_Democratic_friends_shine"
-		texturefile = "gfx/interface/goals/KUB/Democratic_friends.png"
+		texturefile = "gfx/interface/goals/KBN/Democratic_friends.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/Democratic_friends.png"
+			animationmaskfile = "gfx/interface/goals/KBN/Democratic_friends.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1113,8 +1113,8 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/Democratic_friends.png"
-			animationtexturefile = "gfx/interface/goals/KUB/Democratic_friends.png" 	# <- the animated file
+			animationmaskfile = "gfx/interface/goals/KBN/Democratic_friends.png"
+			animationtexturefile = "gfx/interface/goals/KBN/Democratic_friends.png" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
 			animationtime = 0.75				# in seconds
@@ -1128,10 +1128,10 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_focus_Eternal_struggle_shine"
-		texturefile = "gfx/interface/goals/KUB/Eternal_struggle.png"
+		texturefile = "gfx/interface/goals/KBN/Eternal_struggle.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/Eternal_struggle.png"
+			animationmaskfile = "gfx/interface/goals/KBN/Eternal_struggle.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1144,8 +1144,8 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/Eternal_struggle.png"
-			animationtexturefile = "gfx/interface/goals/KUB/Eternal_struggle.png" 	# <- the animated file
+			animationmaskfile = "gfx/interface/goals/KBN/Eternal_struggle.png"
+			animationtexturefile = "gfx/interface/goals/KBN/Eternal_struggle.png" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
 			animationtime = 0.75				# in seconds
@@ -1159,10 +1159,10 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_focus_holy_war_shine"
-		texturefile = "gfx/interface/goals/KUB/holy_war.png"
+		texturefile = "gfx/interface/goals/KBN/holy_war.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/holy_war.png"
+			animationmaskfile = "gfx/interface/goals/KBN/holy_war.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1175,8 +1175,8 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/holy_war.png"
-			animationtexturefile = "gfx/interface/goals/KUB/holy_war.png" 	# <- the animated file
+			animationmaskfile = "gfx/interface/goals/KBN/holy_war.png"
+			animationtexturefile = "gfx/interface/goals/KBN/holy_war.png" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
 			animationtime = 0.75				# in seconds
@@ -1190,10 +1190,10 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_focus_Home_harbor_shine"
-		texturefile = "gfx/interface/goals/KUB/Home_harbor.png"
+		texturefile = "gfx/interface/goals/KBN/Home_harbor.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/Home_harbor.png"
+			animationmaskfile = "gfx/interface/goals/KBN/Home_harbor.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1206,8 +1206,8 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/Home_harbor.png"
-			animationtexturefile = "gfx/interface/goals/KUB/Home_harbor.png" 	# <- the animated file
+			animationmaskfile = "gfx/interface/goals/KBN/Home_harbor.png"
+			animationtexturefile = "gfx/interface/goals/KBN/Home_harbor.png" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
 			animationtime = 0.75				# in seconds
@@ -1221,10 +1221,10 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_focus_Industrialization_Caucasus_shine"
-		texturefile = "gfx/interface/goals/KUB/Industrialization_Caucasus.png"
+		texturefile = "gfx/interface/goals/KBN/Industrialization_Caucasus.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/Industrialization_Caucasus.png"
+			animationmaskfile = "gfx/interface/goals/KBN/Industrialization_Caucasus.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1237,8 +1237,8 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/Industrialization_Caucasus.png"
-			animationtexturefile = "gfx/interface/goals/KUB/Industrialization_Caucasus.png" 	# <- the animated file
+			animationmaskfile = "gfx/interface/goals/KBN/Industrialization_Caucasus.png"
+			animationtexturefile = "gfx/interface/goals/KBN/Industrialization_Caucasus.png" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
 			animationtime = 0.75				# in seconds
@@ -1252,10 +1252,10 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_focus_Kazaks_of_all_Rus_shine"
-		texturefile = "gfx/interface/goals/KUB/Kazaks_of_all_Rus.png"
+		texturefile = "gfx/interface/goals/KBN/Kazaks_of_all_Rus.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/Kazaks_of_all_Rus.png"
+			animationmaskfile = "gfx/interface/goals/KBN/Kazaks_of_all_Rus.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1268,8 +1268,8 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/Kazaks_of_all_Rus.png"
-			animationtexturefile = "gfx/interface/goals/KUB/Kazaks_of_all_Rus.png" 	# <- the animated file
+			animationmaskfile = "gfx/interface/goals/KBN/Kazaks_of_all_Rus.png"
+			animationtexturefile = "gfx/interface/goals/KBN/Kazaks_of_all_Rus.png" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
 			animationtime = 0.75				# in seconds
@@ -1283,10 +1283,10 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_focus_Liberal_democracies_dont_fight_shine"
-		texturefile = "gfx/interface/goals/KUB/Liberal_democracies_dont_fight.png"
+		texturefile = "gfx/interface/goals/KBN/Liberal_democracies_dont_fight.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/Liberal_democracies_dont_fight.png"
+			animationmaskfile = "gfx/interface/goals/KBN/Liberal_democracies_dont_fight.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1299,8 +1299,8 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/Liberal_democracies_dont_fight.png"
-			animationtexturefile = "gfx/interface/goals/KUB/Liberal_democracies_dont_fight.png" 	# <- the animated file
+			animationmaskfile = "gfx/interface/goals/KBN/Liberal_democracies_dont_fight.png"
+			animationtexturefile = "gfx/interface/goals/KBN/Liberal_democracies_dont_fight.png" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
 			animationtime = 0.75				# in seconds
@@ -1314,10 +1314,10 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_focus_Our_land_shine"
-		texturefile = "gfx/interface/goals/KUB/Our_land.png"
+		texturefile = "gfx/interface/goals/KBN/Our_land.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/Our_land.png"
+			animationmaskfile = "gfx/interface/goals/KBN/Our_land.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1330,8 +1330,8 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/Our_land.png"
-			animationtexturefile = "gfx/interface/goals/KUB/Our_land.png" 	# <- the animated file
+			animationmaskfile = "gfx/interface/goals/KBN/Our_land.png"
+			animationtexturefile = "gfx/interface/goals/KBN/Our_land.png" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
 			animationtime = 0.75				# in seconds
@@ -1345,10 +1345,10 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_focus_Our_way_shine"
-		texturefile = "gfx/interface/goals/KUB/Our_way.png"
+		texturefile = "gfx/interface/goals/KBN/Our_way.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/Our_way.png"
+			animationmaskfile = "gfx/interface/goals/KBN/Our_way.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1361,8 +1361,8 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/Our_way.png"
-			animationtexturefile = "gfx/interface/goals/KUB/Our_way.png" 	# <- the animated file
+			animationmaskfile = "gfx/interface/goals/KBN/Our_way.png"
+			animationtexturefile = "gfx/interface/goals/KBN/Our_way.png" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
 			animationtime = 0.75				# in seconds
@@ -1376,10 +1376,10 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_focus_Peaceful_assimilation_shine"
-		texturefile = "gfx/interface/goals/KUB/Peaceful_assimilation.png"
+		texturefile = "gfx/interface/goals/KBN/Peaceful_assimilation.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/Peaceful_assimilation.png"
+			animationmaskfile = "gfx/interface/goals/KBN/Peaceful_assimilation.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1392,8 +1392,8 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/Peaceful_assimilation.png"
-			animationtexturefile = "gfx/interface/goals/KUB/Peaceful_assimilation.png" 	# <- the animated file
+			animationmaskfile = "gfx/interface/goals/KBN/Peaceful_assimilation.png"
+			animationtexturefile = "gfx/interface/goals/KBN/Peaceful_assimilation.png" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
 			animationtime = 0.75				# in seconds
@@ -1407,10 +1407,10 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_focus_preparing_for_betrayal_shine"
-		texturefile = "gfx/interface/goals/KUB/preparing_for_betrayal.png"
+		texturefile = "gfx/interface/goals/KBN/preparing_for_betrayal.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/preparing_for_betrayal.png"
+			animationmaskfile = "gfx/interface/goals/KBN/preparing_for_betrayal.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1423,8 +1423,8 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/preparing_for_betrayal.png"
-			animationtexturefile = "gfx/interface/goals/KUB/preparing_for_betrayal.png" 	# <- the animated file
+			animationmaskfile = "gfx/interface/goals/KBN/preparing_for_betrayal.png"
+			animationtexturefile = "gfx/interface/goals/KBN/preparing_for_betrayal.png" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
 			animationtime = 0.75				# in seconds
@@ -1438,10 +1438,10 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_focus_preparing_revolution_shine"
-		texturefile = "gfx/interface/goals/KUB/preparing_revolution.png"
+		texturefile = "gfx/interface/goals/KBN/preparing_revolution.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/preparing_revolution.png"
+			animationmaskfile = "gfx/interface/goals/KBN/preparing_revolution.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1454,8 +1454,8 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/preparing_revolution.png"
-			animationtexturefile = "gfx/interface/goals/KUB/preparing_revolution.png" 	# <- the animated file
+			animationmaskfile = "gfx/interface/goals/KBN/preparing_revolution.png"
+			animationtexturefile = "gfx/interface/goals/KBN/preparing_revolution.png" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
 			animationtime = 0.75				# in seconds
@@ -1469,10 +1469,10 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_focus_Realization_resources_Caucasus_shine"
-		texturefile = "gfx/interface/goals/KUB/Realization_resources_Caucasus.png"
+		texturefile = "gfx/interface/goals/KBN/Realization_resources_Caucasus.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/Realization_resources_Caucasus.png"
+			animationmaskfile = "gfx/interface/goals/KBN/Realization_resources_Caucasus.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1485,8 +1485,8 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/Realization_resources_Caucasus.png"
-			animationtexturefile = "gfx/interface/goals/KUB/Realization_resources_Caucasus.png" 	# <- the animated file
+			animationmaskfile = "gfx/interface/goals/KBN/Realization_resources_Caucasus.png"
+			animationtexturefile = "gfx/interface/goals/KBN/Realization_resources_Caucasus.png" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
 			animationtime = 0.75				# in seconds
@@ -1500,10 +1500,10 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_focus_return_white_emigration_shine"
-		texturefile = "gfx/interface/goals/KUB/return_white_emigration.png"
+		texturefile = "gfx/interface/goals/KBN/return_white_emigration.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/return_white_emigration.png"
+			animationmaskfile = "gfx/interface/goals/KBN/return_white_emigration.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1516,8 +1516,8 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/return_white_emigration.png"
-			animationtexturefile = "gfx/interface/goals/KUB/return_white_emigration.png" 	# <- the animated file
+			animationmaskfile = "gfx/interface/goals/KBN/return_white_emigration.png"
+			animationtexturefile = "gfx/interface/goals/KBN/return_white_emigration.png" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
 			animationtime = 0.75				# in seconds
@@ -1531,10 +1531,10 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_focus_Revenge_for_dekazaking_shine"
-		texturefile = "gfx/interface/goals/KUB/Revenge_for_dekazaking.png"
+		texturefile = "gfx/interface/goals/KBN/Revenge_for_dekazaking.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/Revenge_for_dekazaking.png"
+			animationmaskfile = "gfx/interface/goals/KBN/Revenge_for_dekazaking.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1547,8 +1547,8 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/Revenge_for_dekazaking.png"
-			animationtexturefile = "gfx/interface/goals/KUB/Revenge_for_dekazaking.png" 	# <- the animated file
+			animationmaskfile = "gfx/interface/goals/KBN/Revenge_for_dekazaking.png"
+			animationtexturefile = "gfx/interface/goals/KBN/Revenge_for_dekazaking.png" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
 			animationtime = 0.75				# in seconds
@@ -1562,10 +1562,10 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_focus_Revival_Terek_Cossacks_shine"
-		texturefile = "gfx/interface/goals/KUB/Revival_Terek_Cossacks.png"
+		texturefile = "gfx/interface/goals/KBN/Revival_Terek_Cossacks.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/Revival_Terek_Cossacks.png"
+			animationmaskfile = "gfx/interface/goals/KBN/Revival_Terek_Cossacks.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1578,8 +1578,8 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/Revival_Terek_Cossacks.png"
-			animationtexturefile = "gfx/interface/goals/KUB/Revival_Terek_Cossacks.png" 	# <- the animated file
+			animationmaskfile = "gfx/interface/goals/KBN/Revival_Terek_Cossacks.png"
+			animationtexturefile = "gfx/interface/goals/KBN/Revival_Terek_Cossacks.png" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
 			animationtime = 0.75				# in seconds
@@ -1593,10 +1593,10 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_focus_Rights_minorities_shine"
-		texturefile = "gfx/interface/goals/KUB/Rights_minorities.png"
+		texturefile = "gfx/interface/goals/KBN/Rights_minorities.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/Rights_minorities.png"
+			animationmaskfile = "gfx/interface/goals/KBN/Rights_minorities.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1609,8 +1609,8 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/Rights_minorities.png"
-			animationtexturefile = "gfx/interface/goals/KUB/Rights_minorities.png" 	# <- the animated file
+			animationmaskfile = "gfx/interface/goals/KBN/Rights_minorities.png"
+			animationtexturefile = "gfx/interface/goals/KBN/Rights_minorities.png" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
 			animationtime = 0.75				# in seconds
@@ -1624,10 +1624,10 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_focus_strike_back_shine"
-		texturefile = "gfx/interface/goals/KUB/strike_back.png"
+		texturefile = "gfx/interface/goals/KBN/strike_back.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/strike_back.png"
+			animationmaskfile = "gfx/interface/goals/KBN/strike_back.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1640,8 +1640,8 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/strike_back.png"
-			animationtexturefile = "gfx/interface/goals/KUB/strike_back.png" 	# <- the animated file
+			animationmaskfile = "gfx/interface/goals/KBN/strike_back.png"
+			animationtexturefile = "gfx/interface/goals/KBN/strike_back.png" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
 			animationtime = 0.75				# in seconds
@@ -1655,10 +1655,10 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_focus_support_uk_shine"
-		texturefile = "gfx/interface/goals/KUB/support_uk.png"
+		texturefile = "gfx/interface/goals/KBN/support_uk.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/support_uk.png"
+			animationmaskfile = "gfx/interface/goals/KBN/support_uk.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1671,8 +1671,8 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/support_uk.png"
-			animationtexturefile = "gfx/interface/goals/KUB/support_uk.png" 	# <- the animated file
+			animationmaskfile = "gfx/interface/goals/KBN/support_uk.png"
+			animationtexturefile = "gfx/interface/goals/KBN/support_uk.png" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
 			animationtime = 0.75				# in seconds
@@ -1686,10 +1686,10 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_focus_Temporary_ally_shine"
-		texturefile = "gfx/interface/goals/KUB/Temporary_ally.png"
+		texturefile = "gfx/interface/goals/KBN/Temporary_ally.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/Temporary_ally.png"
+			animationmaskfile = "gfx/interface/goals/KBN/Temporary_ally.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1702,8 +1702,8 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/Temporary_ally.png"
-			animationtexturefile = "gfx/interface/goals/KUB/Temporary_ally.png" 	# <- the animated file
+			animationmaskfile = "gfx/interface/goals/KBN/Temporary_ally.png"
+			animationtexturefile = "gfx/interface/goals/KBN/Temporary_ally.png" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
 			animationtime = 0.75				# in seconds
@@ -1717,10 +1717,10 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_focus_The_rebirth_republic_of_Russia_shine"
-		texturefile = "gfx/interface/goals/KUB/The_rebirth_republic_of_Russia.png"
+		texturefile = "gfx/interface/goals/KBN/The_rebirth_republic_of_Russia.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/The_rebirth_republic_of_Russia.png"
+			animationmaskfile = "gfx/interface/goals/KBN/The_rebirth_republic_of_Russia.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1733,8 +1733,8 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/The_rebirth_republic_of_Russia.png"
-			animationtexturefile = "gfx/interface/goals/KUB/The_rebirth_republic_of_Russia.png" 	# <- the animated file
+			animationmaskfile = "gfx/interface/goals/KBN/The_rebirth_republic_of_Russia.png"
+			animationtexturefile = "gfx/interface/goals/KBN/The_rebirth_republic_of_Russia.png" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
 			animationtime = 0.75				# in seconds
@@ -1748,10 +1748,10 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_focus_tsardom_storage_shine"
-		texturefile = "gfx/interface/goals/KUB/tsardom_storage.png"
+		texturefile = "gfx/interface/goals/KBN/tsardom_storage.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/tsardom_storage.png"
+			animationmaskfile = "gfx/interface/goals/KBN/tsardom_storage.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1764,8 +1764,8 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/tsardom_storage.png"
-			animationtexturefile = "gfx/interface/goals/KUB/tsardom_storage.png" 	# <- the animated file
+			animationmaskfile = "gfx/interface/goals/KBN/tsardom_storage.png"
+			animationtexturefile = "gfx/interface/goals/KBN/tsardom_storage.png" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
 			animationtime = 0.75				# in seconds
@@ -1779,10 +1779,10 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_focus_War_Bolshevism_shine"
-		texturefile = "gfx/interface/goals/KUB/War_Bolshevism.png"
+		texturefile = "gfx/interface/goals/KBN/War_Bolshevism.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/War_Bolshevism.png"
+			animationmaskfile = "gfx/interface/goals/KBN/War_Bolshevism.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1795,8 +1795,8 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/War_Bolshevism.png"
-			animationtexturefile = "gfx/interface/goals/KUB/War_Bolshevism.png" 	# <- the animated file
+			animationmaskfile = "gfx/interface/goals/KBN/War_Bolshevism.png"
+			animationtexturefile = "gfx/interface/goals/KBN/War_Bolshevism.png" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
 			animationtime = 0.75				# in seconds
@@ -1810,10 +1810,10 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_focus_By_themselves_shine"
-		texturefile = "gfx/interface/goals/KUB/By_themselves.png"
+		texturefile = "gfx/interface/goals/KBN/By_themselves.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/By_themselves.png"
+			animationmaskfile = "gfx/interface/goals/KBN/By_themselves.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1826,8 +1826,8 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/By_themselves.png"
-			animationtexturefile = "gfx/interface/goals/KUB/By_themselves.png" 	# <- the animated file
+			animationmaskfile = "gfx/interface/goals/KBN/By_themselves.png"
+			animationtexturefile = "gfx/interface/goals/KBN/By_themselves.png" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
 			animationtime = 0.75				# in seconds
@@ -1841,10 +1841,10 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_focus_bolshevik_uprising_shine"
-		texturefile = "gfx/interface/goals/KUB/bolshevik_uprising.png"
+		texturefile = "gfx/interface/goals/KBN/bolshevik_uprising.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/bolshevik_uprising.png"
+			animationmaskfile = "gfx/interface/goals/KBN/bolshevik_uprising.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1857,8 +1857,8 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/bolshevik_uprising.png"
-			animationtexturefile = "gfx/interface/goals/KUB/bolshevik_uprising.png" 	# <- the animated file
+			animationmaskfile = "gfx/interface/goals/KBN/bolshevik_uprising.png"
+			animationtexturefile = "gfx/interface/goals/KBN/bolshevik_uprising.png" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
 			animationtime = 0.75				# in seconds
@@ -1872,10 +1872,10 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_focus_Ukreplenie_Demokratii_shine"
-		texturefile = "gfx/interface/goals/KUB/Ukreplenie_Demokratii.png"
+		texturefile = "gfx/interface/goals/KBN/Ukreplenie_Demokratii.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/Ukreplenie_Demokratii.png"
+			animationmaskfile = "gfx/interface/goals/KBN/Ukreplenie_Demokratii.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1888,8 +1888,8 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/Ukreplenie_Demokratii.png"
-			animationtexturefile = "gfx/interface/goals/KUB/Ukreplenie_Demokratii.png" 	# <- the animated file
+			animationmaskfile = "gfx/interface/goals/KBN/Ukreplenie_Demokratii.png"
+			animationtexturefile = "gfx/interface/goals/KBN/Ukreplenie_Demokratii.png" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
 			animationtime = 0.75				# in seconds
@@ -1902,11 +1902,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_focus_KUB_PKh_shine"
-		texturefile = "gfx/interface/goals/KUB/KUB_PKh.png"
+		name = "GFX_focus_KBN_PKh_shine"
+		texturefile = "gfx/interface/goals/KBN/KBN_PKh.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/KUB_PKh.png"
+			animationmaskfile = "gfx/interface/goals/KBN/KBN_PKh.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1919,8 +1919,8 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KUB/KUB_PKh.png"
-			animationtexturefile = "gfx/interface/goals/KUB/KUB_PKh.png" 	# <- the animated file
+			animationmaskfile = "gfx/interface/goals/KBN/KBN_PKh.png"
+			animationtexturefile = "gfx/interface/goals/KBN/KBN_PKh.png" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
 			animationtime = 0.75				# in seconds

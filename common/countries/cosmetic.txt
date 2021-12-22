@@ -2,7 +2,7 @@ CAU_SOV = {
 	color = rgb { 125 13 24 }
 	color_ui = rgb { 125 13 24 }
 }
-KUB_russia_cos_united = {
+KBN_russia_cos_united = {
 	color = rgb { 168 135 31 }
 	color_ui = rgb { 168 135 31 }
 }

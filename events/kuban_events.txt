@@ -44,7 +44,7 @@ country_event = {
 	
 	option = {
 		name = kuban.3.a
-		complete_national_focus = KUB_Rubnyakov
+		complete_national_focus = KBN_Rubnyakov
 		create_country_leader = {
 			name = "Alexei Rubnyakov"
 			desc = "Rubnyakov_DESC"
@@ -58,7 +58,7 @@ country_event = {
 	}
 	option = {
 		name = kuban.3.b
-		complete_national_focus = KUB_Vatop
+		complete_national_focus = KBN_Vatop
 			set_politics = {
 				ruling_party = democratic
 				elections_allowed = yes
@@ -103,8 +103,8 @@ country_event = {
 
 	trigger = {
 		date > 1936.3.20
-		country_exists = KUB
-		tag = KUB
+		country_exists = KBN
+		tag = KBN
 	}
 	
 	fire_only_once = yes
@@ -147,8 +147,8 @@ country_event = {
 
 	trigger = {
 		date > 1936.4.14
-		country_exists = KUB
-		tag = KUB
+		country_exists = KBN
+		tag = KBN
 	}
 	
 	fire_only_once = yes
@@ -157,11 +157,11 @@ country_event = {
 	
 	option = {
 		name = kuban.7.a
-		add_timed_idea = { idea = KUB_Pale_Settlement_canseled days = 200 }
+		add_timed_idea = { idea = KBN_Pale_Settlement_canseled days = 200 }
 	}
 	option = {
 		name = kuban.7.b
-		add_timed_idea = { idea = KUB_old_orders days = 200 }
+		add_timed_idea = { idea = KBN_old_orders days = 200 }
 		add_political_power = -100
 	}
 }
@@ -270,7 +270,7 @@ country_event = {
 			skill = 3
 		}
 		hidden_effect = {
-			country_event = { id = kuban.11 days 1 }
+			country_event = { id = kuban.11 days = 1 }
 		}
 	}
 }
@@ -334,11 +334,11 @@ country_event = { # для кавказа 1
 	
 	option = { #согласие
 		name = kuban.13.a
-		KUB = {	country_event = { id = kuban.14 days = 2 } }
+		KBN = {	country_event = { id = kuban.14 days = 2 } }
 	}
 	option = { #отказ
 		name = kuban.13.a
-		KUB = {	country_event = { id = kuban.15 days = 1 } }
+		KBN = {	country_event = { id = kuban.15 days = 1 } }
 	}
 }
 
@@ -354,11 +354,11 @@ country_event = { # для кавказа - согласие
 	
 	option = {
 		name = kuban.14.a
-		KUB = { annex_country = { target = CAU } }
-		233 = { add_core_of = KUB }
-		231 = { add_core_of = KUB }
-		230 = { add_core_of = KUB }
-		229 = { add_core_of = KUB }
+		KBN = { annex_country = { target = CAU } }
+		233 = { add_core_of = KBN }
+		231 = { add_core_of = KBN }
+		230 = { add_core_of = KBN }
+		229 = { add_core_of = KBN }
 	}
 }
 
@@ -374,7 +374,7 @@ country_event = {
 	
 	option = {
 		name = kuban.15.a
-		KUB = { declare_war_on = { target = CAU type = annex_everything } }
+		KBN = { declare_war_on = { target = CAU type = annex_everything } }
 	}
 }
 
@@ -412,12 +412,12 @@ country_event = {
 		217 = {
 			create_unit = {
 				division = "name = \"Первая немецкая Казачья\" division_template = \"Немецкая Казачья дивизия\" start_experience_factor = 0.5 start_equipment_factor = 1"
-				owner = KUB
+				owner = KBN
 				prioritize_location = 9417
 			}
 			create_unit = {
 				division = "name = \"Вторая немецкая Казачья\" division_template = \"Немецкая Казачья дивизия\" start_experience_factor = 0.5 start_equipment_factor = 1"
-				owner = KUB
+				owner = KBN
 				prioritize_location = 9417
 			}
 		}
@@ -434,8 +434,8 @@ country_event = {
 	
 	trigger = {
 		date > 1937.6.20
-		country_exists = KUB
-		tag = KUB
+		country_exists = KBN
+		tag = KBN
 	}
 	
 	option = {
@@ -462,7 +462,7 @@ country_event = {
 	
 	option = {
 		name = kuban.18.a
-		ENG = { add_to_faction = KUB }
+		ENG = { add_to_faction = KBN }
 	}
 }
 
@@ -498,22 +498,22 @@ country_event = {
 	
 	trigger = {
 		date > 1938.6.10
-		country_exists = KUB
-		tag = KUB
+		country_exists = KBN
+		tag = KBN
 	}
 	
 	option = {
 		name = kuban.20.a
 		add_opinion_modifier = {
 			target = ITA
-			modifier = KUB_like_piza
+			modifier = KBN_like_piza
 		}
 	}
 	option = {
 		name = kuban.20.b
 		add_opinion_modifier = {
 			target = ITA
-			modifier = KUB_dislike_piza
+			modifier = KBN_dislike_piza
 		}
 	}
 }
@@ -528,8 +528,8 @@ country_event = {
 	
 	trigger = {
 		date > 1938.11.20
-		country_exists = KUB
-		tag = KUB
+		country_exists = KBN
+		tag = KBN
 	}
 	
 	option = {
@@ -553,7 +553,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		tag = KUB
+		tag = KBN
 	}
 	
 	option = {
@@ -587,10 +587,10 @@ country_event = {
 	picture = GFX_shevtsov
 	
 	trigger = {
-		tag = KUB
-		192 = { is_controlled_by = KUB }
+		tag = KBN
+		192 = { is_controlled_by = KBN }
 		192 = { is_owned_by = SOV }
-		SOV = { has_war_with = KUB }
+		SOV = { has_war_with = KBN }
 	}
 	
 	fire_only_once = yes
@@ -600,8 +600,8 @@ country_event = {
 	}
 	option = {
 		name = kuban.24.b
-		custom_effect_tooltip = KUB_plus_shevtsov_tt
-		set_country_flag = KUB_plus_shevtsov
+		custom_effect_tooltip = KBN_plus_shevtsov_tt
+		set_country_flag = KBN_plus_shevtsov
 	}
 }
 
@@ -614,18 +614,18 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		tag = KUB
-		198 = { is_controlled_by = KUB }
+		tag = KBN
+		198 = { is_controlled_by = KBN }
 		198 = { is_owned_by = SOV }
-		SOV = { has_war_with = KUB }
+		SOV = { has_war_with = KBN }
 	}
 	
 	immediate = { play_song = "VI_KA" }
 	
 	option = {
 		name = kuban.25.a
-		custom_effect_tooltip = KUB_plus_papicheski_tt
-		set_country_flag = KUB_plus_papicheski
+		custom_effect_tooltip = KBN_plus_papicheski_tt
+		set_country_flag = KBN_plus_papicheski
 	}
 }
 
@@ -640,13 +640,13 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		tag = KUB
+		tag = KBN
 	}
 	
 	option = {
 		name = kuban.26.a
-		set_cosmetic_tag = KUB_russia_united
-		add_ideas = KUB_Andrei_I
+		set_cosmetic_tag = KBN_russia_united
+		add_ideas = KBN_Andrei_I
 		217 = { set_state_name = "Царицын" }
 		195 = { set_state_name = "Петроград" }
 		228 = { set_state_name = "Луганск" }
@@ -654,7 +654,7 @@ country_event = {
 		set_province_name = { id = 3151 name = "Петроград" }
 		set_province_name = { id = 3134 name = "Романов-на-Муроме" }
 		set_province_name = { id = 9461 name = "Луганск" }
-		set_capital = 195
+		set_capital  = { state = 195 }
 	}
 }
 
@@ -662,14 +662,14 @@ country_event = {
 	id = kuban.27
 	title = kuban.27.t
 	desc = kuban.27.d
-	picture = GFX_event_KUB_dog
+	picture = GFX_event_KBN_dog
 	
 	fire_only_once = yes
 	
 	trigger = {
 		date > 1937.7.4
-		country_exists = KUB
-		tag = KUB
+		country_exists = KBN
+		tag = KBN
 	}
 	
 	option = {

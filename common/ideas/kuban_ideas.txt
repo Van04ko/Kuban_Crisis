@@ -4,13 +4,13 @@ ideas = {
 		law = yes
 		use_list_view = yes
 		
-		KUB_conscription_1 = {
+		KBN_conscription_1 = {
 		
 			allowed = {
-				original_tag = KUB
+				original_tag = KBN
 			}
 
-			picture = KUB_conscription_1
+			picture = KBN_conscription_1
 
 			modifier = {
 				conscription = 0.02
@@ -21,13 +21,13 @@ ideas = {
 			removal_cost = -1
 			level = 1
 		}
-		KUB_conscription_2 = {
+		KBN_conscription_2 = {
 		
 			allowed = {
-				original_tag = KUB
+				original_tag = KBN
 			}
 
-			picture = KUB_conscription_2
+			picture = KBN_conscription_2
 
 			modifier = {
 				conscription = 0.1
@@ -38,13 +38,13 @@ ideas = {
 			removal_cost = -1
 			level = 2
 		}
-		KUB_conscription_3 = {
+		KBN_conscription_3 = {
 		
 			allowed = {
-				original_tag = KUB
+				original_tag = KBN
 			}
 
-			picture = KUB_conscription_3
+			picture = KBN_conscription_3
 
 			modifier = {
 				conscription = 0.2
@@ -59,7 +59,7 @@ ideas = {
 	
 	country = {
 		
-		KUB_kuban_revanchism = {
+		KBN_kuban_revanchism = {
 			
 			picture = chi_war_of_resistance3
 			
@@ -67,7 +67,7 @@ ideas = {
 				surrender_limit = 0.1
 			}
 		}
-		KUB_kuban_secret_police_idea = {
+		KBN_kuban_secret_police_idea = {
 			
 			picture = air_war_plans_division_focus
 			
@@ -76,7 +76,7 @@ ideas = {
 				operative_slot = 1
 			}
 		}
-		KUB_political_crisis = {
+		KBN_political_crisis = {
 			
 			picture = generic_disjointed_gov
 			
@@ -84,7 +84,7 @@ ideas = {
 				political_power_factor = -0.1
 			}
 		}
-		KUB_strengthening_policy_Rybnikov = {
+		KBN_strengthening_policy_Rybnikov = {
 			
 			picture = generic_monarchist_uprising
 			
@@ -92,7 +92,7 @@ ideas = {
 				neutrality_drift = 0.05
 			}
 		}
-		KUB_strengthening_policy_Vatop = {
+		KBN_strengthening_policy_Vatop = {
 			
 			picture =ger_bulwark_against_bolshevism
 			
@@ -100,7 +100,7 @@ ideas = {
 				democratic_drift = 0.05
 			}
 		}
-		KUB_Pale_Settlement_canseled = {
+		KBN_Pale_Settlement_canseled = {
 			
 			picture = generic_local_self_management
 			
@@ -110,7 +110,7 @@ ideas = {
 				production_speed_buildings_factor = 0.2
 			}
 		}
-		KUB_old_orders = {
+		KBN_old_orders = {
 			
 			picture = generic_king_handled
 			
@@ -118,7 +118,7 @@ ideas = {
 				production_speed_buildings_factor = -0.05
 			}
 		}
-		KUB_cosacks_struggle = {
+		KBN_cosacks_struggle = {
 			
 			picture = chi_wargaming_division
 			
@@ -130,7 +130,7 @@ ideas = {
 				attack_bonus_against = 0.05
 			}
 		}
-		KUB_our_way_idea = {
+		KBN_our_way_idea = {
 			
 			picture = ast_volunteer_defence_corps
 			
@@ -139,7 +139,7 @@ ideas = {
 				defense_bonus_against  = 0.05
 			}
 		}
-		KUB_Andrei_I = {
+		KBN_Andrei_I = {
 			
 			picture = Andrei_I
 			
@@ -149,7 +149,7 @@ ideas = {
 				trade_opinion_factor = 0.2
 			}
 		}
-		KUB_black_sea = {
+		KBN_black_sea = {
 			
 			picture = generic_navy_bonus
 			
@@ -170,7 +170,7 @@ ideas = {
 				}
 			}
 		}
-		KUB_sloboda_conscription_1 = {
+		KBN_sloboda_conscription_1 = {
 			
 			picture = generic_manpower_bonus
 			
@@ -178,7 +178,7 @@ ideas = {
 				conscription = 0.025
 			}
 		}
-		KUB_sloboda_conscription_2 = {
+		KBN_sloboda_conscription_2 = {
 			
 			picture = FRA_national_mobilization_focus
 			
@@ -187,7 +187,7 @@ ideas = {
 				conscription = 0.05
 			}
 		}
-		KUB_bad_q_micro = {
+		KBN_bad_q_micro = {
 			
 			picture = Kubanskoe_Mikrofonostroenie
 			
@@ -199,109 +199,18 @@ ideas = {
 			}
 		}
 	}
-
-	political_advisor = {
-		
-		KUB_Boris_Boyarshinov = {
-
-			picture = KUB_Boris_Boyarshinov
-
-			allowed = {
-				original_tag = KUB
-			}
-			
-			traits = { schizophrenia_fighter }
-		}
-		KUB_Ubermarginal = {
-
-			picture = KUB_Ubermarginal
-
-			allowed = {
-				original_tag = KUB
-			}
-			
-			traits = { kukech }
-		}
-		KUB_Grigory_Bazhenov = {
-
-			picture = KUB_Grigory_Bazhenov
-
-			allowed = {
-				original_tag = KUB
-			}
-			
-			traits = { Rna_cist }
-		}
-		KUB_Mikhail_Svetov = {
-
-			picture = KUB_Mikhail_Svetov
-
-			allowed = {
-				original_tag = KUB
-			}
-			
-			traits = { mr_traheya }
-		}
-		KUB_Yuri_Rybnikov = {
-
-			picture = KUB_Yuri_Rybnikov
-
-			allowed = {
-				original_tag = KUB
-			}
-			
-			cost = 250
-			
-			traits = { greate_schiz }
-		}
-		KUB_Cover = {
-
-			picture = KUB_Cover
-
-			allowed = {
-				original_tag = KUB
-			}
-			
-			traits = { mr_birobidzhan }
-		}
-		KUB_Sarmat = {
-
-			picture = KUB_Sarmat
-
-			allowed = {
-				original_tag = KUB
-			}
-			
-			cost = 200
-			
-			traits = { sarmat }
-		}
-		KUB_Iron_Dimon = {
-
-			picture = KUB_Iron_Dimon
-
-			allowed = {
-				original_tag = KUB
-			}
-			
-			cost = 250
-			
-			traits = { no_survivors }
-		}
-	}
-	
 	industrial_concern = {
 		
 		itpedia_idea = {
 			
-			picture = KUB_Shevtsov
+			picture = KBN_Shevtsov
 
 			allowed = {
-				original_tag = KUB
+				original_tag = KBN
 			}
 			
 			visible = {
-				has_country_flag = KUB_plus_shevtsov
+				has_country_flag = KBN_plus_shevtsov
 			}
 			
 			cost = 150
@@ -318,12 +227,12 @@ ideas = {
 	
 		designer = yes
 	
-		KUB_naval_WT = {
+		KBN_naval_WT = {
 			
 			picture = WT
 
 			allowed = {
-				original_tag = KUB
+				original_tag = KBN
 			}
 			
 			cost = 150
@@ -335,12 +244,12 @@ ideas = {
 			
 			traits = { naval_manufacturer }
 		}
-		KUB_naval_WoS = {
+		KBN_naval_WoS = {
 			
 			picture = WoS
 
 			allowed = {
-				original_tag = KUB
+				original_tag = KBN
 			}
 			
 			cost = 150
@@ -367,7 +276,7 @@ ideas = {
 			picture = WT
 
 			allowed = {
-				original_tag = KUB
+				original_tag = KBN
 			}
 			
 			cost = 150
@@ -384,15 +293,11 @@ ideas = {
 			picture = WoP
 
 			allowed = {
-				original_tag = KUB
+				original_tag = KBN
 			}
 			
 			cost = 150
 			removal_cost = 10
-			
-			modifier = {
-				consumer_goods_factor = 0.05
-			}
 			
 			modifier = {
 				consumer_goods_factor = 0.05
@@ -415,7 +320,7 @@ ideas = {
 			picture = WT
 			
 			allowed = {
-				original_tag = KUB
+				original_tag = KBN
 			}
 			
 			cost = 150
@@ -432,7 +337,7 @@ ideas = {
 			picture = WoT
 			
 			allowed = {
-				original_tag = KUB
+				original_tag = KBN
 			}
 			
 			cost = 150
@@ -452,12 +357,12 @@ ideas = {
 	
 	army_chief = {
 		
-		KUB_ebbe_gortz = {
+		KBN_ebbe_gortz = {
 			
 			picture = generic_army_europe_1
 			
 			allowed = {
-				original_tag = KUB
+				original_tag = KBN
 			}
 			
 			traits = { army_chief_offensive_2 }
@@ -466,16 +371,16 @@ ideas = {
 				factor = 1
 			}
 		}
-		KUB_Papich = {
+		KBN_Papich = {
 
-			picture = KUB_Papich
+			picture = KBN_Papich
 
 			allowed = {
-				original_tag = KUB
+				original_tag = KBN
 			}
 			
 			visible = {
-				has_country_flag = KUB_plus_papicheski
+				has_country_flag = KBN_plus_papicheski
 			}
 			
 			cost = 300
@@ -487,12 +392,12 @@ ideas = {
 	navy_chief = {
 		
 
-		KUB_carl_hammerich = {
+		KBN_carl_hammerich = {
 			
 			picture = generic_navy_europe_1
 			
 			allowed = {
-				original_tag = KUB
+				original_tag = KBN
 			}
 			
 
@@ -507,12 +412,12 @@ ideas = {
 	
 	air_chief = {
 		
-		KUB_paul_sommer = {
+		KBN_paul_sommer = {
 			
 			picture = generic_air_europe_2
 			
 			allowed = {
-				original_tag = KUB
+				original_tag = KBN
 			}
 			
 
@@ -528,13 +433,13 @@ ideas = {
 
 	high_command = {
 
-		KUB_hans_a_rolsted = {
+		KBN_hans_a_rolsted = {
 			ledger = army
 			
 			picture = generic_army_europe_4
 
 			allowed = {
-				original_tag = KUB
+				original_tag = KBN
 			}
 			
 			traits = { army_artillery_3 }
@@ -543,14 +448,14 @@ ideas = {
 				factor = 1
 			}
 		}
-		KUB_valakas = {
+		KBN_valakas = {
 		
 			ledger = army
 			
 			picture = valakas
 
 			allowed = {
-				original_tag = KUB
+				original_tag = KBN
 			}
 			
 			traits = { army_armored_3 }
@@ -559,14 +464,14 @@ ideas = {
 				factor = 1
 			}
 		}
-		KUB_Ivan_Kyrylenko = {
+		KBN_Ivan_Kyrylenko = {
 		
 			ledger = army
 			
 			picture = Ivan_Kyrylenko
 
 			allowed = {
-				original_tag = KUB
+				original_tag = KBN
 			}
 			
 			traits = { kyrylenko }
@@ -578,13 +483,13 @@ ideas = {
 	}
 
 	theorist = {
-		KUB_william_wain_prior = {
+		KBN_william_wain_prior = {
 			ledger = army
 			
 			picture = generic_army_europe_3
 
 			allowed = {
-				original_tag = KUB
+				original_tag = KBN
 			}
 			
 			research_bonus = {
@@ -593,13 +498,13 @@ ideas = {
 			
 			traits = { military_theorist }
 		}
-		KUB_hans_lunding = {
+		KBN_hans_lunding = {
 			ledger = navy
 
 			picture = generic_navy_europe_1
 			
 			allowed = {
-				original_tag = KUB
+				original_tag = KBN
 			}
 			
 			research_bonus = {
@@ -615,13 +520,13 @@ ideas = {
 	
 		designer = yes
 		
-		htk_orlogsvaerftet = {
+		KBN_htk_orlogsvaerftet = {
 			
 			picture = generic_air_manufacturer_3
 
 			
 			allowed = {
-				original_tag = KUB
+				original_tag = KBN
 			}
 			
 			research_bonus = {
@@ -642,13 +547,13 @@ ideas = {
 		
 		designer = yes
 		
-		burmeister_wain = {
+		KBN_burmeister_wain = {
 			
 			picture = generic_naval_manufacturer_1
 
 			
 			allowed = {
-				original_tag = KUB
+				original_tag = KBN
 			}
 			
 			research_bonus = {
@@ -663,13 +568,13 @@ ideas = {
 			
 		designer = yes
 		
-		disa = {
+		KBN_disa = {
 			
 			picture = generic_infantry_equipment_manufacturer_2
 
 			
 			allowed = {
-				original_tag = KUB
+				original_tag = KBN
 			}
 			
 			research_bonus = {

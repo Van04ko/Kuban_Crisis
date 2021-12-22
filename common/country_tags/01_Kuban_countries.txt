@@ -1,2 +1,2 @@
-KUB	= "countries/Kuban.txt"
+KBN	= "countries/Kuban.txt"
 CAU	= "countries/Caucasus.txt"
