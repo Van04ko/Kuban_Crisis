@@ -5,8 +5,24 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/KBN/focus_KBN_tempale.png"	
 	}
 	
-
-
+	
+	spriteType = {
+		name = "GFX_Rubnyakov"
+		texturefile = "gfx/leaders/KBN/Rubnyakov.png"
+    }
+	
+	spriteType = {
+		name = "GFX_Vatoadmin"
+		texturefile = "gfx/leaders/KBN/Vatoadmin.png"
+    }
+	spriteType = {
+		name = "GFX_Vatop"
+		texturefile = "gfx/leaders/KBN/Vatop.png"
+    }
+	
+	
+	
+	
 	SpriteType = {
 		name = "GFX_focus_KBN_Kubanskoe_Mikrofonostroenie"
 		texturefile = "gfx/interface/goals/KBN/focus_KBN_Kubanskoe_Mikrofonostroenie.png"	
@@ -303,24 +319,6 @@ spriteTypes = {
 	}
 	
 	
-	
-	
-	SpriteType = {
-		name = "GFX_focus_Return_lands_bal"
-		texturefile = "gfx/interface/goals/KBN/Return_lands_bal.png"	
-	}
-	SpriteType = {
-		name = "GFX_focus_Return_lands_fin"
-		texturefile = "gfx/interface/goals/KBN/Return_lands_fin.png"
-	}
-	SpriteType = {
-		name = "GFX_focus_Return_lands_tur"
-		texturefile = "gfx/interface/goals/KBN/Return_lands_tur.png"
-	}
-	SpriteType = {
-		name = "GFX_focus_kolchak"
-		texturefile = "gfx/interface/goals/KBN/kolchak.png"
-	}
 	
 	
 	SpriteType = {

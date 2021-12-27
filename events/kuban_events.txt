@@ -48,7 +48,7 @@ country_event = {
 		create_country_leader = {
 			name = "Alexei Rubnyakov"
 			desc = "Rubnyakov_DESC"
-			picture = "Rubnyakov.png"
+			picture = "gfx/leaders/KBN/Rubnyakov.png"
 			expire = "1965.1.1"
 			ideology = despotism
 			traits = {
@@ -59,23 +59,22 @@ country_event = {
 	option = {
 		name = kuban.3.b
 		complete_national_focus = KBN_Vatop
-			set_politics = {
-				ruling_party = democratic
-				elections_allowed = yes
-			}
-			set_political_party = {
-				ideology = democratic
-				popularity = 25
-			}
-		create_country_leader = {
-			name = "Vatop"
-			desc = "Vatop_DESC"
-			picture = "Vatop.png"
-			expire = "1965.1.1"
-			ideology = liberalism
-			traits = {
-				
-			}
+		set_politics = {
+			ruling_party = democratic
+			elections_allowed = yes
+		}
+		set_political_party = {
+			ideology = democratic
+			popularity = 25
+		}
+		set_country_leader_ideology = liberalism
+		set_country_leader_name = {
+			ideology = democratic
+			name = KBN_Vatop
+		}
+		set_country_leader_portrait = {
+			ideology = democratic
+			portrait = GFX_Vatop
 		}
 	}
 }

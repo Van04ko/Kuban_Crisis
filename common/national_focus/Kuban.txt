@@ -494,6 +494,130 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = KBN_Return_old_lands
+		icon = GFX_focus_SOV_the_true_tsars
+		relative_position_id = KBN_The_rebirth_power_of_Russia
+		prerequisite = { focus = KBN_The_rebirth_power_of_Russia }
+		
+		available = {
+			
+		}
+		
+		x = 0
+		y = 1
+		cost = 5
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = KBN_Return_baltic_lands
+		icon = GFX_focus_Return_lands_bal
+		relative_position_id = KBN_The_rebirth_power_of_Russia
+		prerequisite = { focus = KBN_Return_old_lands }
+		
+		available = {
+			
+		}
+		
+		x = -2
+		y = 2
+		cost = 5
+		completion_reward = {
+			create_wargoal = {
+				target = LIT
+				type = annex_everything
+			}
+			create_wargoal = {
+				target = LAT
+				type = annex_everything
+			}
+			create_wargoal = {
+				target = EST
+				type = annex_everything
+			}
+			every_state = {
+				limit = {
+					OR = {
+						is_core_of = LIT
+						is_core_of = LAT
+						is_core_of = EST
+					}
+				}
+				add_claim_by = KBN
+			}
+		}
+	}
+	focus = {
+		id = KBN_Return_fin_lands
+		icon = GFX_focus_Return_lands_fin
+		relative_position_id = KBN_The_rebirth_power_of_Russia
+		prerequisite = { focus = KBN_Return_old_lands }
+		
+		available = {
+			
+		}
+		
+		x = 0
+		y = 2
+		cost = 5
+		completion_reward = {
+			create_wargoal = {
+				target = FIN
+				type = annex_everything
+			}
+			every_state = {
+				limit = {
+					OR = {
+						is_core_of = FIN
+					}
+				}
+				add_claim_by = KBN
+			}
+		}
+	}
+	focus = {
+		id = KBN_Return_tur_lands
+		icon = GFX_focus_Return_lands_tur
+		relative_position_id = KBN_The_rebirth_power_of_Russia
+		prerequisite = { focus = KBN_Return_old_lands }
+		
+		available = {
+			
+		}
+		
+		x = 2
+		y = 2
+		cost = 5
+		completion_reward = {
+			create_wargoal = {
+				target = TUR
+				type = annex_everything
+			}
+			797 = { add_claim_by = KBN }
+		}
+	}
+	focus = {
+		id = KBN_kolchak_revenge
+		icon = GFX_focus_kolchak
+		relative_position_id = KBN_The_rebirth_power_of_Russia
+		prerequisite = { focus = KBN_Return_baltic_lands focus = KBN_Return_fin_lands focus = KBN_Return_tur_lands }
+		
+		available = {
+			
+		}
+		
+		x = 0
+		y = 3
+		cost = 5
+		completion_reward = {
+			create_wargoal = {
+				target = FRA
+				type = annex_everything
+			}
+		}
+	}
+	focus = {
 		id = KBN_Great_Kuban_democracy
 		icon = GFX_focus_Velikaya_Kubanskaya_Demokratia
 		relative_position_id = KBN_Our_land

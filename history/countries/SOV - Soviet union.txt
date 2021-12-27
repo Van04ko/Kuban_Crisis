@@ -817,6 +817,11 @@ add_ideas = {
 	SOV_genrikh_yagoda #NKVD Chief (political advisor)
 }
 
+	set_autonomy = {
+		target = CAU
+		autonomous_state = autonomy_integrated_puppet
+	}
+
 1939.1.1 = {
 
 	add_political_power = 1198

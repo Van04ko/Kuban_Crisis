@@ -20,7 +20,11 @@ recruit_character = KBN_Cover
 recruit_character = KBN_Sarmat
 recruit_character = KBN_Iron_Dimon
 
-recruit_character = itpedia_idea
+recruit_character = KBN_itpedia
+
+recruit_character = KBN_Ivan_Kyrylenko
+recruit_character = KBN_valakas
+recruit_character = KBN_Papich
 
 
 

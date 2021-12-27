@@ -1,10 +1,18 @@
 ﻿l_russian:
 
  KBN_Vatoadmin:0 "Ватоадмин Ватоадмин"
+ 
+ KBN_Vatop:0 "Ватоп"
+ 
+ KBN_Stas_Pidoras:0 "Ай как Крыса"
+ 
  KBN_Pyotr_Popov:0 "Пётр Попов"
  KBN_Alexei_Kaledin:0 "Алексей Калёдин"
  KBN_African_Bogaevsky:0 "Африкан Богаевский"
  KBN_Vladimir_Mai_Maevsky:0 "Владимир Май-Маевский"
+
+
+ KBN_GATHERING_STORM_DESC:0 "После гражданской войны Кубань осталась последним осколком белого движения на территории России. Вам предстоит пройти весь путь от поднятия кубанского микрофоностроения до полной победы белого движения. \n\n Удачной игры!"
 
  #Косметик Тэг
  
@@ -124,6 +132,12 @@
  KBN_holy_war:0 "§YСвященная Война§!"
  KBN_strike_back:0 "Удар в спину"
  KBN_The_rebirth_power_of_Russia:0 "Возрождение былой Славы России"
+ 
+ KBN_Return_old_lands:0 "Возвращение русских земель"
+ KBN_Return_baltic_lands:0 "Балтийские губернии"
+ KBN_Return_fin_lands:0 "Великое княжество Финляндское"
+ KBN_Return_tur_lands:0 "Царьград"
+ KBN_kolchak_revenge:0 "Месть за выдачу Колчака"
  
  KBN_Great_Kuban_democracy:0 "Великая Кубанская Демократия"
  KBN_Eternal_struggle:0 "Вечная борьба"

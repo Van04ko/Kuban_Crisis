@@ -169,13 +169,16 @@ bookmarks = {
 			}	
 		}
 		"KBN"={
-			history = "SOV_GATHERING_STORM_DESC"
+			history = "KBN_GATHERING_STORM_DESC"
 			ideology = neutrality
 			ideas = {
-				
+				KBN_conscription_1
+				KBN_bad_q_micro
 			}
 			focuses = {
-				
+				KBN_The_rebirth_power_of_Russia
+				KBN_Kazaks_of_all_Rus
+				KBN_The_rebirth_republic_of_Russia
 			}	
 		}
 

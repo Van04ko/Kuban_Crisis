@@ -3,6 +3,13 @@ on_actions = {
 	on_startup = {
 		effect = {
 			KBN = { country_event = { id = kuban.23 } }
+			
+			SOV = {
+				set_country_leader_name = {
+					ideology = communism
+					name = KBN_Stas_Pidoras
+				}
+			}
 		}
 	}
 }

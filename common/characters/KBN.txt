@@ -338,7 +338,7 @@ characters = {
 		}
 	}
 	
-	itpedia_idea = {
+	KBN_itpedia = {
 		name = itpedia_idea
 		portraits = {
 			army = {
@@ -353,6 +353,62 @@ characters = {
 				original_tag = KBN
 			}
 			traits = { itpedia }
+		}
+	}
+	
+	KBN_Ivan_Kyrylenko = {
+		name = KBN_Ivan_Kyrylenko
+		portraits = {
+			army = {
+				small="GFX_idea_Ivan_Kyrylenko"
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = KBN_Ivan_Kyrylenko
+			ledger = army
+			allowed = {
+				original_tag = KBN
+			}
+			traits = { kyrylenko }
+		}
+	}
+	KBN_valakas = {
+		name = KBN_valakas
+		portraits = {
+			army = {
+				small="GFX_idea_valakas"
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = KBN_valakas
+			ledger = army
+			allowed = {
+				original_tag = KBN
+			}
+			traits = { army_armored_3 }
+		}
+	}
+	KBN_Papich = {
+		name = KBN_Papich
+		portraits = {
+			army = {
+				small="GFX_idea_KBN_Papich"
+			}
+		}
+		advisor = {
+			cost = 300
+			slot = army_chief
+			idea_token = KBN_Papich
+			ledger = army
+			allowed = {
+				original_tag = KBN
+			}
+			visible = {
+				has_country_flag = KBN_plus_papicheski
+			}
+			traits = { arthas }
 		}
 	}
 }

@@ -1,8 +1,10 @@
-version="1.10.8"
+version="1.11.4"
 tags={
 	"National Focuses"
 	"Map"
 	"Alternative History"
 }
 name="Kuban Crisis"
-supported_version="1.10.8"
+picture="thumbnail.png"
+supported_version="1.11.4"
+remote_file_id="2695012353"
