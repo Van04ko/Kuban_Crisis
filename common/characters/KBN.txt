@@ -337,7 +337,23 @@ characters = {
 			traits = { no_survivors }
 		}
 	}
-	
+	KBN_Ozon = {
+		name = KBN_Ozon
+		portraits = {
+			army = {
+				small="GFX_idea_KBN_Ozon"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = Ozon
+			cost = 150
+			allowed = {
+				original_tag = KBN
+			}
+			traits = { Ozon }
+		}
+	}
 	KBN_itpedia = {
 		name = itpedia_idea
 		portraits = {

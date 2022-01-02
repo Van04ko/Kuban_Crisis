@@ -684,3 +684,31 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = kuban.28
+	title = kuban.28.t
+	desc = kuban.28.d
+	picture = GFX_aOruss
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = kuban.28.a
+		every_state = {
+			limit = {
+				if = {
+					is_owned_by = SOV
+				}
+				is_core_of = UKR
+			}
+			remove_building = {
+				type = industrial_complex
+				level = 1
+			}
+		}
+	}
+	
+}

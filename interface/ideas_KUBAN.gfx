@@ -40,6 +40,10 @@ spriteTypes = {
 		name = "GFX_idea_KBN_Papich"
 		texturefile = "gfx/interface/ideas/KBN/idea_KBN_Papich.dds"	
 	}
+	SpriteType = {
+		name = "GFX_idea_KBN_Ozon"
+		texturefile = "gfx/interface/ideas/KBN/idea_KBN_Ozon.png"	
+	}
 	
 	
 	

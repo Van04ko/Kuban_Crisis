@@ -282,6 +282,10 @@ spriteTypes = {
 		name = "GFX_ussr_war"
 		texturefile = "gfx/event_pictures/ussr_war.png"	
 	}
+	SpriteType = {
+		name = "GFX_aOruss"
+		texturefile = "gfx/event_pictures/aOruss.png"	
+	}
 	
 	
 	SpriteType = {
@@ -321,6 +325,15 @@ spriteTypes = {
 		name = "GFX_focus_kolchak"
 		texturefile = "gfx/interface/goals/KBN/kolchak.png"
 	}
+	SpriteType = {
+		name = "GFX_focus_pope"
+		texturefile = "gfx/interface/goals/KBN/pope.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_egor"
+		texturefile = "gfx/interface/goals/KBN/egor.png"
+	}
+	
 	
 	
 	SpriteType = {

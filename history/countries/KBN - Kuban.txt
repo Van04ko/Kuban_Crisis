@@ -25,6 +25,7 @@ recruit_character = KBN_itpedia
 recruit_character = KBN_Ivan_Kyrylenko
 recruit_character = KBN_valakas
 recruit_character = KBN_Papich
+recruit_character = KBN_Ozon
 
 
 

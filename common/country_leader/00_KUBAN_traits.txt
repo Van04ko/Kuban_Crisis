@@ -1,6 +1,14 @@
 leader_traits = {
 	
+	Ozon = {
 	
+		industrial_capacity_factory = 0.1
+		weekly_manpower = 500
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	kyrylenko = {
 	
 		fascism_drift = 0.1

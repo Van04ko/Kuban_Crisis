@@ -603,9 +603,7 @@ focus_tree = {
 		relative_position_id = KBN_The_rebirth_power_of_Russia
 		prerequisite = { focus = KBN_Return_baltic_lands focus = KBN_Return_fin_lands focus = KBN_Return_tur_lands }
 		
-		available = {
-			
-		}
+		available = { }
 		
 		x = 0
 		y = 3
@@ -615,6 +613,41 @@ focus_tree = {
 				target = FRA
 				type = annex_everything
 			}
+		}
+	}
+	focus = {
+		id = KBN_our_pope
+		icon = GFX_focus_pope
+		relative_position_id = KBN_The_rebirth_power_of_Russia
+		prerequisite = { focus = KBN_Return_baltic_lands focus = KBN_Return_fin_lands focus = KBN_Return_tur_lands }
+		
+		available = { }
+		
+		x = 2
+		y = 3
+		cost = 5
+		completion_reward = {
+			ITA = {
+				create_country_leader = {
+					name = "Наш (((Папа)))"
+					desc = "Rubnyakov_DESC"
+					picture = "gfx/leaders/ITA/our_pope.png"
+					expire = "1965.1.1"
+					ideology = despotism
+					traits = {  }
+				}
+				set_politics = {
+					ruling_party = neutrality
+					elections_allowed = no
+					last_election = "1921.12.17"
+					election_frequency = 48
+				}
+				add_popularity = {
+					ideology = neutrality
+					popularity = 0.5
+				}
+			}
+			puppet = ITA
 		}
 	}
 	focus = {
@@ -1019,7 +1052,19 @@ focus_tree = {
 			}
 		}
 	}
-
+	focus = {
+		id = KBN_egor
+		icon = GFX_focus_egor
+		relative_position_id = KBN_kuban_industrialization
+		prerequisite = { focus = KBN_last_frontier }
+		x = 0
+		y = 7
+		visible = { has_completed_focus = KBN_last_frontier }
+		cost = 10
+		completion_reward = {
+			country_event = { id = kuban.28 }
+		}
+	}
 	focus = {
 		id = KBN_kubanian_dockyard
 		icon = GFX_focus_kubanian_dockyard
@@ -1143,9 +1188,9 @@ focus_tree = {
 		cost = 5
 		completion_reward = {
 			army_experience = 10
-			add_tech_bonus = {
+			add_doctrine_cost_reduction = {
 				name = land_doc_bonus
-				bonus = 2.0
+				cost_reduction = 1
 				uses = 1
 				category = land_doctrine
 			}
@@ -1161,9 +1206,9 @@ focus_tree = {
 		cost = 10
 		completion_reward = {
 			army_experience = 25
-			add_tech_bonus = {
+			add_doctrine_cost_reduction = {
 				name = land_doc_bonus
-				bonus = 1.0
+				cost_reduction = 0.5
 				uses = 2
 				category = land_doctrine
 			}
@@ -1180,9 +1225,9 @@ focus_tree = {
 		cost = 10
 		completion_reward = {
 			army_experience = 25
-			add_tech_bonus = {
+			add_doctrine_cost_reduction = {
 				name = land_doc_bonus
-				bonus = 1.5
+				cost_reduction = 0.75
 				uses = 2
 				category = land_doctrine
 			}
@@ -1199,9 +1244,9 @@ focus_tree = {
 		cost = 10
 		completion_reward = {
 			army_experience = 50
-			add_tech_bonus = {
+			add_doctrine_cost_reduction = {
 				name = land_doc_bonus
-				bonus = 1.0
+				cost_reduction = 0.5
 				uses = 2
 				category = land_doctrine
 			}
@@ -1296,8 +1341,6 @@ focus_tree = {
 			add_ideas = KBN_sloboda_conscription_1
 		}
 	}
-	
-	
 	focus = {
 		id = KBN_Military_conscription_2
 		icon = GFX_focus_conscription_2
