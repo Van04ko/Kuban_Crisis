@@ -102,9 +102,27 @@ spriteTypes = {
 		texturefile = "gfx/interface/vata_logo.png"	
 	}
 	SpriteType = {
-		name = "GFX_idea_Kubanskoe_Mikrofonostroenie"
-		texturefile = "gfx/interface/ideas/KBN/idea_Kubanskoe_Mikrofonostroenie.png"	
+		name = "GFX_idea_Kubanskoe_Mikrofonostroenie_1"
+		texturefile = "gfx/interface/ideas/KBN/idea_Kubanskoe_Mikrofonostroenie_1.png"	
 	}
+	SpriteType = {
+		name = "GFX_idea_Kubanskoe_Mikrofonostroenie_2"
+		texturefile = "gfx/interface/ideas/KBN/idea_Kubanskoe_Mikrofonostroenie_2.png"	
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_krasnov_idea"
+		texturefile = "gfx/interface/ideas/KBN/krasnov_idea.png"	
+	}
+	SpriteType = {
+		name = "GFX_idea_krasnov_idea_buy"
+		texturefile = "gfx/interface/ideas/KBN/krasnov_idea_buy.png"	
+	}
+	SpriteType = {
+		name = "GFX_dynamic_modifiers_KBN_krasnov_state"
+		texturefile = "gfx/interface/dynamic_modifiers/KBN/krasnov_state.png"	
+	}
+	
 	
 	
 }

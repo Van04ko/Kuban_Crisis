@@ -5,6 +5,8 @@ set_naval_oob = "KBN_1936_naval_mtg"
 
 set_research_slots = 2
 
+set_variable = { KBN_lusich_var = 1 }
+
 recruit_character = KBN_Vatoadmin
 recruit_character = KBN_Pyotr_Popov
 recruit_character = KBN_Alexei_Kaledin

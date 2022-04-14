@@ -113,10 +113,12 @@ country_event = {
 	option = {
 		name = kuban.5.a
 		add_political_power = -100
+		country_event = { id = kuban.29 days = 14 }
 	}
 	option = {
 		name = kuban.5.b
 		add_stability = -0.05
+		country_event = { id = kuban.29 days = 14 }
 	}
 }
 
@@ -710,5 +712,211 @@ country_event = {
 			}
 		}
 	}
+}
+
+
+country_event = {
+	id = kuban.29
+	title = kuban.29.t
+	desc = kuban.29.d
+	picture = GFX_event_fantastish
 	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = kuban.29.a
+	}
+	option = {
+		name = kuban.29.b
+	}
+	option = {
+		name = kuban.29.c
+	}
+	option = {
+		name = kuban.29.g
+	}
+}
+
+country_event = {
+	id = kuban.30
+	title = kuban.30.t
+	desc = kuban.30.d
+	picture = GFX_event_Monument_Krasnov
+	
+	fire_only_once = yes
+	
+	trigger = {
+		date > 1937.12.13
+		country_exists = KBN
+		tag = KBN
+	}
+	
+	option = {
+		name = kuban.30.a
+		234 = {
+			add_dynamic_modifier = { modifier = KBN_Monument_Krasnov }
+		}
+		add_ideas = KBN_Monument_Krasnov
+		add_timed_idea = { idea = KBN_Monument_Krasnov_buy days = 90 }
+	}
+	option = {
+		name = kuban.30.b
+		add_war_support = -0.01
+		add_manpower = -1488
+	}
+}
+
+country_event = {
+	id = kuban.31
+	title = kuban.31.t
+	desc = kuban.31.d
+	picture = GFX_event_debatu
+	
+	fire_only_once = yes
+	
+	trigger = {
+		date > 1937.5.13
+		country_exists = KBN
+		tag = KBN
+	}
+	
+	option = {
+		name = kuban.31.a
+		add_stability = 0.05
+	}
+	option = {
+		name = kuban.31.b
+		add_political_power = 50
+	}
+}
+
+country_event = {
+	id = kuban.32
+	title = kuban.32.t
+	desc = kuban.32.d
+	picture = GFX_event_Monument_Krasnov
+	
+	fire_only_once = yes
+	
+	trigger = {
+		date > 1936.7.13
+		country_exists = KBN
+		tag = KBN
+	}
+	
+	option = {
+		name = kuban.32.a
+		add_political_power = -10
+	}
+	option = {
+		name = kuban.32.b
+		set_province_name = {
+			id = 3734
+			name = STATE_234_VATODAR
+		}
+		234 = { set_state_name = STATE_234_VATODAR }
+	}
+}
+
+country_event = {
+	id = kuban.33
+	title = kuban.33.t
+	desc = kuban.33.d
+	picture = GFX_event_debatu
+	
+	fire_only_once = yes
+	
+	trigger = {
+		date > 1936.10.13
+		country_exists = KBN
+		tag = KBN
+	}
+	
+	option = {
+		name = kuban.33.a
+		add_political_power = 75
+		add_stability = -0.05
+	}
+	option = {
+		name = kuban.33.b
+		add_political_power = -75
+		swap_ideas = {
+			remove_idea = KBN_bad_q_micro
+			add_idea = KBN_bad_q_micro_2
+		}
+	}
+	
+}
+
+
+country_event = {
+	id = kuban.34
+	title = kuban.34.t
+	desc = kuban.34.d
+	picture = GFX_event_ruske_fashisten
+	
+	fire_only_once = yes
+	
+	trigger = {
+		date > 1937.1.13
+		country_exists = KBN
+		tag = KBN
+	}
+	
+	option = {
+		name = kuban.34.a
+		add_political_power = -50
+	}
+	option = {
+		name = kuban.34.b
+		add_manpower = 1
+	}
+	
+}
+
+country_event = {
+	id = kuban.35
+	title = kuban.35.t
+	desc = kuban.35.d
+	picture = GFX_event_Stirlitz
+	
+	fire_only_once = yes
+	
+	trigger = {
+		date > 1938.3.13
+		country_exists = KBN
+		tag = KBN
+	}
+	
+	option = {
+		name = kuban.35.a
+		add_manpower = 1
+	}
+	option = {
+		name = kuban.35.b
+		add_manpower = -1
+	}
+	
+}
+
+country_event = {
+	id = kuban.36
+	title = kuban.36.t
+	desc = kuban.36.d
+	picture = GFX_event_microchlek
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = kuban.36.a
+		add_manpower = 1
+	}
+	option = {
+		name = kuban.36.b
+		add_political_power = -150
+	}
 }

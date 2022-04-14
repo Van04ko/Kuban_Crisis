@@ -305,6 +305,30 @@ spriteTypes = {
 		name = "GFX_event_KBN_dog"
 		texturefile = "gfx/event_pictures/dog.png"	
 	}
+	SpriteType = {
+		name = "GFX_event_fantastish"
+		texturefile = "gfx/event_pictures/fantastish.png"	
+	}
+	SpriteType = {
+		name = "GFX_event_Monument_Krasnov"
+		texturefile = "gfx/event_pictures/Monument_Krasnov.png"	
+	}
+	SpriteType = {
+		name = "GFX_event_debatu"
+		texturefile = "gfx/event_pictures/debatu.png"	
+	}
+	SpriteType = {
+		name = "GFX_event_microchlek"
+		texturefile = "gfx/event_pictures/microchlek.png"	
+	}
+
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	

@@ -1,7 +1,6 @@
-﻿##### Division Templates #####
-division_template = {
-	name = "Strelkovaya Diviziya"			# Rifle Division
-	division_names_group = SOV_INF_01
+﻿division_template = {
+	name = "Редкоземельная Дивизия"
+	division_names_group = KBN_INF_01
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -15,94 +14,110 @@ division_template = {
 		infantry = { x = 2 y = 2 }
 	}
 	support = {
-		#recon = { x = 0 y = 0 } 		# Recon bn had 16 L tanks, 10 ACs, 1x mot inf co #Eng and recon removed and they seem rather OP. Could revisit if balance changes
-		#engineer = { x = 0 y = 1 } 	# (semi-mot) Engineer bn
-		artillery = { x = 0 y = 0 } 	# Heavy Arty Regiment had 1x 152mm bn + 2x 122mm bn
-	}
-}
-
-division_template = {
-	name = "Gornostrelkovaya Diviziya"		# Mountain Division
-	division_names_group = SOV_MNT_01
-
-	regiments = {
-		mountaineers = { x = 0 y = 0 }	
-		mountaineers = { x = 0 y = 1 }
-		mountaineers = { x = 0 y = 2 }	
-		mountaineers = { x = 1 y = 0 }
-		mountaineers = { x = 1 y = 1 }
-		mountaineers = { x = 1 y = 2 }
-		mountaineers = { x = 2 y = 0 }	
-		mountaineers = { x = 2 y = 1 }	
-		mountaineers = { x = 2 y = 2 }	
-		mountaineers = { x = 3 y = 0 }	
-		mountaineers = { x = 3 y = 1 }	
-		mountaineers = { x = 3 y = 2 }	
-	}
-	support = {
-		engineer = { x = 0 y = 0 } 		# Engineer bn
-		artillery = { x = 0 y = 1 } 	# Heavy Arty Regiment had 2x 122mm bn
+		#recon = { x = 0 y = 0 }
+		#engineer = { x = 0 y = 1 }
+		artillery = { x = 0 y = 0 }
 	}
 }
 
 units = {
-	division= {	# "1ya Strelkovaya Diviziya"		
+	division= {
 		division_name = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 3734
-		division_template = "Strelkovaya Diviziya"
+		location = 6474
+		division_template = "Редкоземельная Дивизия"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.0
 	}
-	division= {	# "1ya Strelkovaya Diviziya"		
+	division= {
 		division_name = {
 			is_name_ordered = yes
 			name_order = 2
 		}
-		location = 3734
-		division_template = "Strelkovaya Diviziya"
+		location = 9417
+		division_template = "Редкоземельная Дивизия"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.0
 	}
-	division= {	# "1ya Strelkovaya Diviziya"		
+	division= {
 		division_name = {
 			is_name_ordered = yes
 			name_order = 3
 		}
-		location = 3734
-		division_template = "Strelkovaya Diviziya"
+		location = 11696
+		division_template = "Редкоземельная Дивизия"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.0
 	}
-	division= {	# "1ya Strelkovaya Diviziya"		
+	division= {
 		division_name = {
 			is_name_ordered = yes
 			name_order = 4
 		}
-		location = 3734
-		division_template = "Strelkovaya Diviziya"
+		location = 719
+		division_template = "Редкоземельная Дивизия"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.0
 	}
-	division= {	# "1ya Strelkovaya Diviziya"		
+	division= {
 		division_name = {
 			is_name_ordered = yes
 			name_order = 5
 		}
-		location = 3734
-		division_template = "Strelkovaya Diviziya"
+		location = 9753
+		division_template = "Редкоземельная Дивизия"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.0
 	}
-	division= {	# "1ya Strelkovaya Diviziya"		
+	division= {
 		division_name = {
 			is_name_ordered = yes
 			name_order = 6
 		}
+		location = 6486
+		division_template = "Редкоземельная Дивизия"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.0
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = 775
+		division_template = "Редкоземельная Дивизия"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.0
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		}
+		location = 3491
+		division_template = "Редкоземельная Дивизия"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.0
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 9
+		}
 		location = 3734
-		division_template = "Strelkovaya Diviziya"
+		division_template = "Редкоземельная Дивизия"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.0
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 10
+		}
+		location = 3734
+		division_template = "Редкоземельная Дивизия"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.0
 	}

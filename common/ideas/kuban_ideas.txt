@@ -58,7 +58,23 @@ ideas = {
 	}
 	
 	country = {
-		
+		KBN_Monument_Krasnov = {
+			
+			picture = krasnov_idea
+			
+			modifier = {
+				surrender_limit = 0.1
+				fascism_drift = 0.005
+			}
+		}
+		KBN_Monument_Krasnov_buy = {
+			
+			picture = krasnov_idea_buy
+			
+			modifier = {
+				consumer_goods_factor = 0.05
+			}
+		}
 		KBN_kuban_revanchism = {
 			
 			picture = chi_war_of_resistance3
@@ -189,13 +205,24 @@ ideas = {
 		}
 		KBN_bad_q_micro = {
 			
-			picture = Kubanskoe_Mikrofonostroenie
+			picture = Kubanskoe_Mikrofonostroenie_1
 			
 			modifier = {
 				
 			}
 			research_bonus = {
 				electronics = -0.3
+			}
+		}
+		KBN_bad_q_micro_2 = {
+			
+			picture = Kubanskoe_Mikrofonostroenie_2
+			
+			modifier = {
+				
+			}
+			research_bonus = {
+				electronics = -0.15
 			}
 		}
 	}

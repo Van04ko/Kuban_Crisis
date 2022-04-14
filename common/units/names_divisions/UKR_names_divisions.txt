@@ -1,0 +1,327 @@
+﻿KBN_INF_01 = {
+	name = "Infantry Divisions"
+
+	for_countries = { KBN }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { KBN_GAR_01 }
+
+	fallback_name = "%d-ая Кубанская Редкоземельная Дивизия"
+
+	ordered = {
+		1 = { "%d-ая Кубанская Редкоземельная Дивизия" }
+		2 = { "%d-ая Кубанская Редкоземельная Дивизия" }
+		3 = { "%d-ая Кубанская Редкоземельная Дивизия" }
+		4 = { "%d-ая Кубанская Редкоземельная Дивизия" }
+		5 = { "%d-ая Кубанская Редкоземельная Дивизия" }
+		6 = { "%d-ая Кубанская Редкоземельная Дивизия" }
+		7 = { "%d-ая Кубанская Редкоземельная Дивизия" }
+		8 = { "%d-ая Кубанская Редкоземельная Дивизия" }
+		9 = { "%d-ая Кубанская Редкоземельная Дивизия" }
+		10 = { "%d-ая Кубанская Редкоземельная Дивизия" }
+
+	}
+}
+
+KBN_CAV_01 = 
+{
+	name = "Cavalry Divisions"
+
+	for_countries = { KBN }
+
+	can_use = { always = yes }
+
+	division_types = { "cavalry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { KBN_INF_01 }
+
+	fallback_name = "%dya Ukrainska Kavaleriyskaya Div."
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%dya Ukrainska Kavaleriyskaya Div." }
+		2 = { "%dya Ukrainska Kavaleriyskaya Div." }
+		3 = { "%dya Ukrainska Kavaleriyskaya Div." }
+		4 = { "%dya Ukrainska Kavaleriyskaya Div." }
+		5 = { "%dya Ukrainska Kavaleriyskaya Div." }
+		6 = { "%dya Ukrainska Kavaleriyskaya Div." }
+		7 = { "%dya Ukrainska Kavaleriyskaya Div." }
+		8 = { "%dya Ukrainska Kavaleriyskaya Div." }
+		9 = { "%dya Ukrainska Kavaleriyskaya Div." }
+		10 = { "%dya Ukrainska Kavaleriyskaya Div." }
+
+	}
+}
+
+KBN_MOT_01 = {
+	name = "Motorised Divisions"
+
+	for_countries = { KBN }
+
+	can_use = { always = yes }
+
+	division_types = { "motorized" }
+
+	link_numbering_with = { KBN_INF_01 }
+
+	fallback_name = "%d-ая Кубанская Редкоземельная Дивизия"
+
+	ordered = {
+		1 = { "%d-ая Кубанская Редкоземельная Дивизия" }
+		2 = { "%d-ая Кубанская Редкоземельная Дивизия" }
+		3 = { "%d-ая Кубанская Редкоземельная Дивизия" }
+		4 = { "%d-ая Кубанская Редкоземельная Дивизия" }
+		5 = { "%d-ая Кубанская Редкоземельная Дивизия" }
+		6 = { "%d-ая Кубанская Редкоземельная Дивизия" }
+		7 = { "%d-ая Кубанская Редкоземельная Дивизия" }
+		8 = { "%d-ая Кубанская Редкоземельная Дивизия" }
+		9 = { "%d-ая Кубанская Редкоземельная Дивизия" }
+		10 = { "%d-ая Кубанская Редкоземельная Дивизия" }
+		11 = { "%d-ая Кубанская Редкоземельная Дивизия" }
+		12 = { "%d-ая Кубанская Редкоземельная Дивизия" }
+		13 = { "%d-ая Кубанская Редкоземельная Дивизия" }
+		14 = { "%d-ая Кубанская Редкоземельная Дивизия" }
+		15 = { "%d-ая Кубанская Редкоземельная Дивизия" }
+		16 = { "%d-ая Кубанская Редкоземельная Дивизия" }
+		17 = { "%d-ая Кубанская Редкоземельная Дивизия" }
+		18 = { "%d-ая Кубанская Редкоземельная Дивизия" }
+		19 = { "%d-ая Кубанская Редкоземельная Дивизия" }
+		20 = { "%d-ая Кубанская Редкоземельная Дивизия" }
+
+	}
+}
+
+KBN_KBN_01 = 
+{
+	name = "Armored Divisions"
+
+	for_countries = { KBN }
+
+	can_use = { always = yes }
+
+	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { KBN_INF_01 }
+
+	fallback_name = "%dya Ukrainska Tankovaya Div."
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%dya Ukrainska Tankovaya Div." }
+		2 = { "%dya Ukrainska Tankovaya Div." }
+		3 = { "%dya Ukrainska Tankovaya Div." }
+		4 = { "%dya Ukrainska Tankovaya Div." }
+		5 = { "%dya Ukrainska Tankovaya Div." }
+		6 = { "%dya Ukrainska Tankovaya Div." }
+		7 = { "%dya Ukrainska Tankovaya Div." }
+		8 = { "%dya Ukrainska Tankovaya Div." }
+		9 = { "%dya Ukrainska Tankovaya Div." }
+		10 = { "%dya Ukrainska Tankovaya Div." }
+
+	}
+}
+
+KBN_MEC_01 = 
+{
+	name = "Mechanized Divisions"
+
+	for_countries = { KBN }
+
+	can_use = { always = yes }
+
+	division_types = { "mechanized"  }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { KBN_INF_01 }
+
+	fallback_name = "%dya Ukrainska Motostrelkovaya Div."
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%dya Ukrainska Motostrelkovaya Div." }
+		2 = { "%dya Ukrainska Motostrelkovaya Div." }
+		3 = { "%dya Ukrainska Motostrelkovaya Div." }
+		4 = { "%dya Ukrainska Motostrelkovaya Div." }
+		5 = { "%dya Ukrainska Motostrelkovaya Div." }
+		6 = { "%dya Ukrainska Motostrelkovaya Div." }
+		7 = { "%dya Ukrainska Motostrelkovaya Div." }
+		8 = { "%dya Ukrainska Motostrelkovaya Div." }
+		9 = { "%dya Ukrainska Motostrelkovaya Div." }
+		10 = { "%dya Ukrainska Motostrelkovaya Div." }
+		11 = { "%dya Ukrainska Motostrelkovaya Div." }
+		12 = { "%dya Ukrainska Motostrelkovaya Div." }
+		13 = { "%dya Ukrainska Motostrelkovaya Div." }
+		14 = { "%dya Ukrainska Motostrelkovaya Div." }
+		15 = { "%dya Ukrainska Motostrelkovaya Div." }
+		16 = { "%dya Ukrainska Motostrelkovaya Div." }
+		17 = { "%dya Ukrainska Motostrelkovaya Div." }
+		18 = { "%dya Ukrainska Motostrelkovaya Div." }
+		19 = { "%dya Ukrainska Motostrelkovaya Div." }
+		20 = { "%dya Ukrainska Motostrelkovaya Div." }
+		21 = { "%dya Ukrainska Motostrelkovaya Div." }
+		22 = { "%dya Ukrainska Motostrelkovaya Div." }
+		23 = { "%dya Ukrainska Motostrelkovaya Div." }
+		24 = { "%dya Ukrainska Motostrelkovaya Div." }
+		25 = { "%dya Ukrainska Motostrelkovaya Div." }
+
+	}
+}
+
+KBN_GAR_01 = 
+{
+	name = "Garrison Divisions"
+
+	for_countries = { KBN }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { KBN_INF_01 }
+
+	fallback_name = "%d-ая Кубанская Редкоземельная Дивизия"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%d-ая Кубанская Редкоземельная Дивизия" }
+		2 = { "%d-ая Кубанская Редкоземельная Дивизия" }
+		3 = { "%d-ая Кубанская Редкоземельная Дивизия" }
+		4 = { "%d-ая Кубанская Редкоземельная Дивизия" }
+		5 = { "%d-ая Кубанская Редкоземельная Дивизия" }
+		6 = { "%d-ая Кубанская Редкоземельная Дивизия" }
+		7 = { "%d-ая Кубанская Редкоземельная Дивизия" }
+		8 = { "%d-ая Кубанская Редкоземельная Дивизия" }
+		9 = { "%d-ая Кубанская Редкоземельная Дивизия" }
+		10 = { "%d-ая Кубанская Редкоземельная Дивизия" }
+		11 = { "%d-ая Кубанская Редкоземельная Дивизия" }
+		12 = { "%d-ая Кубанская Редкоземельная Дивизия" }
+		13 = { "%d-ая Кубанская Редкоземельная Дивизия" }
+		14 = { "%d-ая Кубанская Редкоземельная Дивизия" }
+		15 = { "%d-ая Кубанская Редкоземельная Дивизия" }
+		16 = { "%d-ая Кубанская Редкоземельная Дивизия" }
+		17 = { "%d-ая Кубанская Редкоземельная Дивизия" }
+		18 = { "%d-ая Кубанская Редкоземельная Дивизия" }
+		19 = { "%d-ая Кубанская Редкоземельная Дивизия" }
+		20 = { "%d-ая Кубанская Редкоземельная Дивизия" }
+		21 = { "%d-ая Кубанская Редкоземельная Дивизия" }
+		22 = { "%d-ая Кубанская Редкоземельная Дивизия" }
+		23 = { "%d-ая Кубанская Редкоземельная Дивизия" }
+		24 = { "%d-ая Кубанская Редкоземельная Дивизия" }
+		25 = { "%d-ая Кубанская Редкоземельная Дивизия" }
+
+	}
+}
+
+KBN_MAR_01 = 
+{
+	name = "Marine Divisions"
+
+	for_countries = { KBN }
+
+	can_use = { always = yes }
+
+	division_types = { "marine" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { KBN_INF_01 }
+
+	fallback_name = "%dya Div. Morskoi Pekhoty"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%dya Div. Morskoi Pekhoty" }
+		2 = { "%dya Div. Morskoi Pekhoty" }
+		3 = { "%dya Div. Morskoi Pekhoty" }
+		4 = { "%dya Div. Morskoi Pekhoty" }
+		5 = { "%dya Div. Morskoi Pekhoty" }
+		6 = { "%dya Div. Morskoi Pekhoty" }
+		7 = { "%dya Div. Morskoi Pekhoty" }
+		8 = { "%dya Div. Morskoi Pekhoty" }
+		9 = { "%dya Div. Morskoi Pekhoty" }
+		10 = { "%dya Div. Morskoi Pekhoty" }
+
+	}
+}
+
+KBN_MTN_01 = 
+{
+	name = "Mountain Divisions"
+
+	for_countries = { KBN }
+
+	can_use = { always = yes }
+
+	division_types = { "mountaineers" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { KBN_INF_01 }
+
+	fallback_name = "%dya Gornostrelkovaya Div."
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%dya Gornostrelkovaya Div." }
+		2 = { "%dya Gornostrelkovaya Div." }
+		3 = { "%dya Gornostrelkovaya Div." }
+		4 = { "%dya Gornostrelkovaya Div." }
+		5 = { "%dya Gornostrelkovaya Div." }
+		6 = { "%dya Gornostrelkovaya Div." }
+		7 = { "%dya Gornostrelkovaya Div." }
+		8 = { "%dya Gornostrelkovaya Div." }
+		9 = { "%dya Gornostrelkovaya Div." }
+		10 = { "%dya Gornostrelkovaya Div." }
+
+	}
+}
+
+KBN_PAR_01 = 
+{
+	name = "Paratrooper Divisions"
+
+	for_countries = { KBN }
+
+	can_use = { always = yes }
+
+	division_types = { "paratrooper" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { KBN_INF_01 }
+
+	fallback_name = "%dya Vozdushno-Desantnaya Div."
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%dya Vozdushno-Desantnaya Div." }
+		2 = { "%dya Vozdushno-Desantnaya Div." }
+		3 = { "%dya Vozdushno-Desantnaya Div." }
+		4 = { "%dya Vozdushno-Desantnaya Div." }
+		5 = { "%dya Vozdushno-Desantnaya Div." }
+		6 = { "%dya Vozdushno-Desantnaya Div." }
+		7 = { "%dya Vozdushno-Desantnaya Div." }
+		8 = { "%dya Vozdushno-Desantnaya Div." }
+		9 = { "%dya Vozdushno-Desantnaya Div." }
+		10 = { "%dya Vozdushno-Desantnaya Div." }
+
+	}
+}

@@ -317,7 +317,24 @@ spriteTypes = {
 		name = "GFX_event_KBN_dog"
 		texturefile = "gfx/event_pictures/dog.png"	
 	}
+	SpriteType = {
+		name = "GFX_event_ruske_fashisten"
+		texturefile = "gfx/event_pictures/ruske_fashisten.png"	
+	}
+	SpriteType = {
+		name = "GFX_event_Stirlitz"
+		texturefile = "gfx/event_pictures/Stirlitz.png"	
+	}
 	
+	
+	
+	
+	spriteType = {
+		name = "GFX_dec_cat_lusich"
+		texturefile = "gfx/interface/decisions/lusich.png"
+		legacy_lazy_load = no
+		noOfFrames = 3	
+	}
 	
 	
 	

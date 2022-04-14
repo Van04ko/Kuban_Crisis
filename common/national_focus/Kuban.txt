@@ -21,7 +21,7 @@ focus_tree = {
 		icon = GFX_focus_paket_stimlov
 		x = 5
 		y = 0
-		cost = 10
+		cost = 7.2
 		completion_reward = {
 			234 = {
 				add_extra_state_shared_building_slots = 1
@@ -40,7 +40,7 @@ focus_tree = {
 		prerequisite = { focus = KBN_incentive_package }
 		x = -1
 		y = 1
-		cost = 10
+		cost = 7.2
 		completion_reward = {
 			add_ideas = KBN_kuban_secret_police_idea
 		}
@@ -52,7 +52,7 @@ focus_tree = {
 		prerequisite = { focus = KBN_incentive_package }
 		x = 1
 		y = 1
-		cost = 10
+		cost = 7.2
 		completion_reward = {
 			army_experience = 10
 			add_stability = 0.05
@@ -68,7 +68,7 @@ focus_tree = {
 		prerequisite = { focus = KBN_track_down_bolsheviks }
 		x = 0
 		y = 2
-		cost = 10
+		cost = 7.2
 		completion_reward = {
 			add_timed_idea = { idea = KBN_political_crisis days = 120 }
 		}
@@ -446,6 +446,7 @@ focus_tree = {
 		cost = 10
 		completion_reward = {
 			country_event = { id = kuban.19 }
+			country_event = { id = kuban.36 days = 30 }
 		}
 	}
 	focus = {
@@ -858,7 +859,7 @@ focus_tree = {
 		icon = GFX_focus_KBN_Prom
 		x = 20
 		y = 0
-		cost = 10
+		cost = 7.2
 		completion_reward = {
 			add_tech_bonus = {
 				name = industrial_bonus
@@ -875,7 +876,7 @@ focus_tree = {
 		prerequisite = { focus = KBN_kuban_industrialization }
 		x = -1
 		y = 1
-		cost = 10
+		cost = 7.2
 		completion_reward = {
 			236 = {
 				add_building_construction = {
@@ -901,7 +902,7 @@ focus_tree = {
 		prerequisite = { focus = KBN_kuban_industrialization }
 		x = 1
 		y = 1
-		cost = 10
+		cost = 7.2
 		completion_reward = {
 			236 = {
 				add_extra_state_shared_building_slots = 4
@@ -934,7 +935,7 @@ focus_tree = {
 		prerequisite = { focus = KBN_tsardom_factories }
 		x = 0
 		y = 2
-		cost = 10
+		cost = 7.2
 		completion_reward = {
 			234 = {
 				add_extra_state_shared_building_slots = 2
@@ -960,7 +961,18 @@ focus_tree = {
 		y = 3
 		cost = 10
 		completion_reward = {
-			remove_ideas = KBN_bad_q_micro
+			if = {
+				limit = {
+					has_idea = KBN_bad_q_micro
+				}
+				remove_ideas = KBN_bad_q_micro
+			}
+			if = {
+				limit = {
+					has_idea = KBN_bad_q_micro_2
+				}
+				remove_ideas = KBN_bad_q_micro_2
+			}
 			if = {
 				limit = {
 					NOT = { has_dlc = "La Resistance" }
@@ -1006,7 +1018,7 @@ focus_tree = {
 		prerequisite = { focus = KBN_infrastructure_modernization }
 		x = 0
 		y = 5
-		cost = 10
+		cost = 5
 		completion_reward = {
 			add_research_slot = 1
 		}
@@ -1018,7 +1030,7 @@ focus_tree = {
 		prerequisite = { focus = KBN_russian_research_dream }
 		x = 0
 		y = 6
-		cost = 10
+		cost = 5
 		completion_reward = {
 			234 = {
 				add_extra_state_shared_building_slots = 3
@@ -1059,7 +1071,6 @@ focus_tree = {
 		prerequisite = { focus = KBN_last_frontier }
 		x = 0
 		y = 7
-		visible = { has_completed_focus = KBN_last_frontier }
 		cost = 10
 		completion_reward = {
 			country_event = { id = kuban.28 }

@@ -1,0 +1,20 @@
+KBN_o_shit_i_sorry_cat = {
+	allowed = {
+		original_tag = KBN
+	}
+	visible = {
+		
+	}
+}
+KBN_oblusenie_cat = {
+	allowed = {
+		original_tag = KBN
+	}
+	visible = {
+		always = no
+	}
+	
+	picture = GFX_dec_cat_lusich
+	
+	priority = 100
+}

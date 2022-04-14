@@ -1,0 +1,29 @@
+KBN_lusich_clamp_and_update_ui_effect = {
+	clamp_variable = {
+		var = KBN_lusich_var
+		min = 1
+		max = 3
+	}
+	KBN_lusich_ui_effect = yes
+}
+
+KBN_lusich_ui_effect = {
+	if = {
+		limit = {
+			check_variable = { KBN_lusich_var = 1 }
+		}
+		set_variable = { luso_meter = 1 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { KBN_lusich_var = 2 compare = less_than_or_equals }
+		}
+		set_variable = { luso_meter = 2 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { KBN_lusich_var = 3 compare = less_than_or_equals }
+		}
+		set_variable = { luso_meter = 3 }
+	}
+}

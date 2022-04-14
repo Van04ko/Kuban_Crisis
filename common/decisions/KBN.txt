@@ -1,0 +1,96 @@
+political_actions = {
+	KBN_o_shit_i_sorry = {
+
+		icon = hol_radio_oranje
+
+		allowed = {
+			original_tag = KBN
+		}
+		available = {
+			
+		}
+		visible = {
+			
+		}
+		cost = 0
+		
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			add_political_power = 1
+		}
+	}
+}
+
+KBN_oblusenie_cat = {
+	KBN_o_shit_i_sorry_1 = {
+
+		icon = hol_radio_oranje
+
+		allowed = {
+			original_tag = KBN
+		}
+		available = {
+			
+		}
+		visible = {
+			
+		}
+		cost = 0
+		
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			add_political_power = 1
+		}
+	}
+	KBN_o_shit_i_sorry_2 = {
+
+		icon = hol_radio_oranje
+
+		allowed = {
+			original_tag = KBN
+		}
+		available = {
+			
+		}
+		visible = {
+			
+		}
+		cost = 0
+		
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			add_political_power = 1
+		}
+	}
+	KBN_o_shit_i_sorry_3 = {
+		icon = hol_radio_oranje
+
+		allowed = {
+			original_tag = KBN
+		}
+		available = {
+			
+		}
+		visible = {
+			
+		}
+		cost = 0
+		
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			add_political_power = 1
+			add_to_variable = {
+				var = KBN_lusich_var
+				value = 1
+			}
+		}
+	}
+}
