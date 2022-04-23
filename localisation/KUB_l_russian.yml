@@ -114,6 +114,7 @@
  KBN_Return_fin_lands:0 "Великое княжество Финляндское"
  KBN_Return_tur_lands:0 "Царьград"
  KBN_kolchak_revenge:0 "Месть за выдачу Колчака"
+ KBN_robert_voenkom:0 "Довести Роберта до военкомата"
  KBN_our_pope:0 "Наш (((Папа)))"
  
  KBN_Great_Kuban_democracy:0 "Великая Кубанская Демократия"
@@ -169,9 +170,13 @@
  KBN_bad_q_micro:0 "Качество микрофона: §Rплохое§!"
  KBN_bad_q_micro_2:0 "Качество микрофона: §Cчуть лучше§!"
  
- KBN_conscription_1:0 "Кубанский пацифизм"
- KBN_conscription_2:0 "Кубанский патриотизм"
- KBN_conscription_3:0 "Кубанские вооруженные силы"
+ KBN_conscription_1:0 "До военкомата далеко"
+ KBN_conscription_2:0 "Только добровольцы"
+ KBN_conscription_3:0 "Ограниченный призыв"
+ KBN_conscription_4:0 "Расширенный призыв"
+ KBN_conscription_5:0 "Обязательная служба"
+ KBN_conscription_6:0 "МОБИЛИЗАЦИЯ"
+ KBN_conscription_7:0 "§RТОТАЛЬНАЯ МОБИЛИЗАЦИЯ§!"
  
  KBN_sloboda_conscription_1:0 "Слободской призыв"
  KBN_sloboda_conscription_2:0 "Слободской расширенный призыв"

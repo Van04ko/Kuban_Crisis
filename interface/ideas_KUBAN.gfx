@@ -91,6 +91,22 @@ spriteTypes = {
 		name = "GFX_idea_KBN_conscription_3"
 		texturefile = "gfx/interface/ideas/KBN/conscription/idea_KBN_conscription_3.png"	
 	}
+	SpriteType = {
+		name = "GFX_idea_KBN_conscription_4"
+		texturefile = "gfx/interface/ideas/KBN/conscription/idea_KBN_conscription_4.png"	
+	}
+	SpriteType = {
+		name = "GFX_idea_KBN_conscription_5"
+		texturefile = "gfx/interface/ideas/KBN/conscription/idea_KBN_conscription_5.png"	
+	}
+	SpriteType = {
+		name = "GFX_idea_KBN_conscription_6"
+		texturefile = "gfx/interface/ideas/KBN/conscription/idea_KBN_conscription_6.png"	
+	}
+	SpriteType = {
+		name = "GFX_idea_KBN_conscription_7"
+		texturefile = "gfx/interface/ideas/KBN/conscription/idea_KBN_conscription_7.png"	
+	}
 	
 	
 	SpriteType = {

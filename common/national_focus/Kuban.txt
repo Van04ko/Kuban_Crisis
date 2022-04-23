@@ -617,6 +617,21 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = KBN_robert_voenkom
+		icon = GFX_focus_robert
+		relative_position_id = KBN_The_rebirth_power_of_Russia
+		prerequisite = { focus = KBN_Return_baltic_lands focus = KBN_Return_fin_lands focus = KBN_Return_tur_lands }
+		
+		available = { }
+		
+		x = 0
+		y = 4
+		cost = 5
+		completion_reward = {
+			add_manpower = 1
+		}
+	}
+	focus = {
 		id = KBN_our_pope
 		icon = GFX_focus_pope
 		relative_position_id = KBN_The_rebirth_power_of_Russia

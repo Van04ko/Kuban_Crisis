@@ -357,6 +357,12 @@ spriteTypes = {
 		name = "GFX_focus_egor"
 		texturefile = "gfx/interface/goals/KBN/egor.png"
 	}
+	SpriteType = {
+		name = "GFX_focus_robert"
+		texturefile = "gfx/interface/goals/KBN/focus_robert.png"
+	}
+	
+	
 	
 	
 	
