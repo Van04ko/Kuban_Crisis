@@ -29,6 +29,13 @@ recruit_character = KBN_valakas
 recruit_character = KBN_Papich
 recruit_character = KBN_Ozon
 
+recruit_character = KBN_Igor_Girkin_Strelkov
+recruit_character = KBN_Rogosin
+
+recruit_character = KBN_Robert_Left
+recruit_character = KBN_Robert_Right
+
+
 
 
 # Starting tech
@@ -69,6 +76,7 @@ set_technology = {
 add_ideas = {
 	KBN_conscription_1
 	KBN_bad_q_micro
+	KBN_ban_vk
 }
 
 set_politics = {

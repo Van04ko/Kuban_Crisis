@@ -119,6 +119,15 @@ ideas = {
 	}
 	
 	country = {
+	
+		KBN_ban_vk = {
+			
+			picture = ban_vk
+			
+			modifier = {
+				political_power_gain = -0.1
+			}
+		}
 		KBN_Monument_Krasnov = {
 			
 			picture = krasnov_idea

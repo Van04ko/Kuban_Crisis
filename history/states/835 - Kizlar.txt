@@ -1,0 +1,25 @@
+state = {
+
+	id = 835
+	name = "STATE_VATA_835"
+	manpower = 332154
+
+	state_category = rural
+	
+	resources = {
+		oil = 2
+	}
+
+	history = {
+		owner = KBN
+		add_core_of = KBN
+		add_core_of = DAG
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 683 1 }
+	}
+	provinces = { 683 700 712 728 6730 6748 11632 }
+
+	local_supplies = 2.0 
+}

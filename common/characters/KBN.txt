@@ -1,5 +1,4 @@
 characters = {
-	
 	KBN_Vatoadmin = {
 		name = KBN_Vatoadmin
 		portraits = {
@@ -14,6 +13,7 @@ characters = {
 			ideology = despotism
 			expire = "1965.1.1.1"
 			id = -1
+			traits = {  }
 		}
 		field_marshal = {
 			traits = { }
@@ -425,6 +425,86 @@ characters = {
 				has_country_flag = KBN_plus_papicheski
 			}
 			traits = { arthas }
+		}
+	}
+	KBN_Igor_Girkin_Strelkov = {
+		name = KBN_Igor_Girkin_Strelkov
+		portraits = {
+			army = {
+				small="GFX_idea_Igor_Girkin_Strelkov"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = theorist
+			idea_token = KBN_Igor_Girkin_Strelkov
+			ledger = army
+			allowed = {
+				original_tag = KBN
+			}
+			traits = { Strelkov }
+			desc = KBN_Igor_Girkin_Strelkov_desc
+		}
+	}
+	KBN_Rogosin = {
+		name = KBN_Rogosin
+		portraits = {
+			army = {
+				small="GFX_idea_Rogosin"
+			}
+		}
+		advisor = {
+			cost = 15
+			slot = theorist
+			ledger = army
+			allowed = {
+				original_tag = KBN
+			}
+			traits = { Rogosin }
+			desc = KBN_Rogosin_desc
+			research_bonus = {
+				rocketry = -0.150
+			}
+		}
+	}
+	KBN_Robert_Left = {
+		name = KBN_Robert_Left
+		portraits = {
+			army = {
+				small="GFX_idea_KBN_Robert_Left"
+			}
+		}
+		advisor = {
+			cost = 5
+			slot = high_command
+			ledger = army
+			allowed = {
+				original_tag = KBN
+			}
+			traits = { Robert_Left }
+			available = {
+				has_idea = KBN_Igor_Girkin_Strelkov
+			}
+		}
+	}
+	KBN_Robert_Right = {
+		name = KBN_Robert_Right
+		portraits = {
+			army = {
+				small="GFX_idea_KBN_Robert_Right"
+			}
+		}
+		advisor = {
+			cost = 5
+			slot = high_command
+			ledger = army
+			allowed = {
+				original_tag = KBN
+			}
+			traits = { Robert_Right }
+			available = {
+				has_idea = KBN_Igor_Girkin_Strelkov
+			}
 		}
 	}
 }

@@ -76,6 +76,22 @@ spriteTypes = {
 		name = "GFX_idea_valakas"
 		texturefile = "gfx/interface/ideas/KBN/valakas.png"	
 	}
+	SpriteType = {
+		name = "GFX_idea_Igor_Girkin_Strelkov"
+		texturefile = "gfx/interface/ideas/KBN/Igor_Girkin_Strelkov.png"	
+	}
+	SpriteType = {
+		name = "GFX_idea_Rogosin"
+		texturefile = "gfx/interface/ideas/KBN/Rogosin.png"	
+	}
+	SpriteType = {
+		name = "GFX_idea_KBN_Robert_Right"
+		texturefile = "gfx/interface/ideas/KBN/Robert_Right.png"	
+	}
+	SpriteType = {
+		name = "GFX_idea_KBN_Robert_Left"
+		texturefile = "gfx/interface/ideas/KBN/Robert_Left.png"	
+	}
 	
 	
 	
@@ -106,6 +122,10 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_idea_KBN_conscription_7"
 		texturefile = "gfx/interface/ideas/KBN/conscription/idea_KBN_conscription_7.png"	
+	}
+	SpriteType = {
+		name = "GFX_idea_ban_vk"
+		texturefile = "gfx/interface/ideas/KBN/ban_vk.png"	
 	}
 	
 	
@@ -139,6 +159,9 @@ spriteTypes = {
 		texturefile = "gfx/interface/dynamic_modifiers/KBN/krasnov_state.png"	
 	}
 	
-	
+	SpriteType = {
+		name = "GFX_ideology_KBN_neutrality_group"
+		texturefile = "gfx/interface/ideologies/KBN_neutrality_group.png"	
+	}
 	
 }

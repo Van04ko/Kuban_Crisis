@@ -1,0 +1,20 @@
+state = {
+
+	id=228
+	name="STATE_VATA_228" # Voroshilovgrad
+	manpower = 2167411
+	
+	state_category = town
+
+	history = {
+		owner = KBN
+		add_core_of = KBN
+		add_core_of = UKR
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 9461 1 }
+	}
+	provinces = { 6505 9446 9461 }
+	local_supplies=0.0 
+}

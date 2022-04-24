@@ -2122,10 +2122,10 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_focus_robert_shine"
-		texturefile = "gfx/interface/goals/KBN/robert.png"
+		texturefile = "gfx/interface/goals/KBN/focus_robert.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KBN/robert.png"
+			animationmaskfile = "gfx/interface/goals/KBN/focus_robert.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -2138,8 +2138,8 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KBN/robert.png"
-			animationtexturefile = "gfx/interface/goals/KBN/robert.png" 	# <- the animated file
+			animationmaskfile = "gfx/interface/goals/KBN/focus_robert.png"
+			animationtexturefile = "gfx/interface/goals/KBN/focus_robert.png" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
 			animationtime = 0.75				# in seconds
