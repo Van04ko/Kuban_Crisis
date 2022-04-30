@@ -1,5 +1,10 @@
 spriteTypes = {	
 	
+	
+	SpriteType = {
+		name = "GFX_idea_KBN_okumanivanie_idea"
+		texturefile = "gfx/interface/ideas/KBN/KBN_okumanivanie_idea.png"
+	}
 	SpriteType = {
 		name = "GFX_idea_KBN_Boris_Boyarshinov"
 		texturefile = "gfx/interface/ideas/KBN/idea_KBN_Boris_Boyarshinov.dds"	

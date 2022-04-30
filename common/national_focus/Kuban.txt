@@ -139,6 +139,18 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = KBN_okumanivanie
+		icon = GFX_focus_KBN_okumanivanie
+		relative_position_id = KBN_Rubnyakov
+		prerequisite = { focus = KBN_war_with_Beria }
+		x = -2
+		y = 4
+		cost = 10
+		completion_reward = {
+			add_ideas = KBN_okumanivanie_idea
+		}
+	}
+	focus = {
 		id = KBN_return_white_emigration
 		icon = GFX_focus_return_white_emigration
 		relative_position_id = KBN_Rubnyakov
@@ -596,6 +608,34 @@ focus_tree = {
 				type = annex_everything
 			}
 			797 = { add_claim_by = KBN }
+		}
+	}
+	focus = {
+		id = KBN_Return_pol_lands
+		icon = GFX_focus_Return_lands_pol
+		relative_position_id = KBN_The_rebirth_power_of_Russia
+		prerequisite = { focus = KBN_Return_baltic_lands }
+		
+		available = {
+			
+		}
+		
+		x = -2
+		y = 3
+		cost = 5
+		completion_reward = {
+			every_state = {
+				limit = {
+					OR = {
+						is_core_of = POL
+					}
+				}
+				add_claim_by  = KBN
+			}
+			create_wargoal = {
+				target = POL
+				type = puppet_wargoal_focus
+			}
 		}
 	}
 	focus = {

@@ -15,10 +15,10 @@
  STATE_234_VATODAR:0 "Ватодар"
  
  ### Города
+ VICTORY_POINTS_VATA_9461:0 "Луганск"
  VICTORY_POINTS_9417:0 "Ростов-на-Дону"
  VICTORY_POINTS_3734:0 "Екатеринодар"
  VICTORY_POINTS_6474:0 "Донецк"
- VICTORY_POINTS_9461:0 "Луганск"
  
  
 
@@ -107,6 +107,7 @@
  KBN_bolshevik_uprising:0 "Большевитское восстание"
  KBN_preparing_for_betrayal:0 "Подготовка к предательству"
  KBN_war_with_Beria:0 "Война с Берией"
+ KBN_okumanivanie:0 "Окубанивание населения"
  KBN_return_white_emigration:0 "Возвращение белой эмиграции"
  KBN_return_white_generals:0 "Возвращение белых генералов"
  KBN_Revival_Terek_Cossacks:0 "Возрождение Терского казачества"
@@ -136,8 +137,9 @@
  
  KBN_Return_old_lands:0 "Возвращение русских земель"
  KBN_Return_baltic_lands:0 "Балтийские губернии"
- KBN_Return_fin_lands:0 "Великое княжество Финляндское"
- KBN_Return_tur_lands:0 "Царьград"
+ KBN_Return_fin_lands:0 "Великое Княжество Финляндское"
+ KBN_Return_tur_lands:0 "Захватить Царьград"
+ KBN_Return_pol_lands:0 "Возродить §CЦарство Польское§!"
  KBN_kolchak_revenge:0 "Месть за выдачу Колчака"
  KBN_robert_voenkom:0 "Довести Роберта до военкомата"
  KBN_our_pope:0 "Наш (((Папа)))"
@@ -209,6 +211,8 @@
  KBN_Monument_Krasnov:0 "Кубанский коллаборационизм"
  KBN_Monument_Krasnov_buy:0 "Затраты на памятник коллаборантом"
  
+ KBN_okumanivanie_idea:0 "Окубанивание населения"
+ 
  # Советники
  KBN_Boris_Boyarshinov:0 "Борис Бояршинов"
  KBN_Ubermarginal:0 "Убермаргинал"
@@ -256,11 +260,10 @@
  KBN_plus_papicheski_tt:0 "§YВеличайший§! теперь досупен как §YГлавнокомандующий армией§!. Готовь 300 §Gполит-сабжей§!, очередняра. §CVI-KA§!"
  
  ###Партии
- KBN_fascism_party:0 "Войсковой Круг"
- KBN_communism_party:1 "КНС"
- KBN_communism_party_long:1 "Кубанский народный совет"
- KBN_democratic_party:0 "Кубанское Правительство"
- KBN_neutrality_party:0 "Казачье Собрание"
+ KBN_fascism_party:0 "Кубань Райта"
+ KBN_communism_party:1 "Кубань Рудого"
+ KBN_democratic_party:0 "Кубань Светова"
+ KBN_neutrality_party:0 "Кубань Вато"
  
  KBN_black_sea_raid_cat:0 "Не нюхай член"
  KBN_black_sea_raid_cat_desc:0 "Пахнет так се"

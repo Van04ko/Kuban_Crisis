@@ -120,6 +120,14 @@ ideas = {
 	
 	country = {
 	
+		KBN_okumanivanie_idea = {
+			
+			picture = KBN_okumanivanie_idea
+			
+			modifier = {
+				compliance_growth = 0.2
+			}
+		}
 		KBN_ban_vk = {
 			
 			picture = ban_vk

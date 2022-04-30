@@ -259,6 +259,18 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/KBN/KBN_PKh.png"	
 	}
 	SpriteType = {
+		name = "GFX_focus_KBN_okumanivanie"
+		texturefile = "gfx/interface/goals/KBN/KBN_okumanivanie.png"	
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	SpriteType = {
 		name = "GFX_4urki"
 		texturefile = "gfx/event_pictures/4urki.png"	
 	}
@@ -345,6 +357,13 @@ spriteTypes = {
 		name = "GFX_focus_Return_lands_tur"
 		texturefile = "gfx/interface/goals/KBN/Return_lands_tur.png"
 	}
+	SpriteType = {
+		name = "GFX_focus_Return_lands_pol"
+		texturefile = "gfx/interface/goals/KBN/Return_lands_pol.png"
+	}
+	
+	
+	
 	SpriteType = {
 		name = "GFX_focus_kolchak"
 		texturefile = "gfx/interface/goals/KBN/kolchak.png"

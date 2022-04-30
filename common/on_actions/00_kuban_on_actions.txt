@@ -2,8 +2,8 @@ on_actions = {
 
 	on_startup = {
 		effect = {
+			set_province_name = { id = 9461 name = VICTORY_POINTS_VATA_9461 }
 			KBN = { country_event = { id = kuban.23 } }
-			
 			SOV = {
 				set_country_leader_name = {
 					ideology = communism
