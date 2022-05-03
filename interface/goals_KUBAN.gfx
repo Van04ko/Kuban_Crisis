@@ -262,6 +262,12 @@ spriteTypes = {
 		name = "GFX_focus_KBN_okumanivanie"
 		texturefile = "gfx/interface/goals/KBN/KBN_okumanivanie.png"	
 	}
+	SpriteType = {
+		name = "GFX_focus_KBN_podpolie_Rossa"
+		texturefile = "gfx/interface/goals/KBN/KBN_podpolie_Rossa.png"	
+	}
+	
+	
 	
 	
 	
@@ -333,8 +339,34 @@ spriteTypes = {
 		name = "GFX_event_microchlek"
 		texturefile = "gfx/event_pictures/microchlek.png"	
 	}
+	SpriteType = {
+		name = "GFX_event_armenia"
+		texturefile = "gfx/event_pictures/armenia.png"	
+	}
+	SpriteType = {
+		name = "GFX_event_mircofonuch"
+		texturefile = "gfx/event_pictures/mircofonuch.png"	
+	}
+	SpriteType = {
+		name = "GFX_event_litiy_dva_ebat"
+		texturefile = "gfx/event_pictures/litiy_dva_ebat.png"	
+	}
+	SpriteType = {
+		name = "GFX_event_Vata_hello"
+		texturefile = "gfx/event_pictures/Vata_hello.png"	
+	}
+	SpriteType = {
+		name = "GFX_event_well_cum"
+		texturefile = "gfx/event_pictures/well_cum.png"	
+	}
 
 	
+	
+
+
+	
+
+
 	
 	
 	
@@ -382,7 +414,26 @@ spriteTypes = {
 	}
 	
 	
-	
+	SpriteType = {
+		name = "GFX_focus_KBN_Yacheiki"
+		texturefile = "gfx/interface/goals/KBN/KBN_Yacheiki.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_KBN_CUMbanoids"
+		texturefile = "gfx/interface/goals/KBN/KBN_CUMbanoids.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_KBN_CUM_on_micro"
+		texturefile = "gfx/interface/goals/KBN/KBN_CUM_on_micro.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_KBN_CUM_za_cum"
+		texturefile = "gfx/interface/goals/KBN/KBN_CUM_za_cum.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_KBN_CUM_dodomy"
+		texturefile = "gfx/interface/goals/KBN/KBN_CUM_dodomy.png"
+	}
 	
 	
 	SpriteType = {

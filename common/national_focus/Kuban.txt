@@ -162,6 +162,133 @@ focus_tree = {
 			add_manpower = 60000
 		}
 	}
+	
+	focus = {
+		id = KBN_podpolie_rossa
+		icon = GFX_focus_KBN_podpolie_Rossa
+		relative_position_id = KBN_Rubnyakov
+		prerequisite = { focus = KBN_return_white_emigration }
+		x = -2
+		y = 5
+		cost = 10
+		completion_reward = {
+			SOV = { add_stability = -0.1 }
+		}
+	}
+	focus = {
+		id = KBN_far_east_yacheiki
+		icon = GFX_focus_KBN_Yacheiki
+		relative_position_id = KBN_Rubnyakov
+		prerequisite = { focus = KBN_podpolie_rossa }
+		x = -2
+		y = 6
+		cost = 10
+		completion_reward = {
+			408 = { remove_core_of = SOV }
+			409 = { remove_core_of = SOV }
+			560 = { remove_core_of = SOV }
+			561 = { remove_core_of = SOV }
+			562 = { remove_core_of = SOV }
+			637 = { remove_core_of = SOV }
+			655 = { remove_core_of = SOV }
+			657 = { remove_core_of = SOV }
+			822 = { remove_core_of = SOV }
+			
+			408 = { add_core_of = CUM }
+			409 = { add_core_of = CUM }
+			560 = { add_core_of = CUM }
+			561 = { add_core_of = CUM }
+			562 = { add_core_of = CUM }
+			637 = { add_core_of = CUM }
+			655 = { add_core_of = CUM }
+			657 = { add_core_of = CUM }
+			822 = { add_core_of = CUM }
+			
+		}
+	}
+	focus = {
+		id = KBN_voorujut_far_east_kubanoids
+		icon = GFX_focus_KBN_CUMbanoids
+		relative_position_id = KBN_Rubnyakov
+		prerequisite = { focus = KBN_far_east_yacheiki }
+		x = -2
+		y = 7
+		cost = 10
+		completion_reward = {
+			hidden_effect = {
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 1000
+				}
+			}
+
+			send_equipment = {
+			    equipment = infantry_equipment
+			    amount = 5000
+			    target = CUM
+			}
+		}
+	}
+	focus = {
+		id = KBN_microphone_for_propaganda
+		icon = GFX_focus_KBN_CUM_on_micro
+		relative_position_id = KBN_Rubnyakov
+		prerequisite = { focus = KBN_voorujut_far_east_kubanoids }
+		x = -2
+		y = 8
+		cost = 10
+		completion_reward = {
+			country_event = { id = kuban_cum.1 }
+		}
+	}
+	focus = {
+		id = KBN_za_Kuban
+		icon = GFX_focus_KBN_CUM_za_cum
+		relative_position_id = KBN_Rubnyakov
+		prerequisite = { focus = KBN_microphone_for_propaganda }
+		x = -2
+		y = 9
+		cost = 10
+		completion_reward = {
+			set_autonomy = {
+				target = CUM
+				autonomy_state = autonomy_puppet
+			}
+			CUM = {
+				transfer_state = 408
+				transfer_state = 409
+				transfer_state = 560
+				transfer_state = 561
+				transfer_state = 562
+				transfer_state = 637
+				transfer_state = 655
+				transfer_state = 657
+				transfer_state = 822
+				hidden_effect = {
+					load_oob = CUM_cumming
+					country_event = { id = kuban_cum.2 days = 14 }
+				}
+			}
+		}
+	}
+	focus = {
+		id = KBN_to_home
+		icon = GFX_focus_KBN_CUM_dodomy
+		relative_position_id = KBN_Rubnyakov
+		prerequisite = { focus = KBN_za_Kuban }
+		x = -2
+		y = 10
+		cost = 10
+		available = {
+			NOT = { country_exists = SOV }
+		}
+		completion_reward = {
+			annex_country = {
+				target = CUM
+				transfer_troops = yes
+			}
+		}
+	}
 	focus = {
 		id = KBN_return_white_generals
 		icon = GFX_focus_Vozvraschenie_belykh_generalov

@@ -20,9 +20,12 @@
  VICTORY_POINTS_3734:0 "Екатеринодар"
  VICTORY_POINTS_6474:0 "Донецк"
  
+ VICTORY_POINTS_7878:0 "Петропавловск-\nCUMчатский"
+ 
  
 
  KBN_Vatoadmin:0 "Ватоадмин Ватоадмин"
+ 
  
  
  
@@ -48,6 +51,11 @@
  KBN_Robert_Left:0 "Роберт Лэфт"
  Robert_Left:0 "На военкомат!"
 
+ KBN_Prosvirnin:0 "Егор Просвирнин"
+ Prosvirnin_Rus_Nationalist:0 "Русский националист"
+ prosvirnin_tt:0 "Жив"
+ prosvirnin_live_tt:0 "§YЕгор Просвирнин§! станет досупен в качестве политического советника"
+ 
  KBN_GATHERING_STORM_DESC:0 "После гражданской войны Кубань осталась последним осколком белого движения на территории России. Вам предстоит пройти весь путь от поднятия кубанского микрофоностроения до полной победы белого движения. \n\n Удачной игры!"
 
  # Решения
@@ -109,6 +117,14 @@
  KBN_war_with_Beria:0 "Война с Берией"
  KBN_okumanivanie:0 "Окубанивание населения"
  KBN_return_white_emigration:0 "Возвращение белой эмиграции"
+ 
+ KBN_podpolie_rossa:0 "Подполье Росса"
+ KBN_far_east_yacheiki:0 "Дальневосточные ячейки"
+ KBN_voorujut_far_east_kubanoids:0 "Вооружить дальневосточных кубаноидов"
+ KBN_microphone_for_propaganda:0 "Микрофоны для пропаганды"
+ KBN_za_Kuban:0 "За §CКу§!§Pба§!§Gнь!§!"
+ KBN_to_home:0 "В родную гавань"
+ 
  KBN_return_white_generals:0 "Возвращение белых генералов"
  KBN_Revival_Terek_Cossacks:0 "Возрождение Терского казачества"
  

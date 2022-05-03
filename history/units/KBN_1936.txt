@@ -96,7 +96,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 8
 		}
-		location = 3491
+		location = 9461
 		division_template = "Редкоземельная Дивизия"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.0

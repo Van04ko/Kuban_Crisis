@@ -507,4 +507,27 @@ characters = {
 			}
 		}
 	}
+	KBN_Prosvirnin = {
+		name = KBN_Prosvirnin
+		portraits = {
+			army = {
+				small="GFX_idea_KBN_Prosvirnin"
+			}
+		}
+		advisor = {
+			cost = 50
+			slot = political_advisor
+			idea_token = Prosvirnin
+			allowed = {
+				original_tag = KBN
+			}
+			traits = { Prosvirnin_Rus_Nationalist }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = prosvirnin_tt		
+					has_country_flag = prosvirnin_live_flag
+				}
+			}
+		}
+	}
 }

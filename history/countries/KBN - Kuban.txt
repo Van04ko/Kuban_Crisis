@@ -35,6 +35,8 @@ recruit_character = KBN_Rogosin
 recruit_character = KBN_Robert_Left
 recruit_character = KBN_Robert_Right
 
+recruit_character = KBN_Prosvirnin
+
 
 
 

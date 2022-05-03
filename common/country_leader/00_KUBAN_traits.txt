@@ -1,4 +1,14 @@
 leader_traits = {
+	Prosvirnin_Rus_Nationalist = {
+	
+		fascism_drift = 0.1
+		production_speed_industrial_complex_factor = 0.075
+		conscription_factor = 0.1
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	Robert_Right = {
 	
 		fascism_drift = 0.01
