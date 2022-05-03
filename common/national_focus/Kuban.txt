@@ -170,7 +170,7 @@ focus_tree = {
 		prerequisite = { focus = KBN_return_white_emigration }
 		x = -2
 		y = 5
-		cost = 10
+		cost = 4
 		completion_reward = {
 			SOV = { add_stability = -0.1 }
 		}
@@ -182,7 +182,7 @@ focus_tree = {
 		prerequisite = { focus = KBN_podpolie_rossa }
 		x = -2
 		y = 6
-		cost = 10
+		cost = 4
 		completion_reward = {
 			408 = { remove_core_of = SOV }
 			409 = { remove_core_of = SOV }
@@ -213,7 +213,7 @@ focus_tree = {
 		prerequisite = { focus = KBN_far_east_yacheiki }
 		x = -2
 		y = 7
-		cost = 10
+		cost = 4
 		completion_reward = {
 			hidden_effect = {
 				add_equipment_to_stockpile = {
@@ -236,7 +236,7 @@ focus_tree = {
 		prerequisite = { focus = KBN_voorujut_far_east_kubanoids }
 		x = -2
 		y = 8
-		cost = 10
+		cost = 4
 		completion_reward = {
 			country_event = { id = kuban_cum.1 }
 		}
@@ -248,7 +248,7 @@ focus_tree = {
 		prerequisite = { focus = KBN_microphone_for_propaganda }
 		x = -2
 		y = 9
-		cost = 10
+		cost = 4
 		completion_reward = {
 			set_autonomy = {
 				target = CUM
