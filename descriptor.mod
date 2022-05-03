@@ -7,4 +7,4 @@ tags={
 name="Kuban Crisis"
 picture="thumbnail.png"
 supported_version="1.11.*"
-remote_file_id="2695012353"
+path="mod/Kuban_Crisis"
