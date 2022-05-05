@@ -1,6 +1,9 @@
 spriteTypes = {	
 	
-	
+	SpriteType = {
+		name = "GFX_idea_KBN_transkuban_railway_pay_1"
+		texturefile = "gfx/interface/ideas/KBN/KBN_transkuban_railway_pay_1.png"
+	}
 	SpriteType = {
 		name = "GFX_idea_KBN_okumanivanie_idea"
 		texturefile = "gfx/interface/ideas/KBN/KBN_okumanivanie_idea.png"

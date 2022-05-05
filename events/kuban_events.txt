@@ -940,10 +940,26 @@ country_event = {
 	
 	option = {
 		name = kuban.37.a
-		add_manpower = 1
-		custom_effect_tooltip = prosvirnin_live_tt
+		random_list = {
+			50 = {
+				add_manpower = 1
+				custom_effect_tooltip = prosvirnin_live_tt
+				hidden_effect = {
+					set_country_flag = prosvirnin_live_flag
+				}
+			}
+			50 = {
+				add_manpower = -1
+				hidden_effect = { add_manpower = -1 }
+			}
+		}
+	}
+	option = {
+		name = kuban.37.b
 		hidden_effect = {
 			set_country_flag = prosvirnin_live_flag
+			add_manpower = 1
+			custom_effect_tooltip = prosvirnin_live_tt
 		}
 	}
 }

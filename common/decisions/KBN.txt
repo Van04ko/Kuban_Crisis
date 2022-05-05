@@ -21,6 +21,34 @@ political_actions = {
 			add_political_power = 1
 		}
 	}
+	KBN_transkuban_railway_pay = {
+
+		icon = hol_radio_oranje
+
+		allowed = {
+			original_tag = KBN
+		}
+		available = {
+			
+		}
+		visible = {
+			OR = {
+				has_idea = KBN_transkuban_railway_pay_1
+				has_idea = KBN_transkuban_railway_pay_2
+				has_idea = KBN_transkuban_railway_pay_3
+				has_idea = KBN_transkuban_railway_pay_4
+				has_idea = KBN_transkuban_railway_pay_5
+			}
+		}
+		cost = 25
+		
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			
+		}
+	}
 }
 
 KBN_oblusenie_cat = {

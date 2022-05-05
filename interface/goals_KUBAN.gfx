@@ -394,6 +394,14 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/KBN/Return_lands_pol.png"
 	}
 	
+	SpriteType = {
+		name = "GFX_focus_KBN_transkuban_railway"
+		texturefile = "gfx/interface/goals/KBN/KBN_transkuban_railway.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_KBN_Vata_line"
+		texturefile = "gfx/interface/goals/KBN/KBN_Vata_line.png"
+	}
 	
 	
 	SpriteType = {

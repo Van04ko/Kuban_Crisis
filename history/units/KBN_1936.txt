@@ -14,9 +14,39 @@
 		infantry = { x = 2 y = 2 }
 	}
 	support = {
-		#recon = { x = 0 y = 0 }
-		#engineer = { x = 0 y = 1 }
+#		recon = { x = 0 y = 0 }
+#		engineer = { x = 0 y = 1 }
 		artillery = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Горнострелковая Дивизия"		# Mountain Division
+	division_names_group = KBN_MNT_01
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }	
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 1 y = 0 }	
+		mountaineers = { x = 1 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Кавалерийская Дивизия" 	# Cavalry Division
+	division_names_group = KBN_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
 	}
 }
 
@@ -118,6 +148,65 @@ units = {
 		}
 		location = 3734
 		division_template = "Редкоземельная Дивизия"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.0
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 6490
+		division_template = "Кавалерийская Дивизия"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.0
+	}division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 3435
+		division_template = "Кавалерийская Дивизия"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.0
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 11724
+		division_template = "Кавалерийская Дивизия"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.0
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 11633
+		division_template = "Горнострелковая Дивизия"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.0
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 683
+		division_template = "Горнострелковая Дивизия"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.0
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 6733
+		division_template = "Горнострелковая Дивизия"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.0
 	}

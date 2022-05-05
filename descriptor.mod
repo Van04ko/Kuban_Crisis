@@ -7,4 +7,5 @@ tags={
 name="Kuban Crisis"
 picture="thumbnail.png"
 supported_version="1.11.*"
-path="mod/Kuban_Crisis"
+path="C:/Users/Darkc/Documents/Paradox Interactive/Hearts of Iron IV/mod/Kuban_Crisis"
+remote_file_id="2695012353"

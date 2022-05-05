@@ -120,6 +120,56 @@ ideas = {
 	
 	country = {
 	
+		KBN_transkuban_railway_pay_1 = {
+			
+			picture = KBN_transkuban_railway_pay_1
+			
+			modifier = {
+				consumer_goods_factor = 0.03
+				production_speed_buildings_factor = 0.1
+				production_speed_rail_way_factor = 0.25
+			}
+		}
+		KBN_transkuban_railway_pay_2 = {
+			
+			picture = KBN_transkuban_railway_pay_1
+			
+			modifier = {
+				consumer_goods_factor = 0.06
+				production_speed_buildings_factor = 0.1
+				production_speed_rail_way_factor = 0.25 
+			}
+		}
+		KBN_transkuban_railway_pay_3 = {
+			
+			picture = KBN_transkuban_railway_pay_1
+			
+			modifier = {
+				consumer_goods_factor = 0.09
+				production_speed_buildings_factor = 0.1
+				production_speed_rail_way_factor = 0.25 
+			}
+		}
+		KBN_transkuban_railway_pay_4 = {
+			
+			picture = KBN_transkuban_railway_pay_1
+			
+			modifier = {
+				consumer_goods_factor = 0.12
+				production_speed_buildings_factor = 0.1
+				production_speed_rail_way_factor = 0.25 
+			}
+		}
+		KBN_transkuban_railway_pay_5 = {
+			
+			picture = KBN_transkuban_railway_pay_1
+			
+			modifier = {
+				consumer_goods_factor = 0.15
+				production_speed_buildings_factor = 0.1
+				production_speed_rail_way_factor = 0.25 
+			}
+		}
 		KBN_okumanivanie_idea = {
 			
 			picture = KBN_okumanivanie_idea

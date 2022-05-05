@@ -29,8 +29,7 @@
 	}
 }
 
-KBN_CAV_01 = 
-{
+KBN_CAV_01 = {
 	name = "Cavalry Divisions"
 
 	for_countries = { KBN }
@@ -39,26 +38,14 @@ KBN_CAV_01 =
 
 	division_types = { "cavalry" }
 
-	# Number reservation system will tie to another group.
 	#link_numbering_with = { KBN_INF_01 }
 
-	fallback_name = "%dya Ukrainska Kavaleriyskaya Div."
+	fallback_name = "%d-ая Кубанская Кавалерийская Дивизия"
 
-	# Names with numbers (only one number per entry). 
-	# It's okay to have gaps in numbering.
-	ordered =
-	{
-		1 = { "%dya Ukrainska Kavaleriyskaya Div." }
-		2 = { "%dya Ukrainska Kavaleriyskaya Div." }
-		3 = { "%dya Ukrainska Kavaleriyskaya Div." }
-		4 = { "%dya Ukrainska Kavaleriyskaya Div." }
-		5 = { "%dya Ukrainska Kavaleriyskaya Div." }
-		6 = { "%dya Ukrainska Kavaleriyskaya Div." }
-		7 = { "%dya Ukrainska Kavaleriyskaya Div." }
-		8 = { "%dya Ukrainska Kavaleriyskaya Div." }
-		9 = { "%dya Ukrainska Kavaleriyskaya Div." }
-		10 = { "%dya Ukrainska Kavaleriyskaya Div." }
-
+	ordered = {
+		1 = { "%d-ая Кубанская Кавалерийская Дивизия" }
+		2 = { "%d-ая Кубанская Кавалерийская Дивизия" }
+		3 = { "%d-ая Боевые Калмыки Кубани" }
 	}
 }
 
@@ -79,28 +66,11 @@ KBN_MOT_01 = {
 		1 = { "%d-ая Кубанская Редкоземельная Дивизия" }
 		2 = { "%d-ая Кубанская Редкоземельная Дивизия" }
 		3 = { "%d-ая Кубанская Редкоземельная Дивизия" }
-		4 = { "%d-ая Кубанская Редкоземельная Дивизия" }
-		5 = { "%d-ая Кубанская Редкоземельная Дивизия" }
-		6 = { "%d-ая Кубанская Редкоземельная Дивизия" }
-		7 = { "%d-ая Кубанская Редкоземельная Дивизия" }
-		8 = { "%d-ая Кубанская Редкоземельная Дивизия" }
-		9 = { "%d-ая Кубанская Редкоземельная Дивизия" }
-		10 = { "%d-ая Кубанская Редкоземельная Дивизия" }
-		11 = { "%d-ая Кубанская Редкоземельная Дивизия" }
-		12 = { "%d-ая Кубанская Редкоземельная Дивизия" }
-		13 = { "%d-ая Кубанская Редкоземельная Дивизия" }
-		14 = { "%d-ая Кубанская Редкоземельная Дивизия" }
-		15 = { "%d-ая Кубанская Редкоземельная Дивизия" }
-		16 = { "%d-ая Кубанская Редкоземельная Дивизия" }
-		17 = { "%d-ая Кубанская Редкоземельная Дивизия" }
-		18 = { "%d-ая Кубанская Редкоземельная Дивизия" }
-		19 = { "%d-ая Кубанская Редкоземельная Дивизия" }
-		20 = { "%d-ая Кубанская Редкоземельная Дивизия" }
 
 	}
 }
 
-KBN_KBN_01 = 
+KBN_ARM_01 = 
 {
 	name = "Armored Divisions"
 
@@ -201,30 +171,6 @@ KBN_GAR_01 =
 	ordered =
 	{
 		1 = { "%d-ая Кубанская Редкоземельная Дивизия" }
-		2 = { "%d-ая Кубанская Редкоземельная Дивизия" }
-		3 = { "%d-ая Кубанская Редкоземельная Дивизия" }
-		4 = { "%d-ая Кубанская Редкоземельная Дивизия" }
-		5 = { "%d-ая Кубанская Редкоземельная Дивизия" }
-		6 = { "%d-ая Кубанская Редкоземельная Дивизия" }
-		7 = { "%d-ая Кубанская Редкоземельная Дивизия" }
-		8 = { "%d-ая Кубанская Редкоземельная Дивизия" }
-		9 = { "%d-ая Кубанская Редкоземельная Дивизия" }
-		10 = { "%d-ая Кубанская Редкоземельная Дивизия" }
-		11 = { "%d-ая Кубанская Редкоземельная Дивизия" }
-		12 = { "%d-ая Кубанская Редкоземельная Дивизия" }
-		13 = { "%d-ая Кубанская Редкоземельная Дивизия" }
-		14 = { "%d-ая Кубанская Редкоземельная Дивизия" }
-		15 = { "%d-ая Кубанская Редкоземельная Дивизия" }
-		16 = { "%d-ая Кубанская Редкоземельная Дивизия" }
-		17 = { "%d-ая Кубанская Редкоземельная Дивизия" }
-		18 = { "%d-ая Кубанская Редкоземельная Дивизия" }
-		19 = { "%d-ая Кубанская Редкоземельная Дивизия" }
-		20 = { "%d-ая Кубанская Редкоземельная Дивизия" }
-		21 = { "%d-ая Кубанская Редкоземельная Дивизия" }
-		22 = { "%d-ая Кубанская Редкоземельная Дивизия" }
-		23 = { "%d-ая Кубанская Редкоземельная Дивизия" }
-		24 = { "%d-ая Кубанская Редкоземельная Дивизия" }
-		25 = { "%d-ая Кубанская Редкоземельная Дивизия" }
 
 	}
 }
@@ -262,8 +208,7 @@ KBN_MAR_01 =
 	}
 }
 
-KBN_MTN_01 = 
-{
+KBN_MNT_01 = {
 	name = "Mountain Divisions"
 
 	for_countries = { KBN }
@@ -272,31 +217,19 @@ KBN_MTN_01 =
 
 	division_types = { "mountaineers" }
 
-	# Number reservation system will tie to another group.
-	#link_numbering_with = { KBN_INF_01 }
+	link_numbering_with = { KBN_MNT_01 }
 
-	fallback_name = "%dya Gornostrelkovaya Div."
-
-	# Names with numbers (only one number per entry). 
-	# It's okay to have gaps in numbering.
-	ordered =
-	{
-		1 = { "%dya Gornostrelkovaya Div." }
-		2 = { "%dya Gornostrelkovaya Div." }
-		3 = { "%dya Gornostrelkovaya Div." }
-		4 = { "%dya Gornostrelkovaya Div." }
-		5 = { "%dya Gornostrelkovaya Div." }
-		6 = { "%dya Gornostrelkovaya Div." }
-		7 = { "%dya Gornostrelkovaya Div." }
-		8 = { "%dya Gornostrelkovaya Div." }
-		9 = { "%dya Gornostrelkovaya Div." }
-		10 = { "%dya Gornostrelkovaya Div." }
-
+	fallback_name = "%d-ая Кубанская Горнострелковая Дивизия"
+	
+	ordered = {
+		1 = { "%d-ая Кубанская Горнострелковая Дивизия" }
+		
+		2 = { "%d-ая Дагестанкая Дивизия" }
+		3 = { "%d-ая Чеченская Дивизия" }
 	}
 }
 
-KBN_PAR_01 = 
-{
+KBN_PAR_01 = {
 	name = "Paratrooper Divisions"
 
 	for_countries = { KBN }
@@ -305,25 +238,12 @@ KBN_PAR_01 =
 
 	division_types = { "paratrooper" }
 
-	# Number reservation system will tie to another group.
 	#link_numbering_with = { KBN_INF_01 }
 
 	fallback_name = "%dya Vozdushno-Desantnaya Div."
 
-	# Names with numbers (only one number per entry). 
-	# It's okay to have gaps in numbering.
-	ordered =
-	{
+	ordered = {
 		1 = { "%dya Vozdushno-Desantnaya Div." }
-		2 = { "%dya Vozdushno-Desantnaya Div." }
-		3 = { "%dya Vozdushno-Desantnaya Div." }
-		4 = { "%dya Vozdushno-Desantnaya Div." }
-		5 = { "%dya Vozdushno-Desantnaya Div." }
-		6 = { "%dya Vozdushno-Desantnaya Div." }
-		7 = { "%dya Vozdushno-Desantnaya Div." }
-		8 = { "%dya Vozdushno-Desantnaya Div." }
-		9 = { "%dya Vozdushno-Desantnaya Div." }
-		10 = { "%dya Vozdushno-Desantnaya Div." }
 
 	}
 }
