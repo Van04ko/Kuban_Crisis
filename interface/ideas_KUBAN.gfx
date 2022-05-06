@@ -1,5 +1,19 @@
 spriteTypes = {	
 	
+	
+	
+	SpriteType = {
+		name = "GFX_idea_KBN_Juden_line"
+		texturefile = "gfx/interface/ideas/KBN/KBN_Juden_line.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_KBN_Penis_Detrov"
+		texturefile = "gfx/interface/ideas/KBN/Penis_Detrov.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_KBN_UncleDed"
+		texturefile = "gfx/interface/ideas/KBN/UncleDed.png"
+	}
 	SpriteType = {
 		name = "GFX_idea_KBN_transkuban_railway_pay_1"
 		texturefile = "gfx/interface/ideas/KBN/KBN_transkuban_railway_pay_1.png"

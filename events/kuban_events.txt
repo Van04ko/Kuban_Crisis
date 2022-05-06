@@ -161,6 +161,7 @@ country_event = {
 	option = {
 		name = kuban.7.a
 		add_timed_idea = { idea = KBN_Pale_Settlement_canseled days = 200 }
+		remove_ideas = KBN_Juden_line
 	}
 	option = {
 		name = kuban.7.b

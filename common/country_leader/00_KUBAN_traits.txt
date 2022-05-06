@@ -1,9 +1,52 @@
+@tier1 = 30
+@tier2 = 20
+@tier3 = 10
+
+
 leader_traits = {
+	Penisita = {
+	
+		air_accidents_factor = -0.228
+		experience_gain_air = 0.18
+		
+		command_cap = @tier2
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	UncleDed_hoi_slave_master = {
+	
+		army_attack_factor = 0.05
+		army_defence_factor = 0.1
+		max_planning = 0.15
+		experience_gain_army = 0.09
+		
+		command_cap = @tier1
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	Prosvirnin_Rus_Nationalist = {
 	
 		fascism_drift = 0.1
-		production_speed_industrial_complex_factor = 0.075
+		production_speed_arms_factory_factor = 0.075
 		conscription_factor = 0.1
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	Prosvirnin_Rus_Nationalist_army = {
+	
+		fascism_drift = 0.05
+		conscription_factor = 0.1
+		army_morale = 6
+		army_org_factor = 0.05
+		experience_gain_army = 0.06
+		
+		command_cap = @tier1
 		
 		ai_will_do = {
 			factor = 1
@@ -14,6 +57,9 @@ leader_traits = {
 		fascism_drift = 0.01
 		weekly_manpower = -1
 		conscription_factor = 0.02
+		experience_gain_army = 0.06
+		
+		command_cap = @tier3
 		
 		ai_will_do = {
 			factor = 1
@@ -24,6 +70,9 @@ leader_traits = {
 		communism_drift = 0.01
 		weekly_manpower = 1
 		conscription_factor = -0.02
+		experience_gain_army = 0.06
+		
+		command_cap = @tier3
 		
 		ai_will_do = {
 			factor = 1
@@ -65,6 +114,11 @@ leader_traits = {
 		civilian_factory_use = 1
 		army_infantry_attack_factor = 0.05
 		army_infantry_defence_factor = 0.1
+		
+		
+		experience_gain_army = 0.09
+		
+		command_cap = @tier2
 		
 		ai_will_do = {
 			factor = 1
@@ -167,6 +221,8 @@ leader_traits = {
 		army_attack_factor = 0.2
 		army_speed_factor = 0.08
 		army_morale = 6
+		
+		experience_gain_army = 0.15
 		
 		ai_will_do = {
 			factor = 1

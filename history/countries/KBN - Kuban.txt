@@ -36,6 +36,8 @@ recruit_character = KBN_Robert_Left
 recruit_character = KBN_Robert_Right
 
 recruit_character = KBN_Prosvirnin
+recruit_character = KBN_UncleDed
+recruit_character = KBN_Penis_Detrov
 
 
 
@@ -79,6 +81,7 @@ add_ideas = {
 	KBN_conscription_1
 	KBN_bad_q_micro
 	KBN_ban_vk
+	KBN_Juden_line
 }
 
 set_politics = {

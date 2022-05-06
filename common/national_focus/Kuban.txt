@@ -19,7 +19,7 @@ focus_tree = {
 	focus = {
 		id = KBN_incentive_package
 		icon = GFX_focus_paket_stimlov
-		x = 5
+		x = 6
 		y = 0
 		cost = 7.2
 		completion_reward = {
@@ -169,7 +169,7 @@ focus_tree = {
 		icon = GFX_focus_KBN_podpolie_Rossa
 		relative_position_id = KBN_Rubnyakov
 		prerequisite = { focus = KBN_return_white_emigration }
-		x = -2
+		x = -3
 		y = 5
 		cost = 4
 		completion_reward = {
@@ -181,7 +181,7 @@ focus_tree = {
 		icon = GFX_focus_KBN_Yacheiki
 		relative_position_id = KBN_Rubnyakov
 		prerequisite = { focus = KBN_podpolie_rossa }
-		x = -2
+		x = -3
 		y = 6
 		cost = 4
 		completion_reward = {
@@ -212,7 +212,7 @@ focus_tree = {
 		icon = GFX_focus_KBN_CUMbanoids
 		relative_position_id = KBN_Rubnyakov
 		prerequisite = { focus = KBN_far_east_yacheiki }
-		x = -2
+		x = -3
 		y = 7
 		cost = 4
 		completion_reward = {
@@ -227,6 +227,46 @@ focus_tree = {
 			    equipment = infantry_equipment
 			    amount = 5000
 			    target = CUM
+			}
+		}
+	}
+	focus = {
+		id = KBN_transsib
+		icon = GFX_focus_KBN_transsib
+		relative_position_id = KBN_Rubnyakov
+		prerequisite = { focus = KBN_voorujut_far_east_kubanoids }
+		x = -4
+		y = 8
+		cost = 4
+		completion_reward = {
+			637 = {
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					instant_build = yes
+					province = 7878
+				}
+				add_building_construction = {
+					type = naval_base
+					level = 2
+					instant_build = yes
+					province = 7878
+				}
+			}
+			562 = {
+				add_building_construction = {
+					type = naval_base
+					level = 1
+					instant_build = yes
+					province = 12683
+				}
+			}
+			build_railway = {
+				level = 2
+				fallback = yes
+				start_state = 637
+				target_state = 657
+				path = { 7878 1839 1823 10540 1865 12683 12551 12518 4810 10598 1772 10590 1724 4829 4779 12654 4725 }
 			}
 		}
 	}
@@ -247,6 +287,7 @@ focus_tree = {
 		icon = GFX_focus_KBN_CUM_za_cum
 		relative_position_id = KBN_Rubnyakov
 		prerequisite = { focus = KBN_microphone_for_propaganda }
+		prerequisite = { focus = KBN_transsib }
 		x = -3
 		y = 9
 		cost = 4
@@ -609,10 +650,12 @@ focus_tree = {
 		icon = GFX_focus_KBN_Vata_line
 		relative_position_id = KBN_Home_harbor
 		prerequisite = { focus = KBN_Cossacks_and_Pannwitz focus = KBN_Eternal_struggle }
-		
+		bypass = {
+			NOT = { country_exists = SOV }
+		}
 		x = 3
 		y = 2
-		cost = 7.2
+		cost = 5.8
 		completion_reward = {
 			227 = {
 				add_building_construction = {
@@ -683,6 +726,109 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = KBN_warplan_don
+		icon = GFX_focus_KBN_warplan_don
+		relative_position_id = KBN_Vata_line
+		prerequisite = { focus = KBN_Vata_line }
+		
+		x = -1
+		y = 1
+		cost = 5.8
+		completion_reward = {
+			218 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+						type = bunker
+						level = 3
+						province = 11559
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 3
+						province = 585
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 4
+						province = 9417
+						instant_build = yes
+					}
+				}
+			}
+			238 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+						type = bunker
+						level = 3
+						province = 426
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 3
+						province = 11403
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}focus = {
+		id = KBN_warplan_volga
+		icon = GFX_focus_KBN_warplan_don
+		relative_position_id = KBN_Vata_line
+		prerequisite = { focus = KBN_Vata_line }
+		
+		x = 1
+		y = 1
+		cost = 5.8
+		completion_reward = {
+			218 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+						type = bunker
+						level = 3
+						province = 11559
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 3
+						province = 585
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 4
+						province = 9417
+						instant_build = yes
+					}
+				}
+			}
+			238 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+						type = bunker
+						level = 3
+						province = 426
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 3
+						province = 11403
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+	focus = {
 		id = KBN_Temporary_ally
 		icon = GFX_focus_Temporary_ally
 		relative_position_id = KBN_Home_harbor
@@ -690,7 +836,7 @@ focus_tree = {
 		
 		x = 0
 		y = 2
-		cost = 10
+		cost = 7.2
 		completion_reward = {
 			GER = { give_guarantee = KBN }
 		}
@@ -703,7 +849,7 @@ focus_tree = {
 		
 		x = 0
 		y = 3
-		cost = 10
+		cost = 6.5
 		completion_reward = {
 			country_event = { id = kuban.19 }
 			country_event = { id = kuban.36 days = 30 }
@@ -738,7 +884,7 @@ focus_tree = {
 		
 		x = 0
 		y = 5
-		cost = 10
+		cost = 6.5
 		completion_reward = {
 			every_state = {
 				limit = {
@@ -766,7 +912,7 @@ focus_tree = {
 		
 		x = 0
 		y = 1
-		cost = 5
+		cost = 1.5
 		completion_reward = {
 			add_political_power = 100
 		}
@@ -1156,7 +1302,7 @@ focus_tree = {
 	focus = {
 		id = KBN_kuban_industrialization
 		icon = GFX_focus_KBN_Prom
-		x = 20
+		x = 22
 		y = 0
 		cost = 7.2
 		completion_reward = {
@@ -1171,7 +1317,7 @@ focus_tree = {
 	focus = {
 		id = KBN_transkuban_railway
 		icon = GFX_focus_KBN_transkuban_railway
-		x = 18
+		x = 20
 		y = 0
 		cost = 7.2
 		completion_reward = {
@@ -1182,6 +1328,12 @@ focus_tree = {
 					level = 1
 					instant_build = yes
 					province = 775
+				}
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					instant_build = yes
+					province = 6490
 				}
 			}
 			237 = {
@@ -1423,7 +1575,7 @@ focus_tree = {
 		icon = GFX_focus_kubanian_dockyard
 		#relative_position_id = KBN_kubanian_dockyard
 		#prerequisite = { focus = KBN_infrastructure_modernization }
-		x = 17
+		x = 19
 		y = 2
 		cost = 10
 		completion_reward = {
@@ -1536,7 +1688,7 @@ focus_tree = {
 	focus = {
 		id = KBN_Kuban_army
 		icon = GFX_focus_doctrine_1
-		x = 11
+		x = 12
 		y = 0
 		cost = 5
 		completion_reward = {

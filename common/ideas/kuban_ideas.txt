@@ -119,7 +119,14 @@ ideas = {
 	}
 	
 	country = {
-	
+		KBN_Juden_line = {
+			
+			picture = KBN_Juden_line
+			
+			modifier = {
+				production_speed_industrial_complex_factor = -0.05
+			}
+		}
 		KBN_transkuban_railway_pay_1 = {
 			
 			picture = KBN_transkuban_railway_pay_1
@@ -238,7 +245,7 @@ ideas = {
 		}
 		KBN_strengthening_policy_Vatop = {
 			
-			picture =ger_bulwark_against_bolshevism
+			picture = ger_bulwark_against_bolshevism
 			
 			modifier = {
 				democratic_drift = 0.05

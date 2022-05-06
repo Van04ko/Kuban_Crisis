@@ -510,14 +510,18 @@ characters = {
 	KBN_Prosvirnin = {
 		name = KBN_Prosvirnin
 		portraits = {
+			civilian = {
+				large="gfx/leaders/KBN/prosvirnin.png"
+			}
 			army = {
+				large = "gfx/leaders/KBN/prosvirnin.png"
 				small="GFX_idea_KBN_Prosvirnin"
 			}
 		}
 		advisor = {
-			cost = 50
+			cost = 100
 			slot = political_advisor
-			idea_token = Prosvirnin
+			idea_token = Prosvirnin_polit
 			allowed = {
 				original_tag = KBN
 			}
@@ -527,7 +531,71 @@ characters = {
 					tooltip = prosvirnin_tt		
 					has_country_flag = prosvirnin_live_flag
 				}
+				NOT = { has_idea = Prosvirnin_army }
 			}
+		}
+		advisor = {
+			cost = 100
+			slot = army_chief
+			idea_token = Prosvirnin_army
+			allowed = {
+				original_tag = KBN
+			}
+			traits = { Prosvirnin_Rus_Nationalist_army }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = prosvirnin_tt		
+					has_country_flag = prosvirnin_live_flag
+				}
+				NOT = { has_idea = Prosvirnin_polit }
+			}
+		}
+		corps_commander = {
+			traits = { substance_abuser }
+			skill = 3
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 3
+			legacy_id = 0
+		}
+	}
+	KBN_UncleDed = {
+		name = KBN_UncleDed
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/KBN/UncleDed.png"
+			}
+			army = {
+				large = "gfx/leaders/KBN/UncleDed.png"
+				small = "GFX_idea_KBN_UncleDed"
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = army_chief
+			idea_token = UncleDed
+			allowed = {
+				original_tag = KBN
+			}
+			traits = { UncleDed_hoi_slave_master }
+		}
+	}
+	KBN_Penis_Detrov = {
+		name = KBN_Penis_Detrov
+		portraits = {
+			army = {
+				small = "GFX_idea_KBN_Penis_Detrov"
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = air_chief
+			idea_token = Penis_Detrov
+			allowed = {
+				original_tag = KBN
+			}
+			traits = { Penisita }
 		}
 	}
 }

@@ -421,7 +421,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/KBN/focus_robert.png"
 	}
 	
-	
 	SpriteType = {
 		name = "GFX_focus_KBN_Yacheiki"
 		texturefile = "gfx/interface/goals/KBN/KBN_Yacheiki.png"
@@ -442,6 +441,18 @@ spriteTypes = {
 		name = "GFX_focus_KBN_CUM_dodomy"
 		texturefile = "gfx/interface/goals/KBN/KBN_CUM_dodomy.png"
 	}
+	SpriteType = {
+		name = "GFX_focus_KBN_transsib"
+		texturefile = "gfx/interface/goals/KBN/KBN_transsib.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_KBN_warplan_don"
+		texturefile = "gfx/interface/goals/KBN/KBN_warplan_don.png"
+	}
+	
+	
+	
+	
 	
 	
 	SpriteType = {
