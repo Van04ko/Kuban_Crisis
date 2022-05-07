@@ -1,12 +1,12 @@
-spriteTypes = {	
-	
+spriteTypes = {
 	SpriteType = {
 		name = "GFX_focus_KBN_tempale"
 		texturefile = "gfx/interface/goals/KBN/focus_KBN_tempale.png"	
 	}
-	
-
-
+	SpriteType = {
+		name = "GFX_focus_KBN_tempale"
+		texturefile = "gfx/interface/goals/KBN/focus_KBN_tempale.png"	
+	}
 	SpriteType = {
 		name = "GFX_focus_KBN_Kubanskoe_Mikrofonostroenie"
 		texturefile = "gfx/interface/goals/KBN/focus_KBN_Kubanskoe_Mikrofonostroenie.png"	
@@ -27,7 +27,6 @@ spriteTypes = {
 		name = "GFX_focus_KBN_Vnutren_Vrzhd"
 		texturefile = "gfx/interface/goals/KBN/focus_KBN_Vnutren_Vrzhd.png"	
 	}
-	
 	SpriteType = {
 		name = "GFX_focus_Eto_ne_rabotaet"
 		texturefile = "gfx/interface/goals/KBN/Eto_ne_rabotaet.png"	
@@ -84,7 +83,6 @@ spriteTypes = {
 		name = "GFX_focus_vysledi_bolshevika"
 		texturefile = "gfx/interface/goals/KBN/vysledi_bolshevika.png"	
 	}
-	
 	SpriteType = {
 		name = "GFX_focus_conscription_1"
 		texturefile = "gfx/interface/goals/KBN/conscription_1.png"	
@@ -117,8 +115,6 @@ spriteTypes = {
 		name = "GFX_focus_weapon_development"
 		texturefile = "gfx/interface/goals/KBN/weapon_development.png"	
 	}
-	
-	
 	SpriteType = {
 		name = "GFX_focus_big_ships"
 		texturefile = "gfx/interface/goals/KBN/big_ships.png"	
@@ -143,9 +139,6 @@ spriteTypes = {
 		name = "GFX_focus_kubanian_u_boat_effort"
 		texturefile = "gfx/interface/goals/KBN/kubanian_u_boat_effort.png"	
 	}
-	
-	
-	
 	SpriteType = {
 		name = "GFX_focus_Cossacks_and_Pannwitz"
 		texturefile = "gfx/interface/goals/KBN/Cossacks_and_Pannwitz.png"	
@@ -274,130 +267,6 @@ spriteTypes = {
 		name = "GFX_focus_KBN_On_side_aesthetics"
 		texturefile = "gfx/interface/goals/KBN/KBN_On_side_aesthetics.png"	
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	SpriteType = {
-		name = "GFX_4urki"
-		texturefile = "gfx/event_pictures/4urki.png"	
-	}
-	SpriteType = {
-		name = "GFX_cherta_osedlosti"
-		texturefile = "gfx/event_pictures/cherta_osedlosti.png"	
-	}
-	SpriteType = {
-		name = "GFX_gay_sex"
-		texturefile = "gfx/event_pictures/gay_sex.png"	
-	}
-	SpriteType = {
-		name = "GFX_litiy"
-		texturefile = "gfx/event_pictures/litiy.png"	
-	}
-	SpriteType = {
-		name = "GFX_reznya"
-		texturefile = "gfx/event_pictures/reznya.png"	
-	}
-	SpriteType = {
-		name = "GFX_ussr_war"
-		texturefile = "gfx/event_pictures/ussr_war.png"	
-	}
-	SpriteType = {
-		name = "GFX_aOruss"
-		texturefile = "gfx/event_pictures/aOruss.png"	
-	}
-	
-	
-	SpriteType = {
-		name = "GFX_papicheski"
-		texturefile = "gfx/event_pictures/papicheski.png"	
-	}
-	SpriteType = {
-		name = "GFX_shevtsov"
-		texturefile = "gfx/event_pictures/shevtsov.png"	
-	}
-	SpriteType = {
-		name = "GFX_koronacia"
-		texturefile = "gfx/event_pictures/koronacia.png"	
-	}
-	
-	SpriteType = {
-		name = "GFX_event_KBN_dog"
-		texturefile = "gfx/event_pictures/dog.png"	
-	}
-	SpriteType = {
-		name = "GFX_event_fantastish"
-		texturefile = "gfx/event_pictures/fantastish.png"	
-	}
-	SpriteType = {
-		name = "GFX_event_Monument_Krasnov"
-		texturefile = "gfx/event_pictures/Monument_Krasnov.png"	
-	}
-	SpriteType = {
-		name = "GFX_event_debatu"
-		texturefile = "gfx/event_pictures/debatu.png"	
-	}
-	SpriteType = {
-		name = "GFX_event_microchlek"
-		texturefile = "gfx/event_pictures/microchlek.png"	
-	}
-	SpriteType = {
-		name = "GFX_event_armenia"
-		texturefile = "gfx/event_pictures/armenia.png"	
-	}
-	SpriteType = {
-		name = "GFX_event_mircofonuch"
-		texturefile = "gfx/event_pictures/mircofonuch.png"	
-	}
-	SpriteType = {
-		name = "GFX_event_litiy_dva_ebat"
-		texturefile = "gfx/event_pictures/litiy_dva_ebat.png"	
-	}
-	SpriteType = {
-		name = "GFX_event_Vata_hello"
-		texturefile = "gfx/event_pictures/Vata_hello.png"	
-	}
-	SpriteType = {
-		name = "GFX_event_well_cum"
-		texturefile = "gfx/event_pictures/well_cum.png"	
-	}
-	SpriteType = {
-		name = "GFX_event_cunts"
-		texturefile = "gfx/event_pictures/cunts.png"	
-	}
-	SpriteType = {
-		name = "GFX_event_copiyka"
-		texturefile = "gfx/event_pictures/copiyka.png"	
-	}
-	SpriteType = {
-		name = "GFX_event_knibbers"
-		texturefile = "gfx/event_pictures/knibbers.png"	
-	}
-
-
-	
-	
-
-
-	
-
-
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	SpriteType = {
 		name = "GFX_focus_Return_lands_bal"
 		texturefile = "gfx/interface/goals/KBN/Return_lands_bal.png"	
@@ -414,7 +283,6 @@ spriteTypes = {
 		name = "GFX_focus_Return_lands_pol"
 		texturefile = "gfx/interface/goals/KBN/Return_lands_pol.png"
 	}
-	
 	SpriteType = {
 		name = "GFX_focus_KBN_transkuban_railway"
 		texturefile = "gfx/interface/goals/KBN/KBN_transkuban_railway.png"
@@ -423,8 +291,6 @@ spriteTypes = {
 		name = "GFX_focus_KBN_Vata_line"
 		texturefile = "gfx/interface/goals/KBN/KBN_Vata_line.png"
 	}
-	
-	
 	SpriteType = {
 		name = "GFX_focus_kolchak"
 		texturefile = "gfx/interface/goals/KBN/kolchak.png"
@@ -441,7 +307,6 @@ spriteTypes = {
 		name = "GFX_focus_robert"
 		texturefile = "gfx/interface/goals/KBN/focus_robert.png"
 	}
-	
 	SpriteType = {
 		name = "GFX_focus_KBN_Yacheiki"
 		texturefile = "gfx/interface/goals/KBN/KBN_Yacheiki.png"
@@ -469,16 +334,5 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_focus_KBN_warplan_don"
 		texturefile = "gfx/interface/goals/KBN/KBN_warplan_don.png"
-	}
-	
-	
-	
-	
-	
-	
-	SpriteType = {
-		name = "GFX_radio_krol"
-		texturefile = "gfx/radio_krol.png"
-		noOfFrames = 2
 	}
 }

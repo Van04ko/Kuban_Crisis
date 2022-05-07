@@ -3,10 +3,10 @@ characters = {
 		name = KBN_Vatoadmin
 		portraits = {
 			civilian = {
-				large="gfx/leaders/KBN/Vatoadmin.png"
+				large = GFX_portrait_Vatoadmin
 			}
 			army = {
-				large = "gfx/leaders/KBN/Vatoadmin.png"
+				large = GFX_portrait_Vatoadmin
 			}
 		}
 		country_leader = {

@@ -1,0 +1,18 @@
+spriteTypes = {	
+	spriteType = {
+		name = GFX_portrait_Rubnyakov
+		texturefile = gfx/leaders/KBN/Rubnyakov.png
+    }
+	spriteType = {
+		name = GFX_portrait_Vatoadmin
+		texturefile = gfx/leaders/KBN/Vatoadmin.png
+    }
+	spriteType = {
+		name = GFX_portrait_Vatop
+		texturefile = gfx/leaders/KBN/Vatop.png
+    }
+	spriteType = {
+		name = GFX_Portrait_Eugen_von_Ponasenkof
+		texturefile = gfx/leaders/KBN/Portrait_Eugen_von_Ponasenkof.png
+    }
+}

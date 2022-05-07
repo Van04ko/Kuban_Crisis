@@ -1,0 +1,106 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_event_Ponasenkof"
+		texturefile = "gfx/event_pictures/Ponasenkof.png"	
+	}
+	SpriteType = {
+		name = "GFX_4urki"
+		texturefile = "gfx/event_pictures/4urki.png"	
+	}
+	SpriteType = {
+		name = "GFX_cherta_osedlosti"
+		texturefile = "gfx/event_pictures/cherta_osedlosti.png"	
+	}
+	SpriteType = {
+		name = "GFX_gay_sex"
+		texturefile = "gfx/event_pictures/gay_sex.png"	
+	}
+	SpriteType = {
+		name = "GFX_litiy"
+		texturefile = "gfx/event_pictures/litiy.png"	
+	}
+	SpriteType = {
+		name = "GFX_reznya"
+		texturefile = "gfx/event_pictures/reznya.png"	
+	}
+	SpriteType = {
+		name = "GFX_ussr_war"
+		texturefile = "gfx/event_pictures/ussr_war.png"	
+	}
+	SpriteType = {
+		name = "GFX_aOruss"
+		texturefile = "gfx/event_pictures/aOruss.png"	
+	}
+	SpriteType = {
+		name = "GFX_papicheski"
+		texturefile = "gfx/event_pictures/papicheski.png"	
+	}
+	SpriteType = {
+		name = "GFX_shevtsov"
+		texturefile = "gfx/event_pictures/shevtsov.png"	
+	}
+	SpriteType = {
+		name = "GFX_koronacia"
+		texturefile = "gfx/event_pictures/koronacia.png"	
+	}
+	SpriteType = {
+		name = "GFX_event_KBN_dog"
+		texturefile = "gfx/event_pictures/dog.png"	
+	}
+	SpriteType = {
+		name = "GFX_event_ruske_fashisten"
+		texturefile = "gfx/event_pictures/ruske_fashisten.png"	
+	}
+	SpriteType = {
+		name = "GFX_event_Stirlitz"
+		texturefile = "gfx/event_pictures/Stirlitz.png"	
+	}
+	SpriteType = {
+		name = "GFX_event_fantastish"
+		texturefile = "gfx/event_pictures/fantastish.png"	
+	}
+	SpriteType = {
+		name = "GFX_event_Monument_Krasnov"
+		texturefile = "gfx/event_pictures/Monument_Krasnov.png"	
+	}
+	SpriteType = {
+		name = "GFX_event_debatu"
+		texturefile = "gfx/event_pictures/debatu.png"	
+	}
+	SpriteType = {
+		name = "GFX_event_microchlek"
+		texturefile = "gfx/event_pictures/microchlek.png"	
+	}
+	SpriteType = {
+		name = "GFX_event_armenia"
+		texturefile = "gfx/event_pictures/armenia.png"	
+	}
+	SpriteType = {
+		name = "GFX_event_mircofonuch"
+		texturefile = "gfx/event_pictures/mircofonuch.png"	
+	}
+	SpriteType = {
+		name = "GFX_event_litiy_dva_ebat"
+		texturefile = "gfx/event_pictures/litiy_dva_ebat.png"	
+	}
+	SpriteType = {
+		name = "GFX_event_Vata_hello"
+		texturefile = "gfx/event_pictures/Vata_hello.png"	
+	}
+	SpriteType = {
+		name = "GFX_event_well_cum"
+		texturefile = "gfx/event_pictures/well_cum.png"	
+	}
+	SpriteType = {
+		name = "GFX_event_cunts"
+		texturefile = "gfx/event_pictures/cunts.png"	
+	}
+	SpriteType = {
+		name = "GFX_event_copiyka"
+		texturefile = "gfx/event_pictures/copiyka.png"	
+	}
+	SpriteType = {
+		name = "GFX_event_knibbers"
+		texturefile = "gfx/event_pictures/knibbers.png"	
+	}
+}

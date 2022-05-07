@@ -1,0 +1,13 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_dec_cat_lusich"
+		texturefile = "gfx/interface/decisions/lusich.png"
+		legacy_lazy_load = no
+		noOfFrames = 3	
+	}
+	SpriteType = {
+		name = "GFX_radio_krol"
+		texturefile = "gfx/radio_krol.png"
+		noOfFrames = 2
+	}
+}
