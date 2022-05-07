@@ -266,6 +266,14 @@ spriteTypes = {
 		name = "GFX_focus_KBN_podpolie_Rossa"
 		texturefile = "gfx/interface/goals/KBN/KBN_podpolie_Rossa.png"	
 	}
+	SpriteType = {
+		name = "GFX_focus_KBN_warplan_volga"
+		texturefile = "gfx/interface/goals/KBN/KBN_warplan_volga.png"	
+	}
+	SpriteType = {
+		name = "GFX_focus_KBN_On_side_aesthetics"
+		texturefile = "gfx/interface/goals/KBN/KBN_On_side_aesthetics.png"	
+	}
 	
 	
 	
@@ -359,6 +367,19 @@ spriteTypes = {
 		name = "GFX_event_well_cum"
 		texturefile = "gfx/event_pictures/well_cum.png"	
 	}
+	SpriteType = {
+		name = "GFX_event_cunts"
+		texturefile = "gfx/event_pictures/cunts.png"	
+	}
+	SpriteType = {
+		name = "GFX_event_copiyka"
+		texturefile = "gfx/event_pictures/copiyka.png"	
+	}
+	SpriteType = {
+		name = "GFX_event_knibbers"
+		texturefile = "gfx/event_pictures/knibbers.png"	
+	}
+
 
 	
 	

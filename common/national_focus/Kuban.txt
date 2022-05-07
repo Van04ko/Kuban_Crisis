@@ -618,7 +618,6 @@ focus_tree = {
 			add_manpower = 50000
 		}
 	}
-
 	focus = {
 		id = KBN_Home_harbor
 		icon = GFX_focus_Home_harbor
@@ -633,6 +632,21 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = KBN_On_side_aesthetics
+		icon = GFX_focus_KBN_On_side_aesthetics
+		relative_position_id = KBN_Home_harbor
+		prerequisite = { focus = KBN_Home_harbor }
+		bypass = {
+			NOT = { country_exists = SOV }
+		}
+		x = 2
+		y = 1
+		cost = 5.8
+		completion_reward = {
+			country_event = { id = kuban.40 }
+		}
+	}
+	focus = {
 		id = KBN_Cossacks_and_Pannwitz
 		icon = GFX_focus_Cossacks_and_Pannwitz
 		relative_position_id = KBN_Home_harbor
@@ -644,7 +658,7 @@ focus_tree = {
 		completion_reward = {
 			country_event = { id = kuban.16 }
 		}
-	}
+	}	
 	focus = {
 		id = KBN_Vata_line
 		icon = GFX_focus_KBN_Vata_line
@@ -776,9 +790,10 @@ focus_tree = {
 				}
 			}
 		}
-	}focus = {
+	}
+	focus = {
 		id = KBN_warplan_volga
-		icon = GFX_focus_KBN_warplan_don
+		icon = GFX_focus_KBN_warplan_volga
 		relative_position_id = KBN_Vata_line
 		prerequisite = { focus = KBN_Vata_line }
 		
@@ -786,19 +801,19 @@ focus_tree = {
 		y = 1
 		cost = 5.8
 		completion_reward = {
-			218 = {
+			236 = { # Астрахань
 				if = {
 					limit = { is_controlled_by = ROOT }
 					add_building_construction = {
 						type = bunker
-						level = 3
-						province = 11559
+						level = 4
+						province = 9753
 						instant_build = yes
 					}
 					add_building_construction = {
 						type = bunker
-						level = 3
-						province = 585
+						level = 2
+						province = 757
 						instant_build = yes
 					}
 					add_building_construction = {
@@ -807,21 +822,45 @@ focus_tree = {
 						province = 9417
 						instant_build = yes
 					}
-				}
-			}
-			238 = {
-				if = {
-					limit = { is_controlled_by = ROOT }
 					add_building_construction = {
 						type = bunker
 						level = 3
-						province = 426
+						province = 11579
 						instant_build = yes
 					}
 					add_building_construction = {
 						type = bunker
 						level = 3
-						province = 11403
+						province = 9440
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 3
+						province = 3461
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 3
+						province = 3487
+						instant_build = yes
+					}
+				}
+			}
+			237 = { # Калмыкия
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+						type = bunker
+						level = 2
+						province = 11706
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 1
+						province = 9735
 						instant_build = yes
 					}
 				}

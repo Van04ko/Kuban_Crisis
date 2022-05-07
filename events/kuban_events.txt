@@ -128,7 +128,7 @@ country_event = {
 	id = kuban.6
 	title = kuban.6.t
 	desc = kuban.6.d
-	picture = GFX_report_event_chinese_soldiers_01
+	picture = GFX_event_copiyka
 
 	is_triggered_only = yes
 	
@@ -962,6 +962,75 @@ country_event = {
 			add_manpower = 1
 			custom_effect_tooltip = prosvirnin_live_tt
 		}
+	}
+}
+
+country_event = {
+	id = kuban.38
+	title = kuban.38.t
+	desc = kuban.38.d
+	picture = GFX_event_cunts
+	
+	fire_only_once = yes
+	
+	trigger = {
+		date > 1936.2.13
+		country_exists = KBN
+		tag = KBN
+	}
+	
+	option = {
+		name = kuban.38.a
+		add_manpower = -1
+		ENG = { add_manpower = 1 }
+	}
+	option = {
+		name = kuban.38.b
+		add_manpower = -1
+		SOV = { add_manpower = 1 }
+	}
+	
+}
+
+country_event = {
+	id = kuban.39
+	title = kuban.39.t
+	desc = kuban.39.d
+	picture = GFX_event_knibbers
+	
+	fire_only_once = yes
+	
+	trigger = {
+		date > 1936.1.31
+		country_exists = KBN
+		tag = KBN
+	}
+	option = {
+		name = kuban.39.a
+		add_political_power = 50
+	}
+	option = {
+		name = kuban.39.b
+		add_political_power = 50
+	}
+}
+country_event = {
+	id = kuban.40
+	title = kuban.40.t
+	desc = kuban.40.d
+	picture = GFX_event_knibbers
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = kuban.40.a
+		add_political_power = 50
+	}
+	option = {
+		name = kuban.40.b
+		add_political_power = 50
 	}
 }
 
