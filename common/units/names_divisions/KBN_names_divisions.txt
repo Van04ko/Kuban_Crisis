@@ -70,8 +70,7 @@ KBN_MOT_01 = {
 	}
 }
 
-KBN_ARM_01 = 
-{
+KBN_ARM_01 = {
 	name = "Armored Divisions"
 
 	for_countries = { KBN }
@@ -83,22 +82,13 @@ KBN_ARM_01 =
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { KBN_INF_01 }
 
-	fallback_name = "%dya Ukrainska Tankovaya Div."
+	fallback_name = "%d-ая Кубанская Редкоземельно-танковая Дивизия."
 
-	# Names with numbers (only one number per entry). 
-	# It's okay to have gaps in numbering.
-	ordered =
-	{
-		1 = { "%dya Ukrainska Tankovaya Div." }
-		2 = { "%dya Ukrainska Tankovaya Div." }
-		3 = { "%dya Ukrainska Tankovaya Div." }
-		4 = { "%dya Ukrainska Tankovaya Div." }
-		5 = { "%dya Ukrainska Tankovaya Div." }
-		6 = { "%dya Ukrainska Tankovaya Div." }
-		7 = { "%dya Ukrainska Tankovaya Div." }
-		8 = { "%dya Ukrainska Tankovaya Div." }
-		9 = { "%dya Ukrainska Tankovaya Div." }
-		10 = { "%dya Ukrainska Tankovaya Div." }
+	ordered = {
+		1 = { "%d-ая Дивизия им. Роберта Райта" }
+		2 = { "%d-ая Кубанская Редкоземельно-танковая Дивизия." }
+		3 = { "%d-ая Кубанская Редкоземельно-танковая Дивизия." }
+		4 = { "%d-ая Кубанская Редкоземельно-танковая Дивизия." }
 
 	}
 }

@@ -32,8 +32,8 @@ guiTypes = {
 			alwaystransparent = yes
 		}
 		iconType = {
-			name = "superevents_kbn_rise_of_russia"		
-			quadTextureSprite ="GFX_superevents_fall_germany"
+			name = "superevents_KBN_the_rebirth_power_of_Russia"		
+			quadTextureSprite ="GFX_superevents_KBN_the_rebirth_power_of_Russia"
 			position = { x = 0 y = 0 }
 			alwaystransparent = yes
 		}
