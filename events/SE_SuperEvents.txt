@@ -12,10 +12,13 @@ country_event = { #test event
 		play_song = "Vatoadmin_Boje_Carya_Hrani"
 		
 		set_cosmetic_tag = KBN_russia_united
+		
 		add_ideas = KBN_Andrei_I
+		
 		217 = { set_state_name = "Царицын" }
 		195 = { set_state_name = "Петроград" }
 		228 = { set_state_name = "Луганск" }
+		
 		set_province_name = { id = 3529 name = "Царицын" }
 		set_province_name = { id = 3151 name = "Петроград" }
 		set_province_name = { id = 3134 name = "Романов-на-Муроме" }

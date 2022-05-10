@@ -131,7 +131,7 @@ focus_tree = {
 		prerequisite = { focus = KBN_preparing_for_betrayal }
 		x = 0
 		y = 3
-		cost = 10
+		cost = 5
 		completion_reward = {
 			create_wargoal = {
 				target = CAU
@@ -158,7 +158,7 @@ focus_tree = {
 		prerequisite = { focus = KBN_war_with_Beria }
 		x = 0
 		y = 4
-		cost = 7.2
+		cost = 5
 		completion_reward = {
 			add_manpower = 61765
 		}
@@ -338,7 +338,7 @@ focus_tree = {
 		prerequisite = { focus = KBN_return_white_emigration }
 		x = 0
 		y = 5
-		cost = 7.2
+		cost = 5
 		completion_reward = {
 			country_event = { id = kuban.10 }
 			
@@ -938,7 +938,7 @@ focus_tree = {
 			}
 			# country_event = { id = kuban.26 }
 			hidden_effect = {
-				country_event = { id = superevents.504 }
+				country_event = { id = kuban_super_events.1 }
 			}
 		}
 	}

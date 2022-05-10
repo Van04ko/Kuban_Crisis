@@ -13,6 +13,10 @@
 			ship = { name = "Рыбников" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Fidonisi Class" } } }
 			ship = { name = "Славянка" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Fidonisi Class" } } }
 			ship = { name = "Кубаноид" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Fidonisi Class" } } }
+		}
+		task_force = {
+			name = "Черноморский подводный флагманский флот"
+			location = 8131
 			ship = { name = "Москва" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "Sakarya Class" } } }
 		}
 	}
