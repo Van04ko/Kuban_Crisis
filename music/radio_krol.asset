@@ -45,3 +45,10 @@ music = {
 	volume = 0.70
 }
 
+music = {
+	name = "Vatoadmin_Boje_Carya_Hrani"
+	file = "radio_krol/Vatoadmin_Boje_Carya_Hrani.ogg"
+	volume = 1
+}
+
+

@@ -936,7 +936,10 @@ focus_tree = {
 				remove_core_of = SOV
 				remove_core_of = CAU
 			}
-			country_event = { id = kuban.26 }
+			# country_event = { id = kuban.26 }
+			hidden_effect = {
+				country_event = { id = superevents.504 }
+			}
 		}
 	}
 	focus = {

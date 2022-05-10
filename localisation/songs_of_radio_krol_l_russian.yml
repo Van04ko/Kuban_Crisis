@@ -2,12 +2,14 @@
  # SHOULD NOT BE TRANSLATED FROM ENGLISH
  radio_krol_TITLE: "Радио КроLL"
  
- drozdovskiy_polk: "Марш Дроздовского полка"
- ilovepenis: "I LOVE PENIS!"
- mars_sibirskih_strelkov: "Марш сибирских стрелков"
- oysa_tu_oysa: "Ойся ты ойся"
- proshanie_s_ropinoy: "Марш - Прощание с Родиной"
- reki_tekut: "Дальневосточная"
- RUSSKIR_VPERED: "§RРУССКИЕ.ВПЕРЁД.РУССКИЕ.ВПЕРЁД.РУССКИЕ.ВПЕРЁД.§!"
- soldatskaya_pesnya_marshiruyut_polki: "Маршируют полки"
- VI_KA: "Папическая - победная!"
+ drozdovskiy_polk:0 "Марш Дроздовского полка"
+ ilovepenis:0 "I LOVE PENIS!"
+ mars_sibirskih_strelkov:0 "Марш сибирских стрелков"
+ oysa_tu_oysa:0 "Ойся ты ойся"
+ proshanie_s_ropinoy:0 "Марш - Прощание с Родиной"
+ reki_tekut:0 "Дальневосточная"
+ RUSSKIR_VPERED:0 "§RРУССКИЕ.ВПЕРЁД.РУССКИЕ.ВПЕРЁД.РУССКИЕ.ВПЕРЁД.§!"
+ soldatskaya_pesnya_marshiruyut_polki:0 "Маршируют полки"
+ VI_KA:0 "Папическая - победная!"
+ 
+ Vatoadmin_Boje_Carya_Hrani:0 "Ватоадмин - Боже Царя Храни!"
