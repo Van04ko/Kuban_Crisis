@@ -201,6 +201,16 @@ units = {
 	division= {
 		division_name = {
 			is_name_ordered = yes
+			name_order = 11
+		}
+		location = 3720
+		division_template = "Редкоземельная Дивизия"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.0
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
 			name_order = 1
 		}
 		location = 6490

@@ -23,13 +23,12 @@ focus_tree = {
 		y = 0
 		cost = 7.2
 		completion_reward = {
-			234 = {
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
+			add_political_power = -10
+			add_offsite_building = { type = industrial_complex level = 2 }
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 2000
+				producer = KBN
 			}
 		}
 	}
@@ -626,7 +625,7 @@ focus_tree = {
 		prerequisite = { focus = KBN_Revival_Terek_Cossacks }
 		x = -3
 		y = 1
-		cost = 10
+		cost = 7.2
 		completion_reward = {
 			add_ideas = KBN_cosacks_struggle
 		}
@@ -1429,6 +1428,15 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
+			235 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					instant_build = yes
+					province = 11696
+				}
+			}
 		}
 	}
 	focus = {
@@ -1474,15 +1482,15 @@ focus_tree = {
 		cost = 7.2
 		completion_reward = {
 			234 = {
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 5
 				add_building_construction = {
 					type = arms_factory
-					level = 1
+					level = 2
 					instant_build = yes
 				}
 				add_building_construction = {
 					type = industrial_complex
-					level = 1
+					level = 3
 					instant_build = yes
 				}
 			}
@@ -1536,7 +1544,7 @@ focus_tree = {
 		prerequisite = { focus = KBN_radio_silence }
 		x = 0
 		y = 4
-		cost = 10
+		cost = 5
 		completion_reward = {
 			add_tech_bonus = {
 				name = infantry_artillery_bonus
@@ -1607,7 +1615,7 @@ focus_tree = {
 		prerequisite = { focus = KBN_last_frontier }
 		x = 0
 		y = 7
-		cost = 10
+		cost = 7.2
 		completion_reward = {
 			country_event = { id = kuban.28 }
 		}
@@ -1750,7 +1758,7 @@ focus_tree = {
 		prerequisite = { focus = KBN_Kuban_army }
 		x = -2
 		y = 1
-		cost = 10
+		cost = 7.2
 		completion_reward = {
 			army_experience = 25
 			add_doctrine_cost_reduction = {
@@ -1769,7 +1777,7 @@ focus_tree = {
 		prerequisite = { focus = KBN_Weapon_development }
 		x = -2
 		y = 2
-		cost = 10
+		cost = 7.2
 		completion_reward = {
 			army_experience = 25
 			add_doctrine_cost_reduction = {
@@ -1788,7 +1796,7 @@ focus_tree = {
 		prerequisite = { focus = KBN_Weapon_troops_development }
 		x = -2
 		y = 3
-		cost = 10
+		cost = 7.2
 		completion_reward = {
 			army_experience = 50
 			add_doctrine_cost_reduction = {
@@ -1806,7 +1814,7 @@ focus_tree = {
 		prerequisite = { focus = KBN_Kuban_army }
 		x = 1
 		y = 1
-		cost = 10
+		cost = 7.2
 		completion_reward = {
 			add_tech_bonus = {
 				name = infantry_artillery_bonus
@@ -1823,7 +1831,7 @@ focus_tree = {
 		prerequisite = { focus = KBN_Weapon_development }
 		x = 0
 		y = 2
-		cost = 10
+		cost = 7.2
 		completion_reward = {
 			add_tech_bonus = {
 				name = SAF_sa_engineer_corps
@@ -1842,7 +1850,7 @@ focus_tree = {
 		prerequisite = { focus = KBN_Kuban_army }
 		x = 3
 		y = 1
-		cost = 10
+		cost = 7.2
 		completion_reward = {
 			add_tech_bonus = {
 				name = infantry_artillery_bonus
@@ -1859,7 +1867,7 @@ focus_tree = {
 		prerequisite = { focus = KBN_Artillery_development }
 		x = 4
 		y = 2
-		cost = 10
+		cost = 7.2
 		available = {
 			has_tech = gwtank
 		}
@@ -1882,7 +1890,7 @@ focus_tree = {
 		prerequisite = { focus = KBN_Weapon_development }
 		x = 2
 		y = 2
-		cost = 10
+		cost = 7.2
 		available = {
 			has_army_manpower = { size > 179999 }
 		}
@@ -1899,7 +1907,7 @@ focus_tree = {
 		prerequisite = { focus = KBN_Armor_development }
 		x = 2
 		y = 3
-		cost = 10
+		cost = 7.2
 		available = {
 			has_army_manpower = { size > 359999 }
 		}
