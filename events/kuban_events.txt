@@ -60,24 +60,7 @@ country_event = {
 	}
 	option = {
 		name = kuban.3.b
-		complete_national_focus = KBN_Vatop
-		set_politics = {
-			ruling_party = democratic
-			elections_allowed = yes
-		}
-		set_political_party = {
-			ideology = democratic
-			popularity = 25
-		}
-		set_country_leader_ideology = liberalism
-		set_country_leader_name = {
-			ideology = democratic
-			name = KBN_Vatop
-		}
-		set_country_leader_portrait = {
-			ideology = democratic
-			portrait = GFX_Vatop
-		}
+		country_event = { id = kuban.41 }
 	}
 }
 
@@ -1036,6 +1019,51 @@ country_event = {
 			defense_skill = 2
 			planning_skill = 4
 			logistics_skill = 3
+		}
+	}
+}
+
+country_event = { 
+	id = kuban.41
+	title = kuban.41.t
+	desc = kuban.41.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = {
+		name = kuban.41.a
+		complete_national_focus = KBN_Rubnyakov
+		create_country_leader = {
+			name = KBN_Alexei_Rubnyakov
+			desc = "Rubnyakov_DESC"
+			picture = GFX_portrait_Rubnyakov
+			expire = "1965.1.1"
+			ideology = despotism
+			traits = {
+				
+			}
+		}
+	}
+	option = {
+		name = kuban.41.b
+		complete_national_focus = KBN_Vatop
+		set_politics = {
+			ruling_party = democratic
+			elections_allowed = yes
+		}
+		set_political_party = {
+			ideology = democratic
+			popularity = 25
+		}
+		set_country_leader_ideology = liberalism
+		set_country_leader_name = {
+			ideology = democratic
+			name = KBN_Vatop
+		}
+		set_country_leader_portrait = {
+			ideology = democratic
+			portrait = GFX_Vatop
 		}
 	}
 }
