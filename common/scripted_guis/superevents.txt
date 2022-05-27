@@ -11,7 +11,8 @@ scripted_gui = {
 		superevents_button_click = {
 			clr_global_flag = SE_superevents_activate
 			#superevents
-			clr_global_flag = SE_spanish_civilwar
+			clr_global_flag = KBN_The_rebirth_power_of_Russia
+			clr_global_flag = KBN_CUM4atka
 		}
     }
 
