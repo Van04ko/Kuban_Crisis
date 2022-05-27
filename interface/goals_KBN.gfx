@@ -335,4 +335,10 @@ spriteTypes = {
 		name = "GFX_focus_KBN_warplan_don"
 		texturefile = "gfx/interface/goals/KBN/KBN_warplan_don.png"
 	}
+	SpriteType = {
+		name = "GFX_focus_KBN_microphone_production"
+		texturefile = "gfx/interface/goals/KBN/KBN_microphone_production.png"
+	}
+	
+	
 }

@@ -550,15 +550,6 @@ characters = {
 				NOT = { has_idea = Prosvirnin_polit }
 			}
 		}
-		corps_commander = {
-			traits = { substance_abuser }
-			skill = 3
-			attack_skill = 1
-			defense_skill = 3
-			planning_skill = 1
-			logistics_skill = 3
-			legacy_id = 0
-		}
 	}
 	KBN_UncleDed = {
 		name = KBN_UncleDed
@@ -596,6 +587,18 @@ characters = {
 				original_tag = KBN
 			}
 			traits = { Penisita }
+		}
+	}
+	KBN_Eugen_von_Ponasenkof = {
+		name = KBN_Eugen_von_Ponasenkof
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Eugen_von_Ponasenkof
+			}
+			army = {
+				large = GFX_portrait_Eugen_von_Ponasenkof
+				small = GFX_idea_KBN_Eugen_von_Ponasenkof
+			}
 		}
 	}
 }

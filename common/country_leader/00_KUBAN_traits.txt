@@ -4,6 +4,23 @@
 
 
 leader_traits = {
+
+	maestro = {
+
+		army_morale = 8
+		army_org_factor = 0.1
+		targeted_modifier = {
+			tag = SOV
+			attack_bonus_against  = 0.05
+		}
+		experience_gain_army = 0.12
+		
+		command_cap = @tier1
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	Penisita = {
 	
 		air_accidents_factor = -0.228

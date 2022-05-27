@@ -931,6 +931,15 @@ country_event = {
 				hidden_effect = {
 					set_country_flag = prosvirnin_live_flag
 				}
+				add_corps_commander_role = {
+					character = KBN_Prosvirnin
+					traits = { substance_abuser }
+					skill = 3
+					attack_skill = 1
+					defense_skill = 3
+					planning_skill = 1
+					logistics_skill = 3
+				}
 			}
 			50 = {
 				add_manpower = -1
@@ -944,6 +953,15 @@ country_event = {
 			set_country_flag = prosvirnin_live_flag
 			add_manpower = 1
 			custom_effect_tooltip = prosvirnin_live_tt
+			add_corps_commander_role = {
+				character = KBN_Prosvirnin
+				traits = { substance_abuser }
+				skill = 3
+				attack_skill = 1
+				defense_skill = 3
+				planning_skill = 1
+				logistics_skill = 3
+			}
 		}
 	}
 }
@@ -1009,15 +1027,21 @@ country_event = {
 	
 	option = {
 		name = kuban.40.a
-		
-		create_corps_commander = {
-			name = "Евген фон Понасенкоф"
-			picture = "Portrait_Eugen_von_Ponasenkof.png"
-			traits = { media_personality brilliant_strategist }
-			skill = 4
+		add_advisor_role = {
+			character = KBN_Eugen_von_Ponasenkof
+			advisor = {
+				slot = army_chief
+				cost = 69
+				idea_token = KBN_Eugen_von_Ponasenkof
+				traits = { maestro }
+			}
+		}
+		add_corps_commander_role = {
+			character = KBN_Eugen_von_Ponasenkof
+			skill = 3
 			attack_skill = 4
 			defense_skill = 2
-			planning_skill = 4
+			planning_skill = 3
 			logistics_skill = 3
 		}
 	}

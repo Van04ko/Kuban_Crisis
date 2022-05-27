@@ -24,11 +24,6 @@ music = {
 	volume = 0.70
 }
 music = {
-	name = "reki_tekut"
-	file = "radio_krol/reki_tekut.ogg"
-	volume = 0.70
-}
-music = {
 	name = "RUSSKIR_VPERED"
 	file = "radio_krol/RUSSKIR_VPERED.ogg"
 	volume = 0.70
@@ -50,5 +45,8 @@ music = {
 	file = "radio_krol/Vatoadmin_Boje_Carya_Hrani.ogg"
 	volume = 1
 }
-
-
+music = {
+	name = "ne_dlya_menya_reki_tekut"
+	file = "radio_krol/ne_dlya_menya_reki_tekut.ogg"
+	volume = 1
+}

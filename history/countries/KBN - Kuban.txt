@@ -7,6 +7,7 @@ set_research_slots = 2
 
 set_variable = { KBN_lusich_var = 1 }
 
+
 recruit_character = KBN_Vatoadmin
 recruit_character = KBN_Pyotr_Popov
 recruit_character = KBN_Alexei_Kaledin
@@ -21,25 +22,20 @@ recruit_character = KBN_Yuri_Rybnikov
 recruit_character = KBN_Cover
 recruit_character = KBN_Sarmat
 recruit_character = KBN_Iron_Dimon
-
 recruit_character = KBN_itpedia
-
 recruit_character = KBN_Ivan_Kyrylenko
 recruit_character = KBN_valakas
 recruit_character = KBN_Papich
 recruit_character = KBN_Ozon
-
 recruit_character = KBN_Igor_Girkin_Strelkov
 recruit_character = KBN_Rogosin
-
 recruit_character = KBN_Robert_Left
 recruit_character = KBN_Robert_Right
-
 recruit_character = KBN_Prosvirnin
 recruit_character = KBN_UncleDed
 recruit_character = KBN_Penis_Detrov
 
-
+recruit_character = KBN_Eugen_von_Ponasenkof
 
 
 # Starting tech

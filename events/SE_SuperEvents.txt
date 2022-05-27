@@ -36,3 +36,25 @@ country_event = { #test event
 		name = kuban_super_events.1.a
 	}
 }
+country_event = { #
+	id = kuban_super_events.2
+	title = kuban_super_events.2.t
+	desc = kuban_super_events.2.d
+	
+	immediate = {
+		set_global_flag = SE_superevents_activate
+		set_global_flag = KBN_CUM4atka
+		
+		play_song = "ne_dlya_menya_reki_tekut"
+	}
+
+	hidden = yes
+	
+	fire_only_once = no
+
+	is_triggered_only = yes
+	
+	option = {
+		name = kuban_super_events.1.a
+	}
+}

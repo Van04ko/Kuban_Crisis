@@ -12,7 +12,7 @@ spriteTypes = {
 		texturefile = gfx/leaders/KBN/Vatop.png
     }
 	spriteType = {
-		name = GFX_Portrait_Eugen_von_Ponasenkof
+		name = GFX_portrait_Eugen_von_Ponasenkof
 		texturefile = gfx/leaders/KBN/Portrait_Eugen_von_Ponasenkof.png
     }
 }

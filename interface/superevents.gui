@@ -37,6 +37,15 @@ guiTypes = {
 			position = { x = 0 y = 0 }
 			alwaystransparent = yes
 		}
+		iconType = {
+			name = "superevents_KBN_CUM4atka"		
+			quadTextureSprite ="GFX_superevents_KBN_CUM4atka"
+			position = { x = 0 y = 0 }
+			alwaystransparent = yes
+		}
+		
+		
+		
 		instantTextboxType = {
 			name = "superevents_title"
 			position = { x = 0 y = 35 }

@@ -22,4 +22,12 @@ spriteTypes = {
 		name = "GFX_superevents_KBN_the_rebirth_power_of_Russia"
 		textureFile = "/gfx/superevents_pictures/superevents_KBN_the_rebirth_power_of_Russia.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_superevents_KBN_CUM4atka"
+		textureFile = "/gfx/superevents_pictures/superevents_KBN_CUM4atka.dds"
+	}
+	
+	
+	
 }

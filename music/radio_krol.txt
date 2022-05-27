@@ -46,15 +46,6 @@ music = {
     }
 }
 music = {
-    song = "reki_tekut"
-    chance = {
-    	factor = 1
-    	modifier = {
-			
-    	}
-    }
-}
-music = {
     song = "RUSSKIR_VPERED"
     chance = {
     	factor = 1
@@ -83,6 +74,15 @@ music = {
 }
 music = {
     song = "Vatoadmin_Boje_Carya_Hrani"
+    chance = {
+    	factor = 0
+    	modifier = {
+			
+    	}
+    }
+}
+music = {
+    song = "ne_dlya_menya_reki_tekut"
     chance = {
     	factor = 0
     	modifier = {
