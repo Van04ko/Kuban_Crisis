@@ -50,3 +50,16 @@ music = {
 	file = "radio_krol/ne_dlya_menya_reki_tekut.ogg"
 	volume = 1
 }
+music = {
+	name = "repchina_ot_varoadmina"
+	file = "radio_krol/repchina_ot_varoadmina.ogg"
+	volume = 1
+}
+
+music = {
+	name = "Vatoadmin_drozdovckiy_polk"
+	file = "radio_krol/Vatoadmin_drozdovckiy_polk.ogg"
+	volume = 1
+}
+
+

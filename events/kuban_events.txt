@@ -768,6 +768,8 @@ country_event = {
 		tag = KBN
 	}
 	
+	immediate = { country_event = { id = kuban.42 days = 7 } }
+	
 	option = {
 		name = kuban.31.a
 		add_stability = 0.05
@@ -1089,6 +1091,22 @@ country_event = {
 			ideology = democratic
 			portrait = GFX_Vatop
 		}
+	}
+}
+
+country_event = { 
+	id = kuban.42
+	title = kuban.42.t
+	desc = kuban.42.d
+	picture = GFX_event_mircofonuch
+
+	is_triggered_only = yes
+	
+	immediate = { play_song = "repchina_ot_varoadmina" }
+	
+	option = {
+		name = kuban.42.a
+		add_political_power = 20
 	}
 }
 

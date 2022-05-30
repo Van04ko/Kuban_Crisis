@@ -90,3 +90,22 @@ music = {
     	}
     }
 }
+music = {
+    song = "repchina_ot_varoadmina"
+    chance = {
+    	factor = 0
+    	modifier = {
+			
+    	}
+    }
+}
+music = {
+    song = "Vatoadmin_drozdovckiy_polk"
+    chance = {
+    	factor = 0
+    	modifier = {
+			
+    	}
+    }
+}
+
