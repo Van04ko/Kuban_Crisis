@@ -15,4 +15,10 @@ spriteTypes = {
 		name = GFX_portrait_Eugen_von_Ponasenkof
 		texturefile = gfx/leaders/KBN/Portrait_Eugen_von_Ponasenkof.png
     }
+	spriteType = {
+		name = GFX_portrait_RUS_tessa_violet
+		texturefile = gfx/leaders/KBN/RUS_tessa_violet.png
+    }
+	
+	
 }

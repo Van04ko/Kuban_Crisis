@@ -5,6 +5,23 @@
 
 leader_traits = {
 
+	tessa = {
+
+		army_morale = 4
+		army_org_factor = 0.08
+		
+		targeted_modifier = {
+			tag = SOV
+			attack_bonus_against  = 0.05
+		}
+		experience_gain_army = 0.09
+		
+		command_cap = @tier2
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	maestro = {
 
 		army_morale = 8

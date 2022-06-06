@@ -601,4 +601,33 @@ characters = {
 			}
 		}
 	}
+	KBN_Tessa_Violet = {
+		name = KBN_Tessa_Violet
+		portraits = {
+			civilian = {
+				large = GFX_portrait_RUS_tessa_violet
+			}
+			army = {
+				large = GFX_portrait_RUS_tessa_violet
+				small = GFX_idea_KBN_tessa_violet
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		advisor = {
+			cost = 100
+			slot = army_chief
+			idea_token = Tessa_Violet
+			allowed = {
+				original_tag = KBN
+			}
+			traits = { tessa }
+		}
+	}
 }

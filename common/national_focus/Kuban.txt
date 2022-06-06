@@ -270,6 +270,21 @@ focus_tree = {
 				target_state = 657
 				path = { 7878 1839 1823 10540 1865 12683 12551 12518 4810 10598 1772 10590 1724 4829 4779 12654 4725 }
 			}
+			561 = {
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					instant_build = yes
+					province = 7785
+				}
+			}
+			build_railway = {
+				level = 2
+				fallback = yes
+				start_state = 561
+				target_state = 562
+				path = { 12543 7785 7691 1845 1730 12591 12650 7772 1805 10572 1714 11607 12551 }
+			}
 		}
 	}
 	focus = {

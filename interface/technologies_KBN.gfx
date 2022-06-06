@@ -1,0 +1,26 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_micro_building_vato_medium"
+		texturefile = "gfx/interface/technologies/micro_building_vato.png"
+	}
+	SpriteType = {
+		name = "GFX_micro_building_1_medium"
+		texturefile = "gfx/interface/technologies/micro_building_1.png"
+	}
+	SpriteType = {
+		name = "GFX_micro_building_2_medium"
+		texturefile = "gfx/interface/technologies/micro_building_2.png"
+	}
+	SpriteType = {
+		name = "GFX_micro_building_3_medium"
+		texturefile = "gfx/interface/technologies/micro_building_3.png"
+	}
+	SpriteType = {
+		name = "GFX_micro_building_4_medium"
+		texturefile = "gfx/interface/technologies/micro_building_4.png"
+	}
+	SpriteType = {
+		name = "GFX_micro_building_5_medium"
+		texturefile = "gfx/interface/technologies/micro_building_5.png"
+	}
+}

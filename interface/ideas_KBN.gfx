@@ -118,6 +118,10 @@ spriteTypes = {
 		name = "GFX_idea_KBN_Prosvirnin"
 		texturefile = "gfx/interface/ideas/KBN/Prosvirnin.png"	
 	}
+	SpriteType = {
+		name = "GFX_idea_KBN_tessa_violet"
+		texturefile = "gfx/interface/ideas/KBN/KBN_Tessa_Violet.png"	
+	}
 	
 	
 	
