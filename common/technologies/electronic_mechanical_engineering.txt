@@ -103,7 +103,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1.75
+		research_cost = 1
 		
 		folder = {
 			name = electronics_folder
@@ -124,7 +124,7 @@ technologies = {
 		}
 		
 		start_year = 1938
-		research_cost = 1.75
+		research_cost = 1
 		
 		folder = {
 			name = electronics_folder
@@ -145,7 +145,7 @@ technologies = {
 		}
 		
 		start_year = 1939
-		research_cost = 1.75
+		research_cost = 1
 		
 		folder = {
 			name = electronics_folder
@@ -167,7 +167,7 @@ technologies = {
 		}
 		
 		start_year = 1940
-		research_cost = 1.75
+		research_cost = 1
 		
 		folder = {
 			name = electronics_folder
@@ -188,7 +188,7 @@ technologies = {
 		}
 		
 		start_year = 1941
-		research_cost = 1.75
+		research_cost = 1
 		
 		folder = {
 			name = electronics_folder
@@ -204,7 +204,7 @@ technologies = {
 		land_reinforce_rate = 0.40
 		
 		start_year = 1942
-		research_cost = 1.75
+		research_cost = 1
 		
 		folder = {
 			name = electronics_folder

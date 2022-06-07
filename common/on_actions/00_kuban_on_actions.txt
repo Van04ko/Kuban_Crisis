@@ -13,6 +13,22 @@ on_actions = {
 					name = KBN_Stas_Pidoras
 				}
 			}
+			USA = {
+				set_country_leader_name = {
+					ideology = democratic
+					name = KBN_Kukech
+				}
+			}
+		}
+	}
+	on_startup_USA = {
+		effect = {
+			USA = {
+				set_country_leader_name = {
+					ideology = democratic
+					name = KBN_Kukech
+				}
+			}
 		}
 	}
 }

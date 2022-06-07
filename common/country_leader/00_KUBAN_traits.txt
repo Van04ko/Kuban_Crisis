@@ -5,6 +5,16 @@
 
 leader_traits = {
 
+	CUM_attack = {
+
+		army_attack_factor = 0.25
+		army_speed_factor = 0.5
+		org_loss_when_moving = -0.8
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	tessa = {
 
 		army_morale = 4
