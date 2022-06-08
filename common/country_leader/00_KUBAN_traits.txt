@@ -8,6 +8,7 @@ leader_traits = {
 	CUM_attack = {
 
 		army_attack_factor = 0.25
+		army_defence_factor = 0.8
 		army_speed_factor = 0.5
 		org_loss_when_moving = -0.8
 		

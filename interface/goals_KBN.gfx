@@ -344,6 +344,9 @@ spriteTypes = {
 		name = "GFX_focus_KBN_microphone_for_people"
 		texturefile = "gfx/interface/goals/KBN/KBN_microphone_for_people.png"
 	}
-	
+	SpriteType = {
+		name = "GFX_focus_KBN_extension_Cuban_railway"
+		texturefile = "gfx/interface/goals/KBN/KBN_extension_Cuban_railway.png"
+	}
 	
 }

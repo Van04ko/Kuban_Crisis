@@ -1,4 +1,29 @@
 spriteTypes = {
+
+	SpriteType = {
+		name = "GFX_event_pitsa"
+		texturefile = "gfx/event_pictures/pitsa.png"	
+	}
+	SpriteType = {
+		name = "GFX_event_Pannwitz"
+		texturefile = "gfx/event_pictures/Pannwitz.png"	
+	}
+	SpriteType = {
+		name = "GFX_event_lusiy_dyadya"
+		texturefile = "gfx/event_pictures/lusiy_dyadya.png"	
+	}
+	SpriteType = {
+		name = "GFX_event_beria"
+		texturefile = "gfx/event_pictures/beria.png"	
+	}
+	SpriteType = {
+		name = "GFX_event_vuboru"
+		texturefile = "gfx/event_pictures/vuboru.png"	
+	}
+	SpriteType = {
+		name = "GFX_event_vopros"
+		texturefile = "gfx/event_pictures/vopros.png"	
+	}
 	SpriteType = {
 		name = "GFX_event_Ponasenkof"
 		texturefile = "gfx/event_pictures/Ponasenkof.png"	

@@ -81,6 +81,7 @@ add_ideas = {
 	KBN_bad_q_micro
 	KBN_ban_vk
 	KBN_Juden_line
+	KBN_Kuban_bank
 }
 
 set_politics = {

@@ -45,7 +45,7 @@ country_event = { #
 		set_global_flag = SE_superevents_activate
 		set_global_flag = KBN_CUM4atka
 		
-		play_song = "ne_dlya_menya_reki_tekut"
+		play_song = "Vatoadmin_drozdovckiy_polk"
 	}
 
 	hidden = yes

@@ -1,5 +1,14 @@
 ideas = {
 	country = {
+		KBN_Kuban_bank = {
+			
+			picture = KBN_Kuban_bank
+			
+			modifier = {
+				consumer_goods_factor = -0.1
+				custom_modifier_tooltip = KBN_Kuban_bank_tt
+			}
+		}
 		KBN_Juden_line = {
 			
 			picture = KBN_Juden_line
@@ -159,7 +168,8 @@ ideas = {
 			}
 			targeted_modifier = {
 				tag = SOV
-				attack_bonus_against = 0.05
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.05
 			}
 		}
 		KBN_our_way_idea = {
