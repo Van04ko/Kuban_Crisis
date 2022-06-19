@@ -1,5 +1,22 @@
 ideas = {
 	country = {
+		KBN_Reeducated_communist = {
+			
+			picture = KBN_Reeducated_communist
+			
+			modifier = {
+				neutrality_drift = 0.02
+				communism_drift = -0.02
+			}
+		}
+		KBN_Morozov_worker = {
+			
+			picture = KBN_Morozov_worker
+			
+			modifier = {
+				industrial_capacity_factory = 0.2
+			}
+		}
 		KBN_Kuban_bank = {
 			
 			picture = KBN_Kuban_bank

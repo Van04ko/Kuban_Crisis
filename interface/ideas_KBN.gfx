@@ -1,6 +1,12 @@
 spriteTypes = {	
-	
-	
+	SpriteType = {
+		name = "GFX_idea_KBN_Reeducated_communist"
+		texturefile = "gfx/interface/ideas/KBN/KBN_Reeducated_communist.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_KBN_Morozov_worker"
+		texturefile = "gfx/interface/ideas/KBN/KBN_Morozov_worker.png"
+	}
 	SpriteType = {
 		name = "GFX_idea_KBN_Kuban_bank"
 		texturefile = "gfx/interface/ideas/KBN/KBN_Kuban_bank.png"
