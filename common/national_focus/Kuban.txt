@@ -257,8 +257,8 @@ focus_tree = {
 					name = MON_KBN_neutrality
 					long_name = MON_KBN_neutrality_long
 				}
-				country_event = { id = kuban.45 }
 			}
+			country_event = { id = kuban.45 }
 		}
 	}
 	focus = {
