@@ -5,7 +5,7 @@ ideas = {
 			picture = KBN_microphone_funding
 			
 			modifier = {
-				consumer_goods_factor = 0.15
+				consumer_goods_factor = -0.15
 			}
 			research_bonus = {
 				electronics = 0.2
@@ -95,9 +95,9 @@ ideas = {
 				production_speed_rail_way_factor = 0.25 
 			}
 		}
-		KBN_okumanivanie_idea = {
+		KBN_okubanivanie_idea = {
 			
-			picture = KBN_okumanivanie_idea
+			picture = KBN_okubanivanie_idea
 			
 			modifier = {
 				compliance_growth = 0.2

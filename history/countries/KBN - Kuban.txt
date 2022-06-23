@@ -39,6 +39,10 @@ recruit_character = KBN_Eugen_von_Ponasenkof
 
 recruit_character = KBN_Tessa_Violet
 
+MON = { 
+	recruit_character = KBN_MON_Rudoy
+}
+
 
 # Starting tech
 set_technology = {

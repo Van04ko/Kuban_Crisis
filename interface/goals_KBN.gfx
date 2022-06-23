@@ -1,8 +1,28 @@
 spriteTypes = {
 
 	SpriteType = {
-		name = "GFX_focus_KBN_tempale"
-		texturefile = "gfx/interface/goals/KBN/focus_KBN_tempale.png"	
+		name = "GFX_focus_KBN_Reveal_cards"
+		texturefile = "gfx/interface/goals/KBN/KBN_Reveal_cards.png"	
+	}
+	SpriteType = {
+		name = "GFX_focus_KBN_Rudoy_revolution"
+		texturefile = "gfx/interface/goals/KBN/KBN_Rudoy_revolution.png"	
+	}
+	SpriteType = {
+		name = "GFX_focus_KBN_microphones_mongolia"
+		texturefile = "gfx/interface/goals/KBN/KBN_microphones_mongolia.png"	
+	}
+	SpriteType = {
+		name = "GFX_focus_KBN_Rudoy_mongoloid"
+		texturefile = "gfx/interface/goals/KBN/KBN_Rudoy_mongoloid.png"	
+	}
+	SpriteType = {
+		name = "GFX_focus_KBN_Bribe_Rudoy"
+		texturefile = "gfx/interface/goals/KBN/KBN_Bribe_Rudoy.png"	
+	}
+	SpriteType = {
+		name = "GFX_focus_KBN_quarrel_communists"
+		texturefile = "gfx/interface/goals/KBN/KBN_quarrel_communists.png"	
 	}
 	SpriteType = {
 		name = "GFX_focus_KBN_tempale"
@@ -257,8 +277,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/KBN/KBN_PKh.png"	
 	}
 	SpriteType = {
-		name = "GFX_focus_KBN_okumanivanie"
-		texturefile = "gfx/interface/goals/KBN/KBN_okumanivanie.png"	
+		name = "GFX_focus_KBN_okubanivanie"
+		texturefile = "gfx/interface/goals/KBN/KBN_okubanivanie.png"	
 	}
 	SpriteType = {
 		name = "GFX_focus_KBN_podpolie_Rossa"

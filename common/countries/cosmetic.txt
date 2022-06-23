@@ -6,6 +6,11 @@ KBN_russia_cos_united = {
 	color = rgb { 168 135 31 }
 	color_ui = rgb { 168 135 31 }
 }
+KBN_MON_Rudoy_tag = {
+	color = rgb { 255 204 0 }
+	color_ui = rgb { 255 204 0 }
+}
+
 
 ### ###
 

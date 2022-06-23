@@ -1,4 +1,8 @@
-spriteTypes = {	
+spriteTypes = {
+	spriteType = {
+		name = GFX_portrait_KBN_MON_Rudoy
+		texturefile = gfx/leaders/KBN/KBN_MON_Rudoy.png
+    }
 	spriteType = {
 		name = GFX_portrait_Rubnyakov
 		texturefile = gfx/leaders/KBN/Rubnyakov.png
@@ -19,7 +23,4 @@ spriteTypes = {
 		name = GFX_portrait_RUS_tessa_violet
 		texturefile = gfx/leaders/KBN/RUS_tessa_violet.png
     }
-	
-	
-	
 }

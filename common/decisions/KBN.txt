@@ -1,3 +1,127 @@
+KBN_Rudoy_MON_uprise_cat = {
+	
+	KBN_prepare_cell_in_Huvsgel = {
+		
+		icon = hol_radio_oranje
+		
+		allowed = {
+			original_tag = KBN
+		}
+		visible = {
+			
+		}
+		cost = 50
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 820
+			}
+		}
+		
+		complete_effect = {
+			820 = { set_state_flag = KBN_Rudoy_cell }
+			custom_effect_tooltip = KBN_Rudoy_cell_in_Huvsgel_tt
+		}
+	}
+	KBN_prepare_cell_in_Hovd = {
+		
+		icon = hol_radio_oranje
+		
+		allowed = {
+			original_tag = KBN
+		}
+		visible = {
+			
+		}
+		cost = 50
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 818
+			}
+		}
+		
+		complete_effect = {
+			818 = { set_state_flag = KBN_Rudoy_cell }
+			custom_effect_tooltip = KBN_Rudoy_cell_in_Hovd_tt
+		}
+	}
+	KBN_prepare_cell_in_Gobi = {
+		
+		icon = hol_radio_oranje
+		
+		allowed = {
+			original_tag = KBN
+		}
+		visible = {
+			
+		}
+		cost = 50
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 817
+			}
+		}
+		
+		complete_effect = {
+			817 = { set_state_flag = KBN_Rudoy_cell }
+			custom_effect_tooltip = KBN_Rudoy_cell_in_Gobi_tt
+		}
+	}
+	KBN_prepare_cell_in_Dornod = {
+		
+		icon = hol_radio_oranje
+		
+		allowed = {
+			original_tag = KBN
+		}
+		visible = {
+			
+		}
+		cost = 50
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 819
+			}
+		}
+		
+		complete_effect = {
+			819 = { set_state_flag = KBN_Rudoy_cell }
+			custom_effect_tooltip = KBN_Rudoy_cell_in_Dornod_tt
+		}
+	}
+	KBN_zahvat_test = {
+		
+		icon = hol_radio_oranje
+		
+		allowed = {
+			original_tag = KBN
+		}
+		visible = {
+			
+		}
+		cost = 0
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 819
+			}
+		}
+		
+		complete_effect = {
+			every_state = {
+				limit = {
+					is_core_of = MON
+					has_state_flag = KBN_Rudoy_cell
+				}
+				transfer_state_to = KBN
+			}
+		}
+	}
+}
+
 political_actions = {
 	KBN_o_shit_i_sorry = {
 

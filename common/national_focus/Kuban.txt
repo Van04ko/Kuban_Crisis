@@ -155,18 +155,6 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = KBN_okumanivanie
-		icon = GFX_focus_KBN_okumanivanie
-		relative_position_id = KBN_Rubnyakov
-		prerequisite = { focus = KBN_war_with_Beria }
-		x = -2
-		y = 4
-		cost = 5
-		completion_reward = {
-			add_ideas = KBN_okumanivanie_idea
-		}
-	}
-	focus = {
 		id = KBN_return_white_emigration
 		icon = GFX_focus_return_white_emigration
 		relative_position_id = KBN_Rubnyakov
@@ -178,13 +166,205 @@ focus_tree = {
 			add_manpower = 61765
 		}
 	}
-	
+	focus = {
+		id = KBN_okubanivanie
+		icon = GFX_focus_KBN_okubanivanie
+		relative_position_id = KBN_Rubnyakov
+		prerequisite = { focus = KBN_return_white_emigration }
+		x = -3
+		y = 5
+		cost = 5
+		completion_reward = {
+			add_timed_idea = { idea = KBN_okubanivanie_idea days = 365 }
+		}
+	}
+	focus = {
+		id = KBN_Bribe_Rudoy
+		icon = GFX_focus_KBN_Bribe_Rudoy
+		relative_position_id = KBN_okubanivanie
+		prerequisite = { focus = KBN_okubanivanie }
+		x = 1
+		y = 1
+		cost = 5
+		available = {
+			has_political_power > 75
+		}
+		completion_reward = {
+			add_political_power = -75
+		}
+	}
+	focus = {
+		id = KBN_quarrel_communists
+		icon = GFX_focus_KBN_quarrel_communists
+		relative_position_id = KBN_okubanivanie
+		prerequisite = { focus = KBN_okubanivanie }
+		x = -1
+		y = 1
+		cost = 5
+		completion_reward = {
+			MON = {
+				add_popularity = {
+					ideology = communism
+					popularity = -0.3
+				}
+			}
+			SOV = {
+				add_popularity = {
+					ideology = communism
+					popularity = -0.15
+				}
+			}
+		}
+	}
+	focus = {
+		id = KBN_Rudoy_mongoloid
+		icon = GFX_focus_KBN_Rudoy_mongoloid
+		relative_position_id = KBN_okubanivanie
+		prerequisite = { focus = KBN_Bribe_Rudoy }
+		x = 1
+		y = 2
+		cost = 5
+		completion_reward = {
+			MON = {
+				add_stability = 0.2
+			}
+			hidden_effect = {
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 1000
+				}
+			}
+
+			send_equipment = {
+			    equipment = infantry_equipment
+			    amount = 5000
+			    target = MON
+			}
+		}
+	}
+	focus = {
+		id = KBN_microphones_mongolia
+		icon = GFX_focus_KBN_microphones_mongolia
+		relative_position_id = KBN_okubanivanie
+		prerequisite = { focus = KBN_quarrel_communists }
+		x = -1
+		y = 2
+		cost = 5
+		completion_reward = {
+			MON = {
+				set_party_name = { 
+					ideology = neutrality 
+					name = MON_KBN_neutrality
+					long_name = MON_KBN_neutrality_long
+				}
+				country_event = { id = kuban.45 }
+			}
+		}
+	}
+	focus = {
+		id = KBN_Rudoy_revolution
+		icon = GFX_focus_KBN_Rudoy_revolution
+		relative_position_id = KBN_okubanivanie
+		prerequisite = { focus = KBN_Rudoy_mongoloid }
+		prerequisite = { focus = KBN_microphones_mongolia }
+		x = 0
+		y = 3
+		cost = 5
+		completion_reward = {
+			MON = {
+				hidden_effect = {
+					set_politics = {
+						ruling_party = neutrality
+						elections_allowed = no
+						last_election = "1935.12.17"
+						election_frequency = 48
+					}
+					load_oob = MON_Rudoy_uprise
+					set_cosmetic_tag = KBN_MON_Rudoy_tag
+					add_popularity = {
+						ideology = neutrality
+						popularity = 1
+					}
+					leave_faction = yes
+					build_railway = {
+						level = 2
+						fallback = yes
+						start_state = 330
+						target_state = 564
+						path = { 4801 12605 7717 1762 }
+					}
+					build_railway = {
+						level = 2
+						fallback = yes
+						start_state = 819
+						target_state = 818
+						path = { 12557 4792 12665 12533 4862 10554 7717 7676 1791 4882 12579 12649 1689 7773 12695 7843 4751 }
+					}
+					819 = {
+						add_building_construction = {
+							type = supply_node
+							level = 1
+							instant_build = yes
+							province = 12557
+						}
+					}
+					820 = {
+						add_building_construction = {
+							type = supply_node
+							level = 1
+							instant_build = yes
+							province = 1791
+						}
+					}
+					818 = {
+						add_building_construction = {
+							type = supply_node
+							level = 1
+							instant_build = yes
+							province = 7843
+						}
+					}
+				}
+				add_political_power = 100
+				add_country_leader_role = {
+					character = KBN_MON_Rudoy
+					promote_leader = yes
+					country_leader = {
+						ideology = despotism
+						expire = "1965.1.1.1"
+						traits = {  }
+					}
+				}
+			}
+			set_autonomy = {
+				target = MON
+				autonomy_state = autonomy_puppet
+			}
+		}
+	}
+	focus = {
+		id = KBN_Reveal_cards
+		icon = GFX_focus_KBN_Reveal_cards
+		relative_position_id = KBN_okubanivanie
+		prerequisite = { focus = KBN_Rudoy_revolution }
+		x = 0
+		y = 4
+		cost = 5
+		completion_reward = {
+			MON = { 
+				declare_war_on = {
+					target = SOV
+					type = annex_everything
+				}
+			}
+		}
+	}
 	focus = {
 		id = KBN_podpolie_rossa
 		icon = GFX_focus_KBN_podpolie_Rossa
 		relative_position_id = KBN_Rubnyakov
 		prerequisite = { focus = KBN_return_white_emigration }
-		x = -3
+		x = -7
 		y = 5
 		cost = 4
 		completion_reward = {
@@ -194,10 +374,10 @@ focus_tree = {
 	focus = {
 		id = KBN_far_east_yacheiki
 		icon = GFX_focus_KBN_Yacheiki
-		relative_position_id = KBN_Rubnyakov
+		relative_position_id = KBN_podpolie_rossa
 		prerequisite = { focus = KBN_podpolie_rossa }
-		x = -3
-		y = 6
+		x = 0
+		y = 1
 		cost = 4
 		completion_reward = {
 			408 = { remove_core_of = SOV }
@@ -225,10 +405,10 @@ focus_tree = {
 	focus = {
 		id = KBN_voorujut_far_east_kubanoids
 		icon = GFX_focus_KBN_CUMbanoids
-		relative_position_id = KBN_Rubnyakov
+		relative_position_id = KBN_podpolie_rossa
 		prerequisite = { focus = KBN_far_east_yacheiki }
-		x = -3
-		y = 7
+		x = 0
+		y = 2
 		cost = 4
 		completion_reward = {
 			hidden_effect = {
@@ -248,10 +428,10 @@ focus_tree = {
 	focus = {
 		id = KBN_transsib
 		icon = GFX_focus_KBN_transsib
-		relative_position_id = KBN_Rubnyakov
+		relative_position_id = KBN_podpolie_rossa
 		prerequisite = { focus = KBN_voorujut_far_east_kubanoids }
-		x = -4
-		y = 8
+		x = -1
+		y = 3
 		cost = 4
 		completion_reward = {
 			637 = {
@@ -311,10 +491,10 @@ focus_tree = {
 	focus = {
 		id = KBN_microphone_for_propaganda
 		icon = GFX_focus_KBN_CUM_on_micro
-		relative_position_id = KBN_Rubnyakov
+		relative_position_id = KBN_podpolie_rossa
 		prerequisite = { focus = KBN_voorujut_far_east_kubanoids }
-		x = -2
-		y = 8
+		x = 1
+		y = 3
 		cost = 4
 		completion_reward = {
 			country_event = { id = kuban_cum.1 }
@@ -323,11 +503,11 @@ focus_tree = {
 	focus = {
 		id = KBN_za_Kuban
 		icon = GFX_focus_KBN_CUM_za_cum
-		relative_position_id = KBN_Rubnyakov
+		relative_position_id = KBN_podpolie_rossa
 		prerequisite = { focus = KBN_microphone_for_propaganda }
 		prerequisite = { focus = KBN_transsib }
-		x = -3
-		y = 9
+		x = 0
+		y = 4
 		cost = 4
 		completion_reward = {
 			add_political_power = 50
@@ -358,10 +538,11 @@ focus_tree = {
 	focus = {
 		id = KBN_to_home
 		icon = GFX_focus_KBN_CUM_dodomy
-		relative_position_id = KBN_Rubnyakov
+		relative_position_id = KBN_podpolie_rossa
 		prerequisite = { focus = KBN_za_Kuban }
-		x = -3
-		y = 10
+		prerequisite = { focus = KBN_Reveal_cards }
+		x = 2
+		y = 5
 		cost = 10
 		available = {
 			NOT = { country_exists = SOV }
@@ -369,6 +550,10 @@ focus_tree = {
 		completion_reward = {
 			annex_country = {
 				target = CUM
+				transfer_troops = yes
+			}
+			annex_country = {
+				target = MON
 				transfer_troops = yes
 			}
 		}
@@ -1755,9 +1940,7 @@ focus_tree = {
 	focus = {
 		id = KBN_kubanian_dockyard
 		icon = GFX_focus_kubanian_dockyard
-		relative_position_id = KBN_Kuban_army
-		#prerequisite = { focus = KBN_infrastructure_modernization }
-		x = 0
+		x = 20
 		y = 4
 		cost = 5
 		completion_reward = {

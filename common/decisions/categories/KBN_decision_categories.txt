@@ -18,3 +18,15 @@ KBN_oblusenie_cat = {
 	
 	priority = 100
 }
+KBN_Rudoy_MON_uprise_cat = {
+	allowed = {
+		original_tag = KBN
+	}
+	visible = {
+		always = yes
+	}
+	
+	picture = GFX_focus_KBN_Bribe_Rudoy
+	
+	priority = 120
+}

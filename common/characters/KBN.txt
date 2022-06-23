@@ -630,4 +630,16 @@ characters = {
 			traits = { tessa }
 		}
 	}
+	KBN_MON_Rudoy = {
+		name = KBN_MON_Rudoy
+		portraits = {
+			civilian = {
+				large = GFX_portrait_KBN_MON_Rudoy
+			}
+			army = {
+				large = GFX_portrait_KBN_MON_Rudoy
+				#small = GFX_idea_KBN_tessa_violet
+			}
+		}
+	}
 }
