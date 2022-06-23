@@ -1,4 +1,8 @@
-spriteTypes = {	
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_idea_KBN_microphone_funding"
+		texturefile = "gfx/interface/ideas/KBN/KBN_microphone_funding.png"
+	}
 	SpriteType = {
 		name = "GFX_idea_KBN_Reeducated_communist"
 		texturefile = "gfx/interface/ideas/KBN/KBN_Reeducated_communist.png"

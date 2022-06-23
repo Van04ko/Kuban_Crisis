@@ -1,5 +1,14 @@
 spriteTypes = {
 
+
+	SpriteType = {
+		name = "GFX_event_van_dark"
+		texturefile = "gfx/event_pictures/van_dark.png"	
+	}
+	SpriteType = {
+		name = "GFX_event_cummunistus"
+		texturefile = "gfx/event_pictures/cummunistus.png"	
+	}
 	SpriteType = {
 		name = "GFX_event_pitsa"
 		texturefile = "gfx/event_pictures/pitsa.png"	

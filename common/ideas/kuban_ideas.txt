@@ -1,5 +1,16 @@
 ideas = {
 	country = {
+		KBN_microphone_funding = {
+			
+			picture = KBN_microphone_funding
+			
+			modifier = {
+				consumer_goods_factor = 0.15
+			}
+			research_bonus = {
+				electronics = 0.2
+			}
+		}
 		KBN_Reeducated_communist = {
 			
 			picture = KBN_Reeducated_communist

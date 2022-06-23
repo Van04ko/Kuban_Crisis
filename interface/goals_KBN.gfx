@@ -81,6 +81,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/KBN/Vybor_Atamana.png"	
 	}
 	SpriteType = {
+		name = "GFX_focus_KBN_rethink_microphone_funding"
+		texturefile = "gfx/interface/goals/KBN/KBN_rethink_microphone_funding.png"	
+	}
+	SpriteType = {
 		name = "GFX_focus_vysledi_bolshevika"
 		texturefile = "gfx/interface/goals/KBN/vysledi_bolshevika.png"	
 	}

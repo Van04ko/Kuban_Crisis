@@ -108,4 +108,12 @@ music = {
     	}
     }
 }
-
+music = {
+    song = "Gachiadmin_Chto_takoe_fisting_ass"
+    chance = {
+    	factor = 0
+    	modifier = {
+			
+    	}
+    }
+}

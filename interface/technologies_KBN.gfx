@@ -23,4 +23,25 @@ spriteTypes = {
 		name = "GFX_micro_building_5_medium"
 		texturefile = "gfx/interface/technologies/micro_building_5.png"
 	}
+	
+	SpriteType = {
+		name = "GFX_pizza_start_medium"
+		texturefile = "gfx/interface/technologies/pizza_start.png"
+	}
+	SpriteType = {
+		name = "GFX_pizza_level_1_medium"
+		texturefile = "gfx/interface/technologies/pizza_level_1.png"
+	}
+	SpriteType = {
+		name = "GFX_pizza_level_2_medium"
+		texturefile = "gfx/interface/technologies/pizza_level_2.png"
+	}
+	SpriteType = {
+		name = "GFX_pizza_level_3_medium"
+		texturefile = "gfx/interface/technologies/pizza_level_3.png"
+	}
+	SpriteType = {
+		name = "GFX_pizza_level_4_medium"
+		texturefile = "gfx/interface/technologies/pizza_level_4.png"
+	}
 }
