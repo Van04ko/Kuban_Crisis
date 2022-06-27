@@ -1215,7 +1215,7 @@ country_event = {
 				354 = {
 					add_manpower = -801654
 				}
-				KUB = { add_manpower = 801654 }
+				KBN = { add_manpower = 801654 }
 			}
 			20 = {
 				create_wargoal = {
