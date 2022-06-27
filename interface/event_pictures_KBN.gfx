@@ -2,6 +2,18 @@ spriteTypes = {
 
 
 	SpriteType = {
+		name = "GFX_event_schet_old_russ"
+		texturefile = "gfx/event_pictures/schet_old_russ.png"	
+	}
+	SpriteType = {
+		name = "GFX_event_remove_kekbab"
+		texturefile = "gfx/event_pictures/remove_kekbab.png"	
+	}
+	SpriteType = {
+		name = "GFX_event_Gachi_Sochi"
+		texturefile = "gfx/event_pictures/Gachi_Sochi.png"	
+	}
+	SpriteType = {
 		name = "GFX_event_van_dark"
 		texturefile = "gfx/event_pictures/van_dark.png"	
 	}

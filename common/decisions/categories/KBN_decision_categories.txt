@@ -23,7 +23,7 @@ KBN_Rudoy_MON_uprise_cat = {
 		original_tag = KBN
 	}
 	visible = {
-		always = yes
+		has_completed_focus = KBN_Bribe_Rudoy
 	}
 	
 	picture = GFX_focus_KBN_Bribe_Rudoy

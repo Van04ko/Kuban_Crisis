@@ -190,7 +190,10 @@ focus_tree = {
 			has_political_power > 75
 		}
 		completion_reward = {
+			custom_effect_tooltip = KBN_Rudoy_cell_decisions_tt
 			add_political_power = -75
+			330 = { set_state_flag = KBN_Rudoy_cell }
+			custom_effect_tooltip = KBN_Rudoy_cell_in_Ulan_Ude_tt
 		}
 	}
 	focus = {
@@ -271,6 +274,19 @@ focus_tree = {
 		y = 3
 		cost = 5
 		completion_reward = {
+			hidden_effect = {
+				SOV = {
+					every_state = {
+						limit = {
+							NOT = {
+								has_state_flag = KBN_Rudoy_cell
+							}
+							is_core_of = MON
+						}
+						transfer_state_to = SOV
+					}
+				}
+			}
 			MON = {
 				hidden_effect = {
 					set_politics = {
@@ -332,7 +348,7 @@ focus_tree = {
 					country_leader = {
 						ideology = despotism
 						expire = "1965.1.1.1"
-						traits = {  }
+						traits = { Rudoy_trait }
 					}
 				}
 			}
@@ -1119,6 +1135,13 @@ focus_tree = {
 		completion_reward = {
 			country_event = { id = kuban.19 }
 			country_event = { id = kuban.36 days = 30 }
+			SOV = {
+				add_trait = {
+					character = SOV_iosif_stalin
+					ideology = stalinism
+					trait = Red_rat
+				}
+			}
 		}
 	}
 	focus = {

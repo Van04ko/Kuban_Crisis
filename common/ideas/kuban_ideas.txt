@@ -1,5 +1,17 @@
 ideas = {
 	country = {
+		KBN_schet_shizof = {
+			
+			picture = KBN_Old_shuz
+			
+			modifier = {
+				stability_weekly = 0.005
+				neutrality_drift = 0.05
+			}
+			research_bonus = {
+				electronics = 0.2
+			}
+		}
 		KBN_microphone_funding = {
 			
 			picture = KBN_microphone_funding

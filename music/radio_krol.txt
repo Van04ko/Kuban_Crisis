@@ -117,3 +117,12 @@ music = {
     	}
     }
 }
+music = {
+    song = "Gachi_Sochi"
+    chance = {
+    	factor = 0
+    	modifier = {
+			
+    	}
+    }
+}
