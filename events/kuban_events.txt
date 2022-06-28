@@ -1265,6 +1265,36 @@ country_event = {
 	}
 }
 
+country_event = { 
+	id = kuban.49
+	title = kuban.49.t
+	desc = kuban.49.d
+	picture = GFX_event_vex_moment
+	
+	trigger = {
+		date > 1936.1.30
+		country_exists = KBN
+		tag = KBN
+	}
+	
+	fire_only_once = yes
+	
+	option = {
+		name = kuban.49.a
+	}
+	option = {
+		name = kuban.49.b
+		hidden_effect = { set_cosmetic_tag = KBN_vanila }
+	}
+	option = {
+		name = kuban.49.c
+		hidden_effect = { set_cosmetic_tag = KBN_DON_eagle }
+	}
+	option = {
+		name = kuban.49.f
+		hidden_effect = { set_cosmetic_tag = KBN_DON }
+	}
+}
 
 country_event = {
 	id = kuban_cum.1

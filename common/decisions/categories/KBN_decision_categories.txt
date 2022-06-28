@@ -21,6 +21,7 @@ KBN_oblusenie_cat = {
 KBN_Rudoy_MON_uprise_cat = {
 	allowed = {
 		original_tag = KBN
+		NOT = { has_completed_focus = KBN_Rudoy_revolution }
 	}
 	visible = {
 		has_completed_focus = KBN_Bribe_Rudoy

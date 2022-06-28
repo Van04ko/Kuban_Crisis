@@ -1,5 +1,6 @@
 spriteTypes = {
 
+
 	SpriteType = {
 		name = "GFX_focus_KBN_Reveal_cards"
 		texturefile = "gfx/interface/goals/KBN/KBN_Reveal_cards.png"	

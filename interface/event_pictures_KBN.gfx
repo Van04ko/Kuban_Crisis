@@ -1,6 +1,9 @@
 spriteTypes = {
 
-
+	SpriteType = {
+		name = "GFX_event_vex_moment"
+		texturefile = "gfx/event_pictures/vex_moment.png"	
+	}
 	SpriteType = {
 		name = "GFX_event_schet_old_russ"
 		texturefile = "gfx/event_pictures/schet_old_russ.png"	

@@ -4,6 +4,10 @@ spriteTypes = {
 		texturefile = gfx/leaders/KBN/KBN_MON_Rudoy.png
     }
 	spriteType = {
+		name = GFX_portrait_MON_SOV_Rudoy
+		texturefile = gfx/leaders/KBN/MON_SOV_Rudoy.png
+    }
+	spriteType = {
 		name = GFX_portrait_Rubnyakov
 		texturefile = gfx/leaders/KBN/Rubnyakov.png
     }

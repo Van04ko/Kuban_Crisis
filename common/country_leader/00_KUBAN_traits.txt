@@ -15,7 +15,7 @@ leader_traits = {
 	}
 	Rudoy_trait = {
 
-		army_attack_factor = 0.25
+		army_attack_factor = 0.4
 		army_defence_factor = 0.8
 		army_speed_factor = 0.5
 		org_loss_when_moving = -0.8
