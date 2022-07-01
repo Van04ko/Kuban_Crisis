@@ -2,6 +2,14 @@ spriteTypes = {
 
 
 	SpriteType = {
+		name = "GFX_focus_KBN_bikeroads"
+		texturefile = "gfx/interface/goals/KBN/KBN_bikeroads.png"	
+	}
+	SpriteType = {
+		name = "GFX_focus_KBN_factory_kykech"
+		texturefile = "gfx/interface/goals/KBN/KBN_factory_kykech.png"	
+	}
+	SpriteType = {
 		name = "GFX_focus_KBN_Reveal_cards"
 		texturefile = "gfx/interface/goals/KBN/KBN_Reveal_cards.png"	
 	}

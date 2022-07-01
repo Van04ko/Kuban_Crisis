@@ -642,4 +642,38 @@ characters = {
 			}
 		}
 	}
+	KBN_Nabiulina = {
+		name = KBN_Nabiulina
+		portraits = {
+			army = {
+				small = GFX_idea_KBN_Nabiulina
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = KBN_Nabiulina
+			allowed = {
+				original_tag = KBN
+			}
+			traits = { Nabiulina }
+		}
+	}
+	KBN_Penis_Dushulin = {
+		name = KBN_Penis_Dushulin
+		portraits = {
+			army = {
+				small = GFX_idea_KBN_Penis_Dushulin
+			}
+		}
+		advisor = {
+			cost = 5
+			slot = political_advisor
+			idea_token = KBN_Penis_Dushulin
+			allowed = {
+				original_tag = KBN
+			}
+			traits = { MMM }
+		}
+	}
 }

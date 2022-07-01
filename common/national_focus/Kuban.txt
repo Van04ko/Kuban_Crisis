@@ -1785,6 +1785,58 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = KBN_factory_kykech
+		icon = GFX_focus_KBN_factory_kykech
+		relative_position_id = KBN_kuban_industrialization
+		prerequisite = { focus = KBN_internal_struggle }
+		x = -2
+		y = 3
+		cost = 5
+		completion_reward = {
+			every_state = {
+				limit = {
+					OR = {
+						state = 234
+						state = 236
+						state = 218
+						state = 228
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = KBN_bikeroads
+		icon = GFX_focus_KBN_bikeroads
+		relative_position_id = KBN_kuban_industrialization
+		prerequisite = { focus = KBN_factory_kykech }
+		x = -2
+		y = 4
+		cost = 5
+		completion_reward = {
+			every_state = {
+				limit = {
+					OR = {
+						state = 234
+						state = 235
+						state = 238
+					}
+				}
+				set_building_level = {
+					type = infrastructure
+					level = 5
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
 		id = KBN_radio_silence
 		icon = GFX_focus_KBN_Kubanskoe_Mikrofonostroenie
 		relative_position_id = KBN_kuban_industrialization

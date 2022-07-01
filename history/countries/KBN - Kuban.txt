@@ -38,6 +38,8 @@ recruit_character = KBN_Penis_Detrov
 recruit_character = KBN_Eugen_von_Ponasenkof
 
 recruit_character = KBN_Tessa_Violet
+recruit_character = KBN_Nabiulina
+recruit_character = KBN_Penis_Dushulin
 
 MON = { 
 	recruit_character = KBN_MON_Rudoy

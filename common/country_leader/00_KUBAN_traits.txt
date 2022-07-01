@@ -5,6 +5,25 @@
 
 leader_traits = {
 
+	MMM = {
+
+		consumer_goods_factor = 0.05
+		trade_opinion_factor = -0.1
+		trade_laws_cost_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	Nabiulina = {
+
+		consumer_goods_factor = -0.2
+		industrial_capacity_factory = 0.2
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	Red_rat = {
 
 		max_surrender_limit_offset = -0.20
