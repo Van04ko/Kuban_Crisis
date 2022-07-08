@@ -1,385 +1,408 @@
 spriteTypes = {
 
-
 	SpriteType = {
-		name = "GFX_focus_KBN_bikeroads"
-		texturefile = "gfx/interface/goals/KBN/KBN_bikeroads.png"	
+		name = GFX_focus_KBN_our_Europe
+		texturefile = gfx/interface/goals/KBN/KBN_our_Europe.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_KBN_factory_kykech"
-		texturefile = "gfx/interface/goals/KBN/KBN_factory_kykech.png"	
+		name = GFX_focus_KBN_vas_vas_vas
+		texturefile = gfx/interface/goals/KBN/KBN_vas_vas_vas.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_KBN_Reveal_cards"
-		texturefile = "gfx/interface/goals/KBN/KBN_Reveal_cards.png"	
+		name = GFX_focus_KBN_send_spy
+		texturefile = gfx/interface/goals/KBN/KBN_send_spy.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_KBN_Rudoy_revolution"
-		texturefile = "gfx/interface/goals/KBN/KBN_Rudoy_revolution.png"	
+		name = GFX_focus_KBN_italian_synagogues
+		texturefile = gfx/interface/goals/KBN/KBN_italian_synagogues.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_KBN_microphones_mongolia"
-		texturefile = "gfx/interface/goals/KBN/KBN_microphones_mongolia.png"	
+		name = GFX_focus_KBN_go_vacation_Rome
+		texturefile = gfx/interface/goals/KBN/KBN_go_vacation_Rome.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_KBN_Rudoy_mongoloid"
-		texturefile = "gfx/interface/goals/KBN/KBN_Rudoy_mongoloid.png"	
+		name = GFX_focus_KBN_give_plane_chance
+		texturefile = gfx/interface/goals/KBN/KBN_give_plane_chance.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_KBN_Bribe_Rudoy"
-		texturefile = "gfx/interface/goals/KBN/KBN_Bribe_Rudoy.png"	
+		name = GFX_focus_KBN_bikeroads
+		texturefile = gfx/interface/goals/KBN/KBN_bikeroads.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_KBN_quarrel_communists"
-		texturefile = "gfx/interface/goals/KBN/KBN_quarrel_communists.png"	
+		name = GFX_focus_KBN_factory_kykech
+		texturefile = gfx/interface/goals/KBN/KBN_factory_kykech.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_KBN_tempale"
-		texturefile = "gfx/interface/goals/KBN/focus_KBN_tempale.png"	
+		name = GFX_focus_KBN_Reveal_cards
+		texturefile = gfx/interface/goals/KBN/KBN_Reveal_cards.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_KBN_Kubanskoe_Mikrofonostroenie"
-		texturefile = "gfx/interface/goals/KBN/focus_KBN_Kubanskoe_Mikrofonostroenie.png"	
+		name = GFX_focus_KBN_Rudoy_revolution
+		texturefile = gfx/interface/goals/KBN/KBN_Rudoy_revolution.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_KBN_Modern_Infrastrkt"
-		texturefile = "gfx/interface/goals/KBN/focus_KBN_Modern_Infrastrkt.png"	
+		name = GFX_focus_KBN_microphones_mongolia
+		texturefile = gfx/interface/goals/KBN/KBN_microphones_mongolia.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_KBN_Prom"
-		texturefile = "gfx/interface/goals/KBN/focus_KBN_Prom.png"	
+		name = GFX_focus_KBN_Rudoy_mongoloid
+		texturefile = gfx/interface/goals/KBN/KBN_Rudoy_mongoloid.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_KBN_Tsarskaya_Prom"
-		texturefile = "gfx/interface/goals/KBN/focus_KBN_Tsarskaya_Prom.png"	
+		name = GFX_focus_KBN_Bribe_Rudoy
+		texturefile = gfx/interface/goals/KBN/KBN_Bribe_Rudoy.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_KBN_Vnutren_Vrzhd"
-		texturefile = "gfx/interface/goals/KBN/focus_KBN_Vnutren_Vrzhd.png"	
+		name = GFX_focus_KBN_quarrel_communists
+		texturefile = gfx/interface/goals/KBN/KBN_quarrel_communists.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_Eto_ne_rabotaet"
-		texturefile = "gfx/interface/goals/KBN/Eto_ne_rabotaet.png"	
+		name = GFX_focus_KBN_tempale
+		texturefile = gfx/interface/goals/KBN/focus_KBN_tempale.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_Kubanskaya_Nauchnaya_Mysl"
-		texturefile = "gfx/interface/goals/KBN/Kubanskaya_Nauchnaya_Mysl.png"	
+		name = GFX_focus_KBN_Kubanskoe_Mikrofonostroenie
+		texturefile = gfx/interface/goals/KBN/focus_KBN_Kubanskoe_Mikrofonostroenie.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_paket_stimlov"
-		texturefile = "gfx/interface/goals/KBN/paket_stimlov.png"	
+		name = GFX_focus_KBN_Modern_Infrastrkt
+		texturefile = gfx/interface/goals/KBN/focus_KBN_Modern_Infrastrkt.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_Posledniy_Rubezh"
-		texturefile = "gfx/interface/goals/KBN/Posledniy_Rubezh.png"	
+		name = GFX_focus_KBN_Prom
+		texturefile = gfx/interface/goals/KBN/focus_KBN_Prom.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_rasshritit_okhranku"
-		texturefile = "gfx/interface/goals/KBN/rasshritit_okhranku.png"	
+		name = GFX_focus_KBN_Tsarskaya_Prom
+		texturefile = gfx/interface/goals/KBN/focus_KBN_Tsarskaya_Prom.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_Referendum_po_Kavkazu"
-		texturefile = "gfx/interface/goals/KBN/Referendum_po_Kavkazu.png"	
+		name = GFX_focus_KBN_Vnutren_Vrzhd
+		texturefile = gfx/interface/goals/KBN/focus_KBN_Vnutren_Vrzhd.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_Rybnikov"
-		texturefile = "gfx/interface/goals/KBN/Rybnikov.png"	
+		name = GFX_focus_Eto_ne_rabotaet
+		texturefile = gfx/interface/goals/KBN/Eto_ne_rabotaet.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_Vatop"
-		texturefile = "gfx/interface/goals/KBN/Vatop.png"	
+		name = GFX_focus_Kubanskaya_Nauchnaya_Mysl
+		texturefile = gfx/interface/goals/KBN/Kubanskaya_Nauchnaya_Mysl.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_Velikaya_Kubanskaya_Demokratia"
-		texturefile = "gfx/interface/goals/KBN/Velikaya_Kubanskaya_Demokratia.png"	
+		name = GFX_focus_paket_stimlov
+		texturefile = gfx/interface/goals/KBN/paket_stimlov.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_Voyna_s_Beriey"
-		texturefile = "gfx/interface/goals/KBN/Voyna_s_Beriey.png"	
+		name = GFX_focus_Posledniy_Rubezh
+		texturefile = gfx/interface/goals/KBN/Posledniy_Rubezh.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_Vozrazhdenie_Byloy_slavy_rossiii"
-		texturefile = "gfx/interface/goals/KBN/Vozrazhdenie_Byloy_slavy_rossiii.png"	
+		name = GFX_focus_rasshritit_okhranku
+		texturefile = gfx/interface/goals/KBN/rasshritit_okhranku.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_Vozvraschenie_belykh_generalov"
-		texturefile = "gfx/interface/goals/KBN/Vozvraschenie_belykh_generalov.png"	
+		name = GFX_focus_Referendum_po_Kavkazu
+		texturefile = gfx/interface/goals/KBN/Referendum_po_Kavkazu.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_Vybor_Atamana"
-		texturefile = "gfx/interface/goals/KBN/Vybor_Atamana.png"	
+		name = GFX_focus_Rybnikov
+		texturefile = gfx/interface/goals/KBN/Rybnikov.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_KBN_rethink_microphone_funding"
-		texturefile = "gfx/interface/goals/KBN/KBN_rethink_microphone_funding.png"	
+		name = GFX_focus_Vatop
+		texturefile = gfx/interface/goals/KBN/Vatop.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_vysledi_bolshevika"
-		texturefile = "gfx/interface/goals/KBN/vysledi_bolshevika.png"	
+		name = GFX_focus_Velikaya_Kubanskaya_Demokratia
+		texturefile = gfx/interface/goals/KBN/Velikaya_Kubanskaya_Demokratia.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_conscription_1"
-		texturefile = "gfx/interface/goals/KBN/conscription_1.png"	
+		name = GFX_focus_Voyna_s_Beriey
+		texturefile = gfx/interface/goals/KBN/Voyna_s_Beriey.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_conscription_2"
-		texturefile = "gfx/interface/goals/KBN/conscription_2.png"	
+		name = GFX_focus_Vozrazhdenie_Byloy_slavy_rossiii
+		texturefile = gfx/interface/goals/KBN/Vozrazhdenie_Byloy_slavy_rossiii.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_doctrine_1"
-		texturefile = "gfx/interface/goals/KBN/doctrine_1.png"	
+		name = GFX_focus_Vozvraschenie_belykh_generalov
+		texturefile = gfx/interface/goals/KBN/Vozvraschenie_belykh_generalov.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_doctrine_2"
-		texturefile = "gfx/interface/goals/KBN/doctrine_2.png"	
+		name = GFX_focus_Vybor_Atamana
+		texturefile = gfx/interface/goals/KBN/Vybor_Atamana.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_doctrine_3"
-		texturefile = "gfx/interface/goals/KBN/doctrine_3.png"	
+		name = GFX_focus_KBN_rethink_microphone_funding
+		texturefile = gfx/interface/goals/KBN/KBN_rethink_microphone_funding.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_doctrine_4"
-		texturefile = "gfx/interface/goals/KBN/doctrine_4.png"	
+		name = GFX_focus_vysledi_bolshevika
+		texturefile = gfx/interface/goals/KBN/vysledi_bolshevika.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_motorized"
-		texturefile = "gfx/interface/goals/KBN/motorized.png"	
+		name = GFX_focus_conscription_1
+		texturefile = gfx/interface/goals/KBN/conscription_1.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_weapon_development"
-		texturefile = "gfx/interface/goals/KBN/weapon_development.png"	
+		name = GFX_focus_conscription_2
+		texturefile = gfx/interface/goals/KBN/conscription_2.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_big_ships"
-		texturefile = "gfx/interface/goals/KBN/big_ships.png"	
+		name = GFX_focus_doctrine_1
+		texturefile = gfx/interface/goals/KBN/doctrine_1.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_black_sea_guard"
-		texturefile = "gfx/interface/goals/KBN/black_sea_guard.png"	
+		name = GFX_focus_doctrine_2
+		texturefile = gfx/interface/goals/KBN/doctrine_2.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_kub_destroyes"
-		texturefile = "gfx/interface/goals/KBN/kub_destroyes.png"	
+		name = GFX_focus_doctrine_3
+		texturefile = gfx/interface/goals/KBN/doctrine_3.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_kubanian_dockyard"
-		texturefile = "gfx/interface/goals/KBN/kubanian_dockyard.png"	
+		name = GFX_focus_doctrine_4
+		texturefile = gfx/interface/goals/KBN/doctrine_4.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_kubanian_fleet"
-		texturefile = "gfx/interface/goals/KBN/kubanian_fleet.png"	
+		name = GFX_focus_motorized
+		texturefile = gfx/interface/goals/KBN/motorized.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_kubanian_u_boat_effort"
-		texturefile = "gfx/interface/goals/KBN/kubanian_u_boat_effort.png"	
+		name = GFX_focus_weapon_development
+		texturefile = gfx/interface/goals/KBN/weapon_development.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_Cossacks_and_Pannwitz"
-		texturefile = "gfx/interface/goals/KBN/Cossacks_and_Pannwitz.png"	
+		name = GFX_focus_big_ships
+		texturefile = gfx/interface/goals/KBN/big_ships.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_Democratic_friends"
-		texturefile = "gfx/interface/goals/KBN/Democratic_friends.png"	
+		name = GFX_focus_black_sea_guard
+		texturefile = gfx/interface/goals/KBN/black_sea_guard.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_Eternal_struggle"
-		texturefile = "gfx/interface/goals/KBN/Eternal_struggle.png"	
+		name = GFX_focus_kub_destroyes
+		texturefile = gfx/interface/goals/KBN/kub_destroyes.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_holy_war"
-		texturefile = "gfx/interface/goals/KBN/holy_war.png"	
+		name = GFX_focus_kubanian_dockyard
+		texturefile = gfx/interface/goals/KBN/kubanian_dockyard.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_Home_harbor"
-		texturefile = "gfx/interface/goals/KBN/Home_harbor.png"	
+		name = GFX_focus_kubanian_fleet
+		texturefile = gfx/interface/goals/KBN/kubanian_fleet.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_Industrialization_Caucasus"
-		texturefile = "gfx/interface/goals/KBN/Industrialization_Caucasus.png"	
+		name = GFX_focus_kubanian_u_boat_effort
+		texturefile = gfx/interface/goals/KBN/kubanian_u_boat_effort.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_Kazaks_of_all_Rus"
-		texturefile = "gfx/interface/goals/KBN/Kazaks_of_all_Rus.png"	
+		name = GFX_focus_Cossacks_and_Pannwitz
+		texturefile = gfx/interface/goals/KBN/Cossacks_and_Pannwitz.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_Liberal_democracies_dont_fight"
-		texturefile = "gfx/interface/goals/KBN/Liberal_democracies_dont_fight.png"	
+		name = GFX_focus_Democratic_friends
+		texturefile = gfx/interface/goals/KBN/Democratic_friends.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_Our_land"
-		texturefile = "gfx/interface/goals/KBN/Our_land.png"	
+		name = GFX_focus_Eternal_struggle
+		texturefile = gfx/interface/goals/KBN/Eternal_struggle.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_Our_way"
-		texturefile = "gfx/interface/goals/KBN/Our_way.png"	
+		name = GFX_focus_holy_war
+		texturefile = gfx/interface/goals/KBN/holy_war.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_Peaceful_assimilation"
-		texturefile = "gfx/interface/goals/KBN/Peaceful_assimilation.png"	
+		name = GFX_focus_Home_harbor
+		texturefile = gfx/interface/goals/KBN/Home_harbor.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_preparing_for_betrayal"
-		texturefile = "gfx/interface/goals/KBN/preparing_for_betrayal.png"	
+		name = GFX_focus_Industrialization_Caucasus
+		texturefile = gfx/interface/goals/KBN/Industrialization_Caucasus.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_preparing_revolution"
-		texturefile = "gfx/interface/goals/KBN/preparing_revolution.png"	
+		name = GFX_focus_Kazaks_of_all_Rus
+		texturefile = gfx/interface/goals/KBN/Kazaks_of_all_Rus.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_Realization_resources_Caucasus"
-		texturefile = "gfx/interface/goals/KBN/Realization_resources_Caucasus.png"	
+		name = GFX_focus_Liberal_democracies_dont_fight
+		texturefile = gfx/interface/goals/KBN/Liberal_democracies_dont_fight.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_return_white_emigration"
-		texturefile = "gfx/interface/goals/KBN/return_white_emigration.png"	
+		name = GFX_focus_Our_land
+		texturefile = gfx/interface/goals/KBN/Our_land.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_Revenge_for_dekazaking"
-		texturefile = "gfx/interface/goals/KBN/Revenge_for_dekazaking.png"	
+		name = GFX_focus_Our_way
+		texturefile = gfx/interface/goals/KBN/Our_way.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_Revival_Terek_Cossacks"
-		texturefile = "gfx/interface/goals/KBN/Revival_Terek_Cossacks.png"	
+		name = GFX_focus_Peaceful_assimilation
+		texturefile = gfx/interface/goals/KBN/Peaceful_assimilation.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_Rights_minorities"
-		texturefile = "gfx/interface/goals/KBN/Rights_minorities.png"	
+		name = GFX_focus_preparing_for_betrayal
+		texturefile = gfx/interface/goals/KBN/preparing_for_betrayal.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_strike_back"
-		texturefile = "gfx/interface/goals/KBN/strike_back.png"	
+		name = GFX_focus_preparing_revolution
+		texturefile = gfx/interface/goals/KBN/preparing_revolution.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_support_uk"
-		texturefile = "gfx/interface/goals/KBN/support_uk.png"	
+		name = GFX_focus_Realization_resources_Caucasus
+		texturefile = gfx/interface/goals/KBN/Realization_resources_Caucasus.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_Temporary_ally"
-		texturefile = "gfx/interface/goals/KBN/Temporary_ally.png"	
+		name = GFX_focus_return_white_emigration
+		texturefile = gfx/interface/goals/KBN/return_white_emigration.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_The_rebirth_republic_of_Russia"
-		texturefile = "gfx/interface/goals/KBN/The_rebirth_republic_of_Russia.png"	
+		name = GFX_focus_Revenge_for_dekazaking
+		texturefile = gfx/interface/goals/KBN/Revenge_for_dekazaking.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_tsardom_storage"
-		texturefile = "gfx/interface/goals/KBN/tsardom_storage.png"	
+		name = GFX_focus_Revival_Terek_Cossacks
+		texturefile = gfx/interface/goals/KBN/Revival_Terek_Cossacks.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_War_Bolshevism"
-		texturefile = "gfx/interface/goals/KBN/War_Bolshevism.png"	
+		name = GFX_focus_Rights_minorities
+		texturefile = gfx/interface/goals/KBN/Rights_minorities.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_By_themselves"
-		texturefile = "gfx/interface/goals/KBN/By_themselves.png"	
+		name = GFX_focus_strike_back
+		texturefile = gfx/interface/goals/KBN/strike_back.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_bolshevik_uprising"
-		texturefile = "gfx/interface/goals/KBN/bolshevik_uprising.png"	
+		name = GFX_focus_support_uk
+		texturefile = gfx/interface/goals/KBN/support_uk.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_Ukreplenie_Demokratii"
-		texturefile = "gfx/interface/goals/KBN/Ukreplenie_Demokratii.png"	
+		name = GFX_focus_Temporary_ally
+		texturefile = gfx/interface/goals/KBN/Temporary_ally.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_KBN_PKh"
-		texturefile = "gfx/interface/goals/KBN/KBN_PKh.png"	
+		name = GFX_focus_The_rebirth_republic_of_Russia
+		texturefile = gfx/interface/goals/KBN/The_rebirth_republic_of_Russia.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_KBN_okubanivanie"
-		texturefile = "gfx/interface/goals/KBN/KBN_okubanivanie.png"	
+		name = GFX_focus_tsardom_storage
+		texturefile = gfx/interface/goals/KBN/tsardom_storage.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_KBN_podpolie_Rossa"
-		texturefile = "gfx/interface/goals/KBN/KBN_podpolie_Rossa.png"	
+		name = GFX_focus_War_Bolshevism
+		texturefile = gfx/interface/goals/KBN/War_Bolshevism.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_KBN_warplan_volga"
-		texturefile = "gfx/interface/goals/KBN/KBN_warplan_volga.png"	
+		name = GFX_focus_By_themselves
+		texturefile = gfx/interface/goals/KBN/By_themselves.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_KBN_On_side_aesthetics"
-		texturefile = "gfx/interface/goals/KBN/KBN_On_side_aesthetics.png"	
+		name = GFX_focus_bolshevik_uprising
+		texturefile = gfx/interface/goals/KBN/bolshevik_uprising.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_Return_lands_bal"
-		texturefile = "gfx/interface/goals/KBN/Return_lands_bal.png"	
+		name = GFX_focus_Ukreplenie_Demokratii
+		texturefile = gfx/interface/goals/KBN/Ukreplenie_Demokratii.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_Return_lands_fin"
-		texturefile = "gfx/interface/goals/KBN/Return_lands_fin.png"
+		name = GFX_focus_KBN_PKh
+		texturefile = gfx/interface/goals/KBN/KBN_PKh.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_Return_lands_tur"
-		texturefile = "gfx/interface/goals/KBN/Return_lands_tur.png"
+		name = GFX_focus_KBN_okubanivanie
+		texturefile = gfx/interface/goals/KBN/KBN_okubanivanie.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_Return_lands_pol"
-		texturefile = "gfx/interface/goals/KBN/Return_lands_pol.png"
+		name = GFX_focus_KBN_podpolie_Rossa
+		texturefile = gfx/interface/goals/KBN/KBN_podpolie_Rossa.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_KBN_transkuban_railway"
-		texturefile = "gfx/interface/goals/KBN/KBN_transkuban_railway.png"
+		name = GFX_focus_KBN_warplan_volga
+		texturefile = gfx/interface/goals/KBN/KBN_warplan_volga.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_KBN_Vata_line"
-		texturefile = "gfx/interface/goals/KBN/KBN_Vata_line.png"
+		name = GFX_focus_KBN_On_side_aesthetics
+		texturefile = gfx/interface/goals/KBN/KBN_On_side_aesthetics.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_kolchak"
-		texturefile = "gfx/interface/goals/KBN/kolchak.png"
+		name = GFX_focus_Return_lands_bal
+		texturefile = gfx/interface/goals/KBN/Return_lands_bal.png	
 	}
 	SpriteType = {
-		name = "GFX_focus_pope"
-		texturefile = "gfx/interface/goals/KBN/pope.png"
+		name = GFX_focus_Return_lands_fin
+		texturefile = gfx/interface/goals/KBN/Return_lands_fin.png
 	}
 	SpriteType = {
-		name = "GFX_focus_egor"
-		texturefile = "gfx/interface/goals/KBN/egor.png"
+		name = GFX_focus_Return_lands_tur
+		texturefile = gfx/interface/goals/KBN/Return_lands_tur.png
 	}
 	SpriteType = {
-		name = "GFX_focus_robert"
-		texturefile = "gfx/interface/goals/KBN/focus_robert.png"
+		name = GFX_focus_Return_lands_pol
+		texturefile = gfx/interface/goals/KBN/Return_lands_pol.png
 	}
 	SpriteType = {
-		name = "GFX_focus_KBN_Yacheiki"
-		texturefile = "gfx/interface/goals/KBN/KBN_Yacheiki.png"
+		name = GFX_focus_KBN_transkuban_railway
+		texturefile = gfx/interface/goals/KBN/KBN_transkuban_railway.png
 	}
 	SpriteType = {
-		name = "GFX_focus_KBN_CUMbanoids"
-		texturefile = "gfx/interface/goals/KBN/KBN_CUMbanoids.png"
+		name = GFX_focus_KBN_Vata_line
+		texturefile = gfx/interface/goals/KBN/KBN_Vata_line.png
 	}
 	SpriteType = {
-		name = "GFX_focus_KBN_CUM_on_micro"
-		texturefile = "gfx/interface/goals/KBN/KBN_CUM_on_micro.png"
+		name = GFX_focus_kolchak
+		texturefile = gfx/interface/goals/KBN/kolchak.png
 	}
 	SpriteType = {
-		name = "GFX_focus_KBN_CUM_za_cum"
-		texturefile = "gfx/interface/goals/KBN/KBN_CUM_za_cum.png"
+		name = GFX_focus_pope
+		texturefile = gfx/interface/goals/KBN/pope.png
 	}
 	SpriteType = {
-		name = "GFX_focus_KBN_CUM_dodomy"
-		texturefile = "gfx/interface/goals/KBN/KBN_CUM_dodomy.png"
+		name = GFX_focus_egor
+		texturefile = gfx/interface/goals/KBN/egor.png
 	}
 	SpriteType = {
-		name = "GFX_focus_KBN_transsib"
-		texturefile = "gfx/interface/goals/KBN/KBN_transsib.png"
+		name = GFX_focus_robert
+		texturefile = gfx/interface/goals/KBN/focus_robert.png
 	}
 	SpriteType = {
-		name = "GFX_focus_KBN_warplan_don"
-		texturefile = "gfx/interface/goals/KBN/KBN_warplan_don.png"
+		name = GFX_focus_KBN_Yacheiki
+		texturefile = gfx/interface/goals/KBN/KBN_Yacheiki.png
 	}
 	SpriteType = {
-		name = "GFX_focus_KBN_microphone_production"
-		texturefile = "gfx/interface/goals/KBN/KBN_microphone_production.png"
+		name = GFX_focus_KBN_CUMbanoids
+		texturefile = gfx/interface/goals/KBN/KBN_CUMbanoids.png
 	}
 	SpriteType = {
-		name = "GFX_focus_KBN_microphone_for_people"
-		texturefile = "gfx/interface/goals/KBN/KBN_microphone_for_people.png"
+		name = GFX_focus_KBN_CUM_on_micro
+		texturefile = gfx/interface/goals/KBN/KBN_CUM_on_micro.png
 	}
 	SpriteType = {
-		name = "GFX_focus_KBN_extension_Cuban_railway"
-		texturefile = "gfx/interface/goals/KBN/KBN_extension_Cuban_railway.png"
+		name = GFX_focus_KBN_CUM_za_cum
+		texturefile = gfx/interface/goals/KBN/KBN_CUM_za_cum.png
+	}
+	SpriteType = {
+		name = GFX_focus_KBN_CUM_dodomy
+		texturefile = gfx/interface/goals/KBN/KBN_CUM_dodomy.png
+	}
+	SpriteType = {
+		name = GFX_focus_KBN_transsib
+		texturefile = gfx/interface/goals/KBN/KBN_transsib.png
+	}
+	SpriteType = {
+		name = GFX_focus_KBN_warplan_don
+		texturefile = gfx/interface/goals/KBN/KBN_warplan_don.png
+	}
+	SpriteType = {
+		name = GFX_focus_KBN_microphone_production
+		texturefile = gfx/interface/goals/KBN/KBN_microphone_production.png
+	}
+	SpriteType = {
+		name = GFX_focus_KBN_microphone_for_people
+		texturefile = gfx/interface/goals/KBN/KBN_microphone_for_people.png
+	}
+	SpriteType = {
+		name = GFX_focus_KBN_extension_Cuban_railway
+		texturefile = gfx/interface/goals/KBN/KBN_extension_Cuban_railway.png
 	}
 	
 }

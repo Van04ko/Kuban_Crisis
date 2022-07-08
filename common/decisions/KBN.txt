@@ -1,3 +1,362 @@
+KBN_ITA_uprise_cat = {
+
+	KBN_ITA_prepare_cell_in_Piedmont = {
+		
+		icon = KBN_juden_star
+		
+		allowed = {
+			original_tag = KBN
+		}
+		visible = {
+			
+		}
+		cost = 50
+		
+		fire_only_once = yes
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 158
+			}
+		}
+		
+		complete_effect = {
+			158 = { set_state_flag = KBN_ITA_cell }
+			custom_effect_tooltip = KBN_ITA_cell_in_Piedmont_tt
+		}
+	}
+	KBN_ITA_prepare_cell_in_Lombardy = {
+		
+		icon = KBN_juden_star
+		
+		allowed = {
+			original_tag = KBN
+		}
+		visible = {
+			
+		}
+		cost = 50
+		
+		fire_only_once = yes
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 159
+			}
+		}
+		
+		complete_effect = {
+			159 = { set_state_flag = KBN_ITA_cell }
+			custom_effect_tooltip = KBN_ITA_cell_in_Lombardy_tt
+		}
+	}
+	KBN_ITA_prepare_cell_in_Tyrol = {
+		
+		icon = KBN_juden_star
+		
+		allowed = {
+			original_tag = KBN
+		}
+		visible = {
+			
+		}
+		cost = 50
+		
+		fire_only_once = yes
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 39
+			}
+		}
+		
+		complete_effect = {
+			39 = { set_state_flag = KBN_ITA_cell }
+			custom_effect_tooltip = KBN_ITA_cell_in_Tyrol_tt
+		}
+	}
+	KBN_ITA_prepare_cell_in_Venice = {
+		
+		icon = KBN_juden_star
+		
+		allowed = {
+			original_tag = KBN
+		}
+		visible = {
+			
+		}
+		cost = 50
+		
+		fire_only_once = yes
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 160
+			}
+		}
+		
+		complete_effect = {
+			160 = { set_state_flag = KBN_ITA_cell }
+			custom_effect_tooltip = KBN_ITA_cell_in_Venice_tt
+		}
+	}
+	KBN_ITA_prepare_cell_in_Istria = {
+		
+		icon = KBN_juden_star
+		
+		allowed = {
+			original_tag = KBN
+		}
+		visible = {
+			
+		}
+		cost = 50
+		
+		fire_only_once = yes
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 736
+			}
+		}
+		
+		complete_effect = {
+			736 = { set_state_flag = KBN_ITA_cell }
+			custom_effect_tooltip = KBN_ITA_cell_in_Istria_tt
+		}
+	}
+	KBN_ITA_prepare_cell_in_Emilia_Romagna = {
+		
+		icon = KBN_juden_star
+		
+		allowed = {
+			original_tag = KBN
+		}
+		visible = {
+			
+		}
+		cost = 50
+		
+		fire_only_once = yes
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 161
+			}
+		}
+		
+		complete_effect = {
+			161 = { set_state_flag = KBN_ITA_cell }
+			custom_effect_tooltip = KBN_ITA_cell_in_Emilia_Romagna_tt
+		}
+	}
+	KBN_ITA_prepare_cell_in_Tuscany = {
+		
+		icon = KBN_juden_star
+		
+		allowed = {
+			original_tag = KBN
+		}
+		visible = {
+			
+		}
+		cost = 50
+		
+		fire_only_once = yes
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 162
+			}
+		}
+		
+		complete_effect = {
+			162 = { set_state_flag = KBN_ITA_cell }
+			custom_effect_tooltip = KBN_ITA_cell_in_Tuscany_tt
+		}
+	}
+	KBN_ITA_prepare_cell_in_Abruzzi = {
+		
+		icon = KBN_juden_star
+		
+		allowed = {
+			original_tag = KBN
+		}
+		visible = {
+			
+		}
+		cost = 50
+		
+		fire_only_once = yes
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 157
+			}
+		}
+		
+		complete_effect = {
+			157 = { set_state_flag = KBN_ITA_cell }
+			custom_effect_tooltip = KBN_ITA_cell_in_Abruzzi_tt
+		}
+	}
+	KBN_ITA_prepare_cell_in_Naples = {
+		
+		icon = KBN_juden_star
+		
+		allowed = {
+			original_tag = KBN
+		}
+		visible = {
+			
+		}
+		cost = 50
+		
+		fire_only_once = yes
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 117
+			}
+		}
+		
+		complete_effect = {
+			117 = { set_state_flag = KBN_ITA_cell }
+			custom_effect_tooltip = KBN_ITA_cell_in_Naples_tt
+		}
+	}
+	KBN_ITA_prepare_cell_in_Calabria = {
+		
+		icon = KBN_juden_star
+		
+		allowed = {
+			original_tag = KBN
+		}
+		visible = {
+			
+		}
+		cost = 50
+		
+		fire_only_once = yes
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 156
+			}
+		}
+		
+		complete_effect = {
+			156 = { set_state_flag = KBN_ITA_cell }
+			custom_effect_tooltip = KBN_ITA_cell_in_Calabria_tt
+		}
+	}
+	KBN_ITA_prepare_cell_in_Sicily = {
+		
+		icon = KBN_juden_star
+		
+		allowed = {
+			original_tag = KBN
+		}
+		visible = {
+			
+		}
+		cost = 50
+		
+		fire_only_once = yes
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 115
+			}
+		}
+		
+		complete_effect = {
+			115 = { set_state_flag = KBN_ITA_cell }
+			custom_effect_tooltip = KBN_ITA_cell_in_Sicily_tt
+		}
+	}
+	KBN_ITA_prepare_cell_in_Sardinia = {
+		
+		icon = KBN_juden_star
+		
+		allowed = {
+			original_tag = KBN
+		}
+		visible = {
+			
+		}
+		cost = 50
+		
+		fire_only_once = yes
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 114
+			}
+		}
+		
+		complete_effect = {
+			114 = { set_state_flag = KBN_ITA_cell }
+			custom_effect_tooltip = KBN_ITA_cell_in_Sardinia_tt
+		}
+	}
+	KBN_ITA_prepare_cell_in_Zara = {
+		
+		icon = KBN_juden_star
+		
+		allowed = {
+			original_tag = KBN
+		}
+		visible = {
+			
+		}
+		cost = 5
+		
+		fire_only_once = yes
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 163
+			}
+		}
+		
+		complete_effect = {
+			163 = { set_state_flag = KBN_ITA_cell }
+			custom_effect_tooltip = KBN_ITA_cell_in_Zara_tt
+		}
+	}
+	KBN_ITA_zahvat_test = {
+		
+		icon = hol_radio_oranje
+		
+		allowed = {
+			original_tag = KBN
+		}
+		visible = {
+			always = no
+		}
+		cost = 0
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 819
+			}
+		}
+		
+		complete_effect = {
+			every_state = {
+				limit = {
+					is_controlled_by = ITA
+					has_state_flag = KBN_ITA_cell
+				}
+				transfer_state_to = KBN
+			}
+		}
+	}
+	
+	
+}
+
 KBN_Rudoy_MON_uprise_cat = {
 	
 	KBN_prepare_cell_in_Huvsgel = {

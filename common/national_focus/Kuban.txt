@@ -380,7 +380,7 @@ focus_tree = {
 		icon = GFX_focus_KBN_podpolie_Rossa
 		relative_position_id = KBN_Rubnyakov
 		prerequisite = { focus = KBN_return_white_emigration }
-		x = -7
+		x = -6
 		y = 5
 		cost = 4
 		completion_reward = {
@@ -552,13 +552,32 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = KBN_to_home
-		icon = GFX_focus_KBN_CUM_dodomy
+		id = KBN_give_plane_chance
+		icon = GFX_focus_KBN_give_plane_chance
 		relative_position_id = KBN_podpolie_rossa
 		prerequisite = { focus = KBN_za_Kuban }
 		prerequisite = { focus = KBN_Reveal_cards }
 		x = 2
 		y = 5
+		cost = 5
+		available = {
+			
+		}
+		completion_reward = {
+			MON = {
+				add_stability = 0.2
+				add_war_support = 0.2
+			}
+			country_event = { id = kuban.50 }
+		}
+	}
+	focus = {
+		id = KBN_to_home
+		icon = GFX_focus_KBN_CUM_dodomy
+		relative_position_id = KBN_podpolie_rossa
+		prerequisite = { focus = KBN_give_plane_chance }
+		x = 2
+		y = 6
 		cost = 10
 		available = {
 			NOT = { country_exists = SOV }
@@ -568,10 +587,137 @@ focus_tree = {
 				target = CUM
 				transfer_troops = yes
 			}
-			annex_country = {
-				target = MON
-				transfer_troops = yes
+		}
+	}
+	focus = {
+		id = KBN_our_Europe
+		icon = GFX_focus_KBN_our_Europe
+		relative_position_id = KBN_Rubnyakov
+		prerequisite = { focus = KBN_return_white_emigration }
+		x = -9
+		y = 5
+		cost = 5.8
+		available = {
+			
+		}
+		completion_reward = {
+			add_political_power = -150
+		}
+	}
+	focus = {
+		id = KBN_send_spy
+		icon = GFX_focus_KBN_send_spy
+		relative_position_id = KBN_our_Europe
+		prerequisite = { focus = KBN_our_Europe }
+		x = -1
+		y = 1
+		cost = 7.2
+		available = {
+			
+		}
+		completion_reward = {
+			add_political_power = -50
+			custom_effect_tooltip = KBN_minus_sarmat_tt
+			custom_effect_tooltip = KBN_ITA_open_cell_tt
+		}
+	}
+	focus = {
+		id = KBN_vas_vas_vas
+		icon = GFX_focus_KBN_vas_vas_vas
+		relative_position_id = KBN_our_Europe
+		prerequisite = { focus = KBN_send_spy }
+		x = -1
+		y = 2
+		cost = 7.2
+		available = {
+			
+		}
+		completion_reward = {
+			country_event = { id = kuban.51 }
+		}
+	}
+	focus = {
+		id = KBN_italian_synagogues
+		icon = GFX_focus_KBN_italian_synagogues
+		relative_position_id = KBN_our_Europe
+		prerequisite = { focus = KBN_our_Europe }
+		x = 1
+		y = 1
+		cost = 7.2
+		available = {
+			
+		}
+		completion_reward = {
+			add_political_power = -70
+			random_owned_controlled_state = {
+				limit = {
+					 industrial_complex > 2
+				}
+				remove_building = {
+					type = industrial_complex
+					level = 2
+				}
 			}
+			2 = { set_state_flag = KBN_ITA_cell }
+			custom_effect_tooltip = KBN_ITA_cell_in_Rome_tt
+		}
+	}
+	focus = {
+		id = KBN_go_vacation_Rome
+		icon = GFX_focus_KBN_go_vacation_Rome
+		relative_position_id = KBN_our_Europe
+		prerequisite = { focus = KBN_italian_synagogues }
+		x = 1
+		y = 2
+		cost = 1.5
+		available = {
+			
+		}
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = KBN_our_pope
+		icon = GFX_focus_pope
+		relative_position_id = KBN_our_Europe
+		prerequisite = { focus = KBN_go_vacation_Rome }
+		prerequisite = { focus = KBN_vas_vas_vas }
+		available = {  }
+		x = 0
+		y = 3
+		cost = 5
+		completion_reward = {
+			ITA = {
+				set_cosmetic_tag = KBN_ITA
+				create_country_leader = {
+					name = "Наш (((Папа)))"
+					desc = "Rubnyakov_DESC"
+					picture = "gfx/leaders/ITA/our_pope.png"
+					expire = "1965.1.1"
+					ideology = despotism
+					traits = {  }
+				}
+				set_politics = {
+					ruling_party = neutrality
+					elections_allowed = no
+					last_election = "1921.12.17"
+					election_frequency = 48
+				}
+				add_popularity = {
+					ideology = neutrality
+					popularity = 0.5
+				}
+				every_state = {
+					limit = {
+						is_controlled_by = ITA
+						NOT = { has_state_flag = KBN_ITA_cell }
+					}
+					transfer_state_to = GER
+				}
+			}
+			puppet = ITA
+			
 		}
 	}
 	focus = {
@@ -1355,41 +1501,6 @@ focus_tree = {
 		cost = 5
 		completion_reward = {
 			add_manpower = 1
-		}
-	}
-	focus = {
-		id = KBN_our_pope
-		icon = GFX_focus_pope
-		relative_position_id = KBN_The_rebirth_power_of_Russia
-		prerequisite = { focus = KBN_Return_baltic_lands focus = KBN_Return_fin_lands focus = KBN_Return_tur_lands }
-		
-		available = { }
-		
-		x = 2
-		y = 3
-		cost = 5
-		completion_reward = {
-			ITA = {
-				create_country_leader = {
-					name = "Наш (((Папа)))"
-					desc = "Rubnyakov_DESC"
-					picture = "gfx/leaders/ITA/our_pope.png"
-					expire = "1965.1.1"
-					ideology = despotism
-					traits = {  }
-				}
-				set_politics = {
-					ruling_party = neutrality
-					elections_allowed = no
-					last_election = "1921.12.17"
-					election_frequency = 48
-				}
-				add_popularity = {
-					ideology = neutrality
-					popularity = 0.5
-				}
-			}
-			puppet = ITA
 		}
 	}
 	focus = {

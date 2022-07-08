@@ -31,3 +31,18 @@ KBN_Rudoy_MON_uprise_cat = {
 	
 	priority = 120
 }
+KBN_ITA_uprise_cat = {
+	allowed = {
+		original_tag = KBN
+		NOT = { has_completed_focus = KBN_our_pope }
+	}
+	visible = {
+		has_completed_focus = KBN_send_spy
+	}
+	
+	picture = GFX_focus_pope
+	
+	icon =  GFX_decision_cat_KBN_juden_star
+	
+	priority = 120
+}

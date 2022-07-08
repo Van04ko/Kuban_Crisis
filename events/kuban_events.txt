@@ -1265,7 +1265,7 @@ country_event = {
 	}
 }
 
-country_event = { 
+country_event = {
 	id = kuban.49
 	title = kuban.49.t
 	desc = kuban.49.d
@@ -1293,6 +1293,54 @@ country_event = {
 	option = {
 		name = kuban.49.f
 		hidden_effect = { set_cosmetic_tag = KBN_DON }
+	}
+}
+
+country_event = {
+	id = kuban.50
+	title = kuban.50.t
+	desc = kuban.50.d
+	picture = GFX_event_rudoy_portret
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {
+		name = kuban.50.a
+		MON = { add_political_power = 100 }
+	}
+}
+
+country_event = {
+	id = kuban.51
+	title = kuban.51.t
+	desc = kuban.51.d
+	picture = GFX_event_voprosio
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {
+		name = kuban.51.a
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = -2000
+			producer = KBN
+		}
+		ITA = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 2000
+				producer = KBN
+			}
+		}
+	}
+	option = {
+		name = kuban.51.b
+		custom_effect_tooltip = KBN_minus_dushulin_tt
+		set_country_flag = KBN_minus_dushulin
 	}
 }
 

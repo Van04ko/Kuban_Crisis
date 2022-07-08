@@ -1,0 +1,10 @@
+spriteTypes = {
+	spriteType = {
+		name = GFX_decision_cat_KBN_juden_star
+		texturefile = gfx/interface/decisions/KBN_cat_juden_star.png
+    }
+	spriteType = {
+		name = GFX_decision_KBN_juden_star
+		texturefile = gfx/interface/decisions/KBN_juden_star.png
+    }
+}

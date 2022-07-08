@@ -310,13 +310,14 @@ characters = {
 				small="GFX_idea_KBN_Sarmat"
 			}
 		}
-		advisor={
+		advisor = {
 			slot = political_advisor
 			idea_token = Sarmat
 			cost = 200
 			allowed = {
 				original_tag = KBN
 			}
+			available = { NOT = { has_completed_focus = KBN_send_spy } }
 			traits = { sarmat }
 		}
 	}
@@ -672,6 +673,12 @@ characters = {
 			idea_token = KBN_Penis_Dushulin
 			allowed = {
 				original_tag = KBN
+			}
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minus_dushulin_tt		
+					NOT = { has_country_flag = KBN_minus_dushulin }
+				}
 			}
 			traits = { MMM }
 		}
