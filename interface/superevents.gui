@@ -43,6 +43,18 @@ guiTypes = {
 			position = { x = 0 y = 0 }
 			alwaystransparent = yes
 		}
+		iconType = {
+			name = "superevents_KBN_MON_rudoy_uprise"		
+			quadTextureSprite ="GFX_superevents_KBN_MON_rudoy_uprise"
+			position = { x = 0 y = 0 }
+			alwaystransparent = yes
+		}
+		iconType = {
+			name = "superevents_KBN_ITA_uprise"		
+			quadTextureSprite ="GFX_superevents_KBN_ITA_uprise"
+			position = { x = 0 y = 0 }
+			alwaystransparent = yes
+		}
 		
 		
 		

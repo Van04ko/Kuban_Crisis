@@ -1345,6 +1345,32 @@ country_event = {
 }
 
 country_event = {
+	id = kuban.52
+	title = kuban.52.t
+	desc = kuban.52.d
+	picture = GFX_event_babay
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {
+		name = kuban.52.a
+		add_opinion_modifier = {
+			target = ENG
+			modifier = KBN_babay_dead
+		}
+	}
+	option = {
+		name = kuban.52.b
+		add_opinion_modifier = {
+			target = ENG
+			modifier = KBN_babay_live
+		}
+	}
+}
+
+country_event = {
 	id = kuban_cum.1
 	title = kuban_cum.1.t
 	desc = kuban_cum.1.d

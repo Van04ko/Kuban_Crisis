@@ -286,6 +286,7 @@ focus_tree = {
 						transfer_state_to = SOV
 					}
 				}
+				country_event = { id = kuban_super_events.3 }
 			}
 			MON = {
 				hidden_effect = {
@@ -717,7 +718,7 @@ focus_tree = {
 				}
 			}
 			puppet = ITA
-			
+			hidden_effect = { country_event = { id = kuban_super_events.4 } }
 		}
 	}
 	focus = {

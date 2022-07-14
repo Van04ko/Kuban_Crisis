@@ -1,5 +1,17 @@
 on_actions = {
 
+	on_daily_KBN= {
+		effect = {
+			if = {
+				limit = {
+					controls_province = 4354
+				}
+				country_event = { id = kuban.52 }
+			}
+		}
+	}
+	
+	
 	on_startup = {
 		effect = {
 			set_province_name = { id = 9461 name = VICTORY_POINTS_VATA_9461 }

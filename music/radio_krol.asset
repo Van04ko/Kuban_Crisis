@@ -74,3 +74,20 @@ music = {
 	volume = 1
 }
 
+music = {
+	name = "Gachi_Cumchatka"
+	file = "Gachi_Cumchatka.ogg"
+	volume = 1
+}
+
+music = {
+	name = "KBN_ITA_event"
+	file = "KBN_ITA_event.ogg"
+	volume = 1
+}
+
+music = {
+	name = "KBN_MON_event"
+	file = "KBN_MON_event.ogg"
+	volume = 1
+}

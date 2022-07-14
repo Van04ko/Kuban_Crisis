@@ -22,4 +22,16 @@ defined_text = {
 		}
 		localization_key = KBN_CUM4atka_remark
 	}
+	text = {
+		trigger = {
+			has_global_flag = KBN_MON_rudoy_uprise
+		}
+		localization_key = KBN_MON_rudoy_uprise_remark
+	}
+	text = {
+		trigger = {
+			has_global_flag = KBN_ITA_uprise
+		}
+		localization_key = KBN_ITA_uprise_remark
+	}
 }

@@ -45,7 +45,8 @@ country_event = { #
 		set_global_flag = SE_superevents_activate
 		set_global_flag = KBN_CUM4atka
 		
-		play_song = "Vatoadmin_drozdovckiy_polk"
+		# play_song = "Vatoadmin_drozdovckiy_polk"
+		play_song = "Gachi_Cumchatka"
 	}
 
 	hidden = yes
@@ -56,5 +57,49 @@ country_event = { #
 	
 	option = {
 		name = kuban_super_events.1.a
+	}
+}
+country_event = { #
+	id = kuban_super_events.3
+	title = kuban_super_events.3.t
+	desc = kuban_super_events.3.d
+	
+	immediate = {
+		set_global_flag = SE_superevents_activate
+		set_global_flag = KBN_MON_rudoy_uprise
+		
+		play_song = "KBN_MON_event"
+	}
+
+	hidden = yes
+	
+	fire_only_once = no
+
+	is_triggered_only = yes
+	
+	option = {
+		name = kuban_super_events.3.a
+	}
+}
+country_event = { #
+	id = kuban_super_events.4
+	title = kuban_super_events.4.t
+	desc = kuban_super_events.4.d
+	
+	immediate = {
+		set_global_flag = SE_superevents_activate
+		set_global_flag = KBN_ITA_uprise
+		
+		play_song = "KBN_ITA_event"
+	}
+
+	hidden = yes
+	
+	fire_only_once = no
+
+	is_triggered_only = yes
+	
+	option = {
+		name = kuban_super_events.4.a
 	}
 }

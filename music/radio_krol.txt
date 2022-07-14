@@ -126,3 +126,34 @@ music = {
     	}
     }
 }
+
+
+music = {
+    song = "Gachi_Cumchatka"
+    chance = {
+    	factor = 0
+    	modifier = {
+			
+    	}
+    }
+}
+
+music = {
+    song = "KBN_ITA_event"
+    chance = {
+    	factor = 0
+    	modifier = {
+			
+    	}
+    }
+}
+
+music = {
+    song = "KBN_MON_event"
+    chance = {
+    	factor = 0
+    	modifier = {
+			
+    	}
+    }
+}

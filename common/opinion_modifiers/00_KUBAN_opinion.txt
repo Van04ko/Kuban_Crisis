@@ -10,4 +10,12 @@ opinion_modifiers = {
 	KBN_dislike_piza = {
 		value = -50
 	}
+	
+	
+	KBN_babay_dead = {
+		value = -20
+	}
+	KBN_babay_live = {
+		value = 20
+	}
 }
