@@ -119,7 +119,7 @@ focus_tree = {
 		prerequisite = { focus = KBN_Rubnyakov }
 		x = 0
 		y = 1
-		cost = 7.2
+		cost = 5.8
 		completion_reward = {
 			country_event = { id = kuban.4 }
 		}
@@ -1701,14 +1701,12 @@ focus_tree = {
 			set_province_name = { id = 9461 name = "Луганск" }
 		}
 	}
-	
-	
 	focus = {
 		id = KBN_kuban_industrialization
 		icon = GFX_focus_KBN_Prom
 		x = 5
 		y = 0
-		cost = 7.2
+		cost = 5
 		completion_reward = {
 			add_tech_bonus = {
 				name = industrial_bonus
@@ -1732,7 +1730,7 @@ focus_tree = {
 		relative_position_id = KBN_kuban_industrialization
 		x = -2
 		y = 0
-		cost = 7.2
+		cost = 5.8
 		completion_reward = {
 			add_ideas = KBN_transkuban_railway_pay_1
 			238 = {
@@ -1774,7 +1772,7 @@ focus_tree = {
 
 		x = -1
 		y = 1
-		cost = 7.2
+		cost = 5
 		completion_reward = {
 			build_railway = {
 				level = 1
@@ -1802,7 +1800,7 @@ focus_tree = {
 
 		x = -1
 		y = 1
-		cost = 7.2
+		cost = 5.8
 		completion_reward = {
 			236 = {
 				add_extra_state_shared_building_slots = 1
@@ -1846,7 +1844,7 @@ focus_tree = {
 		prerequisite = { focus = KBN_kuban_industrialization }
 		x = 1
 		y = 1
-		cost = 7.2
+		cost = 5.8
 		completion_reward = {
 			236 = {
 				add_extra_state_shared_building_slots = 4
