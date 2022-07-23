@@ -52,8 +52,7 @@ KBN_Cummunism_cells_uprise_cat = {
 		original_tag = KBN
 	}
 	visible = {
-		#has_country_flag = KBN_KPR_start_civil_war
-		#NOT = { country_exists = KPR }
+		NOT = { has_country_flag = KBN_KPR_start_civil_war }
 	}
 	
 	# picture = GFX_focus_bolshevik_uprising
