@@ -1,3 +1,4 @@
 KBN	= "countries/Kuban.txt"
 CAU	= "countries/Caucasus.txt"
 CUM = "countries/Cumchatka.txt"
+KPR = "countries/Kuban People Republik.txt"

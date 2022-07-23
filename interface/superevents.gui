@@ -55,7 +55,18 @@ guiTypes = {
 			position = { x = 0 y = 0 }
 			alwaystransparent = yes
 		}
-		
+		iconType = {
+			name = "superevents_KBN_KPR_civil_war"		
+			quadTextureSprite ="GFX_superevents_KBN_KPR_civil_war"
+			position = { x = 0 y = 0 }
+			alwaystransparent = yes
+		}
+		iconType = {
+			name = "superevents_KBN_KPR_end_civil_war"		
+			quadTextureSprite ="GFX_superevents_KBN_KPR_end_civil_war"
+			position = { x = 0 y = 0 }
+			alwaystransparent = yes
+		}
 		
 		
 		instantTextboxType = {

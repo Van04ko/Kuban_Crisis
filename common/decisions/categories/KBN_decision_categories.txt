@@ -46,3 +46,19 @@ KBN_ITA_uprise_cat = {
 	
 	priority = 120
 }
+
+KBN_Cummunism_cells_uprise_cat = {
+	allowed = {
+		original_tag = KBN
+	}
+	visible = {
+		#has_country_flag = KBN_KPR_start_civil_war
+		#NOT = { country_exists = KPR }
+	}
+	
+	# picture = GFX_focus_bolshevik_uprising
+	
+	icon =  GFX_decision_cat_KBN_rap
+	
+	priority = 120
+}

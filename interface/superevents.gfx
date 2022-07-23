@@ -22,19 +22,24 @@ spriteTypes = {
 		name = "GFX_superevents_KBN_the_rebirth_power_of_Russia"
 		textureFile = "gfx/superevents_pictures/superevents_KBN_the_rebirth_power_of_Russia.dds"
 	}
-	
 	spriteType = {
 		name = "GFX_superevents_KBN_CUM4atka"
 		textureFile = "gfx/superevents_pictures/superevents_KBN_CUM4atka.dds"
 	}
-	
 	spriteType = {
 		name = "GFX_superevents_KBN_MON_rudoy_uprise"
 		textureFile = "gfx/superevents_pictures/superevents_KBN_MON_rudoy_uprise.dds"
 	}
-	
 	spriteType = {
 		name = "GFX_superevents_KBN_ITA_uprise"
 		textureFile = "gfx/superevents_pictures/superevents_KBN_ITA_uprise.dds"
+	}
+	spriteType = {
+		name = "GFX_superevents_KBN_KPR_civil_war"
+		textureFile = "gfx/superevents_pictures/superevents_KBN_KPR_civil_war.dds"
+	}
+	spriteType = {
+		name = "GFX_superevents_KBN_KPR_end_civil_war"
+		textureFile = "gfx/superevents_pictures/superevents_KBN_KPR_end_civil_war.dds"
 	}
 }

@@ -1371,6 +1371,27 @@ country_event = {
 }
 
 country_event = {
+	id = kuban.53
+	title = kuban.53.t
+	desc = kuban.53.d
+	picture = GFX_event_kubanoids_volunteers
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {
+		name = kuban.53.a
+		add_manpower = 63541
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 2424
+			producer = SOV
+		}
+	}
+}
+
+country_event = {
 	id = kuban_cum.1
 	title = kuban_cum.1.t
 	desc = kuban_cum.1.d

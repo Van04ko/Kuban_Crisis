@@ -45,4 +45,17 @@ defined_text = {
 		}
 		localization_key = KBN_ITA_uprise_title
 	}
+	
+	text = {
+		trigger = {
+			has_global_flag = KBN_KPR_civil_war
+		}
+		localization_key = KBN_KPR_civil_war_title
+	}
+	text = {
+		trigger = {
+			has_global_flag = KBN_KPR_end_civil_war
+		}
+		localization_key = KBN_KPR_end_civil_war_title
+	}
 }

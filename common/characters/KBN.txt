@@ -13,7 +13,8 @@ characters = {
 			ideology = despotism
 			expire = "1965.1.1.1"
 			id = -1
-			traits = {  }
+			traits = { vato_trait }
+			desc = KBN_Vatoadmin_desc
 		}
 		field_marshal = {
 			traits = { }

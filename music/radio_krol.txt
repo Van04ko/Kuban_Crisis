@@ -157,3 +157,14 @@ music = {
     	}
     }
 }
+
+music = {
+    song = "God_save_the_Tsar"
+    chance = {
+    	factor = 0
+    	modifier = {
+			
+    	}
+    }
+}
+

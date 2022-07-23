@@ -164,4 +164,9 @@ spriteTypes = {
 		name = "GFX_event_knibbers"
 		texturefile = "gfx/event_pictures/knibbers.png"	
 	}
+	SpriteType = {
+		name = "GFX_event_kubanoids_volunteers"
+		texturefile = "gfx/event_pictures/kubanoids_volunteers.png"	
+	}
+	
 }

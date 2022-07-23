@@ -1,0 +1,391 @@
+KBN_Cummunism_cells_uprise_cat = {
+
+	KBN_cut_off_funding = {
+		
+		icon = KBN_banned_coins
+		
+		allowed = {
+			original_tag = KBN
+		}
+		visible = {
+			
+		}
+		
+		cost = 60
+		is_good = yes
+		days_remove = 2
+		selectable_mission = yes
+		fire_only_once = yes
+		
+		highlight_states = {
+			highlight_states_trigger = {
+				state = 219
+			}
+		}
+
+		remove_effect = {
+			custom_effect_tooltip = KBN_cum_civil_war_var_all_state_loose_30_tt
+			835 = {
+				add_to_variable = { var = KBN_cum_civil_war_var value = -30 } 
+				clamp_variable = { var = KBN_cum_civil_war_var min = 0 max = 100 } 
+			}
+			237 = {
+				add_to_variable = { var = KBN_cum_civil_war_var value = -30 } 
+				clamp_variable = { var = KBN_cum_civil_war_var min = 0 max = 100 } 
+			}
+			235 = {
+				add_to_variable = { var = KBN_cum_civil_war_var value = -30 } 
+				clamp_variable = { var = KBN_cum_civil_war_var min = 0 max = 100 } 
+			}
+		}
+	}
+	KBN_close_rap_club_Semina_in_elista = {
+		
+		icon = KBN_boot_crushing_hand
+		
+		allowed = {
+			original_tag = KBN
+		}
+		visible = {
+			
+		}
+		
+		cost = 30
+		
+		days_re_enable = 4
+		
+		highlight_states = {
+			highlight_states_trigger = {
+				state = 237
+			}
+		}
+
+		remove_effect  = {
+			custom_effect_tooltip = KBN_cum_civil_war_var_237_loose_30_tt
+			237 = {
+				add_to_variable = { var = KBN_cum_civil_war_var value = -30 }
+				clamp_variable = { var = KBN_cum_civil_war_var min = 0 max = 100 }
+			}
+		}
+	}
+	KBN_close_rap_club_Semina_in_kizlar = {
+		
+		icon = KBN_boot_crushing_hand
+		
+		allowed = {
+			original_tag = KBN
+		}
+		visible = {
+			
+		}
+		
+		cost = 30
+		
+		days_re_enable = 4
+		
+		highlight_states = {
+			highlight_states_trigger = {
+				state = 835
+			}
+		}
+
+		complete_effect  = {
+			custom_effect_tooltip = KBN_cum_civil_war_var_835_loose_30_tt
+			835 = {
+				add_to_variable = {
+					var = KBN_cum_civil_war_var
+					value = -30
+				}
+				clamp_variable = { var = KBN_cum_civil_war_var min = 0 max = 100 }
+			}
+		}
+	}
+	KBN_close_rap_club_Semina_in_stavropol = {
+		
+		icon = KBN_boot_crushing_hand
+		
+		allowed = {
+			original_tag = KBN
+		}
+		visible = {
+			
+		}
+		
+		cost = 30
+		
+		days_re_enable = 4
+		
+		highlight_states = {
+			highlight_states_trigger = {
+				state = 235
+			}
+		}
+
+		complete_effect  = {
+			custom_effect_tooltip = KBN_cum_civil_war_var_235_loose_30_tt
+			235 = {
+				add_to_variable = {
+					var = KBN_cum_civil_war_var
+					value = -30
+				}
+				clamp_variable = { var = KBN_cum_civil_war_var min = 0 max = 100 }
+			}
+		}
+	}
+	KBN_distribute_primers_in_elista = {
+		
+		icon = KBN_word_book
+		
+		allowed = {
+			original_tag = KBN
+		}
+		visible = {
+			
+		}
+		
+		cost = 15
+		
+		days_re_enable = 4
+		
+		highlight_states = {
+			highlight_states_trigger = {
+				state = 237
+			}
+		}
+
+		complete_effect  = {
+			custom_effect_tooltip = KBN_cum_civil_war_var_237_loose_15_tt
+			237 = {
+				add_to_variable = {
+					var = KBN_cum_civil_war_var
+					value = -15
+				}
+				clamp_variable = { var = KBN_cum_civil_war_var min = 0 max = 100 }
+			}
+		}
+	}
+	KBN_distribute_primers_in_kizlar = {
+		
+		icon = KBN_word_book
+		
+		allowed = {
+			original_tag = KBN
+		}
+		visible = {
+			
+		}
+		
+		cost = 15
+		
+		days_re_enable = 4
+		
+		highlight_states = {
+			highlight_states_trigger = {
+				state = 835
+			}
+		}
+
+		complete_effect  = {
+			custom_effect_tooltip = KBN_cum_civil_war_var_835_loose_15_tt
+			835 = {
+				add_to_variable = {
+					var = KBN_cum_civil_war_var
+					value = -15
+				}
+				clamp_variable = { var = KBN_cum_civil_war_var min = 0 max = 100 }
+			}
+		}
+	}
+	KBN_distribute_primers_in_stavropol = {
+		
+		icon = KBN_word_book
+		
+		allowed = {
+			original_tag = KBN
+		}
+		visible = {
+			
+		}
+		
+		cost = 15
+		
+		days_re_enable = 4
+		
+		highlight_states = {
+			highlight_states_trigger = {
+				state = 235
+			}
+		}
+
+		complete_effect  = {
+			custom_effect_tooltip = KBN_cum_civil_war_var_235_loose_15_tt
+			235 = {
+				add_to_variable = {
+					var = KBN_cum_civil_war_var
+					value = -15
+				}
+				clamp_variable = { var = KBN_cum_civil_war_var min = 0 max = 100 }
+			}
+		}
+	}
+
+	KBN_cummunists_civil_war = {
+		
+		icon = category_generic_communism
+		
+		allowed = {
+			original_tag = KBN
+		}
+		visible = {
+			
+		}
+		available = { 
+			has_stability > 0.8
+		}
+		
+		# cost = 50
+		
+		fire_only_once = yes
+		
+		is_good = no
+		days_mission_timeout = 5
+		
+		highlight_states = {
+			highlight_states_trigger = {
+				state = 236
+			}
+		}
+
+		activation = {
+			tag = KBN
+		}
+		
+		timeout_effect = {
+			country_event = { id = kuban_super_events.5 }
+			set_country_flag = KBN_KPR_start_civil_war
+			hidden_effect = { country_event = { id = kuban.53 } }
+			KPR = {
+				division_template = {
+					name = "Semenская Дивизия"
+					is_locked = no
+					priority = 1
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 0 y = 2 }
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 1 y = 1 }
+						infantry = { x = 1 y = 2 }
+						infantry = { x = 2 y = 0 }
+						infantry = { x = 2 y = 1 }
+						infantry = { x = 2 y = 2 }
+					}
+					support = { 
+						artillery = { x = 0 y = 0 }
+					}
+				}
+			}
+			236 = { 
+				transfer_state_to = KPR 
+				create_unit = {
+					division = "name = \"Первая Semenская Дивизия\" division_template = \"Semenская Дивизия\" start_experience_factor = 0.5 start_equipment_factor = 1"
+					owner = KPR
+					prioritize_location = 9753
+				}
+				create_unit = {
+					division = "name = \"Вторая Semenская Дивизия\" division_template = \"Semenская Дивизия\" start_experience_factor = 0.5 start_equipment_factor = 1"
+					owner = KPR
+					prioritize_location = 6620
+				}
+				create_unit = {
+					division = "name = \"Третья Semenская Дивизия\" division_template = \"Semenская Дивизия\" start_experience_factor = 0.5 start_equipment_factor = 1"
+					owner = KPR
+					prioritize_location = 3487
+				}
+				create_unit = {
+					division = "name = \"Четвёртая Semenская Дивизия\" division_template = \"Semenская Дивизия\" start_experience_factor = 0.5 start_equipment_factor = 1"
+					owner = KPR
+					prioritize_location = 11579
+				}
+				create_unit = {
+					division = "name = \"Пятая Semenская Дивизия\" division_template = \"Semenская Дивизия\" start_experience_factor = 0.5 start_equipment_factor = 1"
+					owner = KPR
+					prioritize_location = 9753
+				}
+				create_unit = {
+					division = "name = \"Шестая Semenская Дивизия\" division_template = \"Semenская Дивизия\" start_experience_factor = 0.5 start_equipment_factor = 1"
+					owner = KPR
+					prioritize_location = 9440
+				}
+			}
+			if = {
+				limit = {
+					NOT = { has_country_flag = cum_237_delete_flag }
+				}
+				237 = {
+					transfer_state_to = KPR
+					add_core_of = KPR
+					create_unit = {
+						division = "name = \"Боевые Калмыки Semenа\" division_template = \"Semenская Дивизия\" start_experience_factor = 0.5 start_equipment_factor = 1"
+						owner = KPR
+						prioritize_location = 11724
+					}
+					create_unit = {
+						division = "name = \"Боевые Калы Semenа\" division_template = \"Semenская Дивизия\" start_experience_factor = 0.5 start_equipment_factor = 1"
+						owner = KPR
+						prioritize_location = 11416
+					}
+				}
+			}
+			if = {
+				limit = {
+					NOT = { has_country_flag = cum_235_delete_flag }
+				}
+				235 = {
+					transfer_state_to = KPR
+					add_core_of = KPR
+					create_unit = {
+						division = "name = \"Ставропольская Semenская Дивизия\" division_template = \"Semenская Дивизия\" start_experience_factor = 0.5 start_equipment_factor = 1"
+						owner = KPR
+						prioritize_location = 11696
+					}
+					create_unit = {
+						division = "name = \"Ставропольская рабочие мальчики\" division_template = \"Semenская Дивизия\" start_experience_factor = 0.5 start_equipment_factor = 1"
+						owner = KPR
+						prioritize_location = 748
+					}
+				}
+			}
+			if = {
+				limit = {
+					NOT = { has_country_flag = cum_835_delete_flag }
+				}
+				835 = {
+					transfer_state_to = KPR
+					add_core_of = KPR
+					create_unit = {
+						division = "name = \"Дагистанская Semenская Дивизия\" division_template = \"Semenская Дивизия\" start_experience_factor = 0.5 start_equipment_factor = 1"
+						owner = KPR
+						prioritize_location = 683
+					}
+					create_unit = {
+						division = "name = \"Дон-ченская Semenская Дивизия\" division_template = \"Semenская Дивизия\" start_experience_factor = 0.5 start_equipment_factor = 1"
+						owner = KPR
+						prioritize_location = 728
+					}
+				}
+			}
+			declare_war_on = {
+				target = KPR
+				type = annex_everything
+			}
+			add_stability = -0.15
+			hidden_effect = {
+				add_popularity = {
+					ideology = communism
+					popularity = -1
+				}
+			}
+		}
+	}
+}

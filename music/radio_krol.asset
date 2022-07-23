@@ -91,3 +91,9 @@ music = {
 	file = "KBN_MON_event.ogg"
 	volume = 1
 }
+
+music = {
+	name = "God_save_the_Tsar"
+	file = "God_save_the_Tsar.ogg"
+	volume = 1
+}

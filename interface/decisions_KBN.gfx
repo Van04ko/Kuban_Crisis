@@ -4,7 +4,25 @@ spriteTypes = {
 		texturefile = gfx/interface/decisions/KBN_cat_juden_star.png
     }
 	spriteType = {
+		name = GFX_decision_cat_KBN_rap
+		texturefile = gfx/interface/decisions/KBN_rap.png
+    }
+	spriteType = {
 		name = GFX_decision_KBN_juden_star
 		texturefile = gfx/interface/decisions/KBN_juden_star.png
     }
+	spriteType = {
+		name = GFX_decision_KBN_banned_coins
+		texturefile = gfx/interface/decisions/KBN_banned_coins.png
+    }
+	spriteType = {
+		name = GFX_decision_KBN_word_book
+		texturefile = gfx/interface/decisions/KBN_word_book.png
+    }
+	spriteType = {
+		name = GFX_decision_KBN_boot_crushing_hand
+		texturefile = gfx/interface/decisions/KBN_boot_crushing_hand.png
+    }
+	
+	
 }

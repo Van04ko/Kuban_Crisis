@@ -29,3 +29,10 @@ bitmapfonts = {
 		P = { 209 46 128 }
 	}
 }
+spriteTypes = {
+	spriteType = {
+		name = "GFX_KBN_cummunist_dec_icon"
+		texturefile = "gfx/texticons/KBN_cummunist_dec_icon.png"
+		# legacy_lazy_load = no
+	}
+}

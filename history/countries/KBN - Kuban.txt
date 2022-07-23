@@ -7,6 +7,10 @@ set_research_slots = 2
 
 set_variable = { KBN_lusich_var = 1 }
 
+235 = { set_variable = { KBN_cum_civil_war_var = 14 } clamp_variable = { var = 235.KBN_cum_civil_war_var min = 0 max = 100 } }
+835 = { set_variable = { KBN_cum_civil_war_var = 88 } clamp_variable = { var = 835.KBN_cum_civil_war_var min = 0 max = 100 } }
+237 = { set_variable = { KBN_cum_civil_war_var = 91 } clamp_variable = { var = 237.KBN_cum_civil_war_var min = 0 max = 100 } }
+236 = { set_variable = { KBN_cum_civil_war_var = 100 } clamp_variable = { var = 236.KBN_cum_civil_war_var min = 0 max = 100 } }
 
 recruit_character = KBN_Vatoadmin
 recruit_character = KBN_Pyotr_Popov
