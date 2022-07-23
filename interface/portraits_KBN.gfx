@@ -27,4 +27,8 @@ spriteTypes = {
 		name = GFX_portrait_RUS_tessa_violet
 		texturefile = gfx/leaders/KBN/RUS_tessa_violet.png
     }
+	spriteType = {
+		name = GFX_portrait_KPR_Semen
+		texturefile = gfx/leaders/KBN/KPR_Semen.png
+    }
 }

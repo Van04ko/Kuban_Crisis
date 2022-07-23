@@ -4,6 +4,8 @@ oob = "CAU_1936"
 
 set_research_slots = 2
 
+recruit_character = KPR_Semen
+
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1

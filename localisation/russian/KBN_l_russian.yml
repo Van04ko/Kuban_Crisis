@@ -69,7 +69,7 @@
  KBN_distribute_primers_in_elista:0 "Раздать коммунистам буквари в §YЭлисте§!"
  KBN_distribute_primers_in_kizlar:0 "Раздать коммунистам буквари в §YКизляре§!"
  KBN_distribute_primers_in_stavropol:0 "Раздать коммунистам буквари в §YСтаврополе§!"
- KBN_cummunists_civil_war:0 "Большевистский §Rмятеж§!"
+ KBN_cummunists_civil_war:0 "Semenский §Rмятеж§!"
  
  
  KBN_Rudoy_MON_uprise_cat:0 "Создание антисоветских ячеек в Монголии"
@@ -355,6 +355,8 @@
  KBN_MON_Rudoy:0 "§OРудой§!"
  KBN_Nabiulina:0 "Босс §CЦентро§!банка"
  KBN_Penis_Dushulin:0 "Енис §GУшилин§!"
+ 
+ KPR_Semen:0 "Semин"
  
  itpedia_idea:0 "§CАлексей Шевцов§!"
  

@@ -25,4 +25,30 @@ characters = {
 			legacy_id = 0
 		}
 	}
+	KPR_Semen = {
+		name = KPR_Semen
+		portraits = {
+			civilian = {
+				large = GFX_portrait_KPR_Semen
+			}
+			army = {
+				large = GFX_portrait_KPR_Semen
+			}
+		}
+		country_leader = {
+			ideology = stalinism
+			expire = "1965.1.1.1"
+			id = -1
+			traits = {  }
+		}
+		field_marshal = {
+			traits = { }
+			skill = 5
+			attack_skill = 5
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 3
+			legacy_id = 0
+		}
+	}
 }
