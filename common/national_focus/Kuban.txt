@@ -42,6 +42,7 @@ focus_tree = {
 		cost = 7.2
 		completion_reward = {
 			add_ideas = KBN_kuban_secret_police_idea
+			add_political_power = 80
 		}
 	}
 	focus = {
@@ -54,6 +55,7 @@ focus_tree = {
 		cost = 7.2
 		completion_reward = {
 			add_timed_idea = { idea = KBN_microphone_funding days = 540 }
+			add_political_power = 100
 		}
 	}
 	focus = {
@@ -68,6 +70,7 @@ focus_tree = {
 			army_experience = 10
 			add_stability = 0.05
 			add_ideas = KBN_kuban_revanchism
+			add_political_power = 70
 		}
 	}
 	
