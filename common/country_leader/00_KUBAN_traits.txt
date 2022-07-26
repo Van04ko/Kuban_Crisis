@@ -34,7 +34,7 @@ leader_traits = {
 	}
 	Red_rat = {
 
-		max_surrender_limit_offset = -0.20
+		max_surrender_limit_offset = -0.30
 		
 		ai_will_do = {
 			factor = 1

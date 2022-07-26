@@ -58,4 +58,10 @@ defined_text = {
 		}
 		localization_key = KBN_KPR_end_civil_war_title
 	}
+	text = {
+		trigger = {
+			has_global_flag = KBN_vato_tsar_flag
+		}
+		localization_key = KBN_vato_tsar_flag_title
+	}
 }

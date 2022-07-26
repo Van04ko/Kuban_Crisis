@@ -67,8 +67,12 @@ guiTypes = {
 			position = { x = 0 y = 0 }
 			alwaystransparent = yes
 		}
-		
-		
+		iconType = {
+			name = "superevents_KBN_vato_tsar"		
+			quadTextureSprite ="GFX_superevents_KBN_vato_tsar"
+			position = { x = 0 y = 0 }
+			alwaystransparent = yes
+		}
 		instantTextboxType = {
 			name = "superevents_title"
 			position = { x = 0 y = 35 }

@@ -102,9 +102,9 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = KBN_Rubnyakov
+		id = KBN_Rubnyakov_focus
 		icon = GFX_focus_Rybnikov
-		mutually_exclusive = { focus = KBN_Vatop }
+		mutually_exclusive = { focus = KBN_Vatop_focus }
 		relative_position_id = KBN_incentive_package
 		prerequisite = { focus = KBN_elections_of_ataman }
 		x = -2
@@ -118,8 +118,8 @@ focus_tree = {
 	focus = {
 		id = KBN_bolshevik_uprising
 		icon = GFX_focus_bolshevik_uprising
-		relative_position_id = KBN_Rubnyakov
-		prerequisite = { focus = KBN_Rubnyakov }
+		relative_position_id = KBN_Rubnyakov_focus
+		prerequisite = { focus = KBN_Rubnyakov_focus }
 		x = 0
 		y = 1
 		cost = 5.8
@@ -130,7 +130,7 @@ focus_tree = {
 	focus = {
 		id = KBN_preparing_for_betrayal
 		icon = GFX_focus_preparing_for_betrayal
-		relative_position_id = KBN_Rubnyakov
+		relative_position_id = KBN_Rubnyakov_focus
 		prerequisite = { focus = KBN_bolshevik_uprising }
 		x = 0
 		y = 2
@@ -142,7 +142,7 @@ focus_tree = {
 	focus = {
 		id = KBN_war_with_Beria
 		icon = GFX_focus_Voyna_s_Beriey
-		relative_position_id = KBN_Rubnyakov
+		relative_position_id = KBN_Rubnyakov_focus
 		prerequisite = { focus = KBN_preparing_for_betrayal }
 		x = 0
 		y = 3
@@ -160,7 +160,7 @@ focus_tree = {
 	focus = {
 		id = KBN_return_white_emigration
 		icon = GFX_focus_return_white_emigration
-		relative_position_id = KBN_Rubnyakov
+		relative_position_id = KBN_Rubnyakov_focus
 		prerequisite = { focus = KBN_war_with_Beria }
 		x = 0
 		y = 4
@@ -172,7 +172,7 @@ focus_tree = {
 	focus = {
 		id = KBN_okubanivanie
 		icon = GFX_focus_KBN_okubanivanie
-		relative_position_id = KBN_Rubnyakov
+		relative_position_id = KBN_Rubnyakov_focus
 		prerequisite = { focus = KBN_return_white_emigration }
 		x = -3
 		y = 5
@@ -382,7 +382,7 @@ focus_tree = {
 	focus = {
 		id = KBN_podpolie_rossa
 		icon = GFX_focus_KBN_podpolie_Rossa
-		relative_position_id = KBN_Rubnyakov
+		relative_position_id = KBN_Rubnyakov_focus
 		prerequisite = { focus = KBN_return_white_emigration }
 		x = -6
 		y = 5
@@ -596,7 +596,7 @@ focus_tree = {
 	focus = {
 		id = KBN_our_Europe
 		icon = GFX_focus_KBN_our_Europe
-		relative_position_id = KBN_Rubnyakov
+		relative_position_id = KBN_Rubnyakov_focus
 		prerequisite = { focus = KBN_return_white_emigration }
 		x = -9
 		y = 5
@@ -727,7 +727,7 @@ focus_tree = {
 	focus = {
 		id = KBN_return_white_generals
 		icon = GFX_focus_Vozvraschenie_belykh_generalov
-		relative_position_id = KBN_Rubnyakov
+		relative_position_id = KBN_Rubnyakov_focus
 		prerequisite = { focus = KBN_return_white_emigration }
 		x = 0
 		y = 5
@@ -740,7 +740,7 @@ focus_tree = {
 	focus = {
 		id = KBN_Revival_Terek_Cossacks
 		icon = GFX_focus_Revival_Terek_Cossacks
-		relative_position_id = KBN_Rubnyakov
+		relative_position_id = KBN_Rubnyakov_focus
 		prerequisite = { focus = KBN_return_white_generals }
 		x = 0
 		y = 6
@@ -760,7 +760,7 @@ focus_tree = {
 	focus = {
 		id = KBN_Industrialization_Caucasus
 		icon = GFX_focus_Industrialization_Caucasus
-		relative_position_id = KBN_Rubnyakov
+		relative_position_id = KBN_Rubnyakov_focus
 		prerequisite = { focus = KBN_Revival_Terek_Cossacks focus = KBN_Rights_minorities }
 		x = 1
 		y = 7
@@ -824,7 +824,7 @@ focus_tree = {
 	focus = {
 		id = KBN_Realization_resources_Caucasus
 		icon = GFX_focus_Realization_resources_Caucasus
-		relative_position_id = KBN_Rubnyakov
+		relative_position_id = KBN_Rubnyakov_focus
 		prerequisite = { focus = KBN_Revival_Terek_Cossacks focus = KBN_Rights_minorities }
 		x = 3
 		y = 7
@@ -855,7 +855,7 @@ focus_tree = {
 	focus = {
 		id = KBN_Our_land
 		icon = GFX_focus_Our_land
-		relative_position_id = KBN_Rubnyakov
+		relative_position_id = KBN_Rubnyakov_focus
 		prerequisite = { focus = KBN_Realization_resources_Caucasus }
 		prerequisite = { focus = KBN_Industrialization_Caucasus }
 		x = 2
@@ -873,9 +873,9 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = KBN_Vatop
+		id = KBN_Vatop_focus
 		icon = GFX_focus_Vatop
-		mutually_exclusive = { focus = KBN_Rubnyakov }
+		mutually_exclusive = { focus = KBN_Rubnyakov_focus }
 		relative_position_id = KBN_incentive_package
 		prerequisite = { focus = KBN_elections_of_ataman }
 		x = 2
@@ -888,8 +888,8 @@ focus_tree = {
 	focus = {
 		id = KBN_Liberal_democracies_dont_fight
 		icon = GFX_focus_Liberal_democracies_dont_fight
-		relative_position_id = KBN_Vatop
-		prerequisite = { focus = KBN_Vatop }
+		relative_position_id = KBN_Vatop_focus
+		prerequisite = { focus = KBN_Vatop_focus }
 		x = 0
 		y = 1
 		cost = 10
@@ -908,7 +908,7 @@ focus_tree = {
 	focus = {
 		id = KBN_tsardom_storage
 		icon = GFX_focus_tsardom_storage
-		relative_position_id = KBN_Vatop
+		relative_position_id = KBN_Vatop_focus
 		prerequisite = { focus = KBN_Liberal_democracies_dont_fight }
 		x = 0
 		y = 2
@@ -920,7 +920,7 @@ focus_tree = {
 	focus = {
 		id = KBN_preparing_revolution
 		icon = GFX_focus_preparing_revolution
-		relative_position_id = KBN_Vatop
+		relative_position_id = KBN_Vatop_focus
 		prerequisite = { focus = KBN_tsardom_storage }
 		x = 0
 		y = 3
@@ -951,7 +951,7 @@ focus_tree = {
 	focus = {
 		id = KBN_Strengthening_our_democracy
 		icon = GFX_focus_Ukreplenie_Demokratii
-		relative_position_id = KBN_Vatop
+		relative_position_id = KBN_Vatop_focus
 		prerequisite = { focus = KBN_preparing_revolution }
 		x = 2
 		y = 4
@@ -967,7 +967,7 @@ focus_tree = {
 	focus = {
 		id = KBN_referendum_with_CAU
 		icon = GFX_focus_Referendum_po_Kavkazu
-		relative_position_id = KBN_Vatop
+		relative_position_id = KBN_Vatop_focus
 		prerequisite = { focus = KBN_preparing_revolution }
 		x = 0
 		y = 4
@@ -979,7 +979,7 @@ focus_tree = {
 	focus = {
 		id = KBN_Peaceful_assimilation
 		icon = GFX_focus_Peaceful_assimilation
-		relative_position_id = KBN_Vatop
+		relative_position_id = KBN_Vatop_focus
 		prerequisite = { focus = KBN_referendum_with_CAU }
 		x = 0
 		y = 5
@@ -1001,7 +1001,7 @@ focus_tree = {
 	focus = {
 		id = KBN_Rights_minorities
 		icon = GFX_focus_Rights_minorities
-		relative_position_id = KBN_Vatop
+		relative_position_id = KBN_Vatop_focus
 		prerequisite = { focus = KBN_Peaceful_assimilation }
 		x = 0
 		y = 6
@@ -1315,13 +1315,13 @@ focus_tree = {
 		icon = GFX_focus_Vozrazhdenie_Byloy_slavy_rossiii
 		relative_position_id = KBN_Home_harbor
 		prerequisite = { focus = KBN_strike_back }
-		
+		mutually_exclusive = { focus = KBN_another_option }
 		available = {
 			NOT = { country_exists = SOV }
 			controls_state = 195
 		}
 		
-		x = 0
+		x = -1
 		y = 5
 		cost = 6.5
 		completion_reward = {
@@ -1343,17 +1343,58 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = KBN_another_option
+		icon = GFX_focus_KBN_vato_tsar
+		relative_position_id = KBN_Home_harbor
+		prerequisite = { focus = KBN_strike_back }
+		mutually_exclusive = { focus = KBN_The_rebirth_power_of_Russia }
+		available = {
+			NOT = { country_exists = SOV }
+			controls_state = 195
+		}
+		
+		x = 1
+		y = 5
+		cost = 6.5
+		completion_reward = {
+			every_state = {
+				limit = {
+					OR = {
+						is_core_of = SOV
+						is_core_of = CAU
+					}
+				}
+				add_core_of  = KBN
+				remove_core_of = SOV
+				remove_core_of = CAU
+			}
+			# country_event = { id = kuban.26 }
+			hidden_effect = {
+				country_event = { id = kuban_super_events.7 }
+			}
+			set_portraits = {
+				character = KBN_Vatoadmin
+				army = { large ="GFX_portrait_Rubnyakov_tsar" }
+				civilian = { large ="GFX_portrait_Rubnyakov_tsar" }
+			}
+			set_character_name = {
+				character = KBN_Vatoadmin
+				name = KBN_Rubnyakov_tsar
+			}
+		}
+	}
+	focus = {
 		id = KBN_Return_old_lands
 		icon = GFX_focus_SOV_the_true_tsars
-		relative_position_id = KBN_The_rebirth_power_of_Russia
-		prerequisite = { focus = KBN_The_rebirth_power_of_Russia }
+		relative_position_id = KBN_strike_back
+		prerequisite = { focus = KBN_The_rebirth_power_of_Russia focus = KBN_another_option }
 		
 		available = {
 			
 		}
 		
 		x = 0
-		y = 1
+		y = 2
 		cost = 1.5
 		completion_reward = {
 			add_political_power = 100
@@ -1362,7 +1403,7 @@ focus_tree = {
 	focus = {
 		id = KBN_Return_baltic_lands
 		icon = GFX_focus_Return_lands_bal
-		relative_position_id = KBN_The_rebirth_power_of_Russia
+		relative_position_id = KBN_Return_old_lands
 		prerequisite = { focus = KBN_Return_old_lands }
 		
 		available = {
@@ -1370,7 +1411,7 @@ focus_tree = {
 		}
 		
 		x = -2
-		y = 2
+		y = 1
 		cost = 5
 		completion_reward = {
 			create_wargoal = {
@@ -1400,7 +1441,7 @@ focus_tree = {
 	focus = {
 		id = KBN_Return_fin_lands
 		icon = GFX_focus_Return_lands_fin
-		relative_position_id = KBN_The_rebirth_power_of_Russia
+		relative_position_id = KBN_Return_old_lands
 		prerequisite = { focus = KBN_Return_old_lands }
 		
 		available = {
@@ -1408,7 +1449,7 @@ focus_tree = {
 		}
 		
 		x = 0
-		y = 2
+		y = 1
 		cost = 5
 		completion_reward = {
 			create_wargoal = {
@@ -1428,7 +1469,7 @@ focus_tree = {
 	focus = {
 		id = KBN_Return_tur_lands
 		icon = GFX_focus_Return_lands_tur
-		relative_position_id = KBN_The_rebirth_power_of_Russia
+		relative_position_id = KBN_Return_old_lands
 		prerequisite = { focus = KBN_Return_old_lands }
 		
 		available = {
@@ -1436,7 +1477,7 @@ focus_tree = {
 		}
 		
 		x = 2
-		y = 2
+		y = 1
 		cost = 5
 		completion_reward = {
 			create_wargoal = {
@@ -1449,7 +1490,7 @@ focus_tree = {
 	focus = {
 		id = KBN_Return_pol_lands
 		icon = GFX_focus_Return_lands_pol
-		relative_position_id = KBN_The_rebirth_power_of_Russia
+		relative_position_id = KBN_Return_old_lands
 		prerequisite = { focus = KBN_Return_baltic_lands }
 		
 		available = {
@@ -1457,7 +1498,7 @@ focus_tree = {
 		}
 		
 		x = -2
-		y = 3
+		y = 2
 		cost = 5
 		completion_reward = {
 			every_state = {
@@ -1477,13 +1518,13 @@ focus_tree = {
 	focus = {
 		id = KBN_kolchak_revenge
 		icon = GFX_focus_kolchak
-		relative_position_id = KBN_The_rebirth_power_of_Russia
+		relative_position_id = KBN_Return_old_lands
 		prerequisite = { focus = KBN_Return_baltic_lands focus = KBN_Return_fin_lands focus = KBN_Return_tur_lands }
 		
 		available = { }
 		
 		x = 0
-		y = 3
+		y = 2
 		cost = 5
 		completion_reward = {
 			create_wargoal = {
@@ -1495,13 +1536,13 @@ focus_tree = {
 	focus = {
 		id = KBN_robert_voenkom
 		icon = GFX_focus_robert
-		relative_position_id = KBN_The_rebirth_power_of_Russia
-		prerequisite = { focus = KBN_Return_baltic_lands focus = KBN_Return_fin_lands focus = KBN_Return_tur_lands }
+		relative_position_id = KBN_Return_old_lands
+		prerequisite = { focus = KBN_kolchak_revenge }
 		
 		available = { }
 		
 		x = 0
-		y = 4
+		y = 3
 		cost = 5
 		completion_reward = {
 			add_manpower = 1

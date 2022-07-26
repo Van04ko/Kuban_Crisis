@@ -22,7 +22,7 @@ country_event = { #test event
 		set_province_name = { id = 3529 name = "Царицын" }
 		set_province_name = { id = 3151 name = "Петроград" }
 		set_province_name = { id = 3134 name = "Романов-на-Муроме" }
-		set_province_name = { id = 9461 name = "Луганск" }
+		set_province_name = { id = 9471 name = "Луганск" }
 		set_capital  = { state = 195 }
 	}
 
@@ -149,5 +149,38 @@ country_event = { #
 	
 	option = {
 		name = kuban_super_events.6.a
+	}
+}
+
+country_event = {
+	id = kuban_super_events.7
+	title = kuban_super_events.7.t
+	desc = kuban_super_events.7.d
+	
+	immediate = {
+		set_global_flag = SE_superevents_activate
+		set_global_flag = KBN_vato_tsar_flag
+		
+		play_song = "Vatoadmin_Boje_Carya_Hrani"
+		
+		set_cosmetic_tag = KBN_russia_united
+		
+		217 = { set_state_name = "Царицын" }
+		195 = { set_state_name = "Петроград" }
+		
+		set_province_name = { id = 3529 name = "Царицын" }
+		set_province_name = { id = 3151 name = "Ватоград" }
+		set_province_name = { id = 3134 name = "Вата-на-Муроме" }
+		set_capital  = { state = 195 }
+	}
+
+	hidden = yes
+	
+	fire_only_once = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = kuban_super_events.7.a
 	}
 }

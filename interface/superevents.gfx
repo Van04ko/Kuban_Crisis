@@ -42,4 +42,8 @@ spriteTypes = {
 		name = "GFX_superevents_KBN_KPR_end_civil_war"
 		textureFile = "gfx/superevents_pictures/superevents_KBN_KPR_end_civil_war.dds"
 	}
+	spriteType = {
+		name = "GFX_superevents_KBN_vato_tsar"
+		textureFile = "gfx/superevents_pictures/superevents_KBN_vato_tsar.dds"
+	}
 }

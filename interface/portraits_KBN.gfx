@@ -8,12 +8,16 @@ spriteTypes = {
 		texturefile = gfx/leaders/KBN/MON_SOV_Rudoy.png
     }
 	spriteType = {
+		name = GFX_portrait_Vatoadmin
+		texturefile = gfx/leaders/KBN/Vatoadmin.png
+    }
+	spriteType = {
 		name = GFX_portrait_Rubnyakov
 		texturefile = gfx/leaders/KBN/Rubnyakov.png
     }
 	spriteType = {
-		name = GFX_portrait_Vatoadmin
-		texturefile = gfx/leaders/KBN/Vatoadmin.png
+		name = GFX_portrait_Rubnyakov_tsar
+		texturefile = gfx/leaders/KBN/Rubnyakov_tsar.png
     }
 	spriteType = {
 		name = GFX_portrait_Vatop
