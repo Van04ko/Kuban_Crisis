@@ -49,8 +49,8 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_global_flag = KBN_vato_tsar_flag
+			has_global_flag = KBN_vato_tsar
 		}
-		localization_key = KBN_vato_tsar_flag_remark
+		localization_key = KBN_vato_tsar_remark
 	}
 }
