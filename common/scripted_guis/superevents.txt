@@ -15,10 +15,8 @@ scripted_gui = {
 			clr_global_flag = KBN_CUM4atka
 			clr_global_flag = KBN_MON_rudoy_uprise
 			clr_global_flag = KBN_ITA_uprise
-			
 			clr_global_flag = KBN_KPR_civil_war
 			clr_global_flag = KBN_KPR_end_civil_war
-			
 			clr_global_flag = KBN_vato_tsar_flag
 		}
     }
@@ -46,8 +44,8 @@ scripted_gui = {
 		superevents_KBN_KPR_end_civil_war_visible = {
 			has_global_flag = KBN_KPR_end_civil_war
 		}
-		superevents_KBN_KPR_end_civil_war_visible = {
-			has_global_flag = KBN_vato_tsar_flag
+		superevents_KBN_vato_tsar_visible = {
+			has_global_flag = KBN_vato_tsar
 		}
     }
 

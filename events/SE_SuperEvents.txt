@@ -152,14 +152,14 @@ country_event = { #
 	}
 }
 
-country_event = {
+country_event = { #
 	id = kuban_super_events.7
 	title = kuban_super_events.7.t
 	desc = kuban_super_events.7.d
 	
 	immediate = {
 		set_global_flag = SE_superevents_activate
-		set_global_flag = KBN_vato_tsar_flag
+		set_global_flag = KBN_vato_tsar
 		
 		play_song = "Vatoadmin_Boje_Carya_Hrani"
 		
