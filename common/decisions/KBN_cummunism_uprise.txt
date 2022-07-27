@@ -248,7 +248,7 @@ KBN_Cummunism_cells_uprise_cat = {
 		fire_only_once = yes
 		
 		is_good = no
-		days_mission_timeout = 2
+		days_mission_timeout = 400
 		
 		highlight_states = {
 			highlight_states_trigger = {
