@@ -240,7 +240,6 @@ focus_tree = {
 					amount = 1000
 				}
 			}
-
 			send_equipment = {
 			    equipment = infantry_equipment
 			    amount = 5000
@@ -263,6 +262,7 @@ focus_tree = {
 					name = MON_KBN_neutrality
 					long_name = MON_KBN_neutrality_long
 				}
+				add_manpower = 1635412
 			}
 			country_event = { id = kuban.45 }
 		}
