@@ -2471,6 +2471,7 @@ focus_tree = {
 		cost = 4.3
 		available = {
 			has_completed_focus = KBN_war_with_Beria
+			NOT = { country_exists = CAU }
 		}
 		completion_reward = {
 			add_political_power = -40
@@ -2533,6 +2534,10 @@ focus_tree = {
 					}
 				}
 				set_cosmetic_tag = KBN_ARM_autonomy
+				set_party_name = {
+					ideology = neutrality
+					name = KBN_ARM_neutrality_party
+				}
 			}
 		}
 	}

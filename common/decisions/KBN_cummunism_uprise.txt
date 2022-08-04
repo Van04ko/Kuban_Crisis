@@ -39,6 +39,36 @@ KBN_Cummunism_cells_uprise_cat = {
 			}
 		}
 	}
+	KBN_fill_up_with_numbers = {
+		
+		icon = KBN_numbers
+		
+		allowed = {
+			original_tag = KBN
+		}
+		visible = {
+			
+		}
+		
+		cost = 50
+		fire_only_once = no
+
+		complete_effect = {
+			custom_effect_tooltip = KBN_cum_civil_war_var_all_state_loose_25_tt
+			835 = {
+				add_to_variable = { var = KBN_cum_civil_war_var value = -25 } 
+				clamp_variable = { var = KBN_cum_civil_war_var min = 0 max = 100 } 
+			}
+			237 = {
+				add_to_variable = { var = KBN_cum_civil_war_var value = -25 } 
+				clamp_variable = { var = KBN_cum_civil_war_var min = 0 max = 100 } 
+			}
+			235 = {
+				add_to_variable = { var = KBN_cum_civil_war_var value = -25 } 
+				clamp_variable = { var = KBN_cum_civil_war_var min = 0 max = 100 } 
+			}
+		}
+	}
 	KBN_close_rap_club_Semina_in_elista = {
 		
 		icon = KBN_boot_crushing_hand
