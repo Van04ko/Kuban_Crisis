@@ -2463,4 +2463,173 @@ focus_tree = {
 			}
 		}
 	}
+	focus = {
+		id = KBN_the_need_for_the_straits
+		icon = GFX_focus_KBN_the_need_for_the_straits
+		x = 20
+		y = 8
+		cost = 4.3
+		available = {
+			has_completed_focus = KBN_war_with_Beria
+		}
+		completion_reward = {
+			add_political_power = -40
+			ROM = {
+				diplomatic_relation = {
+					country = TUR
+					relation = guarantee
+					active = no
+				}
+			}
+		}
+	}
+	focus = {
+		id = KBN_deploy_turkish_army
+		icon = GFX_focus_KBN_deploy_turkish_army
+		relative_position_id = KBN_the_need_for_the_straits
+		prerequisite = { focus = KBN_the_need_for_the_straits }
+		x = -1
+		y = 1
+		cost = 4.3
+		available = {
+			
+		}
+		completion_reward = {
+			TUR = { add_ideas = KBN_TUR_army_debuf }
+		}
+	}
+	focus = {
+		id = KBN_form_new_administration
+		icon = GFX_focus_KBN_form_new_administration
+		relative_position_id = KBN_the_need_for_the_straits
+		prerequisite = { focus = KBN_the_need_for_the_straits }
+		x = 1
+		y = 1
+		cost = 4.3
+		available = {
+			
+		}
+		completion_reward = {
+			TUR = { add_ideas = KBN_TUR_armenia_debuf }
+			230 = { transfer_state_to = ARM }
+			set_autonomy = {
+				target = ARM
+				autonomy_state = autonomy_puppet
+			}
+			set_nationality = {
+				target_country = ARM
+				character = KBN_UncleDed
+			}
+			set_character_name = {
+				character = KBN_UncleDed
+				name = KBN_UncleDed_Pavel_II
+			}
+			ARM = {
+				if = {
+					limit = {
+						has_character = KBN_UncleDed
+					}
+					add_country_leader_role = {
+						character = KBN_UncleDed
+						promote_leader = yes
+						country_leader = {
+							ideology = despotism
+							traits = {  }
+						}
+					}
+				}
+				set_cosmetic_tag = KBN_ARM_autonomy
+			}
+		}
+	}
+	focus = {
+		id = KBN_connect_armenian_underground
+		icon = GFX_focus_KBN_connect_armenian_underground
+		relative_position_id = KBN_the_need_for_the_straits
+		prerequisite = { focus = KBN_deploy_turkish_army }
+		prerequisite = { focus = KBN_form_new_administration }
+		x = 0S
+		y = 2
+		cost = 4.3
+		available = {
+			
+		}
+		completion_reward = {
+			ARM = { add_manpower = 805631 }
+			800 = { add_core_of = ARM }
+		}
+	}
+	focus = {
+		id = KBN_arrange_supplies_backgammon
+		icon = GFX_focus_KBN_arrange_supplies_backgammon
+		relative_position_id = KBN_the_need_for_the_straits
+		prerequisite = { focus = KBN_connect_armenian_underground }
+		x = 0
+		y = 3
+		cost = 4.3
+		available = {
+			
+		}
+		completion_reward = {
+			ARM = {
+				division_template = {
+					name = "Армянский Легион"
+					is_locked = no
+					priority = 1
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 0 y = 2 }
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 1 y = 1 }
+						infantry = { x = 1 y = 2 }
+						infantry = { x = 2 y = 0 }
+						infantry = { x = 2 y = 1 }
+						infantry = { x = 2 y = 2 }
+					}
+					support = { 
+						artillery = { x = 0 y = 0 }
+					}
+				}
+			}
+			230 = {
+				create_unit = {
+					division = "name = \"Первый Легион\" division_template = \"Армянский Легион\" start_experience_factor = 0.5 start_equipment_factor = 0.7"
+					owner = ARM
+					prioritize_location = 12441
+				}
+				create_unit = {
+					division = "name = \"Второй Легион\" division_template = \"Армянский Легион\" start_experience_factor = 0.5 start_equipment_factor = 0.7"
+					owner = ARM
+					prioritize_location = 3564
+				}
+				create_unit = {
+					division = "name = \"Третий Легион\" division_template = \"Армянский Легион\" start_experience_factor = 0.5 start_equipment_factor = 0.7"
+					owner = ARM
+					prioritize_location = 12320
+				}
+			}
+		}
+	}
+	focus = {
+		id = KBN_where_did_the_attack_on_the_kuban_come_from
+		icon = GFX_focus_KBN_where_did_the_attack_on_the_kuban_come_from
+		relative_position_id = KBN_the_need_for_the_straits
+		prerequisite = { focus = KBN_arrange_supplies_backgammon }
+		x = 0
+		y = 4
+		cost = 5
+		available = {
+			
+		}
+		completion_reward = {
+			ROM = {
+				diplomatic_relation = {
+					country = TUR
+					relation = guarantee
+					active = no
+				}
+			}
+		}
+	}
 }

@@ -180,6 +180,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/KBN/conscription/idea_KBN_conscription_7.png"	
 	}
 	SpriteType = {
+		name = "GFX_idea_vk"
+		texturefile = "gfx/interface/ideas/KBN/vk.png"	
+	}
+	SpriteType = {
 		name = "GFX_idea_ban_vk"
 		texturefile = "gfx/interface/ideas/KBN/ban_vk.png"	
 	}

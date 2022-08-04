@@ -408,4 +408,30 @@ spriteTypes = {
 		name = GFX_focus_KBN_vato_tsar
 		texturefile = "gfx/interface/goals/KBN/KBN_vato_tsar.png"
 	}
+	
+	
+	SpriteType = {
+		name = GFX_focus_KBN_the_need_for_the_straits
+		texturefile = "gfx/interface/goals/KBN/KBN_the_need_for_the_straits.png"
+	}
+	SpriteType = {
+		name = GFX_focus_KBN_form_new_administration
+		texturefile = "gfx/interface/goals/KBN/KBN_form_new_administration.png"
+	}
+	SpriteType = {
+		name = GFX_focus_KBN_deploy_turkish_army
+		texturefile = "gfx/interface/goals/KBN/KBN_deploy_turkish_army.png"
+	}
+	SpriteType = {
+		name = GFX_focus_KBN_connect_armenian_underground
+		texturefile = "gfx/interface/goals/KBN/KBN_connect_armenian_underground.png"
+	}
+	SpriteType = {
+		name = GFX_focus_KBN_arrange_supplies_backgammon
+		texturefile = "gfx/interface/goals/KBN/KBN_arrange_supplies_backgammon.png"
+	}
+	SpriteType = {
+		name = GFX_focus_KBN_where_did_the_attack_on_the_kuban_come_from
+		texturefile = "gfx/interface/goals/KBN/KBN_where_did_the_attack_on_the_kuban_come_from.png"
+	}
 }

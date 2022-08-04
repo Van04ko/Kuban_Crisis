@@ -490,6 +490,33 @@ KBN_Rudoy_MON_uprise_cat = {
 }
 
 political_actions = {
+	
+	KBN_unblock_vkontakte_page = {
+
+		icon = KBN_dec_vk
+
+		allowed = {
+			original_tag = KBN
+		}
+		available = {
+			
+		}
+		visible = {
+			has_idea = KBN_ban_vk
+		}
+		cost = 140
+		
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			add_stability = 0.04
+			swap_ideas = {
+				remove_idea = KBN_ban_vk
+				add_idea = KBN_vk
+			}
+		}
+	}
 	KBN_o_shit_i_sorry = {
 
 		icon = hol_radio_oranje

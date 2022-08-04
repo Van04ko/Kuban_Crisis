@@ -23,6 +23,9 @@ spriteTypes = {
 		name = GFX_decision_KBN_boot_crushing_hand
 		texturefile = gfx/interface/decisions/KBN_boot_crushing_hand.png
     }
-	
+	spriteType = {
+		name = GFX_decision_KBN_dec_vk
+		texturefile = gfx/interface/decisions/KBN_dec_vk.png
+    }
 	
 }

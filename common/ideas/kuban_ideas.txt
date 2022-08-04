@@ -1,5 +1,22 @@
 ideas = {
 	country = {
+		KBN_TUR_armenia_debuf = {
+			
+			picture = KBN_Reeducated_communist
+			
+			modifier = {
+				political_power_factor = -0.4
+			}
+		}
+		KBN_TUR_army_debuf = {
+			
+			picture = KBN_Reeducated_communist
+			
+			modifier = {
+				army_core_attack_factor = -0.30
+				army_core_defence_factor = -0.40
+			}
+		}
 		KBN_schet_shizof = {
 			
 			picture = KBN_Old_shuz
@@ -121,6 +138,14 @@ ideas = {
 			
 			modifier = {
 				political_power_gain = -0.1
+			}
+		}
+		KBN_vk = {
+			
+			picture = vk
+			
+			modifier = {
+				political_power_gain = 0.05
 			}
 		}
 		KBN_Monument_Krasnov = {

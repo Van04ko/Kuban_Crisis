@@ -168,5 +168,8 @@ spriteTypes = {
 		name = "GFX_event_kubanoids_volunteers"
 		texturefile = "gfx/event_pictures/kubanoids_volunteers.png"	
 	}
-	
+	SpriteType = {
+		name = "GFX_event_napadenie"
+		texturefile = "gfx/event_pictures/napadenie.png"	
+	}
 }
