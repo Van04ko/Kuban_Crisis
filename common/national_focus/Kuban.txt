@@ -2491,9 +2491,6 @@ focus_tree = {
 		x = -1
 		y = 1
 		cost = 4.3
-		available = {
-			
-		}
 		completion_reward = {
 			TUR = { add_ideas = KBN_TUR_army_debuf }
 		}
@@ -2506,9 +2503,6 @@ focus_tree = {
 		x = 1
 		y = 1
 		cost = 4.3
-		available = {
-			
-		}
 		completion_reward = {
 			TUR = { add_ideas = KBN_TUR_armenia_debuf }
 			230 = { transfer_state_to = ARM }
@@ -2567,9 +2561,6 @@ focus_tree = {
 		x = 0
 		y = 3
 		cost = 4.3
-		available = {
-			
-		}
 		completion_reward = {
 			ARM = {
 				division_template = {
@@ -2619,17 +2610,8 @@ focus_tree = {
 		x = 0
 		y = 4
 		cost = 5
-		available = {
-			
-		}
 		completion_reward = {
-			ROM = {
-				diplomatic_relation = {
-					country = TUR
-					relation = guarantee
-					active = no
-				}
-			}
+			country_event = { id = kuban.54 }
 		}
 	}
 }
