@@ -18,4 +18,19 @@ opinion_modifiers = {
 	KBN_babay_live = {
 		value = 20
 	}
+	
+	
+	KBN_JAP_agree = {
+		value = 70
+	}
+	KBN_JAP_ignore = {
+		value = -70
+	}
+	
+	KBN_CHI_agree = {
+		value = 70
+	}
+	KBN_CHI_ignore = {
+		value = -70
+	}
 }
