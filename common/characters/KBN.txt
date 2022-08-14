@@ -262,6 +262,13 @@ characters = {
 				small="GFX_idea_KBN_Mikhail_Svetov"
 			}
 		}
+		country_leader = {
+			ideology = liberalism
+			expire = "1965.1.1.1"
+			id = -1
+			traits = { vato_trait }
+			desc = KBN_Vatoadmin_desc
+		}
 		advisor={
 			slot = political_advisor
 			idea_token = Mikhail_Svetov
@@ -495,6 +502,13 @@ characters = {
 			army = {
 				small="GFX_idea_KBN_Robert_Right"
 			}
+		}
+		country_leader = {
+			ideology = fascism_ideology
+			expire = "1965.1.1.1"
+			id = -1
+			traits = { vato_trait }
+			desc = KBN_Vatoadmin_desc
 		}
 		advisor = {
 			cost = 5
