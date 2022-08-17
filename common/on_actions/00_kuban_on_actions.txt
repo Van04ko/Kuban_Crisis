@@ -64,35 +64,12 @@ on_actions = {
 		}
 	}
 	
-	
 	on_startup = {
 		effect = {
 			set_province_name = { id = 9461 name = VICTORY_POINTS_VATA_9461 }
 			KBN = {
 				country_event = { id = kuban.23 }
 				# KBN_Prosvirnin = { set_character_flag = SOV_exiled_flag }
-			}
-			SOV = {
-				set_country_leader_name = {
-					ideology = communism
-					name = KBN_Stas_Pidoras
-				}
-			}
-			USA = {
-				set_country_leader_name = {
-					ideology = democratic
-					name = KBN_Kukech
-				}
-			}
-		}
-	}
-	on_startup_USA = {
-		effect = {
-			USA = {
-				set_country_leader_name = {
-					ideology = democratic
-					name = KBN_Kukech
-				}
 			}
 		}
 	}

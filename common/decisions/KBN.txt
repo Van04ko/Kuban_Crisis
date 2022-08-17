@@ -504,7 +504,7 @@ political_actions = {
 		visible = {
 			has_idea = KBN_ban_vk
 		}
-		cost = 140
+		cost = 70
 		
 		ai_will_do = {
 			factor = 0
