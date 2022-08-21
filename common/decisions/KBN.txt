@@ -1,5 +1,5 @@
 KBN_ITA_uprise_cat = {
-
+	
 	KBN_ITA_prepare_cell_in_Piedmont = {
 		
 		icon = KBN_juden_star
@@ -491,6 +491,52 @@ KBN_Rudoy_MON_uprise_cat = {
 
 political_actions = {
 	
+	KBN_visit_friend_in_astrakhan = {
+
+		icon = KBN_visit_friend
+
+		allowed = {
+			original_tag = KBN
+		}
+		available = {
+			
+		}
+		visible = {
+			
+		}
+		
+		fire_only_once = yes
+		
+		cost = 40
+		
+		complete_effect = {
+			add_stability = -0.05
+			add_war_support = 0.05
+		}
+	}
+	KBN_yekaterinodar_excursion = {
+
+		icon = SOV_place_hq
+
+		allowed = {
+			original_tag = KBN
+		}
+		available = {
+			
+		}
+		visible = {
+			
+		}
+		
+		fire_only_once = yes
+		
+		cost = 80
+		
+		complete_effect = {
+			add_stability = 0.05
+			add_war_support = 0.1
+		}
+	}
 	KBN_unblock_vkontakte_page = {
 
 		icon = KBN_dec_vk
@@ -509,6 +555,9 @@ political_actions = {
 		ai_will_do = {
 			factor = 0
 		}
+		
+		fire_only_once = yes
+		
 		complete_effect = {
 			add_stability = 0.04
 			swap_ideas = {
