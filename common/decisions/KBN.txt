@@ -491,6 +491,48 @@ KBN_Rudoy_MON_uprise_cat = {
 
 political_actions = {
 	
+	KBN_release_magazine_bustion = {
+
+		icon = KBN_boosty
+
+		allowed = {
+			original_tag = KBN
+		}
+		available = {
+			
+		}
+		visible = {
+			
+		}
+		
+		fire_only_once = yes
+		
+		cost = 40
+		
+		complete_effect = {
+			set_country_flag = KBN_release_magazine_bustion_flag
+		}
+	}
+	KBN_write_an_article_for_magazine = {
+
+		icon = KBN_boosty
+
+		allowed = {
+			original_tag = KBN
+		}
+		available = {
+			
+		}
+		visible = {
+			has_country_flag = KBN_release_magazine_bustion_flag
+		}
+		
+		days_re_enable = 15
+		days_remove = 15
+		modifier = {
+			political_power_gain = 1
+		}
+	}
 	KBN_visit_friend_in_astrakhan = {
 
 		icon = KBN_visit_friend

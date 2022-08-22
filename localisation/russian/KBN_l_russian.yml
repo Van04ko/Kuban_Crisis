@@ -56,9 +56,10 @@
  KBN_o_shit_i_sorry_desc:0 "Извините"
  
  KBN_unblock_vkontakte_page:0 "Разблокировать страницу §CВконтакте§!"
- 
  KBN_visit_friend_in_astrakhan:0 "Съездить к другу в §YАстраханский кРай§!"
  KBN_yekaterinodar_excursion:0 "Екатеринодарская экскурсия"
+ KBN_release_magazine_bustion:0 "Открыть журнал §OБусти§!он"
+ KBN_write_an_article_for_magazine:0 "Написать статью в журнал §OБусти§!он"
  
  
  KBN_visit_friend_in_astrakhan_desc:0 "Ну отдохнуть хочет человек,что вам надо то?"
@@ -424,6 +425,7 @@
  Red_rat:0 "Крыса в мышеловке"
  Nabiulina:0 "§PХудожница :3§!"
  MMM:0 "Руководитель §GМММ§!"
+ vato_trait_micro_trubl:0 "Не дружит с микрофонами"
  
  ###Партии
  KBN_fascism_party:0 "Кубань Райта"

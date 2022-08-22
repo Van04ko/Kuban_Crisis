@@ -35,4 +35,8 @@ spriteTypes = {
 		name = GFX_decision_KBN_visit_friend
 		texturefile = gfx/interface/decisions/KBN_visit_friend.png
     }
+	spriteType = {
+		name = GFX_decision_KBN_boosty
+		texturefile = gfx/interface/decisions/KBN_boosty.png
+    }
 }

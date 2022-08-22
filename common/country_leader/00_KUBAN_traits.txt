@@ -5,8 +5,14 @@
 
 leader_traits = {
 
+	vato_trait_micro_trubl = {
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	vato_trait = {
-		army_attack_factor = 0.1
+		army_attack_factor = 0.15
 		army_defence_factor = 0.1
 		
 		ai_will_do = {
