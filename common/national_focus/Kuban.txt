@@ -2664,7 +2664,7 @@ focus_tree = {
 		# relative_position_id = KBN_the_need_for_the_straits
 		# prerequisite = { focus = KBN_arrange_supplies_backgammon }
 		available = { 
-			has_opinion = { target = FIN value > 49 }
+			FIN = { has_opinion = { target = KBN value > 49 } }
 		}
 		x = 28
 		y = 0
