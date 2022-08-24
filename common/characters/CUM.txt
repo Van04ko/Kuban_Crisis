@@ -51,4 +51,24 @@ characters = {
 			legacy_id = 0
 		}
 	}
+	FIN_Vnuk_Elcina = {
+		name = FIN_Vnuk_Elcina
+		portraits = {
+			civilian = {
+				large = GFX_portrait_FIN_Vnuk_Elcina
+			}
+			army = {
+				large = GFX_portrait_FIN_Vnuk_Elcina
+			}
+		}
+		field_marshal = {
+			traits = { }
+			skill = 5
+			attack_skill = 5
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 3
+			legacy_id = 0
+		}
+	}
 }

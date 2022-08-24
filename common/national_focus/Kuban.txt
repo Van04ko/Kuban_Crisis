@@ -2658,4 +2658,122 @@ focus_tree = {
 			country_event = { id = kuban.54 }
 		}
 	}
+	focus = {
+		id = KBN_elder_shuzorus
+		icon = GFX_focus_KBN_elder_shuzorus
+		# relative_position_id = KBN_the_need_for_the_straits
+		# prerequisite = { focus = KBN_arrange_supplies_backgammon }
+		available = { 
+			has_opinion = { target = FIN value > 49 }
+		}
+		x = 28
+		y = 0
+		cost = 2.9
+		completion_reward = {
+			add_political_power = -20
+		}
+	}
+	focus = {
+		id = KBN_shuzo_ideology
+		icon = GFX_focus_KBN_shuzo_ideology
+		relative_position_id = KBN_elder_shuzorus
+		prerequisite = { focus = KBN_elder_shuzorus }
+		x = -1
+		y = 1
+		cost = 3.6
+		completion_reward = {
+			FIN = {
+				add_popularity = {
+					ideology = neutrality
+					popularity = -0.3
+				}
+				add_popularity = {
+					ideology = fascism
+					popularity = 0.3
+				}
+			}
+		}
+	}
+	focus = {
+		id = KBN_anti_shuz
+		icon = GFX_focus_KBN_anti_shuz
+		relative_position_id = KBN_elder_shuzorus
+		prerequisite = { focus = KBN_elder_shuzorus }
+		x = 1
+		y = 1
+		cost = 3.6
+		completion_reward = {
+			country_event = { id = kuban.56 }
+		}
+	}
+	focus = {
+		id = KBN_repression_orderlies
+		icon = GFX_focus_KBN_repression_orderlies
+		relative_position_id = KBN_elder_shuzorus
+		prerequisite = { focus = KBN_anti_shuz }
+		prerequisite = { focus = KBN_shuzo_ideology }
+		x = 0
+		y = 2
+		cost = 3.6
+		completion_reward = {
+			add_political_power = -20
+			FIN = { add_manpower = -96351 }
+		}
+	}
+	focus = {
+		id = KBN_shuzo_bridgehead
+		icon = GFX_focus_KBN_shuzo_bridgehead
+		relative_position_id = KBN_elder_shuzorus
+		prerequisite = { focus = KBN_repression_orderlies }
+		x = 1
+		y = 3
+		cost = 3.6
+		completion_reward = {
+			FIN = {
+				add_stability = -0.15
+			}
+		}
+	}
+	focus = {
+		id = KBN_shuzo_state
+		icon = GFX_focus_KBN_shuzo_state
+		relative_position_id = KBN_elder_shuzorus
+		prerequisite = { focus = KBN_repression_orderlies }
+		x = -1
+		y = 3
+		cost = 3.6
+		completion_reward = {
+			FIN = {
+				add_war_support = -0.2
+			}
+		}
+	}
+	focus = {
+		id = KBN_greate_shuzo_revolution
+		icon = GFX_focus_KBN_greate_shuzo_revolution
+		relative_position_id = KBN_elder_shuzorus
+		prerequisite = { focus = KBN_shuzo_state }
+		prerequisite = { focus = KBN_shuzo_bridgehead }
+		x = 0
+		y = 4
+		cost = 4.4
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = KBN_greate_kubanoids
+		icon = GFX_focus_KBN_greate_kubanoids
+		relative_position_id = KBN_elder_shuzorus
+		prerequisite = { focus = KBN_greate_shuzo_revolution }
+		x = 0
+		y = 5
+		cost = 3.6
+		completion_reward = {
+			create_faction = GREATE_KUBANOIDS
+			KBN = { add_to_faction = FIN }
+			add_political_power = 40
+			FIN = { add_political_power = 40 }
+		}
+	}
 }

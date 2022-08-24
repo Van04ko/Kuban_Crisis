@@ -24,6 +24,21 @@ SOV = {
 		name = KBN_Stas_Pidoras
 	}
 }
+FIN = {
+	set_party_name = { 
+		ideology = neutrality 
+		name = FIN_Vnuk_Elcina_party
+	}
+	recruit_character = FIN_Vnuk_Elcina
+	add_country_leader_role = {
+		character = FIN_Vnuk_Elcina
+		promote_leader = yes
+		country_leader = {
+			ideology = centrism
+			traits = {  }
+		}
+	}
+}
 add_equipment_to_stockpile = {
 	type = infantry_equipment
 	amount = 3000

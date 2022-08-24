@@ -176,4 +176,8 @@ spriteTypes = {
 		name = "GFX_event_napadenie"
 		texturefile = "gfx/event_pictures/napadenie.png"	
 	}
+	SpriteType = {
+		name = "GFX_event_antishuz"
+		texturefile = "gfx/event_pictures/antishuz.png"	
+	}
 }

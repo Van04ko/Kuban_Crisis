@@ -1,0 +1,171 @@
+KBN_FIN_shuz_uprise = {
+	
+	KBN_FIN_dec_uprise_1 = {
+
+		icon = KBN_FIN_dec_uprise_1
+
+		allowed = {
+			original_tag = KBN
+		}
+		available = {
+			
+		}
+		visible = {
+			
+		}
+		
+		fire_only_once = yes
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 111
+			}
+		}
+		
+		cost = 5
+		
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			111 = { set_state_flag = KBN_FIN_dec_uprise_state_flag }
+		}
+	}
+	
+	KBN_FIN_dec_uprise_2 = {
+
+		icon = KBN_FIN_dec_uprise_2
+
+		allowed = {
+			original_tag = KBN
+		}
+		available = {
+			
+		}
+		visible = {
+			has_decision = KBN_FIN_dec_uprise_1
+		}
+		
+		fire_only_once = yes
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 146
+			}
+		}
+		
+		cost = 5
+		
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			146 = { set_state_flag = KBN_FIN_dec_uprise_state_flag }
+		}
+	}
+	
+	KBN_FIN_dec_uprise_3 = {
+
+		icon = KBN_FIN_dec_uprise_3
+
+		allowed = {
+			original_tag = KBN
+		}
+		available = {
+			
+		}
+		visible = {
+			has_decision = KBN_FIN_dec_uprise_1
+			has_decision = KBN_FIN_dec_uprise_2
+		}
+		
+		fire_only_once = yes
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 150
+			}
+		}
+		
+		cost = 5
+		
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			150 = { set_state_flag = KBN_FIN_dec_uprise_state_flag }
+		}
+	}
+	KBN_FIN_shuz_uprise = {
+
+		icon = KBN_reznya
+
+		allowed = {
+			original_tag = KBN
+		}
+		available = {
+			has_decision = KBN_FIN_dec_uprise_1
+			has_decision = KBN_FIN_dec_uprise_2
+			has_decision = KBN_FIN_dec_uprise_3
+			has_completed_focus = KBN_greate_shuzo_revolution
+		}
+		visible = {
+			
+		}
+		
+		fire_only_once = yes
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			hidden_effect = {
+				country_event = { id = kuban.57 days = 10 }
+			}
+			set_nationality = {
+				target_country = FIN
+				character = KBN_Yuri_Rybnikov
+			}
+			FIN = {
+				if = {
+					limit = {
+						has_character = KBN_Yuri_Rybnikov
+					}
+					add_country_leader_role = {
+						character = KBN_Yuri_Rybnikov
+						promote_leader = yes
+						country_leader = {
+							ideology = fascism_ideology
+							traits = {  }
+						}
+					}
+				}
+			}
+			FIN = {
+				set_party_name = { 
+					ideology = fascism 
+					name = FIN_SHUE_PPSH_party
+				}
+				start_civil_war = {
+					ruling_party = fascism
+					ideology = neutrality
+					size = 0.4
+					capital = 149
+					states = {
+						147 149 148 722 
+					}
+					keep_political_leader = yes
+					keep_political_party_members = yes
+				}
+			}
+			every_state = {
+				limit = {
+					is_core_of = FIN
+					has_state_flag = KBN_FIN_dec_uprise_state_flag
+				}
+			}
+		}
+	}
+}

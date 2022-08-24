@@ -1454,6 +1454,82 @@ country_event = {
 }
 
 country_event = {
+	id = kuban.56
+	title = kuban.56.t
+	desc = kuban.56.d
+	picture = GFX_event_antishuz
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {
+		name = kuban.56.a
+		remove_advisor_role = {
+			character = KBN_Boris_Boyarshinov
+			slot = political_advisor
+		}
+	}
+	option = {
+		name = kuban.56.b
+		add_political_power = -20
+	}
+}
+
+country_event = {
+	id = kuban.57
+	title = kuban.57.t
+	desc = kuban.57.d
+	picture = GFX_event_antishuz
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {
+		name = kuban.57.a
+		FIN = {
+			division_template = {
+				name = "Карельские Алкаши"
+				is_locked = yes
+				priority = 1
+				regiments = {
+					cavalry = { x = 0 y = 0 }
+					cavalry = { x = 0 y = 1 }
+					cavalry = { x = 0 y = 2 }
+					cavalry = { x = 1 y = 0 }
+					cavalry = { x = 1 y = 1 }
+					cavalry = { x = 1 y = 2 }
+					cavalry = { x = 2 y = 0 }
+					cavalry = { x = 2 y = 1 }
+					cavalry = { x = 2 y = 2 }
+				}
+				support = { 
+					artillery = { x = 0 y = 0 }
+				}
+			}
+			150 = {
+				create_unit = {
+					division = "name = \"Первая Алко-Дивизия\" division_template = \"Карельские Алкаши\" start_experience_factor = 0.5 start_equipment_factor = 1"
+					owner = FIN
+					prioritize_location = 9417
+				}
+				create_unit = {
+					division = "name = \"Вторая Алко-Дивизия\" division_template = \"Карельские Алкаши\" start_experience_factor = 0.5 start_equipment_factor = 1"
+					owner = FIN
+					prioritize_location = 9417
+				}
+			}
+		}
+	}
+	option = {
+		name = kuban.57.b
+		FIN = { add_political_power = 25 }
+		add_political_power = 25
+	}
+}
+
+country_event = {
 	id = kuban_cum.1
 	title = kuban_cum.1.t
 	desc = kuban_cum.1.d

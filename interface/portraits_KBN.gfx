@@ -35,4 +35,12 @@ spriteTypes = {
 		name = GFX_portrait_KPR_Semen
 		texturefile = gfx/leaders/KBN/KPR_Semen.png
     }
+	spriteType = {
+		name = GFX_portrait_FIN_Vnuk_Elcina
+		texturefile = gfx/leaders/FIN/Vnuk_Elcina.png
+    }
+	spriteType = {
+		name = GFX_portrait_KBN_Yuri_Rybnikov
+		texturefile = gfx/leaders/KBN/KBN_Yuri_Rybnikov.png
+    }
 }

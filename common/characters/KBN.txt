@@ -282,13 +282,17 @@ characters = {
 		name = KBN_Yuri_Rybnikov
 		portraits={
 			army = {
-				small="GFX_idea_KBN_Yuri_Rybnikov"
+				large = GFX_portrait_KBN_Yuri_Rybnikov
+				small = GFX_idea_KBN_Yuri_Rybnikov 
+			}
+			civilian = {
+				large = GFX_portrait_KBN_Yuri_Rybnikov
 			}
 		}
 		advisor={
 			slot = political_advisor
 			idea_token = Yuri_Rybnikov
-			cost = 250
+			cost = 175
 			allowed = {
 				original_tag = KBN
 			}
@@ -339,7 +343,7 @@ characters = {
 		advisor = {
 			slot = political_advisor
 			idea_token = Sarmat
-			cost = 250
+			cost = 175
 			allowed = {
 				original_tag = KBN
 			}

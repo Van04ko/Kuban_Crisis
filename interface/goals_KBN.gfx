@@ -434,4 +434,36 @@ spriteTypes = {
 		name = GFX_focus_KBN_where_did_the_attack_on_the_kuban_come_from
 		texturefile = "gfx/interface/goals/KBN/KBN_where_did_the_attack_on_the_kuban_come_from.png"
 	}
+	SpriteType = {
+		name = GFX_focus_KBN_elder_shuzorus
+		texturefile = "gfx/interface/goals/KBN/KBN_elder_shuzorus.png"
+	}
+	SpriteType = {
+		name = GFX_focus_KBN_shuzo_ideology
+		texturefile = "gfx/interface/goals/KBN/KBN_shuzo_ideology.png"
+	}
+	SpriteType = {
+		name = GFX_focus_KBN_anti_shuz
+		texturefile = "gfx/interface/goals/KBN/KBN_anti_shuz.png"
+	}
+	SpriteType = {
+		name = GFX_focus_KBN_repression_orderlies
+		texturefile = "gfx/interface/goals/KBN/KBN_repression_orderlies.png"
+	}
+	SpriteType = {
+		name = GFX_focus_KBN_shuzo_bridgehead
+		texturefile = "gfx/interface/goals/KBN/KBN_shuzo_bridgehead.png"
+	}
+	SpriteType = {
+		name = GFX_focus_KBN_shuzo_state
+		texturefile = "gfx/interface/goals/KBN/KBN_shuzo_state.png"
+	}
+	SpriteType = {
+		name = GFX_focus_KBN_greate_shuzo_revolution
+		texturefile = "gfx/interface/goals/KBN/KBN_greate_shuzo_revolution.png"
+	}
+	SpriteType = {
+		name = GFX_focus_KBN_greate_kubanoids
+		texturefile = "gfx/interface/goals/KBN/KBN_greate_kubanoids.png"
+	}
 }

@@ -39,4 +39,25 @@ spriteTypes = {
 		name = GFX_decision_KBN_boosty
 		texturefile = gfx/interface/decisions/KBN_boosty.png
     }
+	
+	spriteType = {
+		name = GFX_decision_KBN_FIN_dec_uprise_1
+		texturefile = gfx/interface/decisions/KBN_FIN_dec_uprise_1.png
+    }
+	spriteType = {
+		name = GFX_decision_KBN_FIN_dec_uprise_2
+		texturefile = gfx/interface/decisions/KBN_FIN_dec_uprise_2.png
+    }
+	spriteType = {
+		name = GFX_decision_KBN_FIN_dec_uprise_3
+		texturefile = gfx/interface/decisions/KBN_FIN_dec_uprise_3.png
+    }
+	spriteType = {
+		name = GFX_decision_cat_KBN_old_shuz
+		texturefile = gfx/interface/decisions/KBN_old_shuz.png
+    }
+	spriteType = {
+		name = GFX_decision_KBN_reznya
+		texturefile = gfx/interface/decisions/KBN_reznya.png
+    }
 }
