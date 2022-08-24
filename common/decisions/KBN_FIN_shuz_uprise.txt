@@ -14,7 +14,7 @@ KBN_FIN_shuz_uprise = {
 			
 		}
 		
-		fire_only_once = yes
+		#fire_only_once = yes
 		
 		highlight_states = {
 			highlight_state_targets = {
@@ -23,6 +23,8 @@ KBN_FIN_shuz_uprise = {
 		}
 		
 		cost = 5
+		
+		days_remove = 123
 		
 		ai_will_do = {
 			factor = 0
@@ -46,7 +48,7 @@ KBN_FIN_shuz_uprise = {
 			has_decision = KBN_FIN_dec_uprise_1
 		}
 		
-		fire_only_once = yes
+		#fire_only_once = yes
 		
 		highlight_states = {
 			highlight_state_targets = {
@@ -55,6 +57,8 @@ KBN_FIN_shuz_uprise = {
 		}
 		
 		cost = 5
+		
+		days_remove = 123
 		
 		ai_will_do = {
 			factor = 0
@@ -79,7 +83,7 @@ KBN_FIN_shuz_uprise = {
 			has_decision = KBN_FIN_dec_uprise_2
 		}
 		
-		fire_only_once = yes
+		#fire_only_once = yes
 		
 		highlight_states = {
 			highlight_state_targets = {
@@ -88,6 +92,8 @@ KBN_FIN_shuz_uprise = {
 		}
 		
 		cost = 5
+		
+		days_remove = 123
 		
 		ai_will_do = {
 			factor = 0
