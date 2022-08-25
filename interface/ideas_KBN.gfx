@@ -231,6 +231,10 @@ spriteTypes = {
 		name = "GFX_idea_KBN_Eugen_von_Ponasenkof"
 		texturefile = "gfx/interface/ideas/KBN/Eugen_von_Ponasenkof.png"	
 	}
+	SpriteType = {
+		name = "GFX_idea_KBN_Kaledin"
+		texturefile = "gfx/interface/ideas/KBN/Kaledin.png"	
+	}
 	
 	
 }

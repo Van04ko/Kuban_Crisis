@@ -43,4 +43,12 @@ spriteTypes = {
 		name = GFX_portrait_KBN_Yuri_Rybnikov
 		texturefile = gfx/leaders/KBN/KBN_Yuri_Rybnikov.png
     }
+	spriteType = {
+		name = GFX_portrait_KBN_Yuri_Rybnikov_army
+		texturefile = gfx/leaders/KBN/KBN_Yuri_Rybnikov_army.png
+    }
+	spriteType = {
+		name = GFX_portrait_KBN_Yuri_Rybnikov_shuz
+		texturefile = gfx/leaders/KBN/KBN_Yuri_Rybnikov_shuz.png
+    }
 }

@@ -5,6 +5,14 @@
 
 leader_traits = {
 
+	kaledin_trait = {
+		
+		cavalry_attack_factor = 0.5
+		command_power_gain = 0.20
+		max_command_power = 25
+		
+		command_cap = @tier3
+	}
 	vato_trait_micro_trubl = {
 		
 		ai_will_do = {
@@ -12,8 +20,8 @@ leader_traits = {
 		}
 	}
 	vato_trait = {
-		army_attack_factor = 0.15
-		army_defence_factor = 0.1
+		army_attack_factor = 0.2
+		army_defence_factor = 0.15
 		
 		ai_will_do = {
 			factor = 1
@@ -128,7 +136,7 @@ leader_traits = {
 	Prosvirnin_Rus_Nationalist = {
 	
 		fascism_drift = 0.1
-		production_speed_arms_factory_factor = 0.075
+		production_speed_arms_factory_factor = 0.1
 		conscription_factor = 0.1
 		
 		ai_will_do = {
@@ -245,6 +253,7 @@ leader_traits = {
 	sarmat = {
 		random = no
 		
+		political_power_factor = 0.20
 		communism_drift = 0.1
 		
 		ai_will_do = {
@@ -263,7 +272,8 @@ leader_traits = {
 	schizophrenia_fighter = {
 		random = no
 		
-		research_speed_factor = 0.05
+		neutrality_drift = 0.05
+		research_speed_factor = 0.1
 		
 		ai_will_do = {
 			factor = 1
@@ -283,7 +293,7 @@ leader_traits = {
 		random = no
 		
 		consumer_goods_factor = -0.05
-		production_speed_industrial_complex_factor = 0.1
+		production_speed_industrial_complex_factor = 0.15
 		fascism_drift = 0.01
 		ai_will_do = {
 			factor = 1
@@ -292,7 +302,7 @@ leader_traits = {
 	mr_traheya = {
 		random = no
 		
-		conscription_factor = 0.06
+		conscription_factor = 0.1
 		
 		ai_will_do = {
 			factor = 1

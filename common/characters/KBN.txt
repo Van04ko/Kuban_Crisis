@@ -30,9 +30,18 @@ characters = {
 		name = KBN_Alexei_Kaledin
 		portraits = {
 			army = {
-				#small = "Kaledin.png"
+				small = GFX_idea_KBN_Kaledin
 				large = "gfx/leaders/KBN/Kaledin.png"
 			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = KBN_Alexei_Kaledin
+			ledger = army
+			allowed = {
+				original_tag = KBN
+			}
+			traits = { kaledin_trait }
 		}
 		field_marshal = {
 			traits = { }
@@ -231,6 +240,7 @@ characters = {
 			}
 		}
 		advisor={
+			cost = 125
 			slot = political_advisor
 			idea_token = Ubermarginal
 			allowed = {
@@ -247,6 +257,7 @@ characters = {
 			}
 		}
 		advisor={
+			cost = 100
 			slot = political_advisor
 			idea_token = Grigory_Bazhenov
 			allowed = {
@@ -270,6 +281,7 @@ characters = {
 			desc = KBN_Vatoadmin_desc
 		}
 		advisor={
+			cost = 125
 			slot = political_advisor
 			idea_token = Mikhail_Svetov
 			allowed = {
@@ -282,11 +294,11 @@ characters = {
 		name = KBN_Yuri_Rybnikov
 		portraits={
 			army = {
-				large = GFX_portrait_KBN_Yuri_Rybnikov
+				large = GFX_portrait_KBN_Yuri_Rybnikov_army
 				small = GFX_idea_KBN_Yuri_Rybnikov 
 			}
 			civilian = {
-				large = GFX_portrait_KBN_Yuri_Rybnikov
+				large = GFX_portrait_KBN_Yuri_Rybnikov_shuz
 			}
 		}
 		advisor={
@@ -307,6 +319,7 @@ characters = {
 			}
 		}
 		advisor={
+			cost = 125
 			slot = political_advisor
 			idea_token = Cover
 			allowed = {
