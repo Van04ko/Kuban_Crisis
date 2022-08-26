@@ -647,10 +647,10 @@ characters = {
 		}
 		corps_commander = {
 			traits = {  }
-			skill = 1
-			attack_skill = 1
+			skill = 2
+			attack_skill = 3
 			defense_skill = 1
-			planning_skill = 1
+			planning_skill = 2
 			logistics_skill = 1
 		}
 		advisor = {
@@ -713,6 +713,27 @@ characters = {
 				}
 			}
 			traits = { MMM }
+		}
+	}
+	KBN_fonernui_tuvinec = {
+		name = KBN_fonernui_tuvinec
+		portraits = {
+			civilian = {
+				large = GFX_portrait_KBN_fonernui_tuvinec
+			}
+			army = {
+				large = GFX_portrait_KBN_fonernui_tuvinec
+				small = GFX_idea_KBN_fonernui_tuvinec
+			}
+		}
+		advisor = {
+			cost = 999
+			slot = high_command
+			idea_token = KBN_fonernui_tuvinec
+			allowed = {
+				original_tag = KBN
+			}
+			traits = { fonernui_tuvinec }
 		}
 	}
 }
