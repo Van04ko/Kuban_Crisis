@@ -139,7 +139,7 @@ bookmarks = {
 			}			
 		}
 		"SOV"={
-			history = "SOV_GATHERING_STORM_DESC"
+			history = "SOV_KBN_GATHERING_STORM_DESC"
 			ideology = communism
 			available = { has_dlc = "No Step Back" }
 			ideas = {

@@ -1541,8 +1541,6 @@ country_event = {
 		tag = KBN
 	}
 	
-	fire_only_once = yes
-	
 	mean_time_to_happen = {	days = 1 }
 	
 	fire_only_once = yes
@@ -1554,6 +1552,52 @@ country_event = {
 	option = {
 		name = kuban.58.b
 		add_political_power = 100
+	}
+}
+
+country_event = {
+	id = kuban.59
+	title = kuban.59.t
+	desc = kuban.59.d
+	picture = GFX_event_pozdnyakovski
+	
+	trigger = {
+		date > 1936.5.11
+		country_exists = KBN
+		tag = KBN
+	}
+	
+	mean_time_to_happen = {	days = 1 }
+	
+	fire_only_once = yes
+	
+	option = {
+		name = kuban.59.a
+		add_manpower = -200
+	}
+	option = {
+		name = kuban.59.b
+		add_political_power = 50
+	}
+}
+
+country_event = {
+	id = kuban.60
+	title = kuban.60.t
+	desc = kuban.60.d
+	picture = GFX_event_shafka
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {
+		name = kuban.60.a
+		add_political_power = 50
+	}
+	option = {
+		name = kuban.60.b
+		add_manpower = -1
 	}
 }
 

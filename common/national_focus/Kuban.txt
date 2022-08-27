@@ -150,6 +150,7 @@ focus_tree = {
 		completion_reward = {
 			hidden_effect = {
 				play_song = "Vatoadmin_drozdovckiy_polk"
+				country_event = { id = kuban.60 days = 7 }
 			}
 			declare_war_on = {
 				target = CAU
@@ -744,7 +745,7 @@ focus_tree = {
 		prerequisite = { focus = KBN_return_white_generals }
 		x = 0
 		y = 6
-		cost = 7.2
+		cost = 5.8
 		completion_reward = {
 			add_manpower = 60000
 			every_state = {
@@ -764,7 +765,7 @@ focus_tree = {
 		prerequisite = { focus = KBN_Revival_Terek_Cossacks focus = KBN_Rights_minorities }
 		x = 1
 		y = 7
-		cost = 7.2
+		cost = 5.8
 		completion_reward = {
 			233 = {
 				add_extra_state_shared_building_slots = 2
@@ -828,7 +829,7 @@ focus_tree = {
 		prerequisite = { focus = KBN_Revival_Terek_Cossacks focus = KBN_Rights_minorities }
 		x = 3
 		y = 7
-		cost = 7.2
+		cost = 5.8
 		completion_reward = {
 			add_resource = {
 				type = steel
@@ -860,7 +861,7 @@ focus_tree = {
 		prerequisite = { focus = KBN_Industrialization_Caucasus }
 		x = 2
 		y = 8
-		cost = 7.2
+		cost = 5.8
 		completion_reward = {
 			add_manpower = 243211
 			234 = { add_extra_state_shared_building_slots = 2 }
@@ -1997,7 +1998,7 @@ focus_tree = {
 		prerequisite = { focus = KBN_internal_struggle }
 		x = 0
 		y = 3
-		cost = 8.6
+		cost = 5.8
 		completion_reward = {
 			if = {
 				limit = {
@@ -2507,18 +2508,21 @@ focus_tree = {
 		icon = GFX_focus_KBN_the_need_for_the_straits
 		x = 17
 		y = 9
-		cost = 4.3
+		cost = 3.6
 		available = {
 			has_completed_focus = KBN_war_with_Beria
 			NOT = { country_exists = CAU }
 		}
 		completion_reward = {
 			add_political_power = -40
-			ROM = {
-				diplomatic_relation = {
-					country = TUR
-					relation = guarantee
-					active = no
+			hidden_effect = {
+				TUR = { set_rule = { can_join_factions = no } }
+				ROM = {
+					diplomatic_relation = {
+						country = TUR
+						relation = guarantee
+						active = no
+					}
 				}
 			}
 		}
@@ -2530,7 +2534,7 @@ focus_tree = {
 		prerequisite = { focus = KBN_the_need_for_the_straits }
 		x = -1
 		y = 1
-		cost = 4.3
+		cost = 3.6
 		completion_reward = {
 			TUR = { add_ideas = KBN_TUR_army_debuf }
 		}
@@ -2542,7 +2546,7 @@ focus_tree = {
 		prerequisite = { focus = KBN_the_need_for_the_straits }
 		x = 1
 		y = 1
-		cost = 4.3
+		cost = 3.6
 		completion_reward = {
 			TUR = { add_ideas = KBN_TUR_armenia_debuf }
 			230 = { transfer_state_to = ARM }
@@ -2588,7 +2592,7 @@ focus_tree = {
 		prerequisite = { focus = KBN_form_new_administration }
 		x = 0S
 		y = 2
-		cost = 4.3
+		cost = 3.6
 		available = {
 			
 		}
@@ -2604,7 +2608,7 @@ focus_tree = {
 		prerequisite = { focus = KBN_connect_armenian_underground }
 		x = 0
 		y = 3
-		cost = 4.3
+		cost = 3.6
 		completion_reward = {
 			ARM = {
 				division_template = {

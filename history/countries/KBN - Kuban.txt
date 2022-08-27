@@ -124,6 +124,7 @@ add_ideas = {
 	KBN_ban_vk
 	KBN_Juden_line
 	KBN_Kuban_bank
+	KBN_true_chad
 }
 
 set_politics = {
