@@ -22,8 +22,8 @@ ideas = {
 			picture = KBN_Reeducated_communist
 			
 			modifier = {
-				army_attack_factor = -0.50
-				army_defence_factor = -0.45
+				army_attack_factor = -0.3
+				army_defence_factor = -0.3
 			}
 		}
 		KBN_schet_shizof = {

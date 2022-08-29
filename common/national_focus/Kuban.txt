@@ -745,7 +745,7 @@ focus_tree = {
 		prerequisite = { focus = KBN_return_white_generals }
 		x = 0
 		y = 6
-		cost = 5.8
+		cost = 7.2
 		completion_reward = {
 			add_manpower = 60000
 			every_state = {
@@ -765,7 +765,7 @@ focus_tree = {
 		prerequisite = { focus = KBN_Revival_Terek_Cossacks focus = KBN_Rights_minorities }
 		x = 1
 		y = 7
-		cost = 5.8
+		cost = 7.2
 		completion_reward = {
 			233 = {
 				add_extra_state_shared_building_slots = 2
@@ -829,7 +829,7 @@ focus_tree = {
 		prerequisite = { focus = KBN_Revival_Terek_Cossacks focus = KBN_Rights_minorities }
 		x = 3
 		y = 7
-		cost = 5.8
+		cost = 7.2
 		completion_reward = {
 			add_resource = {
 				type = steel
@@ -854,6 +854,76 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = KBN_azr_dag_oil
+		icon = GFX_focus_KBN_azr_dag_oil
+		relative_position_id = KBN_Rubnyakov_focus
+		prerequisite = { focus = KBN_Realization_resources_Caucasus }
+		x = 4
+		y = 8
+		cost = 5
+		completion_reward = {
+			add_resource = {
+				type = oil
+				amount = 16
+				state = 229
+			}
+			add_resource = {
+				type = oil
+				amount = 8
+				state = 232
+			}
+			add_resource = {
+				type = oil
+				amount = 4
+				state = 821
+			}
+		}
+	}
+	focus = {
+		id = KBN_restore_plastun_detachments
+		icon = GFX_focus_KBN_restore_plastun_detachments
+		relative_position_id = KBN_Rubnyakov_focus
+		prerequisite = { focus = KBN_Realization_resources_Caucasus }
+		x = 0
+		y = 8
+		cost = 5
+		completion_reward = {
+			division_template = {
+					name = "Пластунские отряды"
+					is_locked = no
+					priority = 1
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 0 y = 2 }
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 1 y = 1 }
+						infantry = { x = 1 y = 2 }
+						infantry = { x = 2 y = 0 }
+						infantry = { x = 2 y = 1 }
+						infantry = { x = 2 y = 2 }
+					}
+					support = { 
+						artillery = { x = 0 y = 0 }
+						recon = { x = 0 y = 1 }
+						engineer = { x = 0 y = 2 }
+					}
+				}
+			231 = {
+				create_unit = {
+					division = "name = \"Первая Пластунская Дивизия\" division_template = \"Пластунские отряды\" start_experience_factor = 1 start_equipment_factor = 1"
+					owner = KBN
+					prioritize_location = 1599
+				}
+				create_unit = {
+					division = "name = \"Вторая Пластунская Дивизия\" division_template = \"Пластунские отряды\" start_experience_factor = 1 start_equipment_factor = 1"
+					owner = KBN
+					prioritize_location = 3659
+				}
+			}
+		}
+	}
+	focus = {
 		id = KBN_Our_land
 		icon = GFX_focus_Our_land
 		relative_position_id = KBN_Rubnyakov_focus
@@ -861,7 +931,7 @@ focus_tree = {
 		prerequisite = { focus = KBN_Industrialization_Caucasus }
 		x = 2
 		y = 8
-		cost = 5.8
+		cost = 7.2
 		completion_reward = {
 			add_manpower = 243211
 			234 = { add_extra_state_shared_building_slots = 2 }
@@ -2508,7 +2578,7 @@ focus_tree = {
 		icon = GFX_focus_KBN_the_need_for_the_straits
 		x = 17
 		y = 9
-		cost = 3.6
+		cost = 4.4
 		available = {
 			has_completed_focus = KBN_war_with_Beria
 			NOT = { country_exists = CAU }
@@ -2534,7 +2604,7 @@ focus_tree = {
 		prerequisite = { focus = KBN_the_need_for_the_straits }
 		x = -1
 		y = 1
-		cost = 3.6
+		cost = 4.4
 		completion_reward = {
 			TUR = { add_ideas = KBN_TUR_army_debuf }
 		}
@@ -2546,7 +2616,7 @@ focus_tree = {
 		prerequisite = { focus = KBN_the_need_for_the_straits }
 		x = 1
 		y = 1
-		cost = 3.6
+		cost = 4.4
 		completion_reward = {
 			TUR = { add_ideas = KBN_TUR_armenia_debuf }
 			230 = { transfer_state_to = ARM }
@@ -2592,7 +2662,7 @@ focus_tree = {
 		prerequisite = { focus = KBN_form_new_administration }
 		x = 0S
 		y = 2
-		cost = 3.6
+		cost = 4.4
 		available = {
 			
 		}
@@ -2608,7 +2678,7 @@ focus_tree = {
 		prerequisite = { focus = KBN_connect_armenian_underground }
 		x = 0
 		y = 3
-		cost = 3.6
+		cost = 4.4
 		completion_reward = {
 			ARM = {
 				division_template = {

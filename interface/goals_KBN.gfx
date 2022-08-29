@@ -1,5 +1,13 @@
 spriteTypes = {
-
+ 
+	SpriteType = {
+		name = GFX_focus_KBN_restore_plastun_detachments
+		texturefile = "gfx/interface/goals/KBN/KBN_restore_plastun_detachments.png"	
+	}
+	SpriteType = {
+		name = GFX_focus_KBN_azr_dag_oil
+		texturefile = "gfx/interface/goals/KBN/KBN_azr_dag_oil.png"	
+	}
 	SpriteType = {
 		name = GFX_focus_KBN_our_Europe
 		texturefile = "gfx/interface/goals/KBN/KBN_our_Europe.png"	
