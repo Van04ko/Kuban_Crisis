@@ -36,6 +36,13 @@ set_technology = {
 	fleet_in_being = 1
 }
 
+SOV = {
+	set_autonomy = {
+		target = CAU
+		autonomy_state = autonomy_puppet
+	}
+}
+
 set_cosmetic_tag = CAU_SOV
 
 set_politics = {

@@ -151,6 +151,7 @@ focus_tree = {
 			hidden_effect = {
 				play_song = "Vatoadmin_drozdovckiy_polk"
 				country_event = { id = kuban.60 days = 7 }
+				CAU = { set_rule = { can_join_factions = no } }
 			}
 			declare_war_on = {
 				target = CAU
