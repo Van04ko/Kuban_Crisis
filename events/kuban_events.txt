@@ -1772,8 +1772,6 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	fire_only_once = yes
-	
 	option = {
 		name = kuban.70.a
 		add_political_power = 50
@@ -1787,8 +1785,6 @@ country_event = {
 	picture = GFX_event_viktorina_nevernui_otvet
 	
 	is_triggered_only = yes
-	
-	fire_only_once = yes
 	
 	option = {
 		name = kuban.71.a
