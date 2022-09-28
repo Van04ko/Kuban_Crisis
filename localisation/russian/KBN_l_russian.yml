@@ -10,8 +10,8 @@
  STATE_VATA_234:0 "Екатеринодар"
  
  STATE_VATA_228:0 "Луганск"
- STATE_VATA_835:0 "Кизляр"
- STATE_VATA_836:0 "Лисичанск"
+ STATE_VATA_909:0 "Кизляр"
+ STATE_VATA_910:0 "Лисичанск"
  STATE_234_VATODAR:0 "Ватодар"
  
  ### Города

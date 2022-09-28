@@ -1,0 +1,8 @@
+KBN_Monument_Krasnov = {
+
+	enable = { always = yes }
+
+	icon = GFX_dynamic_modifiers_KBN_krasnov_state
+	
+	recruitable_population_factor = 0.25
+}
