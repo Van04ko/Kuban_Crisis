@@ -191,4 +191,18 @@ spriteTypes = {
 		name = "GFX_event_antishuz"
 		texturefile = "gfx/event_pictures/antishuz.png"	
 	}
+	
+	
+	SpriteType = {
+		name = "GFX_event_viktorina"
+		texturefile = "gfx/event_pictures/viktorina.png"	
+	}
+	SpriteType = {
+		name = "GFX_event_viktorina_vernui_otvet"
+		texturefile = "gfx/event_pictures/viktorina_vernui_otvet.png"	
+	}
+	SpriteType = {
+		name = "GFX_event_viktorina_nevernui_otvet"
+		texturefile = "gfx/event_pictures/viktorina_nevernui_otvet.png"	
+	}
 }
