@@ -1617,22 +1617,22 @@ country_event = {
 	
 	option = {
 		name = kuban.61.a
-		hidden_effect = { country_event = kuban.71 days = 1 }
+		hidden_effect = { country_event = { id = kuban.71 days = 1 } }
 		
 	}
 	option = {
 		name = kuban.61.b
-		hidden_effect = { country_event = kuban.71 days = 1 }
+		hidden_effect = { country_event = { id = kuban.71 days = 1 } }
 		
 	}
 	option = {
 		name = kuban.61.c
-		hidden_effect = { country_event = kuban.71 days = 1 }
+		hidden_effect = { country_event = { id = kuban.71 days = 1 } }
 		
 	}
 	option = {
 		name = kuban.61.g
-		hidden_effect = { country_event = kuban.70 days = 1 }
+		hidden_effect = { country_event = { id = kuban.70 days = 1 } }
 	}
 }
 
@@ -1652,19 +1652,19 @@ country_event = {
 	
 	option = {
 		name = kuban.62.a
-		hidden_effect = { country_event = kuban.71 days = 1 }
+		hidden_effect = { country_event = { id = kuban.71 days = 1 } }
 	}
 	option = {
 		name = kuban.62.b
-		hidden_effect = { country_event = kuban.70 days = 1 }
+		hidden_effect = { country_event = { id = kuban.70 days = 1 } }
 	}
 	option = {
 		name = kuban.62.c
-		hidden_effect = { country_event = kuban.71 days = 1 }
+		hidden_effect = { country_event = { id = kuban.71 days = 1 } }
 	}
 	option = {
 		name = kuban.62.g
-		hidden_effect = { country_event = kuban.71 days = 1 }
+		hidden_effect = { country_event = { id = kuban.71 days = 1 } }
 	}
 }
 
@@ -1684,19 +1684,19 @@ country_event = {
 	
 	option = {
 		name = kuban.63.a
-		hidden_effect = { country_event = kuban.71 days = 1 }
+		hidden_effect = { country_event = { id = kuban.71 days = 1 } }
 	}
 	option = {
 		name = kuban.63.b
-		hidden_effect = { country_event = kuban.71 days = 1 }
+		hidden_effect = { country_event = { id = kuban.71 days = 1 } }
 	}
 	option = {
 		name = kuban.63.c
-		hidden_effect = { country_event = kuban.71 days = 1 }
+		hidden_effect = { country_event = { id = kuban.71 days = 1 } }
 	}
 	option = {
 		name = kuban.63.g
-		hidden_effect = { country_event = kuban.70 days = 1 }
+		hidden_effect = { country_event = { id = kuban.70 days = 1 } }
 	}
 }
 
@@ -1716,19 +1716,19 @@ country_event = {
 	
 	option = {
 		name = kuban.64.a
-		hidden_effect = { country_event = kuban.70 days = 1 }
+		hidden_effect = { country_event = { id = kuban.70 days = 1 } }
 	}
 	option = {
 		name = kuban.64.b
-		hidden_effect = { country_event = kuban.71 days = 1 }
+		hidden_effect = { country_event = { id = kuban.71 days = 1 } }
 	}
 	option = {
 		name = kuban.64.c
-		hidden_effect = { country_event = kuban.71 days = 1 }
+		hidden_effect = { country_event = { id = kuban.71 days = 1 } }
 	}
 	option = {
 		name = kuban.64.g
-		hidden_effect = { country_event = kuban.71 days = 1 }
+		hidden_effect = { country_event = { id = kuban.71 days = 1 } }
 	}
 }
 
@@ -1748,19 +1748,19 @@ country_event = {
 	
 	option = {
 		name = kuban.65.a
-		hidden_effect = { country_event = kuban.70 days = 1 }
+		hidden_effect = { country_event = { id = kuban.70 days = 1 } }
 	}
 	option = {
 		name = kuban.65.b
-		hidden_effect = { country_event = kuban.71 days = 1 }
+		hidden_effect = { country_event = { id = kuban.71 days = 1 } }
 	}
 	option = {
 		name = kuban.65.c
-		hidden_effect = { country_event = kuban.71 days = 1 }
+		hidden_effect = { country_event = { id = kuban.71 days = 1 } }
 	}
 	option = {
 		name = kuban.65.g
-		hidden_effect = { country_event = kuban.71 days = 1 }
+		hidden_effect = { country_event = { id = kuban.71 days = 1 } }
 	}
 }
 
