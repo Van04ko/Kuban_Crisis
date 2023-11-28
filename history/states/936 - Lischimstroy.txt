@@ -1,7 +1,7 @@
 state = {
 
-	id = 909
-	name = "STATE_VATA_909"
+	id = 936
+	name = "STATE_VATA_910"
 	manpower = 332154
 
 	state_category = rural
@@ -11,15 +11,15 @@ state = {
 	}
 
 	history = {
-		owner = KBN
-		add_core_of = KBN
-		add_core_of = DAG
+		owner = SOV
+		add_core_of = SOV
+		add_core_of = UKR
 		buildings = {
 			infrastructure = 2
 		}
-		victory_points = { 683 1 }
+		victory_points = { 6519 1 }
 	}
-	provinces = { 683 700 712 728 6730 6748 11632 }
+	provinces = { 523 547 570 6519 9476 11487 11513 }
 
 	local_supplies = 2.0 
 }
